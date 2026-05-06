@@ -1,4 +1,4 @@
-# Zayns Reddit Scraper
+#  Reddit Scraper
 
 A small, credential-free Reddit scraper that searches the public JSON
 endpoints for the operator-supplied query and renders progress as a
