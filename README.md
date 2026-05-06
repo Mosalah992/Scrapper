@@ -21,9 +21,30 @@ Requires **Python 3.11+** (tested on 3.13).
 ```powershell
 python -m pip install -r requirements.txt
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Using cli.py
+cli.py is the single entry point for the project. You always invoke it the same way:
 
+
+python cli.py <command> [options]
+Run it with no arguments (or --help) to see the command list.
+
+The seven commands
+Command	What it does
+scrape	Run the Reddit scraper. Forwards every flag straight through to scraper.py.
+extract	Aggregate Discord URLs from every output/*.jsonl into output/DISCORD_URLS.md.
+all	scrape then extract, in one shot. Stops if scrape fails.
+runs	Table of every persisted scrape run, newest first.
+latest	Prints the newest run's jsonl/md/log absolute paths.
+clean	Deletes per-run artifacts. Interactive prompt; preserves curated reports.
+version	Prints the package version.
+Subcommand-specific help is one flag away:
+
+
+python cli.py scrape --help
+python cli.py clean --help
 ## Run
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Default run (uses the canonical query):
 
 ```powershell
