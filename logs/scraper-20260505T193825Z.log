@@ -1,0 +1,1042 @@
+2026-05-05T22:38:25Z INFO    [BANNER] ZAYNS REDDIT SCRAPER — query='Zayn server leak' log=logs\scraper-20260505T193825Z.log
+2026-05-05T22:38:25Z INFO    [CONFIG] tool=zayns-reddit-scraper v0.1.0
+2026-05-05T22:38:25Z INFO    [CONFIG] query=Zayn server leak
+2026-05-05T22:38:25Z INFO    [CONFIG] subreddits=Olevels, igcse, IGCSE_helps, Alevel, Alevels, GCSE, 6thForm
+2026-05-05T22:38:25Z INFO    [CONFIG] sorts=relevance, new
+2026-05-05T22:38:25Z INFO    [CONFIG] max pages=1
+2026-05-05T22:38:25Z INFO    [CONFIG] page limit=100
+2026-05-05T22:38:25Z INFO    [CONFIG] delay=4.0s between requests
+2026-05-05T22:38:25Z INFO    [CONFIG] comments=top 50
+2026-05-05T22:38:25Z INFO    [CONFIG] output dir=D:\SOC Diploma\Info Scrapper\output
+2026-05-05T22:38:25Z INFO    [CONFIG] log dir=D:\SOC Diploma\Info Scrapper\logs
+2026-05-05T22:38:25Z INFO    [CONFIG] run stamp=20260505T193825Z
+2026-05-05T22:38:25Z INFO    [SECTION] PHASE 1 — SEARCH
+2026-05-05T22:38:25Z INFO    [INFO] query variants: 'Zayn server leak' | 'Zayn server' | 'Zayn leak' | 'Zayn'
+2026-05-05T22:38:25Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=phrase
+2026-05-05T22:38:25Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:38:26Z INFO    [RESPONSE] 200 922ms https://www.reddit.com/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:38:26Z INFO    [INFO] no results on first page for sort=relevance sub=all
+2026-05-05T22:38:26Z INFO    [PHASE] SEARCH r/all  sort=new  variant=phrase
+2026-05-05T22:38:30Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Zayn+server+leak%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:38:30Z INFO    [RESPONSE] 200 428ms https://www.reddit.com/search.json?q=%22Zayn+server+leak%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:38:30Z INFO    [INFO] no results on first page for sort=new sub=all
+2026-05-05T22:38:30Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=phrase
+2026-05-05T22:38:34Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:35Z INFO    [RESPONSE] 200 251ms https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:35Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T22:38:35Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=phrase
+2026-05-05T22:38:39Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:39Z INFO    [RESPONSE] 200 331ms https://www.reddit.com/r/igcse/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:39Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T22:38:39Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=phrase
+2026-05-05T22:38:43Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:44Z INFO    [RESPONSE] 200 575ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:44Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=phrase
+2026-05-05T22:38:48Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:48Z INFO    [RESPONSE] 200 308ms https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:48Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T22:38:48Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=phrase
+2026-05-05T22:38:52Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:52Z INFO    [RESPONSE] 200 303ms https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:52Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T22:38:52Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=phrase
+2026-05-05T22:38:56Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:56Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:38:56Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T22:38:56Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=phrase
+2026-05-05T22:39:00Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:01Z INFO    [RESPONSE] 200 308ms https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+server+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:01Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T22:39:01Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:05Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:39:05Z INFO    [RESPONSE] 200 342ms https://www.reddit.com/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:39:05Z INFO    [HIT] #1 r/zayn score=9 comments=1 title="What's is his discord server link?"
+2026-05-05T22:39:05Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Zayn server
+2026-05-05T22:39:09Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Zayn+server%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:39:09Z INFO    [RESPONSE] 200 332ms https://www.reddit.com/search.json?q=%22Zayn+server%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:39:09Z INFO    [HIT] #1 r/u_Acceptable-Gap-4520 score=1 comments=0 title='Thoughts on le@ks O levels'
+2026-05-05T22:39:09Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:13Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:14Z INFO    [RESPONSE] 200 252ms https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:14Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T22:39:14Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:18Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:18Z INFO    [RESPONSE] 200 307ms https://www.reddit.com/r/igcse/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:18Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T22:39:18Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:22Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:23Z INFO    [RESPONSE] 200 591ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:23Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:27Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:27Z INFO    [RESPONSE] 200 254ms https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:27Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T22:39:27Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:31Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:31Z INFO    [RESPONSE] 200 255ms https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:31Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T22:39:31Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:35Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:35Z INFO    [RESPONSE] 200 266ms https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:35Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T22:39:35Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Zayn server
+2026-05-05T22:39:39Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:40Z INFO    [RESPONSE] 200 241ms https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:40Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T22:39:40Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:39:44Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:39:44Z INFO    [RESPONSE] 200 391ms https://www.reddit.com/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:39:44Z INFO    [HIT] #1 r/popheads score=10 comments=2 title='Camila Cabello - "Eyes On You (Feat. Charlie Puth)" & "Cleopatra" & "Thinkin\' \'Bout One" + others'
+2026-05-05T22:39:44Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Zayn leak
+2026-05-05T22:39:48Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Zayn+leak%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:39:48Z INFO    [RESPONSE] 200 368ms https://www.reddit.com/search.json?q=%22Zayn+leak%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:39:48Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:39:52Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:53Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:53Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T22:39:53Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:39:57Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:59Z INFO    [RESPONSE] 200 1920ms https://www.reddit.com/r/igcse/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:39:59Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T22:39:59Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:40:03Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:03Z INFO    [RESPONSE] 200 637ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:03Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:40:07Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:08Z INFO    [RESPONSE] 200 318ms https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:08Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T22:40:08Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:40:12Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:12Z INFO    [RESPONSE] 200 287ms https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:12Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T22:40:12Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:40:16Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:16Z INFO    [RESPONSE] 200 325ms https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:16Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T22:40:16Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Zayn leak
+2026-05-05T22:40:20Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:21Z INFO    [RESPONSE] 200 279ms https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:21Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T22:40:21Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Zayn
+2026-05-05T22:40:25Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:40:26Z INFO    [RESPONSE] 200 1875ms https://www.reddit.com/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:40:26Z INFO    [HIT] #1 r/Fauxmoi score=919 comments=254 title='Zayn Malik has canceled all of his North American tour dates'
+2026-05-05T22:40:26Z INFO    [HIT] #2 r/popculturechat score=8706 comments=629 title='Zayn Malik punched Louis Tomlinson after making remark about his late mum'
+2026-05-05T22:40:26Z INFO    [HIT] #3 r/Fauxmoi score=1141 comments=262 title='Zayn Malik allegedly punched Louis Tomlinson after making a comment about his mother forcing Netflix to cancel their planned documentary'
+2026-05-05T22:40:26Z INFO    [HIT] #4 r/popculturechat score=1691 comments=279 title='Zayn Malik Cancels All U.S. Tour Dates'
+2026-05-05T22:40:26Z INFO    [HIT] #5 r/zayn score=119 comments=86 title='Can we please stop being in denial about Zayn?'
+2026-05-05T22:40:26Z INFO    [HIT] #6 r/Fauxmoi score=4601 comments=100 title='Zayn Malik and his family ask fans to donate to the Palestine Project after knowing fans were sending them flowers bouquets.'
+2026-05-05T22:40:26Z INFO    [HIT] #7 r/popculturechat score=1415 comments=331 title='Director of the Zayn Malik and Louis Tomlinson documentary responded to the reports of a fight between them causing it to be scrapped, saying “And there goes the last year of work💨”'
+2026-05-05T22:40:26Z INFO    [HIT] #8 r/Fauxmoi score=268 comments=53 title='Zayn Malik has announced he\'s been hospitalised and is "unexpectedly recovering" after falling ill'
+2026-05-05T22:40:26Z INFO    [HIT] #9 r/VindictaRateCelebs score=256 comments=123 title='Are Zayn Malik and Gigi Hadid an equally attractive couple?'
+2026-05-05T22:40:26Z INFO    [HIT] #10 r/zayn score=56 comments=43 title='Can someone provide a valid reason why Zayn’s team hasn’t denied the assault allegations?'
+2026-05-05T22:40:26Z INFO    [HIT] #11 r/Fauxmoi score=20324 comments=659 title="Zayn Malik, Emma Thompson, Penelope Cruz, Stevie Wonder, Roger Waters and others named in Epstein emails about a group of 'anti-Israel celebrities'"
+2026-05-05T22:40:26Z INFO    [HIT] #12 r/popculturechat score=6456 comments=394 title='Zayn Malik fears Netflix footage of him punching Louis Tomlinson will leak'
+2026-05-05T22:40:26Z INFO    [HIT] #13 r/popculturechat score=4817 comments=424 title='Zayn Malik reveals that Gigi Hadid got mad at him for giving their 5 year old daughter $500 from the Tooth Fairy after she lost her first tooth'
+2026-05-05T22:40:26Z INFO    [HIT] #14 r/popculturechat score=4232 comments=299 title='Louis Tomlinson has unfollowed Zayn Malik on instagram following a report that Zayn assaulted Louis'
+2026-05-05T22:40:26Z INFO    [HIT] #15 r/LoveAndDeepspace score=3390 comments=359 title="Love and Deepspace | Trailer of New 5-Star Memory [Zayne: Secret's Kiss] Released! 💋🤫"
+2026-05-05T22:40:26Z INFO    [HIT] #16 r/Fauxmoi score=1357 comments=607 title="Zayn Malik talks about his 6 year relationship with his ex Gigi Hadid on the new Call Her Daddy episode: «I will always love her, but i don't know if I was ever in love with her»"
+2026-05-05T22:40:26Z INFO    [HIT] #17 r/SquaredCircle score=3286 comments=637 title='Sami Zayn on X: Hoes stay mad.'
+2026-05-05T22:40:26Z INFO    [HIT] #18 r/SquaredCircle score=2416 comments=386 title='[WWE Smackdown Spoilers] Finish to Sami Zayn US Open Challenge'
+2026-05-05T22:40:26Z INFO    [HIT] #19 r/LoveAndDeepspace score=3705 comments=122 title='The Resident Evil fandom has adopted Zayne 😭'
+2026-05-05T22:40:26Z INFO    [HIT] #20 r/SquaredCircle score=6900 comments=684 title='Sami Zayn’s Twitter:Big ups to the Muslim sister Imane Khelif who advanced in the Olympics today to box for the gold medal after facing a swarm of the most idiotic, bigoted comments I’ve ever seen an Olympic athlete face. Inshallah she wins the big one & the bitchasses online get the help they need.'
+2026-05-05T22:40:26Z INFO    [HIT] #21 r/SquaredCircle score=1385 comments=396 title='Sami Zayn responds to Ricochet’s claim that “El Generico has a better legacy than Sami Zayn”.'
+2026-05-05T22:40:26Z INFO    [HIT] #22 r/SquaredCircle score=1186 comments=334 title='Following Sami Zayn’s United States Championship win, the men’s champions on WWE’s main roster are all 40 or over for the first time'
+2026-05-05T22:40:26Z INFO    [HIT] #23 r/SquaredCircle score=4638 comments=245 title='Sami Zayn on Twitter: Hi all, it’s Rami. Today is my birthday'
+2026-05-05T22:40:26Z INFO    [HIT] #24 r/LoveAndDeepspace score=2652 comments=271 title='ZAYNE OUTFIT COMMENTS???'
+2026-05-05T22:40:26Z INFO    [HIT] #25 r/LoveAndDeepspace score=1587 comments=209 title='Sato Takuya to step down as Zayne Japanese VA due to contract expiration'
+2026-05-05T22:40:26Z INFO    [HIT] #26 r/Fauxmoi score=1873 comments=198 title='Two months into 2026, Zayn Malik’s new album cover is already a contender for worst album art of the year'
+2026-05-05T22:40:26Z INFO    [HIT] #27 r/SantiZapVideos score=870 comments=356 title='Im done with Sami Zayn.'
+2026-05-05T22:40:26Z INFO    [HIT] #28 r/LoveAndDeepspace score=2416 comments=163 title='OMFG ZAYNE GIRLIES?? HELLO??'
+2026-05-05T22:40:26Z INFO    [HIT] #29 r/popculturechat score=2457 comments=226 title='Blackpink Jisoo posted pictures with Zayn on Instagram'
+2026-05-05T22:40:26Z INFO    [HIT] #30 r/Fauxmoi score=1703 comments=130 title='Louis Tomlinson has unfollowed Zayn Malik following rumours Zayn insulted Louis’s dead mother and then assaulted him'
+2026-05-05T22:40:26Z INFO    [HIT] #31 r/Music score=4388 comments=367 title='Zayn Malik postpones US tour amid Liam Payne’s ‘heartbreaking’ death'
+2026-05-05T22:40:26Z INFO    [HIT] #32 r/SquaredCircle score=4943 comments=393 title='Sami Zayn- "Checked the internet today and it turns out everyone is really fuckin stupid."'
+2026-05-05T22:40:26Z INFO    [HIT] #33 r/SquaredCircle score=20775 comments=1520 title='Sami Zayn: "Military flyovers during sporting events are indeed expensive, taxpayer-funded propaganda that have nothing to do with sports, you’re just not allowed to point that out."'
+2026-05-05T22:40:26Z INFO    [HIT] #34 r/SquaredCircle score=3947 comments=170 title='Sami Zayn: "Thanks to my fans who came out to meet me today, for supporting me and for supporting the moral issue of our lifetime. I love you all, it’s hard to put into words how much it means to me. Thank you."'
+2026-05-05T22:40:26Z INFO    [HIT] #35 r/SquaredCircle score=7894 comments=132 title='Sami Zayn on Twitter: Happy Juneteenth. It is important to confront our shameful history in order to LEARN FROM the racism, dehumanization & barbarity of the past so that we may eradicate them from our societies & our hearts, today & for future generations to come. LIBERATION AND JUSTICE FOR ALL.'
+2026-05-05T22:40:26Z INFO    [HIT] #36 r/SquaredCircle score=4120 comments=179 title='Sami Zayn on X: “NY Post continuing a fine tradition of being a dog shit publication”'
+2026-05-05T22:40:26Z INFO    [HIT] #37 r/SquaredCircle score=3341 comments=271 title='Sami Zayn on Twitter: I love the Irish. They are an extremely empathetic, caring people with a deep understanding of human suffering. I’ve always felt a great kinship with them and love visiting their beautiful country. + God bless the Irish people, today and every day.'
+2026-05-05T22:40:26Z INFO    [HIT] #38 r/SquaredCircle score=10650 comments=1980 title='Sami Zayn: I mainly agree with this, but Obama gets too much of a pass. His ‘mistakes’ were not careless errors, he took calculated steps to maintain & expand policies, systems & wars put in place by GWB & evil scumbags before him. I don’t expect much better from Biden, but here’s hoping.'
+2026-05-05T22:40:26Z INFO    [HIT] #39 r/LoveAndDeepspace score=2424 comments=94 title='My husband’s very questionable obsession with Zayne 🫠'
+2026-05-05T22:40:26Z INFO    [HIT] #40 r/SquaredCircle score=3341 comments=236 title='Becky Lynch and Sami Zayn both thanked for their donations and support at a Gazan refugee camp'
+2026-05-05T22:40:26Z INFO    [HIT] #41 r/SquaredCircle score=3458 comments=1768 title='Post WWE WrestleMania 39 Match Discussion Thread: The Usos (c) vs. Sami Zayn and Kevin Owens'
+2026-05-05T22:40:26Z INFO    [HIT] #42 r/SquaredCircle score=1408 comments=128 title='Sami Zayn X post from today'
+2026-05-05T22:40:26Z INFO    [HIT] #43 r/LoveAndDeepspace score=2686 comments=74 title="Dr Zayne's worst nightmare"
+2026-05-05T22:40:26Z INFO    [HIT] #44 r/SquaredCircle score=2010 comments=2062 title='Post WWE WrestleMania XL Match Discussion: Gunther (c) vs. Sami Zayn - WWE Intercontinental Championship'
+2026-05-05T22:40:26Z INFO    [HIT] #45 r/SquaredCircle score=2495 comments=189 title='Sami Zayn and PAC at Newcastle United vs Liverpool tonight'
+2026-05-05T22:40:26Z INFO    [HIT] #46 r/WWE score=666 comments=544 title='Is anyone tired of Sami Zayn?'
+2026-05-05T22:40:26Z INFO    [HIT] #47 r/LoveAndDeepspace score=3998 comments=171 title='I’m not a Zayne girly but, is it just me or Zayne’s 4-star memories are gorgeous'
+2026-05-05T22:40:26Z INFO    [HIT] #48 r/SquaredCircle score=925 comments=207 title='[Smackdown Spoilers] Brutal looking ending to Zayn vs Black'
+2026-05-05T22:40:26Z INFO    [HIT] #49 r/LoveAndDeepspace score=859 comments=202 title='So this is how men see Zayne when they play LADS... lmao'
+2026-05-05T22:40:26Z INFO    [HIT] #50 r/LoveAndDeepspace score=1356 comments=408 title='Please show me your Zayne fav pics ✨'
+2026-05-05T22:40:26Z INFO    [HIT] #51 r/SquaredCircle score=9888 comments=870 title='Sami Zayn: “I hear that as United States Champion, Bobby Lashley is working on a new finishing move called “The American Way”, where he sets up a base on my property, destroys my home, has his friends take whatever is left, then says he did it for freedom & makes me out to be the bad guy.”'
+2026-05-05T22:40:26Z INFO    [HIT] #52 r/ChikaPH score=1278 comments=115 title='Zayn Malik and Louis Tomlinson'
+2026-05-05T22:40:26Z INFO    [HIT] #53 r/popculturechat score=1273 comments=168 title='“Hopefully the ticket prices weren’t too high” fans think Zayn Malik may be shading Harry Styles'
+2026-05-05T22:40:26Z INFO    [HIT] #54 r/SquaredCircle score=1581 comments=462 title='[Fightful Select] The claim internally in WWE is that the barbed wire in Kevin Owens/Sami Zayn was not gimmicked or shaved down at the request of at least one talent.'
+2026-05-05T22:40:26Z INFO    [HIT] #55 r/SquaredCircle score=3934 comments=777 title='Michael Cole: "This Roman Reigns-Kevin Owens-Bloodline-Sami Zayn storyline is probably the best television we\'ve done in a decade. And it\'s Emmy-worthy in many ways."'
+2026-05-05T22:40:26Z INFO    [HIT] #56 r/SquaredCircle score=2344 comments=225 title='Naomi on X: I really need to start using this nepotism with my family yall claim I got.  @HeymanHustle @TheRock @jacobfatu_wwe @WWEUsos @WWERomanReigns @SamiZayn @TheREALRIKISHI I’d like to request a meeting asap⚠️'
+2026-05-05T22:40:26Z INFO    [HIT] #57 r/OneDirection score=5489 comments=185 title='Zayn’s reaction to Liam  💔💛'
+2026-05-05T22:40:26Z INFO    [HIT] #58 r/LoveAndDeepspace score=1861 comments=130 title='Have you guys noticed that Zayne is in every chapter of the main story?'
+2026-05-05T22:40:26Z INFO    [HIT] #59 r/SquaredCircle score=1882 comments=134 title='Sami Zayn on Twitter: Gimmick change coming soon'
+2026-05-05T22:40:26Z INFO    [HIT] #60 r/SquaredCircle score=1102 comments=117 title='Sami Zayn giving wrestling advice to Eva Marie: "You almost want to use the pins as exclamation points, it\'s like punctuation, if we are telling a story and these are sentences, that\'s the punctuation"'
+2026-05-05T22:40:26Z INFO    [HIT] #61 r/SquaredCircle score=1093 comments=125 title='Sami Zayn asks Kendrick Lamar for some help'
+2026-05-05T22:40:26Z INFO    [HIT] #62 r/popheads score=558 comments=234 title='Zayn Malik Cancels All U.S. Tour Dates'
+2026-05-05T22:40:26Z INFO    [HIT] #63 r/popculturechat score=1914 comments=218 title='Former One Direction member  Zayn Malik shares lyrics to debut rap song ‘Fuchsia Sea’: “Cause I worked hard in a white band. And they still laughed at the Asian. Left a blue mark on a white flag. Then used blood for the painting."'
+2026-05-05T22:40:26Z INFO    [HIT] #64 r/WWE score=4275 comments=495 title='Sami Zayn visiting Mecca before NoC'
+2026-05-05T22:40:26Z INFO    [HIT] #65 r/hockey score=951 comments=133 title='Zayne Parekh is not a fan of Devin Cooley’s new pads'
+2026-05-05T22:40:26Z INFO    [HIT] #66 r/SquaredCircle score=7025 comments=1769 title="WON: The Saudi Arabian government told WWE they didn't want Sami Zayn appearing because of his ethnicity"
+2026-05-05T22:40:26Z INFO    [HIT] #67 r/SquaredCircle score=1277 comments=667 title='Sami Zayn on X -  "Tiocfaidh ár lá"'
+2026-05-05T22:40:26Z INFO    [HIT] #68 r/SquaredCircle score=1895 comments=850 title='Booker T reveals that Sami Zayn was upset about the social media reaction to him winning the Gauntlet on RAW'
+2026-05-05T22:40:26Z INFO    [HIT] #69 r/heightcomparison score=944 comments=255 title="Zayn Malik (5'8), Gigi Hadid(5'10)"
+2026-05-05T22:40:26Z INFO    [HIT] #70 r/SquaredCircle score=5217 comments=386 title='Sami Zayn Becomes First Muslim to Main Event Wrestlemania'
+2026-05-05T22:40:26Z INFO    [HIT] #71 r/LoveAndDeepspace score=2369 comments=239 title='Since we have a boyband now, let assign: Sylus - Main Vocalist, Zayne - Main Dancer, Rafayel - Visual, Caleb - Rapper, and Xavier - Lead Dancer.'
+2026-05-05T22:40:26Z INFO    [HIT] #72 r/SquaredCircle score=3342 comments=310 title="Comparison of camera cuts for Sami Zayn's Montreal entrance"
+2026-05-05T22:40:26Z INFO    [HIT] #73 r/SquaredCircle score=2900 comments=87 title="Sami Zayn on Johnny Knoxville’s engagement: l've met Emily and can confidently say she is 10,000x too good for this chump."
+2026-05-05T22:40:26Z INFO    [HIT] #74 r/SquaredCircle score=4653 comments=432 title='Sami Zayn appreciation thread'
+2026-05-05T22:40:26Z INFO    [HIT] #75 r/LoveAndDeepspace score=823 comments=370 title="Who has skipped Zayne's Majestic Myth?"
+2026-05-05T22:40:26Z INFO    [HIT] #76 r/OneDirection score=2879 comments=107 title='Louis Tomlinson and Zayn Malik recently!!!'
+2026-05-05T22:40:26Z INFO    [HIT] #77 r/TheGreatOne score=392 comments=284 title='There were storylines with Daniel Bryan as an underdog even after his WrestleMania 30 moment, but the fans never turned on him like they did on Sami Zayn. Is it because the general interest of wrestling fans evolved and shifted towards more morally grey characters like Drew McIntyre?'
+2026-05-05T22:40:26Z INFO    [HIT] #78 r/LoveAndDeepspace score=2102 comments=242 title='ThIS EXPRESSIONS ARE IN-ZAYNE!🥵😩❤️\u200d🔥'
+2026-05-05T22:40:26Z INFO    [HIT] #79 r/SquaredCircle score=1868 comments=2399 title='Post WWE Elimination Chamber 2023 Match Discussion: Roman Reigns (c) vs. Sami Zayn - WWE Undisputed Universal Championship'
+2026-05-05T22:40:26Z INFO    [HIT] #80 r/SquaredCircle score=2915 comments=1044 title='Post WWE WrestleMania 38 Match Discussion Thread: Johnny Knoxville vs. Sami Zayn'
+2026-05-05T22:40:26Z INFO    [HIT] #81 r/SquaredCircle score=6882 comments=592 title="Sami Zayn finds out that Ska isn't cool anymore"
+2026-05-05T22:40:26Z INFO    [HIT] #82 r/SquaredCircle score=2604 comments=739 title='Post WWE RAW Segment Discussion: The Trial of Sami Zayn'
+2026-05-05T22:40:26Z INFO    [HIT] #83 r/TheGreatOne score=459 comments=247 title="Sami zayn is making me sick, the guy has been incredibly boring from past two years, same gimmick,same boring promo, no solid storyline, hasn't worked on his body or his character but some have he f*cks up someone's momentum everytime, he doesn't deserve to be in this WM ,BS"
+2026-05-05T22:40:26Z INFO    [HIT] #84 r/SquaredCircle score=2424 comments=262 title='Sid powerbombs Sami Zayn after returning from his horrific leg injury. '
+2026-05-05T22:40:26Z INFO    [HIT] #85 r/LoveAndDeepspace score=2445 comments=47 title='This Zayne coser got princess carried by a jasmine girlie,'
+2026-05-05T22:40:26Z INFO    [HIT] #86 r/entertainment score=1067 comments=91 title="Zayn Malik fears 'beyond damaging' footage of Louis Tomlinson bust-up will leak"
+2026-05-05T22:40:26Z INFO    [HIT] #87 r/SquaredCircle score=4160 comments=707 title='Sami Zayn’s reply to Andrew Yang tweeting his support to Israel: “Maybe not the most tasteful statement to make within hours of Israel bombing Gaza and killing 20 Palestinians, 9 of whom were children…”'
+2026-05-05T22:40:26Z INFO    [HIT] #88 r/Fauxmoi score=571 comments=237 title='Zayn Malik reveals he gave his daughter £500 for loosing her first tooth. Gigi gave him shit but he says “I worked my ass off, and I should be able to give my kid what I wanna give her.”'
+2026-05-05T22:40:26Z INFO    [HIT] #89 r/SquaredCircle score=1026 comments=485 title='Sami Zayn on WWE Keeping Politics Out of Storylines: "I think in a strange way, we’re doing a sort of weird anti-reflection reflection wherein we just simply don’t touch politics. As a company, nothing about the political climate is reflected in the product anymore."'
+2026-05-05T22:40:26Z INFO    [HIT] #90 r/SquaredCircle score=984 comments=521 title='Post WWE Elimination Chamber 2025 Match Discussion: Kevin Owens vs. Sami Zayn - Unsanctioned'
+2026-05-05T22:40:26Z INFO    [HIT] #91 r/LoveAndDeepspace score=2467 comments=91 title='My cosplay of Zayne'
+2026-05-05T22:40:26Z INFO    [HIT] #92 r/BlackPink score=2220 comments=97 title='251010 Jisoo IG Update w/ ZAYN'
+2026-05-05T22:40:26Z INFO    [HIT] #93 r/LoveAndDeepspace score=1399 comments=234 title='All the "zayne is boring" people are finally eating their words'
+2026-05-05T22:40:26Z INFO    [HIT] #94 r/SquaredCircle score=4020 comments=346 title='New Sami U̶S̶O̶ Zayn shirt on WWEShop'
+2026-05-05T22:40:26Z INFO    [HIT] #95 r/WWE score=319 comments=327 title='Unpopular Opinion: Sami Zayn is Overhated'
+2026-05-05T22:40:26Z INFO    [HIT] #96 r/TheGreatOne score=1009 comments=262 title='Sami Zayn fatigue in 2025'
+2026-05-05T22:40:26Z INFO    [HIT] #97 r/LAinfluencersnark score=545 comments=233 title='Zayn Malik tells Alex Cooper of ‘Call Her Daddy’, he never was in love with Gigi Hadid but has love for her. 🥴'
+2026-05-05T22:40:26Z INFO    [HIT] #98 r/popculturechat score=2718 comments=116 title='Zayn followed Louis Tomlinson on Instagram'
+2026-05-05T22:40:26Z INFO    [HIT] #99 r/SquaredCircle score=1682 comments=995 title='Post WWE Night of Champions 2023 Match Discussion: Sami Zayn and Kevin Owens (c) vs. Roman Reigns and Solo Sikoa'
+2026-05-05T22:40:26Z INFO    [HIT] #100 r/LoveAndDeepspace score=3686 comments=65 title='Oh I just know Zayne is gonna love my cake'
+2026-05-05T22:40:26Z INFO    [WARNING] max-pages=1 reached for sort=relevance sub=all — more results exist
+2026-05-05T22:40:27Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Zayn
+2026-05-05T22:40:30Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=Zayn&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:40:33Z INFO    [RESPONSE] 200 2431ms https://www.reddit.com/search.json?q=Zayn&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:40:33Z INFO    [HIT] #1 r/zayn score=4 comments=0 title='Zayn/Louis documentary'
+2026-05-05T22:40:33Z INFO    [HIT] #2 r/namegames score=1 comments=1 title='Finish the name…'
+2026-05-05T22:40:33Z INFO    [HIT] #3 r/alevels score=3 comments=6 title='econ keal server'
+2026-05-05T22:40:33Z INFO    [HIT] #4 r/Names score=1 comments=97 title='Identical twin boys names'
+2026-05-05T22:40:33Z INFO    [HIT] #5 r/LoveAndDeepspace score=36 comments=2 title='Just a Zayne❄️, Caleb🪷 and Sylus 💎 new R1 fits photoshoot'
+2026-05-05T22:40:33Z INFO    [HIT] #6 r/LoveAndDeepspace score=17 comments=2 title='LADs as a date topic and green flag men?'
+2026-05-05T22:40:33Z INFO    [HIT] #7 r/zayn score=23 comments=0 title='KEEP STREAMING KONNAKOL ON SPOTIFY'
+2026-05-05T22:40:33Z INFO    [HIT] #8 r/WWE score=9 comments=6 title='The two most exciting and fun story lines right now in WWE'
+2026-05-05T22:40:33Z INFO    [HIT] #9 r/ZaynAndZquad score=1 comments=0 title='Looking for ZAYN Q&A + Screening London Tickets (if anyone is selling/can’t go)'
+2026-05-05T22:40:33Z INFO    [HIT] #10 r/zayn score=3 comments=0 title='Looking for ZAYN Q&A + Screening London Tickets (if anyone is selling/can’t go)'
+2026-05-05T22:40:33Z INFO    [HIT] #11 r/TicketResale score=1 comments=0 title='Selling x2 Zayn London o2 tickets for face value'
+2026-05-05T22:40:33Z INFO    [HIT] #12 r/zayn score=71 comments=1 title='2 years ago Zayn was at Formula 1 in Miami'
+2026-05-05T22:40:33Z INFO    [HIT] #13 r/WWE score=0 comments=2 title='Yet another reason to not trust Google'
+2026-05-05T22:40:33Z INFO    [HIT] #14 r/fantasybooking score=2 comments=0 title='Fantasy Booking Wrestlemania 38'
+2026-05-05T22:40:33Z INFO    [HIT] #15 r/alevels score=11 comments=10 title='MATH M1'
+2026-05-05T22:40:33Z INFO    [HIT] #16 r/totallylookslike score=200 comments=33 title='Young Joseph Stalin and Zayn Malik'
+2026-05-05T22:40:33Z INFO    [HIT] #17 r/fantasybooking score=10 comments=5 title='WrestleMania 43 Card + SmackDown before WrestleMania Prediction'
+2026-05-05T22:40:33Z INFO    [HIT] #18 r/Names score=0 comments=25 title='Baby names'
+2026-05-05T22:40:33Z INFO    [HIT] #19 r/UkFriends score=1 comments=1 title='40m from London looking for clingy F'
+2026-05-05T22:40:33Z INFO    [HIT] #20 r/InternetFriends score=2 comments=0 title='40m from UK looking for needy F chatter'
+2026-05-05T22:40:33Z INFO    [HIT] #21 r/LoveAndDeepspace score=1 comments=5 title='New Player - Please help me decide what each lad dudes personality is based on the tomodachi personality chart'
+2026-05-05T22:40:33Z INFO    [HIT] #22 r/starcutouts score=1 comments=0 title='Planning a theme party? Want your guests to have fun? Want great photos? I didn’t realise how big this had become until I started noticing stand-in cutouts from Star Cutouts popping up all over the UK 👀'
+2026-05-05T22:40:33Z INFO    [HIT] #23 r/LoveAndDeepspace score=123 comments=3 title="Uncover what's on his mind, and find surprises along the way"
+2026-05-05T22:40:33Z INFO    [HIT] #24 r/LoveAndDeepspace score=0 comments=2 title='Is this just a coincidence? Or a feeling'
+2026-05-05T22:40:33Z INFO    [HIT] #25 r/StarWarsCantina score=0 comments=1 title='Could someone please explain to me the appeal of Ferus Olin?'
+2026-05-05T22:40:33Z INFO    [HIT] #26 r/StarWarsEU score=0 comments=6 title='Could someone please explain to me the appeal of Ferus Olin?'
+2026-05-05T22:40:33Z INFO    [HIT] #27 r/LoveAndDeepspace score=49 comments=47 title='Contact'
+2026-05-05T22:40:33Z INFO    [HIT] #28 r/TheEntertainmentMix score=12 comments=13 title='Pussycat Dolls Cancel Reunion Tour in North America After ‘Taking an Honest Look’ at Weak Ticket Sales'
+2026-05-05T22:40:33Z INFO    [HIT] #29 r/LoveAndDeepspace score=39 comments=18 title='who is your favorite and why?'
+2026-05-05T22:40:33Z INFO    [HIT] #30 r/WWECards score=2 comments=1 title='ISO'
+2026-05-05T22:40:33Z INFO    [HIT] #31 r/SantiZapVideos score=4 comments=1 title='Sami Zayn unalives the GBM'
+2026-05-05T22:40:33Z INFO    [HIT] #32 r/Concerts score=832 comments=271 title='Another one bites the dust...'
+2026-05-05T22:40:33Z INFO    [HIT] #33 r/LoveAndDeepspace score=9 comments=1 title='[5/4/2026] 36/36 SHC - GOA Zayne solo'
+2026-05-05T22:40:33Z INFO    [HIT] #34 r/u_Vixen_Lisek score=1 comments=0 title='Spooky encounter at Akso Hospital 🤭'
+2026-05-05T22:40:33Z INFO    [HIT] #35 r/SquaredCircle score=0 comments=30 title='CM Punk has 30 televised matches since returning to WWE. What are some of your favorites and least favorites, and what do you think of the run overall?'
+2026-05-05T22:40:33Z INFO    [HIT] #36 r/Smallafro score=13 comments=0 title='Sami Zayn unalives the GBM'
+2026-05-05T22:40:33Z INFO    [HIT] #37 r/ringsidenewscom score=1 comments=0 title='Val Venis Claims His Jockstrap Is a Bigger Draw Than Sami Zayn'
+2026-05-05T22:40:33Z INFO    [HIT] #38 r/LoveAndDeepspace score=106 comments=41 title='Who do you Quality Time: Work with?'
+2026-05-05T22:40:33Z INFO    [HIT] #39 r/fantasybooking score=9 comments=5 title='My Wrestlemania Rebooking Series: FINALE (Wrestlemania 40: Night Two)'
+2026-05-05T22:40:33Z INFO    [HIT] #40 r/LoveAndDeepspace score=46 comments=5 title='Sylus mains, our moment finally!'
+2026-05-05T22:40:33Z INFO    [HIT] #41 r/alevels score=2 comments=13 title='These people are selling le@ks.'
+2026-05-05T22:40:33Z INFO    [HIT] #42 r/zayn score=121 comments=4 title='Zayn Malik’s 2016 Met Gala Look Was so Iconic'
+2026-05-05T22:40:33Z INFO    [HIT] #43 r/LoveAndDeepspace score=23 comments=7 title='My first full clear of the SHC after 13 months of playing the game'
+2026-05-05T22:40:33Z INFO    [HIT] #44 r/MusicIceberg score=5 comments=6 title='My iceberg'
+2026-05-05T22:40:33Z INFO    [HIT] #45 r/DDTPro score=12 comments=16 title='Who are your favorite DDT wrestlers of all time?'
+2026-05-05T22:40:33Z INFO    [HIT] #46 r/WWEGames score=15 comments=1 title='Survivor Series Results! (Year 1)'
+2026-05-05T22:40:33Z INFO    [HIT] #47 r/SantiZapVideos score=2 comments=0 title="Dream Matches I'd Have Loved to See #6"
+2026-05-05T22:40:33Z INFO    [HIT] #48 r/zayn score=65 comments=1 title='Zayn Malik Wearing His Own Merch'
+2026-05-05T22:40:33Z INFO    [HIT] #49 r/ZayneMain score=23 comments=0 title="Zayne's GoA myth : Of Lifeforce and Jing"
+2026-05-05T22:40:33Z INFO    [HIT] #50 r/LoveAndDeepspace score=66 comments=2 title='Ayo Zayne, calm down'
+2026-05-05T22:40:33Z INFO    [HIT] #51 r/LoveAndDeepspace score=104 comments=3 title='Zayne and Piplup commission 🐧'
+2026-05-05T22:40:33Z INFO    [HIT] #52 r/LoveAndDeepspace score=7 comments=2 title='SHC 36* with Zayne GoA solo, 20% buff'
+2026-05-05T22:40:33Z INFO    [HIT] #53 r/LoveAndDeepspace_ score=26 comments=21 title='What made you like your current main?'
+2026-05-05T22:40:33Z INFO    [HIT] #54 r/loveanddepression score=9 comments=5 title='Battle girlies please help me get my first 36/36 SHC'
+2026-05-05T22:40:33Z INFO    [HIT] #55 r/fantasybooking score=1 comments=11 title='Proposed Night of Champions 2026 card'
+2026-05-05T22:40:33Z INFO    [HIT] #56 r/ZayneMain score=17 comments=9 title='Playlist for Zayne?'
+2026-05-05T22:40:33Z INFO    [HIT] #57 r/fantasybooking score=22 comments=7 title='What if Money In the Bank Stay at WrestleMania'
+2026-05-05T22:40:33Z INFO    [HIT] #58 r/loveanddepression score=24 comments=0 title='Photo session'
+2026-05-05T22:40:33Z INFO    [HIT] #59 r/buildabear score=22 comments=1 title='Here’s Zayn Riley Kanmuri my 1D bear!'
+2026-05-05T22:40:33Z INFO    [HIT] #60 r/LoveAndDeepspace score=14 comments=1 title='My first SHC 36/36, solo Zayne'
+2026-05-05T22:40:33Z INFO    [HIT] #61 r/softwaretesting score=1 comments=6 title='Job switch suggestion (Automation tester)'
+2026-05-05T22:40:33Z INFO    [HIT] #62 r/QualityAssurance score=6 comments=3 title='Job switch suggestion (Automation tester)'
+2026-05-05T22:40:33Z INFO    [HIT] #63 r/OneDirectionMemes score=0 comments=9 title='Figured we needed a new thread to vent about everything going on with Zayn as of May 4th, 2026. How are we all feeling about it?'
+2026-05-05T22:40:33Z INFO    [HIT] #64 r/TamilInfluencer score=1 comments=0 title='creating the love vibe: somethings brewing!!!! zayn + sriramtt'
+2026-05-05T22:40:33Z INFO    [HIT] #65 r/chennaicity score=1 comments=2 title='creating the love vibe: somethings brewing!!!! zayn + sriramtt'
+2026-05-05T22:40:33Z INFO    [HIT] #66 r/LoveAndDeepspace score=8 comments=3 title='SHC 36/36 Only Zayne GOA 20% DMG boost'
+2026-05-05T22:40:33Z INFO    [HIT] #67 r/FirstCuriosity score=1 comments=0 title='Zayn Malik has canceled all U.S. dates for his KONNAKOL Tour following a recent health issue.'
+2026-05-05T22:40:33Z INFO    [HIT] #68 r/yumeshipping score=3 comments=0 title=':3'
+2026-05-05T22:40:33Z INFO    [HIT] #69 r/yumeshipping score=0 comments=3 title='Ask Zayn Anything!'
+2026-05-05T22:40:33Z INFO    [HIT] #70 r/starcutouts score=1 comments=0 title='Planning a theme party? Want your guests to have fun? Want great photos? I didn’t realise how big this had become until I started noticing stand-in cutouts from Star Cutouts popping up all over the UK 👀'
+2026-05-05T22:40:33Z INFO    [HIT] #71 r/zayn score=57 comments=25 title='Anyone remember this?'
+2026-05-05T22:40:33Z INFO    [HIT] #72 r/WWE_Blog score=3 comments=0 title='Danhausen Seeks Mystery Partner for WWE Backlash Tag Match'
+2026-05-05T22:40:33Z INFO    [HIT] #73 r/ChaiUnofficial score=110 comments=52 title='FINALLY SOME REAL BOTS NOT MADE WITH AI'
+2026-05-05T22:40:33Z INFO    [HIT] #74 r/loveanddepression score=28 comments=5 title='If I was an NPC.....'
+2026-05-05T22:40:33Z INFO    [HIT] #75 r/LoveAndDeepspace score=65 comments=5 title='About Baize'
+2026-05-05T22:40:33Z INFO    [HIT] #76 r/LoveAndDeepspace score=2 comments=0 title='GUYS…'
+2026-05-05T22:40:33Z INFO    [HIT] #77 r/PacificIslandsMusic score=1 comments=0 title="Zayn (UK) - 'Let Me' - TWISTER Pacific Islands Remix - Vanuatu - 2024"
+2026-05-05T22:40:33Z INFO    [HIT] #78 r/LoveAndDeepspace score=46 comments=3 title='Finally My 1st SHC 36/36 😭'
+2026-05-05T22:40:33Z INFO    [HIT] #79 r/TheGreatOne score=15 comments=31 title='Seth Rollins had the Best Reigns as World Heavyweight Champion. Agree or Disagree?'
+2026-05-05T22:40:33Z INFO    [HIT] #80 r/hockeycardswap score=8 comments=7 title='Zayne collection if anyone is interested'
+2026-05-05T22:40:33Z INFO    [HIT] #81 r/Fauxmoi score=573 comments=303 title='Throwback to the 2016 Met gala'
+2026-05-05T22:40:33Z INFO    [HIT] #82 r/namenerds score=3 comments=35 title='Zain/Zayn/Zayne'
+2026-05-05T22:40:33Z INFO    [HIT] #83 r/AutoNewspaper score=1 comments=0 title='[Arts] - Zayn Malik cancels US tour and cuts UK dates after hospital bed photo shared | BBC'
+2026-05-05T22:40:33Z INFO    [HIT] #84 r/BBCauto score=1 comments=0 title='[Arts] - Zayn Malik cancels US tour and cuts UK dates after hospital bed photo shared'
+2026-05-05T22:40:33Z INFO    [HIT] #85 r/buildabear score=41 comments=1 title='Here’s me and my 1D bear named Zayn Riley!'
+2026-05-05T22:40:33Z INFO    [HIT] #86 r/fantasybooking score=4 comments=12 title='What if John Cena Had Won the WHC at WrestleMania 41 Instead?'
+2026-05-05T22:40:33Z INFO    [HIT] #87 r/LoveAndDeepspace score=52 comments=29 title='NEW SHC colours! What teams will you guys be using?'
+2026-05-05T22:40:33Z INFO    [HIT] #88 r/5sos score=36 comments=67 title='possibility of US tour being canceled?'
+2026-05-05T22:40:33Z INFO    [HIT] #89 r/zayn score=96 comments=39 title="What's your opinion about the mercury records?"
+2026-05-05T22:40:33Z INFO    [HIT] #90 r/OneDirection score=74 comments=7 title='Full list of who sang the bridge in every 1D song'
+2026-05-05T22:40:33Z INFO    [HIT] #91 r/LoveAndDeepspace_ score=24 comments=0 title='Hot Springs Snapshots with Zayne 😍'
+2026-05-05T22:40:33Z INFO    [HIT] #92 r/alevels score=23 comments=40 title='This legit?'
+2026-05-05T22:40:33Z INFO    [HIT] #93 r/LoveAndDeepspace_ score=328 comments=25 title='My ALL time favourite Banner. 🏆🥇'
+2026-05-05T22:40:33Z INFO    [HIT] #94 r/LoveAndDeepspace score=403 comments=18 title='The wedding hairstyle’s fitting the new banner outfits perfectly !!'
+2026-05-05T22:40:33Z INFO    [HIT] #95 r/ZayneMain score=30 comments=6 title="Zayne's post kindled scene breakdown"
+2026-05-05T22:40:33Z INFO    [HIT] #96 r/WWE score=0 comments=23 title="The Sami Zayn heel turn is nonsense, he's LITERALLY right and Joe Tessitore is making it worse"
+2026-05-05T22:40:33Z INFO    [HIT] #97 r/alevels score=3 comments=3 title='Zayn guy'
+2026-05-05T22:40:33Z INFO    [HIT] #98 r/sylusmains score=200 comments=31 title='What made you like Sylus?'
+2026-05-05T22:40:33Z INFO    [HIT] #99 r/zayn score=10 comments=24 title='US Dates'
+2026-05-05T22:40:33Z INFO    [HIT] #100 r/zayn score=5 comments=11 title='Cancelled show'
+2026-05-05T22:40:33Z INFO    [WARNING] max-pages=1 reached for sort=new sub=all — more results exist
+2026-05-05T22:40:33Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Zayn
+2026-05-05T22:40:37Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:37Z INFO    [RESPONSE] 200 365ms https://www.reddit.com/r/Olevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:37Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T22:40:37Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Zayn
+2026-05-05T22:40:41Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:41Z INFO    [RESPONSE] 200 275ms https://www.reddit.com/r/igcse/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:41Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T22:40:41Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Zayn
+2026-05-05T22:40:45Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:46Z INFO    [RESPONSE] 200 498ms https://www.reddit.com/r/IGCSE_helps/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:46Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Zayn
+2026-05-05T22:40:50Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:51Z INFO    [RESPONSE] 200 1200ms https://www.reddit.com/r/Alevel/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:51Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T22:40:51Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Zayn
+2026-05-05T22:40:55Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:56Z INFO    [RESPONSE] 200 431ms https://www.reddit.com/r/Alevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:40:56Z INFO    [HIT] #1 r/alevels score=44 comments=47 title='Cambrige l @ 3 k 5 are a bunch of scammers i have proof'
+2026-05-05T22:40:56Z INFO    [HIT] #2 r/alevels score=1 comments=15 title="THERE'S A SERVER WHICH I WONT NAME SO IT DOESNT GAIN MORE POPULARITY BUT IT HAS ALMOST 7K MEMBERS AND CLAIMS THAT THEY HAVE OLEVELS,IGCSE AND ALEVELS L**KS, IS THIS A SCAM OR IF ITS REAL WHY ISNT IT BEING REPORTED??"
+2026-05-05T22:40:56Z INFO    [HIT] #3 r/alevels score=2 comments=12 title='Scammer warning ‼️'
+2026-05-05T22:40:56Z INFO    [HIT] #4 r/alevels score=1 comments=11 title='Paper leaked'
+2026-05-05T22:40:56Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Zayn
+2026-05-05T22:41:00Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:41:00Z INFO    [RESPONSE] 200 279ms https://www.reddit.com/r/GCSE/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:41:00Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T22:41:00Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Zayn
+2026-05-05T22:41:04Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:41:04Z INFO    [RESPONSE] 200 257ms https://www.reddit.com/r/6thForm/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T22:41:04Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T22:41:04Z INFO    [SECTION] PHASE 2 — FETCH-COMMENTS
+2026-05-05T22:41:04Z INFO    [PHASE] FETCH-COMMENTS 207 unique post(s)
+2026-05-05T22:41:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lsb3r4.json?raw_json=1&limit=50
+2026-05-05T22:41:08Z INFO    [RESPONSE] 200 294ms https://www.reddit.com/comments/1lsb3r4.json?raw_json=1&limit=50
+2026-05-05T22:41:08Z INFO    [INFO] r/zayn  1lsb3r4  +1 comment(s)
+2026-05-05T22:41:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t0zk67.json?raw_json=1&limit=50
+2026-05-05T22:41:13Z INFO    [RESPONSE] 200 220ms https://www.reddit.com/comments/1t0zk67.json?raw_json=1&limit=50
+2026-05-05T22:41:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/lxel9q.json?raw_json=1&limit=50
+2026-05-05T22:41:17Z INFO    [RESPONSE] 200 324ms https://www.reddit.com/comments/lxel9q.json?raw_json=1&limit=50
+2026-05-05T22:41:17Z INFO    [INFO] r/popheads  lxel9q  +2 comment(s)
+2026-05-05T22:41:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t0wrn0.json?raw_json=1&limit=50
+2026-05-05T22:41:22Z INFO    [RESPONSE] 200 570ms https://www.reddit.com/comments/1t0wrn0.json?raw_json=1&limit=50
+2026-05-05T22:41:22Z INFO    [INFO] r/Fauxmoi  1t0wrn0  +17 comment(s)
+2026-05-05T22:41:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1soh04r.json?raw_json=1&limit=50
+2026-05-05T22:41:26Z INFO    [RESPONSE] 200 617ms https://www.reddit.com/comments/1soh04r.json?raw_json=1&limit=50
+2026-05-05T22:41:26Z INFO    [INFO] r/popculturechat  1soh04r  +16 comment(s)
+2026-05-05T22:41:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sohfwx.json?raw_json=1&limit=50
+2026-05-05T22:41:31Z INFO    [RESPONSE] 200 714ms https://www.reddit.com/comments/1sohfwx.json?raw_json=1&limit=50
+2026-05-05T22:41:31Z INFO    [INFO] r/Fauxmoi  1sohfwx  +20 comment(s)
+2026-05-05T22:41:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t0wsc2.json?raw_json=1&limit=50
+2026-05-05T22:41:36Z INFO    [RESPONSE] 200 695ms https://www.reddit.com/comments/1t0wsc2.json?raw_json=1&limit=50
+2026-05-05T22:41:36Z INFO    [INFO] r/popculturechat  1t0wsc2  +21 comment(s)
+2026-05-05T22:41:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1spgta2.json?raw_json=1&limit=50
+2026-05-05T22:41:40Z INFO    [RESPONSE] 200 567ms https://www.reddit.com/comments/1spgta2.json?raw_json=1&limit=50
+2026-05-05T22:41:40Z INFO    [INFO] r/zayn  1spgta2  +17 comment(s)
+2026-05-05T22:41:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1szdlv5.json?raw_json=1&limit=50
+2026-05-05T22:41:45Z INFO    [RESPONSE] 200 644ms https://www.reddit.com/comments/1szdlv5.json?raw_json=1&limit=50
+2026-05-05T22:41:45Z INFO    [INFO] r/Fauxmoi  1szdlv5  +11 comment(s)
+2026-05-05T22:41:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sorf51.json?raw_json=1&limit=50
+2026-05-05T22:41:50Z INFO    [RESPONSE] 200 674ms https://www.reddit.com/comments/1sorf51.json?raw_json=1&limit=50
+2026-05-05T22:41:50Z INFO    [INFO] r/popculturechat  1sorf51  +15 comment(s)
+2026-05-05T22:41:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1so7wvx.json?raw_json=1&limit=50
+2026-05-05T22:41:54Z INFO    [RESPONSE] 200 419ms https://www.reddit.com/comments/1so7wvx.json?raw_json=1&limit=50
+2026-05-05T22:41:54Z INFO    [INFO] r/Fauxmoi  1so7wvx  +13 comment(s)
+2026-05-05T22:41:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r2qftu.json?raw_json=1&limit=50
+2026-05-05T22:41:59Z INFO    [RESPONSE] 200 627ms https://www.reddit.com/comments/1r2qftu.json?raw_json=1&limit=50
+2026-05-05T22:41:59Z INFO    [INFO] r/VindictaRateCelebs  1r2qftu  +22 comment(s)
+2026-05-05T22:42:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1srlko9.json?raw_json=1&limit=50
+2026-05-05T22:42:03Z INFO    [RESPONSE] 200 593ms https://www.reddit.com/comments/1srlko9.json?raw_json=1&limit=50
+2026-05-05T22:42:03Z INFO    [INFO] r/zayn  1srlko9  +21 comment(s)
+2026-05-05T22:42:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qvh7py.json?raw_json=1&limit=50
+2026-05-05T22:42:08Z INFO    [RESPONSE] 200 680ms https://www.reddit.com/comments/1qvh7py.json?raw_json=1&limit=50
+2026-05-05T22:42:08Z INFO    [INFO] r/Fauxmoi  1qvh7py  +16 comment(s)
+2026-05-05T22:42:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqncuv.json?raw_json=1&limit=50
+2026-05-05T22:42:13Z INFO    [RESPONSE] 200 608ms https://www.reddit.com/comments/1sqncuv.json?raw_json=1&limit=50
+2026-05-05T22:42:13Z INFO    [INFO] r/popculturechat  1sqncuv  +18 comment(s)
+2026-05-05T22:42:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r24f77.json?raw_json=1&limit=50
+2026-05-05T22:42:17Z INFO    [RESPONSE] 200 625ms https://www.reddit.com/comments/1r24f77.json?raw_json=1&limit=50
+2026-05-05T22:42:17Z INFO    [INFO] r/popculturechat  1r24f77  +15 comment(s)
+2026-05-05T22:42:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1soxitb.json?raw_json=1&limit=50
+2026-05-05T22:42:22Z INFO    [RESPONSE] 200 568ms https://www.reddit.com/comments/1soxitb.json?raw_json=1&limit=50
+2026-05-05T22:42:22Z INFO    [INFO] r/popculturechat  1soxitb  +14 comment(s)
+2026-05-05T22:42:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qimdp6.json?raw_json=1&limit=50
+2026-05-05T22:42:32Z INFO    [RESPONSE] 200 4385ms https://www.reddit.com/comments/1qimdp6.json?raw_json=1&limit=50
+2026-05-05T22:42:33Z INFO    [INFO] r/LoveAndDeepspace  1qimdp6  +24 comment(s)
+2026-05-05T22:42:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r22eje.json?raw_json=1&limit=50
+2026-05-05T22:42:37Z INFO    [RESPONSE] 200 920ms https://www.reddit.com/comments/1r22eje.json?raw_json=1&limit=50
+2026-05-05T22:42:37Z INFO    [INFO] r/Fauxmoi  1r22eje  +18 comment(s)
+2026-05-05T22:42:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1k4x4o5.json?raw_json=1&limit=50
+2026-05-05T22:42:42Z INFO    [RESPONSE] 200 777ms https://www.reddit.com/comments/1k4x4o5.json?raw_json=1&limit=50
+2026-05-05T22:42:42Z INFO    [INFO] r/SquaredCircle  1k4x4o5  +19 comment(s)
+2026-05-05T22:42:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o9irow.json?raw_json=1&limit=50
+2026-05-05T22:42:47Z INFO    [RESPONSE] 200 1462ms https://www.reddit.com/comments/1o9irow.json?raw_json=1&limit=50
+2026-05-05T22:42:48Z INFO    [INFO] r/SquaredCircle  1o9irow  +21 comment(s)
+2026-05-05T22:42:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s5kpoc.json?raw_json=1&limit=50
+2026-05-05T22:42:52Z INFO    [RESPONSE] 200 963ms https://www.reddit.com/comments/1s5kpoc.json?raw_json=1&limit=50
+2026-05-05T22:42:52Z INFO    [INFO] r/LoveAndDeepspace  1s5kpoc  +27 comment(s)
+2026-05-05T22:42:56Z INFO    [REQUEST] GET https://www.reddit.com/comments/1eluzpv.json?raw_json=1&limit=50
+2026-05-05T22:42:57Z INFO    [RESPONSE] 200 755ms https://www.reddit.com/comments/1eluzpv.json?raw_json=1&limit=50
+2026-05-05T22:42:57Z INFO    [INFO] r/SquaredCircle  1eluzpv  +18 comment(s)
+2026-05-05T22:43:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qx02cs.json?raw_json=1&limit=50
+2026-05-05T22:43:02Z INFO    [RESPONSE] 200 813ms https://www.reddit.com/comments/1qx02cs.json?raw_json=1&limit=50
+2026-05-05T22:43:02Z INFO    [INFO] r/SquaredCircle  1qx02cs  +16 comment(s)
+2026-05-05T22:43:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s6s4sw.json?raw_json=1&limit=50
+2026-05-05T22:43:07Z INFO    [RESPONSE] 200 817ms https://www.reddit.com/comments/1s6s4sw.json?raw_json=1&limit=50
+2026-05-05T22:43:07Z INFO    [INFO] r/SquaredCircle  1s6s4sw  +15 comment(s)
+2026-05-05T22:43:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lyes43.json?raw_json=1&limit=50
+2026-05-05T22:43:12Z INFO    [RESPONSE] 200 735ms https://www.reddit.com/comments/1lyes43.json?raw_json=1&limit=50
+2026-05-05T22:43:12Z INFO    [INFO] r/SquaredCircle  1lyes43  +23 comment(s)
+2026-05-05T22:43:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nnbuv3.json?raw_json=1&limit=50
+2026-05-05T22:43:16Z INFO    [RESPONSE] 200 707ms https://www.reddit.com/comments/1nnbuv3.json?raw_json=1&limit=50
+2026-05-05T22:43:16Z INFO    [INFO] r/LoveAndDeepspace  1nnbuv3  +22 comment(s)
+2026-05-05T22:43:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rir6e4.json?raw_json=1&limit=50
+2026-05-05T22:43:21Z INFO    [RESPONSE] 200 731ms https://www.reddit.com/comments/1rir6e4.json?raw_json=1&limit=50
+2026-05-05T22:43:21Z INFO    [INFO] r/LoveAndDeepspace  1rir6e4  +19 comment(s)
+2026-05-05T22:43:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qvxbj9.json?raw_json=1&limit=50
+2026-05-05T22:43:26Z INFO    [RESPONSE] 200 1065ms https://www.reddit.com/comments/1qvxbj9.json?raw_json=1&limit=50
+2026-05-05T22:43:26Z INFO    [INFO] r/Fauxmoi  1qvxbj9  +17 comment(s)
+2026-05-05T22:43:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s68tjv.json?raw_json=1&limit=50
+2026-05-05T22:43:31Z INFO    [RESPONSE] 200 641ms https://www.reddit.com/comments/1s68tjv.json?raw_json=1&limit=50
+2026-05-05T22:43:31Z INFO    [INFO] r/SantiZapVideos  1s68tjv  +37 comment(s)
+2026-05-05T22:43:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q6rixf.json?raw_json=1&limit=50
+2026-05-05T22:43:35Z INFO    [RESPONSE] 200 728ms https://www.reddit.com/comments/1q6rixf.json?raw_json=1&limit=50
+2026-05-05T22:43:35Z INFO    [INFO] r/LoveAndDeepspace  1q6rixf  +22 comment(s)
+2026-05-05T22:43:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o35t5z.json?raw_json=1&limit=50
+2026-05-05T22:43:40Z INFO    [RESPONSE] 200 709ms https://www.reddit.com/comments/1o35t5z.json?raw_json=1&limit=50
+2026-05-05T22:43:40Z INFO    [INFO] r/popculturechat  1o35t5z  +19 comment(s)
+2026-05-05T22:43:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1souiay.json?raw_json=1&limit=50
+2026-05-05T22:43:45Z INFO    [RESPONSE] 200 914ms https://www.reddit.com/comments/1souiay.json?raw_json=1&limit=50
+2026-05-05T22:43:45Z INFO    [INFO] r/Fauxmoi  1souiay  +15 comment(s)
+2026-05-05T22:43:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1g7dr09.json?raw_json=1&limit=50
+2026-05-05T22:43:50Z INFO    [RESPONSE] 200 567ms https://www.reddit.com/comments/1g7dr09.json?raw_json=1&limit=50
+2026-05-05T22:43:50Z INFO    [INFO] r/Music  1g7dr09  +6 comment(s)
+2026-05-05T22:43:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ei1zno.json?raw_json=1&limit=50
+2026-05-05T22:43:54Z INFO    [RESPONSE] 200 700ms https://www.reddit.com/comments/1ei1zno.json?raw_json=1&limit=50
+2026-05-05T22:43:54Z INFO    [INFO] r/SquaredCircle  1ei1zno  +19 comment(s)
+2026-05-05T22:43:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/jfmuiw.json?raw_json=1&limit=50
+2026-05-05T22:43:59Z INFO    [RESPONSE] 200 732ms https://www.reddit.com/comments/jfmuiw.json?raw_json=1&limit=50
+2026-05-05T22:43:59Z INFO    [INFO] r/SquaredCircle  jfmuiw  +12 comment(s)
+2026-05-05T22:44:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mgvd50.json?raw_json=1&limit=50
+2026-05-05T22:44:04Z INFO    [RESPONSE] 200 543ms https://www.reddit.com/comments/1mgvd50.json?raw_json=1&limit=50
+2026-05-05T22:44:04Z INFO    [INFO] r/SquaredCircle  1mgvd50  +19 comment(s)
+2026-05-05T22:44:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lfswpj.json?raw_json=1&limit=50
+2026-05-05T22:44:08Z INFO    [RESPONSE] 200 803ms https://www.reddit.com/comments/1lfswpj.json?raw_json=1&limit=50
+2026-05-05T22:44:08Z INFO    [INFO] r/SquaredCircle  1lfswpj  +26 comment(s)
+2026-05-05T22:44:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/1li8hf4.json?raw_json=1&limit=50
+2026-05-05T22:44:13Z INFO    [RESPONSE] 200 544ms https://www.reddit.com/comments/1li8hf4.json?raw_json=1&limit=50
+2026-05-05T22:44:13Z INFO    [INFO] r/SquaredCircle  1li8hf4  +17 comment(s)
+2026-05-05T22:44:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1jdqfj3.json?raw_json=1&limit=50
+2026-05-05T22:44:18Z INFO    [RESPONSE] 200 668ms https://www.reddit.com/comments/1jdqfj3.json?raw_json=1&limit=50
+2026-05-05T22:44:18Z INFO    [INFO] r/SquaredCircle  1jdqfj3  +17 comment(s)
+2026-05-05T22:44:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/kuqrtf.json?raw_json=1&limit=50
+2026-05-05T22:44:22Z INFO    [RESPONSE] 200 709ms https://www.reddit.com/comments/kuqrtf.json?raw_json=1&limit=50
+2026-05-05T22:44:22Z INFO    [INFO] r/SquaredCircle  kuqrtf  +14 comment(s)
+2026-05-05T22:44:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rwfbex.json?raw_json=1&limit=50
+2026-05-05T22:44:27Z INFO    [RESPONSE] 200 735ms https://www.reddit.com/comments/1rwfbex.json?raw_json=1&limit=50
+2026-05-05T22:44:27Z INFO    [INFO] r/LoveAndDeepspace  1rwfbex  +28 comment(s)
+2026-05-05T22:44:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1jwd945.json?raw_json=1&limit=50
+2026-05-05T22:44:32Z INFO    [RESPONSE] 200 492ms https://www.reddit.com/comments/1jwd945.json?raw_json=1&limit=50
+2026-05-05T22:44:32Z INFO    [INFO] r/SquaredCircle  1jwd945  +22 comment(s)
+2026-05-05T22:44:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/12996ws.json?raw_json=1&limit=50
+2026-05-05T22:44:36Z INFO    [RESPONSE] 200 635ms https://www.reddit.com/comments/12996ws.json?raw_json=1&limit=50
+2026-05-05T22:44:36Z INFO    [INFO] r/SquaredCircle  12996ws  +16 comment(s)
+2026-05-05T22:44:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sjx61s.json?raw_json=1&limit=50
+2026-05-05T22:44:41Z INFO    [RESPONSE] 200 562ms https://www.reddit.com/comments/1sjx61s.json?raw_json=1&limit=50
+2026-05-05T22:44:41Z INFO    [INFO] r/SquaredCircle  1sjx61s  +23 comment(s)
+2026-05-05T22:44:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sdzwsv.json?raw_json=1&limit=50
+2026-05-05T22:44:45Z INFO    [RESPONSE] 200 537ms https://www.reddit.com/comments/1sdzwsv.json?raw_json=1&limit=50
+2026-05-05T22:44:45Z INFO    [INFO] r/LoveAndDeepspace  1sdzwsv  +32 comment(s)
+2026-05-05T22:44:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bxsfgr.json?raw_json=1&limit=50
+2026-05-05T22:44:50Z INFO    [RESPONSE] 200 664ms https://www.reddit.com/comments/1bxsfgr.json?raw_json=1&limit=50
+2026-05-05T22:44:50Z INFO    [INFO] r/SquaredCircle  1bxsfgr  +22 comment(s)
+2026-05-05T22:44:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1n029xe.json?raw_json=1&limit=50
+2026-05-05T22:44:55Z INFO    [RESPONSE] 200 574ms https://www.reddit.com/comments/1n029xe.json?raw_json=1&limit=50
+2026-05-05T22:44:55Z INFO    [INFO] r/SquaredCircle  1n029xe  +16 comment(s)
+2026-05-05T22:44:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q39sko.json?raw_json=1&limit=50
+2026-05-05T22:44:59Z INFO    [RESPONSE] 200 454ms https://www.reddit.com/comments/1q39sko.json?raw_json=1&limit=50
+2026-05-05T22:44:59Z INFO    [INFO] r/WWE  1q39sko  +33 comment(s)
+2026-05-05T22:45:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1khumib.json?raw_json=1&limit=50
+2026-05-05T22:45:04Z INFO    [RESPONSE] 200 793ms https://www.reddit.com/comments/1khumib.json?raw_json=1&limit=50
+2026-05-05T22:45:04Z INFO    [INFO] r/LoveAndDeepspace  1khumib  +22 comment(s)
+2026-05-05T22:45:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rzgh86.json?raw_json=1&limit=50
+2026-05-05T22:45:09Z INFO    [RESPONSE] 200 670ms https://www.reddit.com/comments/1rzgh86.json?raw_json=1&limit=50
+2026-05-05T22:45:09Z INFO    [INFO] r/SquaredCircle  1rzgh86  +14 comment(s)
+2026-05-05T22:45:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s9gni7.json?raw_json=1&limit=50
+2026-05-05T22:45:13Z INFO    [RESPONSE] 200 851ms https://www.reddit.com/comments/1s9gni7.json?raw_json=1&limit=50
+2026-05-05T22:45:13Z INFO    [INFO] r/LoveAndDeepspace  1s9gni7  +20 comment(s)
+2026-05-05T22:45:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ljchvz.json?raw_json=1&limit=50
+2026-05-05T22:45:18Z INFO    [RESPONSE] 200 1045ms https://www.reddit.com/comments/1ljchvz.json?raw_json=1&limit=50
+2026-05-05T22:45:18Z INFO    [INFO] r/LoveAndDeepspace  1ljchvz  +27 comment(s)
+2026-05-05T22:45:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/jx94sb.json?raw_json=1&limit=50
+2026-05-05T22:45:23Z INFO    [RESPONSE] 200 779ms https://www.reddit.com/comments/jx94sb.json?raw_json=1&limit=50
+2026-05-05T22:45:23Z INFO    [INFO] r/SquaredCircle  jx94sb  +13 comment(s)
+2026-05-05T22:45:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1soxxrc.json?raw_json=1&limit=50
+2026-05-05T22:45:28Z INFO    [RESPONSE] 200 580ms https://www.reddit.com/comments/1soxxrc.json?raw_json=1&limit=50
+2026-05-05T22:45:28Z INFO    [INFO] r/ChikaPH  1soxxrc  +19 comment(s)
+2026-05-05T22:45:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qq46xk.json?raw_json=1&limit=50
+2026-05-05T22:45:32Z INFO    [RESPONSE] 200 684ms https://www.reddit.com/comments/1qq46xk.json?raw_json=1&limit=50
+2026-05-05T22:45:32Z INFO    [INFO] r/popculturechat  1qq46xk  +17 comment(s)
+2026-05-05T22:45:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1j2o52j.json?raw_json=1&limit=50
+2026-05-05T22:45:37Z INFO    [RESPONSE] 200 673ms https://www.reddit.com/comments/1j2o52j.json?raw_json=1&limit=50
+2026-05-05T22:45:37Z INFO    [INFO] r/SquaredCircle  1j2o52j  +12 comment(s)
+2026-05-05T22:45:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/10tfbpz.json?raw_json=1&limit=50
+2026-05-05T22:45:42Z INFO    [RESPONSE] 200 646ms https://www.reddit.com/comments/10tfbpz.json?raw_json=1&limit=50
+2026-05-05T22:45:42Z INFO    [INFO] r/SquaredCircle  10tfbpz  +12 comment(s)
+2026-05-05T22:45:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ki0rcx.json?raw_json=1&limit=50
+2026-05-05T22:45:46Z INFO    [RESPONSE] 200 547ms https://www.reddit.com/comments/1ki0rcx.json?raw_json=1&limit=50
+2026-05-05T22:45:46Z INFO    [INFO] r/SquaredCircle  1ki0rcx  +15 comment(s)
+2026-05-05T22:45:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1g61n7v.json?raw_json=1&limit=50
+2026-05-05T22:45:51Z INFO    [RESPONSE] 200 848ms https://www.reddit.com/comments/1g61n7v.json?raw_json=1&limit=50
+2026-05-05T22:45:51Z INFO    [INFO] r/OneDirection  1g61n7v  +28 comment(s)
+2026-05-05T22:45:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/1pt6v3g.json?raw_json=1&limit=50
+2026-05-05T22:45:57Z INFO    [RESPONSE] 200 2017ms https://www.reddit.com/comments/1pt6v3g.json?raw_json=1&limit=50
+2026-05-05T22:45:57Z INFO    [INFO] r/LoveAndDeepspace  1pt6v3g  +21 comment(s)
+2026-05-05T22:46:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1pil814.json?raw_json=1&limit=50
+2026-05-05T22:46:02Z INFO    [RESPONSE] 200 725ms https://www.reddit.com/comments/1pil814.json?raw_json=1&limit=50
+2026-05-05T22:46:02Z INFO    [INFO] r/SquaredCircle  1pil814  +20 comment(s)
+2026-05-05T22:46:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t0dmbj.json?raw_json=1&limit=50
+2026-05-05T22:46:07Z INFO    [RESPONSE] 200 623ms https://www.reddit.com/comments/1t0dmbj.json?raw_json=1&limit=50
+2026-05-05T22:46:07Z INFO    [INFO] r/SquaredCircle  1t0dmbj  +11 comment(s)
+2026-05-05T22:46:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sp28e0.json?raw_json=1&limit=50
+2026-05-05T22:46:11Z INFO    [RESPONSE] 200 575ms https://www.reddit.com/comments/1sp28e0.json?raw_json=1&limit=50
+2026-05-05T22:46:11Z INFO    [INFO] r/SquaredCircle  1sp28e0  +8 comment(s)
+2026-05-05T22:46:15Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t0wsjb.json?raw_json=1&limit=50
+2026-05-05T22:46:16Z INFO    [RESPONSE] 200 683ms https://www.reddit.com/comments/1t0wsjb.json?raw_json=1&limit=50
+2026-05-05T22:46:16Z INFO    [INFO] r/popheads  1t0wsjb  +14 comment(s)
+2026-05-05T22:46:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lsghmh.json?raw_json=1&limit=50
+2026-05-05T22:46:21Z INFO    [RESPONSE] 200 733ms https://www.reddit.com/comments/1lsghmh.json?raw_json=1&limit=50
+2026-05-05T22:46:21Z INFO    [INFO] r/popculturechat  1lsghmh  +12 comment(s)
+2026-05-05T22:46:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/13sls7z.json?raw_json=1&limit=50
+2026-05-05T22:46:25Z INFO    [RESPONSE] 200 493ms https://www.reddit.com/comments/13sls7z.json?raw_json=1&limit=50
+2026-05-05T22:46:25Z INFO    [INFO] r/WWE  13sls7z  +22 comment(s)
+2026-05-05T22:46:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sxicj3.json?raw_json=1&limit=50
+2026-05-05T22:46:30Z INFO    [RESPONSE] 200 703ms https://www.reddit.com/comments/1sxicj3.json?raw_json=1&limit=50
+2026-05-05T22:46:30Z INFO    [INFO] r/hockey  1sxicj3  +16 comment(s)
+2026-05-05T22:46:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/bv6xzl.json?raw_json=1&limit=50
+2026-05-05T22:46:34Z INFO    [RESPONSE] 200 670ms https://www.reddit.com/comments/bv6xzl.json?raw_json=1&limit=50
+2026-05-05T22:46:34Z INFO    [INFO] r/SquaredCircle  bv6xzl  +14 comment(s)
+2026-05-05T22:46:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1i9sy01.json?raw_json=1&limit=50
+2026-05-05T22:46:39Z INFO    [RESPONSE] 200 706ms https://www.reddit.com/comments/1i9sy01.json?raw_json=1&limit=50
+2026-05-05T22:46:39Z INFO    [INFO] r/SquaredCircle  1i9sy01  +17 comment(s)
+2026-05-05T22:46:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1berkzj.json?raw_json=1&limit=50
+2026-05-05T22:46:44Z INFO    [RESPONSE] 200 675ms https://www.reddit.com/comments/1berkzj.json?raw_json=1&limit=50
+2026-05-05T22:46:44Z INFO    [INFO] r/SquaredCircle  1berkzj  +10 comment(s)
+2026-05-05T22:46:48Z INFO    [REQUEST] GET https://www.reddit.com/comments/1pdwjjg.json?raw_json=1&limit=50
+2026-05-05T22:46:49Z INFO    [RESPONSE] 200 700ms https://www.reddit.com/comments/1pdwjjg.json?raw_json=1&limit=50
+2026-05-05T22:46:49Z INFO    [INFO] r/heightcomparison  1pdwjjg  +9 comment(s)
+2026-05-05T22:46:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/129qsje.json?raw_json=1&limit=50
+2026-05-05T22:46:53Z INFO    [RESPONSE] 200 654ms https://www.reddit.com/comments/129qsje.json?raw_json=1&limit=50
+2026-05-05T22:46:53Z INFO    [INFO] r/SquaredCircle  129qsje  +12 comment(s)
+2026-05-05T22:46:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ijxc19.json?raw_json=1&limit=50
+2026-05-05T22:46:58Z INFO    [RESPONSE] 200 696ms https://www.reddit.com/comments/1ijxc19.json?raw_json=1&limit=50
+2026-05-05T22:46:58Z INFO    [INFO] r/LoveAndDeepspace  1ijxc19  +20 comment(s)
+2026-05-05T22:47:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1c8xuj6.json?raw_json=1&limit=50
+2026-05-05T22:47:03Z INFO    [RESPONSE] 200 679ms https://www.reddit.com/comments/1c8xuj6.json?raw_json=1&limit=50
+2026-05-05T22:47:03Z INFO    [INFO] r/SquaredCircle  1c8xuj6  +15 comment(s)
+2026-05-05T22:47:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ozxglp.json?raw_json=1&limit=50
+2026-05-05T22:47:07Z INFO    [RESPONSE] 200 522ms https://www.reddit.com/comments/1ozxglp.json?raw_json=1&limit=50
+2026-05-05T22:47:07Z INFO    [INFO] r/SquaredCircle  1ozxglp  +18 comment(s)
+2026-05-05T22:47:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/108u7is.json?raw_json=1&limit=50
+2026-05-05T22:47:12Z INFO    [RESPONSE] 200 616ms https://www.reddit.com/comments/108u7is.json?raw_json=1&limit=50
+2026-05-05T22:47:12Z INFO    [INFO] r/SquaredCircle  108u7is  +22 comment(s)
+2026-05-05T22:47:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nyf62i.json?raw_json=1&limit=50
+2026-05-05T22:47:16Z INFO    [RESPONSE] 200 694ms https://www.reddit.com/comments/1nyf62i.json?raw_json=1&limit=50
+2026-05-05T22:47:16Z INFO    [INFO] r/LoveAndDeepspace  1nyf62i  +29 comment(s)
+2026-05-05T22:47:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nbe7ib.json?raw_json=1&limit=50
+2026-05-05T22:47:21Z INFO    [RESPONSE] 200 583ms https://www.reddit.com/comments/1nbe7ib.json?raw_json=1&limit=50
+2026-05-05T22:47:21Z INFO    [INFO] r/OneDirection  1nbe7ib  +39 comment(s)
+2026-05-05T22:47:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ssmh3p.json?raw_json=1&limit=50
+2026-05-05T22:47:26Z INFO    [RESPONSE] 200 703ms https://www.reddit.com/comments/1ssmh3p.json?raw_json=1&limit=50
+2026-05-05T22:47:26Z INFO    [INFO] r/TheGreatOne  1ssmh3p  +20 comment(s)
+2026-05-05T22:47:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ijlnvf.json?raw_json=1&limit=50
+2026-05-05T22:47:30Z INFO    [RESPONSE] 200 810ms https://www.reddit.com/comments/1ijlnvf.json?raw_json=1&limit=50
+2026-05-05T22:47:30Z INFO    [INFO] r/LoveAndDeepspace  1ijlnvf  +24 comment(s)
+2026-05-05T22:47:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/11615ie.json?raw_json=1&limit=50
+2026-05-05T22:47:35Z INFO    [RESPONSE] 200 669ms https://www.reddit.com/comments/11615ie.json?raw_json=1&limit=50
+2026-05-05T22:47:35Z INFO    [INFO] r/SquaredCircle  11615ie  +23 comment(s)
+2026-05-05T22:47:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/tvpdym.json?raw_json=1&limit=50
+2026-05-05T22:47:40Z INFO    [RESPONSE] 200 1014ms https://www.reddit.com/comments/tvpdym.json?raw_json=1&limit=50
+2026-05-05T22:47:40Z INFO    [INFO] r/SquaredCircle  tvpdym  +20 comment(s)
+2026-05-05T22:47:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/hsko07.json?raw_json=1&limit=50
+2026-05-05T22:47:45Z INFO    [RESPONSE] 200 575ms https://www.reddit.com/comments/hsko07.json?raw_json=1&limit=50
+2026-05-05T22:47:45Z INFO    [INFO] r/SquaredCircle  hsko07  +9 comment(s)
+2026-05-05T22:47:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/10jtmew.json?raw_json=1&limit=50
+2026-05-05T22:47:49Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:47:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/10jtmew.json?raw_json=1&limit=50
+2026-05-05T22:47:53Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:47:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/10jtmew.json?raw_json=1&limit=50
+2026-05-05T22:47:57Z INFO    [ERROR] GET https://www.reddit.com/comments/10jtmew.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:48:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s63b5n.json?raw_json=1&limit=50
+2026-05-05T22:48:01Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:48:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s63b5n.json?raw_json=1&limit=50
+2026-05-05T22:48:06Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:48:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s63b5n.json?raw_json=1&limit=50
+2026-05-05T22:48:10Z INFO    [ERROR] GET https://www.reddit.com/comments/1s63b5n.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:48:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1f2n3m0.json?raw_json=1&limit=50
+2026-05-05T22:48:14Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:48:18Z INFO    [REQUEST] GET https://www.reddit.com/comments/1f2n3m0.json?raw_json=1&limit=50
+2026-05-05T22:48:18Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:48:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/1f2n3m0.json?raw_json=1&limit=50
+2026-05-05T22:48:22Z INFO    [ERROR] GET https://www.reddit.com/comments/1f2n3m0.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:48:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s1cdz6.json?raw_json=1&limit=50
+2026-05-05T22:48:26Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:48:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s1cdz6.json?raw_json=1&limit=50
+2026-05-05T22:48:31Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:48:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s1cdz6.json?raw_json=1&limit=50
+2026-05-05T22:48:35Z INFO    [ERROR] GET https://www.reddit.com/comments/1s1cdz6.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:48:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqsehq.json?raw_json=1&limit=50
+2026-05-05T22:48:39Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:48:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqsehq.json?raw_json=1&limit=50
+2026-05-05T22:48:43Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:48:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqsehq.json?raw_json=1&limit=50
+2026-05-05T22:48:47Z INFO    [ERROR] GET https://www.reddit.com/comments/1sqsehq.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:48:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/n9loh1.json?raw_json=1&limit=50
+2026-05-05T22:48:52Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:48:56Z INFO    [REQUEST] GET https://www.reddit.com/comments/n9loh1.json?raw_json=1&limit=50
+2026-05-05T22:48:56Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:49:00Z INFO    [REQUEST] GET https://www.reddit.com/comments/n9loh1.json?raw_json=1&limit=50
+2026-05-05T22:49:00Z INFO    [ERROR] GET https://www.reddit.com/comments/n9loh1.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:49:04Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r4x2j0.json?raw_json=1&limit=50
+2026-05-05T22:49:04Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:49:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r4x2j0.json?raw_json=1&limit=50
+2026-05-05T22:49:08Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:49:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r4x2j0.json?raw_json=1&limit=50
+2026-05-05T22:49:13Z INFO    [ERROR] GET https://www.reddit.com/comments/1r4x2j0.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:49:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ixf597.json?raw_json=1&limit=50
+2026-05-05T22:49:17Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:49:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ixf597.json?raw_json=1&limit=50
+2026-05-05T22:49:21Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:49:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ixf597.json?raw_json=1&limit=50
+2026-05-05T22:49:25Z INFO    [ERROR] GET https://www.reddit.com/comments/1ixf597.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:49:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1j1g0y7.json?raw_json=1&limit=50
+2026-05-05T22:49:29Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:49:33Z INFO    [REQUEST] GET https://www.reddit.com/comments/1j1g0y7.json?raw_json=1&limit=50
+2026-05-05T22:49:33Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:49:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1j1g0y7.json?raw_json=1&limit=50
+2026-05-05T22:49:38Z INFO    [ERROR] GET https://www.reddit.com/comments/1j1g0y7.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:49:42Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o0nfkr.json?raw_json=1&limit=50
+2026-05-05T22:49:42Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:49:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o0nfkr.json?raw_json=1&limit=50
+2026-05-05T22:49:46Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:49:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o0nfkr.json?raw_json=1&limit=50
+2026-05-05T22:49:50Z INFO    [ERROR] GET https://www.reddit.com/comments/1o0nfkr.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:49:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o30j0a.json?raw_json=1&limit=50
+2026-05-05T22:49:54Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:49:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o30j0a.json?raw_json=1&limit=50
+2026-05-05T22:49:58Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:50:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o30j0a.json?raw_json=1&limit=50
+2026-05-05T22:50:03Z INFO    [RESPONSE] 200 746ms https://www.reddit.com/comments/1o30j0a.json?raw_json=1&limit=50
+2026-05-05T22:50:03Z INFO    [INFO] r/BlackPink  1o30j0a  +34 comment(s)
+2026-05-05T22:50:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kot44g.json?raw_json=1&limit=50
+2026-05-05T22:50:08Z INFO    [RESPONSE] 200 714ms https://www.reddit.com/comments/1kot44g.json?raw_json=1&limit=50
+2026-05-05T22:50:08Z INFO    [INFO] r/LoveAndDeepspace  1kot44g  +20 comment(s)
+2026-05-05T22:50:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/10qbkqu.json?raw_json=1&limit=50
+2026-05-05T22:50:13Z INFO    [RESPONSE] 200 719ms https://www.reddit.com/comments/10qbkqu.json?raw_json=1&limit=50
+2026-05-05T22:50:13Z INFO    [INFO] r/SquaredCircle  10qbkqu  +16 comment(s)
+2026-05-05T22:50:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s6i75x.json?raw_json=1&limit=50
+2026-05-05T22:50:17Z INFO    [RESPONSE] 200 485ms https://www.reddit.com/comments/1s6i75x.json?raw_json=1&limit=50
+2026-05-05T22:50:17Z INFO    [INFO] r/WWE  1s6i75x  +31 comment(s)
+2026-05-05T22:50:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mgm1dc.json?raw_json=1&limit=50
+2026-05-05T22:50:22Z INFO    [RESPONSE] 200 630ms https://www.reddit.com/comments/1mgm1dc.json?raw_json=1&limit=50
+2026-05-05T22:50:22Z INFO    [INFO] r/TheGreatOne  1mgm1dc  +22 comment(s)
+2026-05-05T22:50:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r2ejjg.json?raw_json=1&limit=50
+2026-05-05T22:50:26Z INFO    [RESPONSE] 200 670ms https://www.reddit.com/comments/1r2ejjg.json?raw_json=1&limit=50
+2026-05-05T22:50:26Z INFO    [INFO] r/LAinfluencersnark  1r2ejjg  +17 comment(s)
+2026-05-05T22:50:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kvwc48.json?raw_json=1&limit=50
+2026-05-05T22:50:31Z INFO    [RESPONSE] 200 727ms https://www.reddit.com/comments/1kvwc48.json?raw_json=1&limit=50
+2026-05-05T22:50:31Z INFO    [INFO] r/popculturechat  1kvwc48  +23 comment(s)
+2026-05-05T22:50:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/13tgyko.json?raw_json=1&limit=50
+2026-05-05T22:50:36Z INFO    [RESPONSE] 200 715ms https://www.reddit.com/comments/13tgyko.json?raw_json=1&limit=50
+2026-05-05T22:50:36Z INFO    [INFO] r/SquaredCircle  13tgyko  +19 comment(s)
+2026-05-05T22:50:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1n6rp3w.json?raw_json=1&limit=50
+2026-05-05T22:50:40Z INFO    [RESPONSE] 200 562ms https://www.reddit.com/comments/1n6rp3w.json?raw_json=1&limit=50
+2026-05-05T22:50:40Z INFO    [INFO] r/LoveAndDeepspace  1n6rp3w  +35 comment(s)
+2026-05-05T22:50:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4psqp.json?raw_json=1&limit=50
+2026-05-05T22:50:45Z INFO    [RESPONSE] 200 282ms https://www.reddit.com/comments/1t4psqp.json?raw_json=1&limit=50
+2026-05-05T22:50:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4pav3.json?raw_json=1&limit=50
+2026-05-05T22:50:49Z INFO    [RESPONSE] 200 468ms https://www.reddit.com/comments/1t4pav3.json?raw_json=1&limit=50
+2026-05-05T22:50:49Z INFO    [INFO] r/namegames  1t4pav3  +1 comment(s)
+2026-05-05T22:50:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4p9rr.json?raw_json=1&limit=50
+2026-05-05T22:50:53Z INFO    [RESPONSE] 200 254ms https://www.reddit.com/comments/1t4p9rr.json?raw_json=1&limit=50
+2026-05-05T22:50:53Z INFO    [INFO] r/alevels  1t4p9rr  +4 comment(s)
+2026-05-05T22:50:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4o9oh.json?raw_json=1&limit=50
+2026-05-05T22:50:58Z INFO    [RESPONSE] 200 520ms https://www.reddit.com/comments/1t4o9oh.json?raw_json=1&limit=50
+2026-05-05T22:50:58Z INFO    [INFO] r/Names  1t4o9oh  +30 comment(s)
+2026-05-05T22:51:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4o3zw.json?raw_json=1&limit=50
+2026-05-05T22:51:02Z INFO    [RESPONSE] 200 335ms https://www.reddit.com/comments/1t4o3zw.json?raw_json=1&limit=50
+2026-05-05T22:51:02Z INFO    [INFO] r/LoveAndDeepspace  1t4o3zw  +3 comment(s)
+2026-05-05T22:51:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4o27d.json?raw_json=1&limit=50
+2026-05-05T22:51:07Z INFO    [RESPONSE] 200 432ms https://www.reddit.com/comments/1t4o27d.json?raw_json=1&limit=50
+2026-05-05T22:51:07Z INFO    [INFO] r/LoveAndDeepspace  1t4o27d  +2 comment(s)
+2026-05-05T22:51:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4nnbi.json?raw_json=1&limit=50
+2026-05-05T22:51:11Z INFO    [RESPONSE] 200 288ms https://www.reddit.com/comments/1t4nnbi.json?raw_json=1&limit=50
+2026-05-05T22:51:15Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4mu76.json?raw_json=1&limit=50
+2026-05-05T22:51:15Z INFO    [RESPONSE] 200 341ms https://www.reddit.com/comments/1t4mu76.json?raw_json=1&limit=50
+2026-05-05T22:51:15Z INFO    [INFO] r/WWE  1t4mu76  +4 comment(s)
+2026-05-05T22:51:19Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4mqt8.json?raw_json=1&limit=50
+2026-05-05T22:51:20Z INFO    [RESPONSE] 200 259ms https://www.reddit.com/comments/1t4mqt8.json?raw_json=1&limit=50
+2026-05-05T22:51:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4mqf6.json?raw_json=1&limit=50
+2026-05-05T22:51:24Z INFO    [RESPONSE] 200 299ms https://www.reddit.com/comments/1t4mqf6.json?raw_json=1&limit=50
+2026-05-05T22:51:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4jvip.json?raw_json=1&limit=50
+2026-05-05T22:51:28Z INFO    [RESPONSE] 200 226ms https://www.reddit.com/comments/1t4jvip.json?raw_json=1&limit=50
+2026-05-05T22:51:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4hvr3.json?raw_json=1&limit=50
+2026-05-05T22:51:32Z INFO    [RESPONSE] 200 283ms https://www.reddit.com/comments/1t4hvr3.json?raw_json=1&limit=50
+2026-05-05T22:51:32Z INFO    [INFO] r/zayn  1t4hvr3  +2 comment(s)
+2026-05-05T22:51:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4hari.json?raw_json=1&limit=50
+2026-05-05T22:51:37Z INFO    [RESPONSE] 200 296ms https://www.reddit.com/comments/1t4hari.json?raw_json=1&limit=50
+2026-05-05T22:51:37Z INFO    [INFO] r/WWE  1t4hari  +2 comment(s)
+2026-05-05T22:51:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4g0h4.json?raw_json=1&limit=50
+2026-05-05T22:51:41Z INFO    [RESPONSE] 200 230ms https://www.reddit.com/comments/1t4g0h4.json?raw_json=1&limit=50
+2026-05-05T22:51:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4eket.json?raw_json=1&limit=50
+2026-05-05T22:51:45Z INFO    [RESPONSE] 200 317ms https://www.reddit.com/comments/1t4eket.json?raw_json=1&limit=50
+2026-05-05T22:51:45Z INFO    [INFO] r/alevels  1t4eket  +5 comment(s)
+2026-05-05T22:51:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4e148.json?raw_json=1&limit=50
+2026-05-05T22:51:50Z INFO    [RESPONSE] 200 399ms https://www.reddit.com/comments/1t4e148.json?raw_json=1&limit=50
+2026-05-05T22:51:50Z INFO    [INFO] r/totallylookslike  1t4e148  +19 comment(s)
+2026-05-05T22:51:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4dfdd.json?raw_json=1&limit=50
+2026-05-05T22:51:54Z INFO    [RESPONSE] 200 383ms https://www.reddit.com/comments/1t4dfdd.json?raw_json=1&limit=50
+2026-05-05T22:51:54Z INFO    [INFO] r/fantasybooking  1t4dfdd  +5 comment(s)
+2026-05-05T22:51:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4bnid.json?raw_json=1&limit=50
+2026-05-05T22:51:58Z INFO    [RESPONSE] 200 370ms https://www.reddit.com/comments/1t4bnid.json?raw_json=1&limit=50
+2026-05-05T22:51:58Z INFO    [INFO] r/Names  1t4bnid  +11 comment(s)
+2026-05-05T22:52:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4a1tz.json?raw_json=1&limit=50
+2026-05-05T22:52:03Z INFO    [RESPONSE] 200 307ms https://www.reddit.com/comments/1t4a1tz.json?raw_json=1&limit=50
+2026-05-05T22:52:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4a1j5.json?raw_json=1&limit=50
+2026-05-05T22:52:07Z INFO    [RESPONSE] 200 340ms https://www.reddit.com/comments/1t4a1j5.json?raw_json=1&limit=50
+2026-05-05T22:52:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t47e9u.json?raw_json=1&limit=50
+2026-05-05T22:52:12Z INFO    [RESPONSE] 200 604ms https://www.reddit.com/comments/1t47e9u.json?raw_json=1&limit=50
+2026-05-05T22:52:12Z INFO    [INFO] r/LoveAndDeepspace  1t47e9u  +5 comment(s)
+2026-05-05T22:52:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t46ju7.json?raw_json=1&limit=50
+2026-05-05T22:52:17Z INFO    [RESPONSE] 200 1735ms https://www.reddit.com/comments/1t46ju7.json?raw_json=1&limit=50
+2026-05-05T22:52:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t456q4.json?raw_json=1&limit=50
+2026-05-05T22:52:22Z INFO    [RESPONSE] 200 605ms https://www.reddit.com/comments/1t456q4.json?raw_json=1&limit=50
+2026-05-05T22:52:22Z INFO    [INFO] r/LoveAndDeepspace  1t456q4  +3 comment(s)
+2026-05-05T22:52:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t43sp0.json?raw_json=1&limit=50
+2026-05-05T22:52:26Z INFO    [RESPONSE] 200 299ms https://www.reddit.com/comments/1t43sp0.json?raw_json=1&limit=50
+2026-05-05T22:52:26Z INFO    [INFO] r/LoveAndDeepspace  1t43sp0  +2 comment(s)
+2026-05-05T22:52:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t426w8.json?raw_json=1&limit=50
+2026-05-05T22:52:31Z INFO    [RESPONSE] 200 306ms https://www.reddit.com/comments/1t426w8.json?raw_json=1&limit=50
+2026-05-05T22:52:31Z INFO    [INFO] r/StarWarsCantina  1t426w8  +1 comment(s)
+2026-05-05T22:52:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4266y.json?raw_json=1&limit=50
+2026-05-05T22:52:35Z INFO    [RESPONSE] 200 370ms https://www.reddit.com/comments/1t4266y.json?raw_json=1&limit=50
+2026-05-05T22:52:35Z INFO    [INFO] r/StarWarsEU  1t4266y  +6 comment(s)
+2026-05-05T22:52:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t40kn8.json?raw_json=1&limit=50
+2026-05-05T22:52:40Z INFO    [RESPONSE] 200 824ms https://www.reddit.com/comments/1t40kn8.json?raw_json=1&limit=50
+2026-05-05T22:52:40Z INFO    [INFO] r/LoveAndDeepspace  1t40kn8  +25 comment(s)
+2026-05-05T22:52:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3zzy7.json?raw_json=1&limit=50
+2026-05-05T22:52:44Z INFO    [RESPONSE] 200 352ms https://www.reddit.com/comments/1t3zzy7.json?raw_json=1&limit=50
+2026-05-05T22:52:44Z INFO    [INFO] r/TheEntertainmentMix  1t3zzy7  +7 comment(s)
+2026-05-05T22:52:48Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3wmjr.json?raw_json=1&limit=50
+2026-05-05T22:52:49Z INFO    [RESPONSE] 200 480ms https://www.reddit.com/comments/1t3wmjr.json?raw_json=1&limit=50
+2026-05-05T22:52:49Z INFO    [INFO] r/LoveAndDeepspace  1t3wmjr  +6 comment(s)
+2026-05-05T22:52:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3va19.json?raw_json=1&limit=50
+2026-05-05T22:52:53Z INFO    [RESPONSE] 200 339ms https://www.reddit.com/comments/1t3va19.json?raw_json=1&limit=50
+2026-05-05T22:52:53Z INFO    [INFO] r/WWECards  1t3va19  +1 comment(s)
+2026-05-05T22:52:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3uwnp.json?raw_json=1&limit=50
+2026-05-05T22:52:57Z INFO    [RESPONSE] 200 295ms https://www.reddit.com/comments/1t3uwnp.json?raw_json=1&limit=50
+2026-05-05T22:52:57Z INFO    [INFO] r/SantiZapVideos  1t3uwnp  +1 comment(s)
+2026-05-05T22:53:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3u99p.json?raw_json=1&limit=50
+2026-05-05T22:53:02Z INFO    [RESPONSE] 200 747ms https://www.reddit.com/comments/1t3u99p.json?raw_json=1&limit=50
+2026-05-05T22:53:02Z INFO    [INFO] r/Concerts  1t3u99p  +17 comment(s)
+2026-05-05T22:53:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3rxnf.json?raw_json=1&limit=50
+2026-05-05T22:53:06Z INFO    [RESPONSE] 200 324ms https://www.reddit.com/comments/1t3rxnf.json?raw_json=1&limit=50
+2026-05-05T22:53:06Z INFO    [INFO] r/LoveAndDeepspace  1t3rxnf  +1 comment(s)
+2026-05-05T22:53:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3rx5j.json?raw_json=1&limit=50
+2026-05-05T22:53:11Z INFO    [RESPONSE] 200 301ms https://www.reddit.com/comments/1t3rx5j.json?raw_json=1&limit=50
+2026-05-05T22:53:15Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3ruvw.json?raw_json=1&limit=50
+2026-05-05T22:53:15Z INFO    [RESPONSE] 200 659ms https://www.reddit.com/comments/1t3ruvw.json?raw_json=1&limit=50
+2026-05-05T22:53:15Z INFO    [INFO] r/SquaredCircle  1t3ruvw  +22 comment(s)
+2026-05-05T22:53:19Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3qrbx.json?raw_json=1&limit=50
+2026-05-05T22:53:20Z INFO    [RESPONSE] 200 234ms https://www.reddit.com/comments/1t3qrbx.json?raw_json=1&limit=50
+2026-05-05T22:53:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3qd9d.json?raw_json=1&limit=50
+2026-05-05T22:53:24Z INFO    [RESPONSE] 200 242ms https://www.reddit.com/comments/1t3qd9d.json?raw_json=1&limit=50
+2026-05-05T22:53:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3p4yl.json?raw_json=1&limit=50
+2026-05-05T22:53:28Z INFO    [RESPONSE] 200 611ms https://www.reddit.com/comments/1t3p4yl.json?raw_json=1&limit=50
+2026-05-05T22:53:28Z INFO    [INFO] r/LoveAndDeepspace  1t3p4yl  +27 comment(s)
+2026-05-05T22:53:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3os0l.json?raw_json=1&limit=50
+2026-05-05T22:53:33Z INFO    [RESPONSE] 200 359ms https://www.reddit.com/comments/1t3os0l.json?raw_json=1&limit=50
+2026-05-05T22:53:33Z INFO    [INFO] r/fantasybooking  1t3os0l  +2 comment(s)
+2026-05-05T22:53:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3nvb0.json?raw_json=1&limit=50
+2026-05-05T22:53:37Z INFO    [RESPONSE] 200 358ms https://www.reddit.com/comments/1t3nvb0.json?raw_json=1&limit=50
+2026-05-05T22:53:37Z INFO    [INFO] r/LoveAndDeepspace  1t3nvb0  +2 comment(s)
+2026-05-05T22:53:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3mij8.json?raw_json=1&limit=50
+2026-05-05T22:53:41Z INFO    [RESPONSE] 200 356ms https://www.reddit.com/comments/1t3mij8.json?raw_json=1&limit=50
+2026-05-05T22:53:41Z INFO    [INFO] r/alevels  1t3mij8  +7 comment(s)
+2026-05-05T22:53:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3ljjf.json?raw_json=1&limit=50
+2026-05-05T22:53:46Z INFO    [RESPONSE] 200 334ms https://www.reddit.com/comments/1t3ljjf.json?raw_json=1&limit=50
+2026-05-05T22:53:46Z INFO    [INFO] r/zayn  1t3ljjf  +4 comment(s)
+2026-05-05T22:53:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3kxnv.json?raw_json=1&limit=50
+2026-05-05T22:53:50Z INFO    [RESPONSE] 200 398ms https://www.reddit.com/comments/1t3kxnv.json?raw_json=1&limit=50
+2026-05-05T22:53:50Z INFO    [INFO] r/LoveAndDeepspace  1t3kxnv  +6 comment(s)
+2026-05-05T22:53:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3knej.json?raw_json=1&limit=50
+2026-05-05T22:53:54Z INFO    [RESPONSE] 200 286ms https://www.reddit.com/comments/1t3knej.json?raw_json=1&limit=50
+2026-05-05T22:53:54Z INFO    [INFO] r/MusicIceberg  1t3knej  +2 comment(s)
+2026-05-05T22:53:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3kmxa.json?raw_json=1&limit=50
+2026-05-05T22:53:59Z INFO    [RESPONSE] 200 349ms https://www.reddit.com/comments/1t3kmxa.json?raw_json=1&limit=50
+2026-05-05T22:53:59Z INFO    [INFO] r/DDTPro  1t3kmxa  +13 comment(s)
+2026-05-05T22:54:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3kfvy.json?raw_json=1&limit=50
+2026-05-05T22:54:03Z INFO    [RESPONSE] 200 363ms https://www.reddit.com/comments/1t3kfvy.json?raw_json=1&limit=50
+2026-05-05T22:54:03Z INFO    [INFO] r/WWEGames  1t3kfvy  +1 comment(s)
+2026-05-05T22:54:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3k8em.json?raw_json=1&limit=50
+2026-05-05T22:54:07Z INFO    [RESPONSE] 200 310ms https://www.reddit.com/comments/1t3k8em.json?raw_json=1&limit=50
+2026-05-05T22:54:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3jaq6.json?raw_json=1&limit=50
+2026-05-05T22:54:12Z INFO    [RESPONSE] 200 262ms https://www.reddit.com/comments/1t3jaq6.json?raw_json=1&limit=50
+2026-05-05T22:54:12Z INFO    [INFO] r/zayn  1t3jaq6  +1 comment(s)
+2026-05-05T22:54:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3j8gg.json?raw_json=1&limit=50
+2026-05-05T22:54:16Z INFO    [RESPONSE] 200 275ms https://www.reddit.com/comments/1t3j8gg.json?raw_json=1&limit=50
+2026-05-05T22:54:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3iyjo.json?raw_json=1&limit=50
+2026-05-05T22:54:20Z INFO    [RESPONSE] 200 276ms https://www.reddit.com/comments/1t3iyjo.json?raw_json=1&limit=50
+2026-05-05T22:54:20Z INFO    [INFO] r/LoveAndDeepspace  1t3iyjo  +2 comment(s)
+2026-05-05T22:54:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3hzw5.json?raw_json=1&limit=50
+2026-05-05T22:54:25Z INFO    [RESPONSE] 200 346ms https://www.reddit.com/comments/1t3hzw5.json?raw_json=1&limit=50
+2026-05-05T22:54:25Z INFO    [INFO] r/LoveAndDeepspace  1t3hzw5  +2 comment(s)
+2026-05-05T22:54:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3hekh.json?raw_json=1&limit=50
+2026-05-05T22:54:29Z INFO    [RESPONSE] 200 362ms https://www.reddit.com/comments/1t3hekh.json?raw_json=1&limit=50
+2026-05-05T22:54:29Z INFO    [INFO] r/LoveAndDeepspace  1t3hekh  +2 comment(s)
+2026-05-05T22:54:33Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3h5wy.json?raw_json=1&limit=50
+2026-05-05T22:54:33Z INFO    [RESPONSE] 200 471ms https://www.reddit.com/comments/1t3h5wy.json?raw_json=1&limit=50
+2026-05-05T22:54:33Z INFO    [INFO] r/LoveAndDeepspace_  1t3h5wy  +20 comment(s)
+2026-05-05T22:54:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3gxkl.json?raw_json=1&limit=50
+2026-05-05T22:54:38Z INFO    [RESPONSE] 200 343ms https://www.reddit.com/comments/1t3gxkl.json?raw_json=1&limit=50
+2026-05-05T22:54:38Z INFO    [INFO] r/loveanddepression  1t3gxkl  +3 comment(s)
+2026-05-05T22:54:42Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3goup.json?raw_json=1&limit=50
+2026-05-05T22:54:42Z INFO    [RESPONSE] 200 338ms https://www.reddit.com/comments/1t3goup.json?raw_json=1&limit=50
+2026-05-05T22:54:42Z INFO    [INFO] r/fantasybooking  1t3goup  +4 comment(s)
+2026-05-05T22:54:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3gd04.json?raw_json=1&limit=50
+2026-05-05T22:54:47Z INFO    [RESPONSE] 200 323ms https://www.reddit.com/comments/1t3gd04.json?raw_json=1&limit=50
+2026-05-05T22:54:47Z INFO    [INFO] r/ZayneMain  1t3gd04  +7 comment(s)
+2026-05-05T22:54:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3gasy.json?raw_json=1&limit=50
+2026-05-05T22:54:51Z INFO    [RESPONSE] 200 581ms https://www.reddit.com/comments/1t3gasy.json?raw_json=1&limit=50
+2026-05-05T22:54:51Z INFO    [INFO] r/fantasybooking  1t3gasy  +6 comment(s)
+2026-05-05T22:54:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3fc7s.json?raw_json=1&limit=50
+2026-05-05T22:54:55Z INFO    [RESPONSE] 200 320ms https://www.reddit.com/comments/1t3fc7s.json?raw_json=1&limit=50
+2026-05-05T22:54:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3ez7z.json?raw_json=1&limit=50
+2026-05-05T22:55:00Z INFO    [RESPONSE] 200 750ms https://www.reddit.com/comments/1t3ez7z.json?raw_json=1&limit=50
+2026-05-05T22:55:00Z INFO    [INFO] r/buildabear  1t3ez7z  +1 comment(s)
+2026-05-05T22:55:04Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3e5cg.json?raw_json=1&limit=50
+2026-05-05T22:55:04Z INFO    [RESPONSE] 200 330ms https://www.reddit.com/comments/1t3e5cg.json?raw_json=1&limit=50
+2026-05-05T22:55:04Z INFO    [INFO] r/LoveAndDeepspace  1t3e5cg  +1 comment(s)
+2026-05-05T22:55:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3ddhf.json?raw_json=1&limit=50
+2026-05-05T22:55:09Z INFO    [RESPONSE] 200 279ms https://www.reddit.com/comments/1t3ddhf.json?raw_json=1&limit=50
+2026-05-05T22:55:09Z INFO    [INFO] r/softwaretesting  1t3ddhf  +5 comment(s)
+2026-05-05T22:55:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3dd91.json?raw_json=1&limit=50
+2026-05-05T22:55:13Z INFO    [RESPONSE] 200 302ms https://www.reddit.com/comments/1t3dd91.json?raw_json=1&limit=50
+2026-05-05T22:55:13Z INFO    [INFO] r/QualityAssurance  1t3dd91  +2 comment(s)
+2026-05-05T22:55:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3cqlq.json?raw_json=1&limit=50
+2026-05-05T22:55:17Z INFO    [RESPONSE] 200 400ms https://www.reddit.com/comments/1t3cqlq.json?raw_json=1&limit=50
+2026-05-05T22:55:17Z INFO    [INFO] r/OneDirectionMemes  1t3cqlq  +4 comment(s)
+2026-05-05T22:55:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3cn35.json?raw_json=1&limit=50
+2026-05-05T22:55:22Z INFO    [RESPONSE] 200 291ms https://www.reddit.com/comments/1t3cn35.json?raw_json=1&limit=50
+2026-05-05T22:55:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3cl9a.json?raw_json=1&limit=50
+2026-05-05T22:55:26Z INFO    [RESPONSE] 200 303ms https://www.reddit.com/comments/1t3cl9a.json?raw_json=1&limit=50
+2026-05-05T22:55:26Z INFO    [INFO] r/chennaicity  1t3cl9a  +1 comment(s)
+2026-05-05T22:55:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3bn6s.json?raw_json=1&limit=50
+2026-05-05T22:55:30Z INFO    [RESPONSE] 200 355ms https://www.reddit.com/comments/1t3bn6s.json?raw_json=1&limit=50
+2026-05-05T22:55:30Z INFO    [INFO] r/LoveAndDeepspace  1t3bn6s  +1 comment(s)
+2026-05-05T22:55:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3aznq.json?raw_json=1&limit=50
+2026-05-05T22:55:35Z INFO    [RESPONSE] 200 272ms https://www.reddit.com/comments/1t3aznq.json?raw_json=1&limit=50
+2026-05-05T22:55:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t39zwv.json?raw_json=1&limit=50
+2026-05-05T22:55:39Z INFO    [RESPONSE] 200 252ms https://www.reddit.com/comments/1t39zwv.json?raw_json=1&limit=50
+2026-05-05T22:55:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t39ff5.json?raw_json=1&limit=50
+2026-05-05T22:55:43Z INFO    [RESPONSE] 200 331ms https://www.reddit.com/comments/1t39ff5.json?raw_json=1&limit=50
+2026-05-05T22:55:43Z INFO    [INFO] r/yumeshipping  1t39ff5  +1 comment(s)
+2026-05-05T22:55:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t38vbd.json?raw_json=1&limit=50
+2026-05-05T22:55:48Z INFO    [RESPONSE] 200 268ms https://www.reddit.com/comments/1t38vbd.json?raw_json=1&limit=50
+2026-05-05T22:55:52Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t38k53.json?raw_json=1&limit=50
+2026-05-05T22:55:52Z INFO    [RESPONSE] 200 394ms https://www.reddit.com/comments/1t38k53.json?raw_json=1&limit=50
+2026-05-05T22:55:52Z INFO    [INFO] r/zayn  1t38k53  +16 comment(s)
+2026-05-05T22:55:56Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t38hiw.json?raw_json=1&limit=50
+2026-05-05T22:55:56Z INFO    [RESPONSE] 200 340ms https://www.reddit.com/comments/1t38hiw.json?raw_json=1&limit=50
+2026-05-05T22:56:00Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t37jp3.json?raw_json=1&limit=50
+2026-05-05T22:56:01Z INFO    [RESPONSE] 200 617ms https://www.reddit.com/comments/1t37jp3.json?raw_json=1&limit=50
+2026-05-05T22:56:01Z INFO    [INFO] r/ChaiUnofficial  1t37jp3  +17 comment(s)
+2026-05-05T22:56:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t377m3.json?raw_json=1&limit=50
+2026-05-05T22:56:05Z INFO    [RESPONSE] 200 299ms https://www.reddit.com/comments/1t377m3.json?raw_json=1&limit=50
+2026-05-05T22:56:05Z INFO    [INFO] r/loveanddepression  1t377m3  +4 comment(s)
+2026-05-05T22:56:09Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t352cd.json?raw_json=1&limit=50
+2026-05-05T22:56:10Z INFO    [RESPONSE] 200 348ms https://www.reddit.com/comments/1t352cd.json?raw_json=1&limit=50
+2026-05-05T22:56:10Z INFO    [INFO] r/LoveAndDeepspace  1t352cd  +3 comment(s)
+2026-05-05T22:56:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t33rx5.json?raw_json=1&limit=50
+2026-05-05T22:56:14Z INFO    [RESPONSE] 200 281ms https://www.reddit.com/comments/1t33rx5.json?raw_json=1&limit=50
+2026-05-05T22:56:18Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t334sq.json?raw_json=1&limit=50
+2026-05-05T22:56:18Z INFO    [RESPONSE] 200 353ms https://www.reddit.com/comments/1t334sq.json?raw_json=1&limit=50
+2026-05-05T22:56:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t32jiu.json?raw_json=1&limit=50
+2026-05-05T22:56:23Z INFO    [RESPONSE] 200 330ms https://www.reddit.com/comments/1t32jiu.json?raw_json=1&limit=50
+2026-05-05T22:56:23Z INFO    [INFO] r/LoveAndDeepspace  1t32jiu  +2 comment(s)
+2026-05-05T22:56:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2zwrz.json?raw_json=1&limit=50
+2026-05-05T22:56:27Z INFO    [RESPONSE] 200 431ms https://www.reddit.com/comments/1t2zwrz.json?raw_json=1&limit=50
+2026-05-05T22:56:27Z INFO    [INFO] r/TheGreatOne  1t2zwrz  +17 comment(s)
+2026-05-05T22:56:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2z5wc.json?raw_json=1&limit=50
+2026-05-05T22:56:31Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/comments/1t2z5wc.json?raw_json=1&limit=50
+2026-05-05T22:56:31Z INFO    [INFO] r/hockeycardswap  1t2z5wc  +4 comment(s)
+2026-05-05T22:56:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2ybnc.json?raw_json=1&limit=50
+2026-05-05T22:56:36Z INFO    [RESPONSE] 200 807ms https://www.reddit.com/comments/1t2ybnc.json?raw_json=1&limit=50
+2026-05-05T22:56:36Z INFO    [INFO] r/Fauxmoi  1t2ybnc  +16 comment(s)
+2026-05-05T22:56:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2y7c3.json?raw_json=1&limit=50
+2026-05-05T22:56:40Z INFO    [RESPONSE] 200 372ms https://www.reddit.com/comments/1t2y7c3.json?raw_json=1&limit=50
+2026-05-05T22:56:40Z INFO    [INFO] r/namenerds  1t2y7c3  +30 comment(s)
+2026-05-05T22:56:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2y3tp.json?raw_json=1&limit=50
+2026-05-05T22:56:45Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/comments/1t2y3tp.json?raw_json=1&limit=50
+2026-05-05T22:56:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2xwbx.json?raw_json=1&limit=50
+2026-05-05T22:56:49Z INFO    [RESPONSE] 200 315ms https://www.reddit.com/comments/1t2xwbx.json?raw_json=1&limit=50
+2026-05-05T22:56:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2xnr1.json?raw_json=1&limit=50
+2026-05-05T22:56:53Z INFO    [RESPONSE] 200 249ms https://www.reddit.com/comments/1t2xnr1.json?raw_json=1&limit=50
+2026-05-05T22:56:53Z INFO    [INFO] r/buildabear  1t2xnr1  +1 comment(s)
+2026-05-05T22:56:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2xjv3.json?raw_json=1&limit=50
+2026-05-05T22:56:58Z INFO    [RESPONSE] 200 363ms https://www.reddit.com/comments/1t2xjv3.json?raw_json=1&limit=50
+2026-05-05T22:56:58Z INFO    [INFO] r/fantasybooking  1t2xjv3  +4 comment(s)
+2026-05-05T22:57:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2xiej.json?raw_json=1&limit=50
+2026-05-05T22:57:02Z INFO    [RESPONSE] 200 602ms https://www.reddit.com/comments/1t2xiej.json?raw_json=1&limit=50
+2026-05-05T22:57:02Z INFO    [INFO] r/LoveAndDeepspace  1t2xiej  +23 comment(s)
+2026-05-05T22:57:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2xge9.json?raw_json=1&limit=50
+2026-05-05T22:57:07Z INFO    [RESPONSE] 200 477ms https://www.reddit.com/comments/1t2xge9.json?raw_json=1&limit=50
+2026-05-05T22:57:07Z INFO    [INFO] r/5sos  1t2xge9  +27 comment(s)
+2026-05-05T22:57:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2vsqd.json?raw_json=1&limit=50
+2026-05-05T22:57:11Z INFO    [RESPONSE] 200 463ms https://www.reddit.com/comments/1t2vsqd.json?raw_json=1&limit=50
+2026-05-05T22:57:11Z INFO    [INFO] r/zayn  1t2vsqd  +6 comment(s)
+2026-05-05T22:57:15Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2uif4.json?raw_json=1&limit=50
+2026-05-05T22:57:16Z INFO    [RESPONSE] 200 347ms https://www.reddit.com/comments/1t2uif4.json?raw_json=1&limit=50
+2026-05-05T22:57:16Z INFO    [INFO] r/OneDirection  1t2uif4  +3 comment(s)
+2026-05-05T22:57:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2tguw.json?raw_json=1&limit=50
+2026-05-05T22:57:20Z INFO    [RESPONSE] 200 301ms https://www.reddit.com/comments/1t2tguw.json?raw_json=1&limit=50
+2026-05-05T22:57:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2sy0o.json?raw_json=1&limit=50
+2026-05-05T22:57:24Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:57:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2sy0o.json?raw_json=1&limit=50
+2026-05-05T22:57:28Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:57:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2sy0o.json?raw_json=1&limit=50
+2026-05-05T22:57:32Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2sy0o.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:57:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2skt3.json?raw_json=1&limit=50
+2026-05-05T22:57:37Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:57:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2skt3.json?raw_json=1&limit=50
+2026-05-05T22:57:41Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:57:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2skt3.json?raw_json=1&limit=50
+2026-05-05T22:57:45Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2skt3.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:57:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2qn1s.json?raw_json=1&limit=50
+2026-05-05T22:57:49Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:57:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2qn1s.json?raw_json=1&limit=50
+2026-05-05T22:57:53Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:57:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2qn1s.json?raw_json=1&limit=50
+2026-05-05T22:57:57Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2qn1s.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:58:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q67g.json?raw_json=1&limit=50
+2026-05-05T22:58:02Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:58:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q67g.json?raw_json=1&limit=50
+2026-05-05T22:58:06Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:58:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q67g.json?raw_json=1&limit=50
+2026-05-05T22:58:10Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2q67g.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:58:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q5ce.json?raw_json=1&limit=50
+2026-05-05T22:58:14Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:58:18Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q5ce.json?raw_json=1&limit=50
+2026-05-05T22:58:18Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:58:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q5ce.json?raw_json=1&limit=50
+2026-05-05T22:58:22Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2q5ce.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:58:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q3ej.json?raw_json=1&limit=50
+2026-05-05T22:58:27Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:58:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q3ej.json?raw_json=1&limit=50
+2026-05-05T22:58:31Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:58:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q3ej.json?raw_json=1&limit=50
+2026-05-05T22:58:35Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2q3ej.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:58:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2pjcj.json?raw_json=1&limit=50
+2026-05-05T22:58:39Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:58:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2pjcj.json?raw_json=1&limit=50
+2026-05-05T22:58:43Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:58:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2pjcj.json?raw_json=1&limit=50
+2026-05-05T22:58:48Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2pjcj.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:58:52Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2p61r.json?raw_json=1&limit=50
+2026-05-05T22:58:52Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:58:56Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2p61r.json?raw_json=1&limit=50
+2026-05-05T22:58:56Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:59:00Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2p61r.json?raw_json=1&limit=50
+2026-05-05T22:59:00Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2p61r.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:59:04Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2p2un.json?raw_json=1&limit=50
+2026-05-05T22:59:04Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:59:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2p2un.json?raw_json=1&limit=50
+2026-05-05T22:59:08Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:59:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2p2un.json?raw_json=1&limit=50
+2026-05-05T22:59:12Z INFO    [ERROR] GET https://www.reddit.com/comments/1t2p2un.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:59:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t07igf.json?raw_json=1&limit=50
+2026-05-05T22:59:17Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:59:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t07igf.json?raw_json=1&limit=50
+2026-05-05T22:59:21Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:59:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t07igf.json?raw_json=1&limit=50
+2026-05-05T22:59:25Z INFO    [ERROR] GET https://www.reddit.com/comments/1t07igf.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:59:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3bapl.json?raw_json=1&limit=50
+2026-05-05T22:59:29Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:59:33Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3bapl.json?raw_json=1&limit=50
+2026-05-05T22:59:33Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:59:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3bapl.json?raw_json=1&limit=50
+2026-05-05T22:59:37Z INFO    [ERROR] GET https://www.reddit.com/comments/1t3bapl.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:59:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3hsp5.json?raw_json=1&limit=50
+2026-05-05T22:59:42Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:59:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3hsp5.json?raw_json=1&limit=50
+2026-05-05T22:59:46Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:59:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3hsp5.json?raw_json=1&limit=50
+2026-05-05T22:59:50Z INFO    [ERROR] GET https://www.reddit.com/comments/1t3hsp5.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T22:59:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2nbqv.json?raw_json=1&limit=50
+2026-05-05T22:59:54Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:59:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2nbqv.json?raw_json=1&limit=50
+2026-05-05T22:59:58Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:00:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2nbqv.json?raw_json=1&limit=50
+2026-05-05T23:00:03Z INFO    [RESPONSE] 200 620ms https://www.reddit.com/comments/1t2nbqv.json?raw_json=1&limit=50
+2026-05-05T23:00:03Z INFO    [INFO] r/alevels  1t2nbqv  +1 comment(s)
+2026-05-05T23:00:03Z INFO    [SECTION] PHASE 3 — PERSIST
+2026-05-05T23:00:03Z INFO    [PHASE] PERSIST wrote 207 record(s) → output\zayns-20260505T193825Z.jsonl
+2026-05-05T23:00:03Z INFO    [PHASE] PERSIST wrote markdown report → output\zayns-20260505T193825Z.md
+2026-05-05T23:00:03Z INFO    [SECTION] PHASE 4 — SUMMARY
+2026-05-05T23:00:03Z INFO    [SUMMARY] requests=291
+2026-05-05T23:00:03Z INFO    [SUMMARY] responses ok=221
+2026-05-05T23:00:03Z INFO    [SUMMARY] retries=48
+2026-05-05T23:00:03Z INFO    [SUMMARY] hits (raw)=207
+2026-05-05T23:00:03Z INFO    [SUMMARY] warnings=2
+2026-05-05T23:00:03Z INFO    [SUMMARY] errors=22
+2026-05-05T23:00:03Z INFO    [SUMMARY] unique posts=207
+2026-05-05T23:00:03Z INFO    [SUMMARY] comments captured=2220
+2026-05-05T23:00:03Z INFO    [SUMMARY] jsonl=output\zayns-20260505T193825Z.jsonl
+2026-05-05T23:00:03Z INFO    [SUMMARY] markdown=output\zayns-20260505T193825Z.md
+2026-05-05T23:00:03Z INFO    [SUMMARY] log file=logs\scraper-20260505T193825Z.log

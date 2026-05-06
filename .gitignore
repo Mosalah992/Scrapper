@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code / local agent state — not part of the project
+.claude/
+
+# Project — generated artifacts (uncomment to stop tracking large run dumps)
+# output/zayns-*.jsonl
+# output/zayns-*.md
+# logs/scraper-*.log

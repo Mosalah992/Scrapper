@@ -1,0 +1,159 @@
+2026-05-05T23:07:41Z INFO    [BANNER] ZAYNS REDDIT SCRAPER — query='Zayn server' log=logs\scraper-20260505T200741Z.log
+2026-05-05T23:07:41Z INFO    [CONFIG] tool=zayns-reddit-scraper v0.1.0
+2026-05-05T23:07:41Z INFO    [CONFIG] query=Zayn server
+2026-05-05T23:07:41Z INFO    [CONFIG] subreddits=Olevels, igcse, IGCSE_helps, Alevel, Alevels, CIE, edexcel, GCSE, 6thForm, Cheatingclassmates, GetStudying, studytips
+2026-05-05T23:07:41Z INFO    [CONFIG] sorts=relevance, new
+2026-05-05T23:07:41Z INFO    [CONFIG] max pages=5
+2026-05-05T23:07:41Z INFO    [CONFIG] page limit=100
+2026-05-05T23:07:41Z INFO    [CONFIG] delay=1.5s between requests
+2026-05-05T23:07:41Z INFO    [CONFIG] comments=top 50
+2026-05-05T23:07:41Z INFO    [CONFIG] r/all=skipped
+2026-05-05T23:07:41Z INFO    [CONFIG] output dir=D:\SOC Diploma\Info Scrapper\output
+2026-05-05T23:07:41Z INFO    [CONFIG] log dir=D:\SOC Diploma\Info Scrapper\logs
+2026-05-05T23:07:41Z INFO    [CONFIG] run stamp=20260505T200741Z
+2026-05-05T23:07:41Z INFO    [SECTION] PHASE 1 — SEARCH
+2026-05-05T23:07:41Z INFO    [INFO] query variants: 'Zayn server' | 'Zayn'
+2026-05-05T23:07:41Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=phrase
+2026-05-05T23:07:41Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:42Z INFO    [RESPONSE] 200 906ms https://www.reddit.com/r/Olevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:42Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:07:42Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=phrase
+2026-05-05T23:07:44Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:44Z INFO    [RESPONSE] 200 246ms https://www.reddit.com/r/igcse/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:44Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:07:44Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=phrase
+2026-05-05T23:07:46Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:46Z INFO    [RESPONSE] 200 507ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:46Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=phrase
+2026-05-05T23:07:48Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:48Z INFO    [RESPONSE] 200 310ms https://www.reddit.com/r/Alevel/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:48Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:07:48Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=phrase
+2026-05-05T23:07:49Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:50Z INFO    [RESPONSE] 200 319ms https://www.reddit.com/r/Alevels/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:50Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:07:50Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=phrase
+2026-05-05T23:07:51Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:51Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:07:51Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=phrase
+2026-05-05T23:07:53Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:53Z INFO    [RESPONSE] 200 312ms https://www.reddit.com/r/edexcel/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:53Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:07:53Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=phrase
+2026-05-05T23:07:55Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:56Z INFO    [RESPONSE] 200 887ms https://www.reddit.com/r/GCSE/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:56Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:07:56Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=phrase
+2026-05-05T23:07:57Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:57Z INFO    [RESPONSE] 200 306ms https://www.reddit.com/r/6thForm/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:07:57Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:07:57Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=phrase
+2026-05-05T23:07:59Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:00Z INFO    [RESPONSE] 200 594ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:00Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:08:00Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=phrase
+2026-05-05T23:08:01Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:01Z INFO    [RESPONSE] 200 253ms https://www.reddit.com/r/GetStudying/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:01Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:08:01Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=phrase
+2026-05-05T23:08:03Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:03Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/studytips/search.json?q=%22Zayn+server%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:03Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:08:03Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:05Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:05Z INFO    [RESPONSE] 200 323ms https://www.reddit.com/r/Olevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:05Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:08:05Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:06Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:07Z INFO    [RESPONSE] 200 264ms https://www.reddit.com/r/igcse/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:07Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:08:07Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:08Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:09Z INFO    [RESPONSE] 200 468ms https://www.reddit.com/r/IGCSE_helps/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:09Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:10Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:10Z INFO    [RESPONSE] 200 274ms https://www.reddit.com/r/Alevel/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:10Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:08:10Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:12Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:12Z INFO    [RESPONSE] 200 429ms https://www.reddit.com/r/Alevels/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:12Z INFO    [HIT] #1 r/alevels score=3 comments=3 title='Zayn guy'
+2026-05-05T23:08:12Z INFO    [HIT] #2 r/alevels score=45 comments=47 title='Cambrige l @ 3 k 5 are a bunch of scammers i have proof'
+2026-05-05T23:08:12Z INFO    [HIT] #3 r/alevels score=20 comments=40 title='This legit?'
+2026-05-05T23:08:12Z INFO    [HIT] #4 r/alevels score=1 comments=15 title="THERE'S A SERVER WHICH I WONT NAME SO IT DOESNT GAIN MORE POPULARITY BUT IT HAS ALMOST 7K MEMBERS AND CLAIMS THAT THEY HAVE OLEVELS,IGCSE AND ALEVELS L**KS, IS THIS A SCAM OR IF ITS REAL WHY ISNT IT BEING REPORTED??"
+2026-05-05T23:08:12Z INFO    [HIT] #5 r/alevels score=2 comments=13 title='These people are selling le@ks.'
+2026-05-05T23:08:12Z INFO    [HIT] #6 r/alevels score=2 comments=12 title='Scammer warning ‼️'
+2026-05-05T23:08:12Z INFO    [HIT] #7 r/alevels score=11 comments=10 title='MATH M1'
+2026-05-05T23:08:12Z INFO    [HIT] #8 r/alevels score=1 comments=11 title='Paper leaked'
+2026-05-05T23:08:12Z INFO    [HIT] #9 r/alevels score=3 comments=7 title='econ keal server'
+2026-05-05T23:08:12Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:14Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:14Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:08:14Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:16Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:16Z INFO    [RESPONSE] 200 268ms https://www.reddit.com/r/edexcel/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:16Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:08:16Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:17Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:18Z INFO    [RESPONSE] 200 285ms https://www.reddit.com/r/GCSE/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:18Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:08:18Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:19Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:19Z INFO    [RESPONSE] 200 273ms https://www.reddit.com/r/6thForm/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:19Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:08:19Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:21Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:22Z INFO    [RESPONSE] 200 521ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:22Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:08:22Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:23Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:23Z INFO    [RESPONSE] 200 329ms https://www.reddit.com/r/GetStudying/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:23Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:08:23Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:Zayn
+2026-05-05T23:08:25Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:25Z INFO    [RESPONSE] 200 304ms https://www.reddit.com/r/studytips/search.json?q=Zayn&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:25Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:08:25Z INFO    [SECTION] PHASE 2 — FETCH-COMMENTS
+2026-05-05T23:08:25Z INFO    [PHASE] FETCH-COMMENTS 9 unique post(s)
+2026-05-05T23:08:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2q3ej.json?raw_json=1&limit=50
+2026-05-05T23:08:27Z INFO    [RESPONSE] 200 231ms https://www.reddit.com/comments/1t2q3ej.json?raw_json=1&limit=50
+2026-05-05T23:08:27Z INFO    [INFO] r/alevels  1t2q3ej  +2 comment(s)
+2026-05-05T23:08:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t07igf.json?raw_json=1&limit=50
+2026-05-05T23:08:29Z INFO    [RESPONSE] 200 416ms https://www.reddit.com/comments/1t07igf.json?raw_json=1&limit=50
+2026-05-05T23:08:29Z INFO    [INFO] r/alevels  1t07igf  +12 comment(s)
+2026-05-05T23:08:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2sy0o.json?raw_json=1&limit=50
+2026-05-05T23:08:31Z INFO    [RESPONSE] 200 415ms https://www.reddit.com/comments/1t2sy0o.json?raw_json=1&limit=50
+2026-05-05T23:08:31Z INFO    [INFO] r/alevels  1t2sy0o  +24 comment(s)
+2026-05-05T23:08:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3bapl.json?raw_json=1&limit=50
+2026-05-05T23:08:33Z INFO    [RESPONSE] 200 349ms https://www.reddit.com/comments/1t3bapl.json?raw_json=1&limit=50
+2026-05-05T23:08:33Z INFO    [INFO] r/alevels  1t3bapl  +11 comment(s)
+2026-05-05T23:08:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3mij8.json?raw_json=1&limit=50
+2026-05-05T23:08:34Z INFO    [RESPONSE] 200 362ms https://www.reddit.com/comments/1t3mij8.json?raw_json=1&limit=50
+2026-05-05T23:08:34Z INFO    [INFO] r/alevels  1t3mij8  +7 comment(s)
+2026-05-05T23:08:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3hsp5.json?raw_json=1&limit=50
+2026-05-05T23:08:36Z INFO    [RESPONSE] 200 330ms https://www.reddit.com/comments/1t3hsp5.json?raw_json=1&limit=50
+2026-05-05T23:08:36Z INFO    [INFO] r/alevels  1t3hsp5  +3 comment(s)
+2026-05-05T23:08:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4eket.json?raw_json=1&limit=50
+2026-05-05T23:08:38Z INFO    [RESPONSE] 200 321ms https://www.reddit.com/comments/1t4eket.json?raw_json=1&limit=50
+2026-05-05T23:08:38Z INFO    [INFO] r/alevels  1t4eket  +5 comment(s)
+2026-05-05T23:08:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2nbqv.json?raw_json=1&limit=50
+2026-05-05T23:08:40Z INFO    [RESPONSE] 200 307ms https://www.reddit.com/comments/1t2nbqv.json?raw_json=1&limit=50
+2026-05-05T23:08:40Z INFO    [INFO] r/alevels  1t2nbqv  +1 comment(s)
+2026-05-05T23:08:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4p9rr.json?raw_json=1&limit=50
+2026-05-05T23:08:42Z INFO    [RESPONSE] 200 255ms https://www.reddit.com/comments/1t4p9rr.json?raw_json=1&limit=50
+2026-05-05T23:08:42Z INFO    [INFO] r/alevels  1t4p9rr  +4 comment(s)
+2026-05-05T23:08:42Z INFO    [SECTION] PHASE 3 — PERSIST
+2026-05-05T23:08:42Z INFO    [PHASE] PERSIST wrote 9 record(s) → output\zayns-20260505T200741Z.jsonl
+2026-05-05T23:08:42Z INFO    [PHASE] PERSIST wrote markdown report → output\zayns-20260505T200741Z.md
+2026-05-05T23:08:42Z INFO    [SECTION] PHASE 4 — SUMMARY
+2026-05-05T23:08:42Z INFO    [SUMMARY] requests=33
+2026-05-05T23:08:42Z INFO    [SUMMARY] responses ok=31
+2026-05-05T23:08:42Z INFO    [SUMMARY] retries=0
+2026-05-05T23:08:42Z INFO    [SUMMARY] hits (raw)=9
+2026-05-05T23:08:42Z INFO    [SUMMARY] warnings=0
+2026-05-05T23:08:42Z INFO    [SUMMARY] errors=2
+2026-05-05T23:08:42Z INFO    [SUMMARY] unique posts=9
+2026-05-05T23:08:42Z INFO    [SUMMARY] comments captured=69
+2026-05-05T23:08:42Z INFO    [SUMMARY] jsonl=output\zayns-20260505T200741Z.jsonl
+2026-05-05T23:08:42Z INFO    [SUMMARY] markdown=output\zayns-20260505T200741Z.md
+2026-05-05T23:08:42Z INFO    [SUMMARY] log file=logs\scraper-20260505T200741Z.log

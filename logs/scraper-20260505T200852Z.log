@@ -1,0 +1,611 @@
+2026-05-05T23:08:52Z INFO    [BANNER] ZAYNS REDDIT SCRAPER — query='Paradise papers IGCSE' log=logs\scraper-20260505T200852Z.log
+2026-05-05T23:08:52Z INFO    [CONFIG] tool=zayns-reddit-scraper v0.1.0
+2026-05-05T23:08:52Z INFO    [CONFIG] query=Paradise papers IGCSE
+2026-05-05T23:08:52Z INFO    [CONFIG] subreddits=Olevels, igcse, IGCSE_helps, Alevel, Alevels, CIE, edexcel, GCSE, 6thForm, Cheatingclassmates, GetStudying, studytips
+2026-05-05T23:08:52Z INFO    [CONFIG] sorts=relevance, new
+2026-05-05T23:08:52Z INFO    [CONFIG] max pages=5
+2026-05-05T23:08:52Z INFO    [CONFIG] page limit=100
+2026-05-05T23:08:52Z INFO    [CONFIG] delay=1.5s between requests
+2026-05-05T23:08:52Z INFO    [CONFIG] comments=top 50
+2026-05-05T23:08:52Z INFO    [CONFIG] r/all=skipped
+2026-05-05T23:08:52Z INFO    [CONFIG] output dir=D:\SOC Diploma\Info Scrapper\output
+2026-05-05T23:08:52Z INFO    [CONFIG] log dir=D:\SOC Diploma\Info Scrapper\logs
+2026-05-05T23:08:52Z INFO    [CONFIG] run stamp=20260505T200852Z
+2026-05-05T23:08:52Z INFO    [SECTION] PHASE 1 — SEARCH
+2026-05-05T23:08:52Z INFO    [INFO] query variants: 'Paradise papers IGCSE' | 'Paradise papers' | 'Paradise IGCSE' | 'Paradise'
+2026-05-05T23:08:52Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=phrase
+2026-05-05T23:08:52Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:53Z INFO    [RESPONSE] 200 1142ms https://www.reddit.com/r/Olevels/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:53Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:08:53Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=phrase
+2026-05-05T23:08:55Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:55Z INFO    [RESPONSE] 200 201ms https://www.reddit.com/r/igcse/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:55Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:08:55Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=phrase
+2026-05-05T23:08:56Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:57Z INFO    [RESPONSE] 200 603ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:57Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=phrase
+2026-05-05T23:08:58Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:59Z INFO    [RESPONSE] 200 257ms https://www.reddit.com/r/Alevel/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:08:59Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:08:59Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=phrase
+2026-05-05T23:09:00Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:00Z INFO    [RESPONSE] 200 268ms https://www.reddit.com/r/Alevels/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:00Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:09:00Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=phrase
+2026-05-05T23:09:02Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:02Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:09:02Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=phrase
+2026-05-05T23:09:04Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:04Z INFO    [RESPONSE] 200 276ms https://www.reddit.com/r/edexcel/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:04Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:09:04Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=phrase
+2026-05-05T23:09:05Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:06Z INFO    [RESPONSE] 200 264ms https://www.reddit.com/r/GCSE/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:06Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:09:06Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=phrase
+2026-05-05T23:09:07Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:07Z INFO    [RESPONSE] 200 259ms https://www.reddit.com/r/6thForm/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:07Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:09:07Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=phrase
+2026-05-05T23:09:09Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:09Z INFO    [RESPONSE] 200 503ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:09Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:09:09Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=phrase
+2026-05-05T23:09:11Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:11Z INFO    [RESPONSE] 200 267ms https://www.reddit.com/r/GetStudying/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:11Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:09:11Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=phrase
+2026-05-05T23:09:13Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:13Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/studytips/search.json?q=%22Paradise+papers+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:13Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:09:13Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:14Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:15Z INFO    [RESPONSE] 200 276ms https://www.reddit.com/r/Olevels/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:15Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:09:15Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:16Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:17Z INFO    [RESPONSE] 200 266ms https://www.reddit.com/r/igcse/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:17Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:09:17Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:18Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:19Z INFO    [RESPONSE] 200 491ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:19Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:20Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:20Z INFO    [RESPONSE] 200 250ms https://www.reddit.com/r/Alevel/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:20Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:09:20Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:22Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:22Z INFO    [RESPONSE] 200 310ms https://www.reddit.com/r/Alevels/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:22Z INFO    [HIT] #1 r/alevels score=33 comments=25 title='Paradise paper guy on discord is a scam'
+2026-05-05T23:09:22Z INFO    [HIT] #2 r/alevels score=0 comments=7 title='9709/12 paradise papers'
+2026-05-05T23:09:22Z INFO    [HIT] #3 r/alevels score=1 comments=3 title='Paradise paper real?'
+2026-05-05T23:09:22Z INFO    [HIT] #4 r/alevels score=0 comments=81 title='The the business paper is leaked if anyone has it dm'
+2026-05-05T23:09:22Z INFO    [HIT] #5 r/alevels score=11 comments=9 title='Are you serious right now-??'
+2026-05-05T23:09:22Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:24Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:24Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:09:24Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:25Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:26Z INFO    [RESPONSE] 200 303ms https://www.reddit.com/r/edexcel/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:26Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:09:26Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:27Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:27Z INFO    [RESPONSE] 200 209ms https://www.reddit.com/r/GCSE/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:27Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:09:27Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:29Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:29Z INFO    [RESPONSE] 200 267ms https://www.reddit.com/r/6thForm/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:29Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:09:29Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:31Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:31Z INFO    [RESPONSE] 200 446ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:31Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:09:31Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:33Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:33Z INFO    [RESPONSE] 200 327ms https://www.reddit.com/r/GetStudying/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:33Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:09:33Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:Paradise papers
+2026-05-05T23:09:34Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:35Z INFO    [RESPONSE] 200 257ms https://www.reddit.com/r/studytips/search.json?q=%22Paradise+papers%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:35Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:09:35Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:36Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:36Z INFO    [RESPONSE] 200 208ms https://www.reddit.com/r/Olevels/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:36Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:09:36Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:38Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:38Z INFO    [RESPONSE] 200 286ms https://www.reddit.com/r/igcse/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:38Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:09:38Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:40Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:40Z INFO    [RESPONSE] 200 505ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:40Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:42Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:42Z INFO    [RESPONSE] 200 266ms https://www.reddit.com/r/Alevel/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:42Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:09:42Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:43Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:44Z INFO    [RESPONSE] 200 272ms https://www.reddit.com/r/Alevels/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:44Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:09:44Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:45Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:45Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:09:45Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:47Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:47Z INFO    [RESPONSE] 200 314ms https://www.reddit.com/r/edexcel/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:47Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:09:47Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:49Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:49Z INFO    [RESPONSE] 200 217ms https://www.reddit.com/r/GCSE/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:49Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:09:49Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:50Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:51Z INFO    [RESPONSE] 200 206ms https://www.reddit.com/r/6thForm/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:51Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:09:51Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:52Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:53Z INFO    [RESPONSE] 200 695ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:53Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:09:53Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:54Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:55Z INFO    [RESPONSE] 200 600ms https://www.reddit.com/r/GetStudying/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:55Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:09:55Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:Paradise IGCSE
+2026-05-05T23:09:56Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:57Z INFO    [RESPONSE] 200 402ms https://www.reddit.com/r/studytips/search.json?q=%22Paradise+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:09:57Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:09:57Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:Paradise
+2026-05-05T23:09:58Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:01Z INFO    [RESPONSE] 200 2284ms https://www.reddit.com/r/Olevels/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:01Z INFO    [HIT] #1 r/Olevels score=1 comments=14 title='In Islamabad paradise complex expressway they changed the venue and are telling the students to go to the new venue at the literal door. f u Cambridge.😡'
+2026-05-05T23:10:01Z INFO    [HIT] #2 r/Olevels score=2 comments=7 title='PARADISE COMPLEX'
+2026-05-05T23:10:01Z INFO    [HIT] #3 r/Olevels score=5 comments=3 title='Is any road to Paradise complex open?'
+2026-05-05T23:10:01Z INFO    [HIT] #4 r/Olevels score=1 comments=5 title='Mark my answer out of 10'
+2026-05-05T23:10:01Z INFO    [HIT] #5 r/Olevels score=2 comments=3 title='The center situation in islamabad'
+2026-05-05T23:10:01Z INFO    [HIT] #6 r/Olevels score=2 comments=2 title='Anyone who wants some questions to practice for the olevs exams take a look'
+2026-05-05T23:10:01Z INFO    [HIT] #7 r/Olevels score=1 comments=14 title='PLS HELPPP'
+2026-05-05T23:10:01Z INFO    [HIT] #8 r/Olevels score=1 comments=11 title='Centre PK100'
+2026-05-05T23:10:01Z INFO    [HIT] #9 r/Olevels score=2 comments=5 title='Mark Isl 4 marker'
+2026-05-05T23:10:01Z INFO    [HIT] #10 r/Olevels score=2 comments=1 title='Islamiyat'
+2026-05-05T23:10:01Z INFO    [HIT] #11 r/Olevels score=6 comments=9 title='Bio planning ms'
+2026-05-05T23:10:01Z INFO    [HIT] #12 r/Olevels score=2 comments=6 title='Which answer is better and likely to score full marks in Quranic passages .'
+2026-05-05T23:10:01Z INFO    [HIT] #13 r/Olevels score=2 comments=13 title="I don't want the paper to get cancelled 😭!"
+2026-05-05T23:10:01Z INFO    [HIT] #14 r/Olevels score=4 comments=6 title='anyone else got this email?'
+2026-05-05T23:10:01Z INFO    [HIT] #15 r/Olevels score=1 comments=7 title='centre pk100'
+2026-05-05T23:10:01Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:02Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:03Z INFO    [RESPONSE] 200 485ms https://www.reddit.com/r/igcse/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:03Z INFO    [HIT] #1 r/igcse score=2 comments=2 title='In Islamabad paradise complex expressway they changed the venue and are telling the students to go to the new venue at the literal door. f u Cambridge.😡'
+2026-05-05T23:10:03Z INFO    [HIT] #2 r/igcse score=1 comments=1 title='Is everyone’s Center for phy 0625 paradise complex or have I been told sm wrong???'
+2026-05-05T23:10:03Z INFO    [HIT] #3 r/igcse score=1 comments=0 title='PARADISE COMPLEX'
+2026-05-05T23:10:03Z INFO    [HIT] #4 r/igcse score=137 comments=54 title='29th April mismanagement of exam centre math exam'
+2026-05-05T23:10:03Z INFO    [HIT] #5 r/igcse score=15 comments=9 title='p41 0610'
+2026-05-05T23:10:03Z INFO    [HIT] #6 r/igcse score=1 comments=1 title='Exam venue of physics MCQ paper in IGCSE in Pakistan'
+2026-05-05T23:10:03Z INFO    [HIT] #7 r/igcse score=2 comments=20 title='YOO Anyone from Islamabad/Rawalpindi (Pakistan) got their exam on Monday? (0620/42)'
+2026-05-05T23:10:03Z INFO    [HIT] #8 r/igcse score=1 comments=1 title='HELP ME FOR THE SAKE OF ALLAH!!!'
+2026-05-05T23:10:03Z INFO    [HIT] #9 r/igcse score=3 comments=0 title='Any Fb for Descriptive writing?'
+2026-05-05T23:10:03Z INFO    [HIT] #10 r/igcse score=1 comments=5 title='ICT IGCSE document production help!!!'
+2026-05-05T23:10:03Z INFO    [HIT] #11 r/igcse score=3 comments=2 title='Is anyone doing sound of waves for world lit?'
+2026-05-05T23:10:03Z INFO    [HIT] #12 r/igcse score=10 comments=2 title='How much marks would i get for this essay? (English EFL IGCSE)'
+2026-05-05T23:10:03Z INFO    [HIT] #13 r/igcse score=1 comments=2 title='How much marks can I get for this essay?? (Engliah first language) igcse'
+2026-05-05T23:10:03Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:04Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:05Z INFO    [RESPONSE] 200 1014ms https://www.reddit.com/r/IGCSE_helps/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:05Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:07Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:07Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/Alevel/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:07Z INFO    [HIT] #1 r/alevel score=0 comments=1 title='OCR paradise lost help'
+2026-05-05T23:10:07Z INFO    [HIT] #2 r/alevel score=38 comments=51 title='9709/12 CRAZY'
+2026-05-05T23:10:07Z INFO    [HIT] #3 r/alevel score=12 comments=4 title='1 DAY😭😭😭🙏🏻🙏🏻😭'
+2026-05-05T23:10:07Z INFO    [HIT] #4 r/alevel score=2 comments=1 title='OCR a level english lit predictions??'
+2026-05-05T23:10:07Z INFO    [HIT] #5 r/alevel score=3 comments=9 title='Halat for tmrw?'
+2026-05-05T23:10:07Z INFO    [HIT] #6 r/alevel score=2 comments=5 title='So how are you all planning to reach the exam centre'
+2026-05-05T23:10:07Z INFO    [HIT] #7 r/alevel score=4 comments=9 title='SCAMMERS‼️‼️‼️‼️‼️'
+2026-05-05T23:10:07Z INFO    [HIT] #8 r/alevel score=3 comments=9 title='GOT SCAMMED'
+2026-05-05T23:10:07Z INFO    [HIT] #9 r/alevel score=17 comments=5 title='STOP BUYING L3AK$ FROM DISCORD'
+2026-05-05T23:10:07Z INFO    [HIT] #10 r/alevel score=2 comments=4 title='History and English Literature - how are they?'
+2026-05-05T23:10:07Z INFO    [HIT] #11 r/alevel score=1 comments=1 title='if anyone’s doing frankenstein in english lit can u clarify something for me 🙏'
+2026-05-05T23:10:07Z INFO    [HIT] #12 r/alevel score=2 comments=3 title='Maths & Physics in the twin cities.'
+2026-05-05T23:10:07Z INFO    [HIT] #13 r/alevel score=2 comments=2 title='English lit OCR A level help'
+2026-05-05T23:10:07Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:08Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:09Z INFO    [RESPONSE] 200 280ms https://www.reddit.com/r/Alevels/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:09Z INFO    [HIT] #1 r/alevels score=1 comments=0 title='Anyone do edexel economics option A, AQA Religious studies or OCR English (Handmaids Tale, 1984, 12th night, Dolls House, Paradise Lost)??'
+2026-05-05T23:10:09Z INFO    [HIT] #2 r/alevels score=4 comments=33 title='M1 le@ked?'
+2026-05-05T23:10:09Z INFO    [HIT] #3 r/alevels score=68 comments=23 title='M1'
+2026-05-05T23:10:09Z INFO    [HIT] #4 r/alevels score=2 comments=13 title='These people are selling le@ks.'
+2026-05-05T23:10:09Z INFO    [HIT] #5 r/alevels score=1 comments=9 title='legitimate'
+2026-05-05T23:10:09Z INFO    [HIT] #6 r/alevels score=0 comments=0 title='OCR a level english lit predictions??'
+2026-05-05T23:10:09Z INFO    [HIT] #7 r/alevels score=7 comments=29 title='9609/12 AS LEVEL BUSINESS'
+2026-05-05T23:10:09Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:10Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:11Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:10:11Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:12Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:12Z INFO    [RESPONSE] 200 338ms https://www.reddit.com/r/edexcel/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:12Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:10:12Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:14Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:14Z INFO    [RESPONSE] 200 587ms https://www.reddit.com/r/GCSE/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:14Z INFO    [HIT] #1 r/GCSE score=22 comments=6 title='Had Gangsta’s Paradise in my head the whole exam'
+2026-05-05T23:10:14Z INFO    [HIT] #2 r/GCSE score=46 comments=1 title="A Gangsta's paradise parody for all you war and conflict poetry students"
+2026-05-05T23:10:14Z INFO    [HIT] #3 r/GCSE score=2 comments=14 title='Worlds and Lives Ranking'
+2026-05-05T23:10:14Z INFO    [HIT] #4 r/GCSE score=1 comments=21 title='Worlds and Lives tier list'
+2026-05-05T23:10:14Z INFO    [HIT] #5 r/GCSE score=7 comments=61 title="Guys, drop your article headlines. I'm hella curious. (aqa lang paper 2 but everyone is welcome)"
+2026-05-05T23:10:14Z INFO    [HIT] #6 r/GCSE score=5 comments=10 title='Day 2: Worst Question in English Language?'
+2026-05-05T23:10:14Z INFO    [HIT] #7 r/GCSE score=3 comments=7 title='Poetry : worlds and lives comparisons'
+2026-05-05T23:10:14Z INFO    [HIT] #8 r/GCSE score=182 comments=11 title='Watching the sunrise before results day has to be a top 10 experience of all time'
+2026-05-05T23:10:14Z INFO    [HIT] #9 r/GCSE score=2 comments=0 title='Worlds And Lives'
+2026-05-05T23:10:14Z INFO    [HIT] #10 r/GCSE score=82 comments=27 title='AQA'
+2026-05-05T23:10:14Z INFO    [HIT] #11 r/GCSE score=1 comments=7 title='Chat am I cooked'
+2026-05-05T23:10:14Z INFO    [HIT] #12 r/GCSE score=6 comments=4 title='how my school felt after picking worlds and lives instead of power and conflict just to be different'
+2026-05-05T23:10:14Z INFO    [HIT] #13 r/GCSE score=2 comments=6 title='RATE MY STUDY PLAYLIST!!'
+2026-05-05T23:10:14Z INFO    [HIT] #14 r/GCSE score=4 comments=3 title='Rate my creative writing'
+2026-05-05T23:10:14Z INFO    [HIT] #15 r/GCSE score=5 comments=1 title='aita for not doing anything about the pollution on a beach?'
+2026-05-05T23:10:14Z INFO    [HIT] #16 r/GCSE score=2 comments=0 title='Last Song before physics'
+2026-05-05T23:10:14Z INFO    [HIT] #17 r/GCSE score=3 comments=3 title='Would this be good for an English GCSE exam?'
+2026-05-05T23:10:14Z INFO    [HIT] #18 r/GCSE score=3 comments=3 title='Are intertextual references counted as context in English Literature?'
+2026-05-05T23:10:14Z INFO    [HIT] #19 r/GCSE score=4 comments=8 title='can someone take a look at my eng lang paragraph?'
+2026-05-05T23:10:14Z INFO    [HIT] #20 r/GCSE score=2 comments=3 title='Can I please receive feedback and a rough estimate of my mark for my English Literature essay?'
+2026-05-05T23:10:14Z INFO    [HIT] #21 r/GCSE score=2 comments=2 title='Need some feedback for English Creative Writing'
+2026-05-05T23:10:14Z INFO    [HIT] #22 r/GCSE score=4 comments=4 title='RE islam?'
+2026-05-05T23:10:14Z INFO    [HIT] #23 r/GCSE score=1 comments=10 title='What do you think about my question 5 English language practice answer?'
+2026-05-05T23:10:14Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:16Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:16Z INFO    [RESPONSE] 200 434ms https://www.reddit.com/r/6thForm/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:16Z INFO    [HIT] #1 r/6thForm score=11 comments=11 title='UCL and(not vs) Warwick.'
+2026-05-05T23:10:16Z INFO    [HIT] #2 r/6thForm score=42 comments=74 title='What are your summer year 13 plans ?'
+2026-05-05T23:10:16Z INFO    [HIT] #3 r/6thForm score=4 comments=5 title='Anyone applying to Balliol for history? Any current undergrads?'
+2026-05-05T23:10:16Z INFO    [HIT] #4 r/6thForm score=38 comments=26 title='results'
+2026-05-05T23:10:16Z INFO    [HIT] #5 r/6thForm score=3 comments=0 title='bits and pieces of advice for the y12s (soon to be y13s)'
+2026-05-05T23:10:16Z INFO    [HIT] #6 r/6thForm score=1 comments=2 title='History and English Literature - how are they?'
+2026-05-05T23:10:16Z INFO    [HIT] #7 r/6thForm score=3 comments=8 title='What alevels should I pick?'
+2026-05-05T23:10:16Z INFO    [HIT] #8 r/6thForm score=1 comments=3 title='Please help for OCR English literature 🙏🙏🙏'
+2026-05-05T23:10:16Z INFO    [HIT] #9 r/6thForm score=9 comments=5 title='Is St Peter’s Oxford good?'
+2026-05-05T23:10:16Z INFO    [HIT] #10 r/6thForm score=3 comments=1 title='Can somebody mark my eng lit essay please?'
+2026-05-05T23:10:16Z INFO    [HIT] #11 r/6thForm score=115 comments=18 title="Something for the new year 12's"
+2026-05-05T23:10:16Z INFO    [HIT] #12 r/6thForm score=6 comments=2 title='Why do people say UCL has a campus?'
+2026-05-05T23:10:16Z INFO    [HIT] #13 r/6thForm score=2 comments=0 title='English literature drama & poetry'
+2026-05-05T23:10:16Z INFO    [HIT] #14 r/6thForm score=4 comments=1 title='How can I learn to spot intertextual references in my literature texts?'
+2026-05-05T23:10:16Z INFO    [HIT] #15 r/6thForm score=3 comments=4 title='OCR English Drama & Poetry Ibsen/Milton and Hamlet'
+2026-05-05T23:10:16Z INFO    [HIT] #16 r/6thForm score=2 comments=0 title='Revision guides for AS-Level English Literature'
+2026-05-05T23:10:16Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:18Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:18Z INFO    [RESPONSE] 200 448ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:18Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:10:18Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:20Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:20Z INFO    [RESPONSE] 200 400ms https://www.reddit.com/r/GetStudying/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:20Z INFO    [HIT] #1 r/GetStudying score=7 comments=2 title='Tip: Where to Find Free Student Resources Textbooks and Solution Manuals'
+2026-05-05T23:10:20Z INFO    [HIT] #2 r/GetStudying score=53 comments=5 title='Food plan for astonishing energy levels! Finally change what you eat in less than an hour (groceries excluded)'
+2026-05-05T23:10:20Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:Paradise
+2026-05-05T23:10:22Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:22Z INFO    [RESPONSE] 200 346ms https://www.reddit.com/r/studytips/search.json?q=Paradise&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:10:22Z INFO    [HIT] #1 r/studytips score=18 comments=0 title='Wanted to post my favorite study playlist "Progressive Paradise" It\'s packed full of the best melodic, organic, and deep house, has over 4000 followers, and is always being updated with new releases !'
+2026-05-05T23:10:22Z INFO    [HIT] #2 r/studytips score=92 comments=28 title='Rate my study setup'
+2026-05-05T23:10:22Z INFO    [SECTION] PHASE 2 — FETCH-COMMENTS
+2026-05-05T23:10:22Z INFO    [PHASE] FETCH-COMMENTS 96 unique post(s)
+2026-05-05T23:10:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t1v7h5.json?raw_json=1&limit=50
+2026-05-05T23:10:24Z INFO    [RESPONSE] 200 319ms https://www.reddit.com/comments/1t1v7h5.json?raw_json=1&limit=50
+2026-05-05T23:10:24Z INFO    [INFO] r/alevels  1t1v7h5  +7 comment(s)
+2026-05-05T23:10:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1syfbu9.json?raw_json=1&limit=50
+2026-05-05T23:10:26Z INFO    [RESPONSE] 200 340ms https://www.reddit.com/comments/1syfbu9.json?raw_json=1&limit=50
+2026-05-05T23:10:26Z INFO    [INFO] r/alevels  1syfbu9  +3 comment(s)
+2026-05-05T23:10:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3iind.json?raw_json=1&limit=50
+2026-05-05T23:10:28Z INFO    [RESPONSE] 200 289ms https://www.reddit.com/comments/1t3iind.json?raw_json=1&limit=50
+2026-05-05T23:10:28Z INFO    [INFO] r/alevels  1t3iind  +3 comment(s)
+2026-05-05T23:10:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2kqn5.json?raw_json=1&limit=50
+2026-05-05T23:10:29Z INFO    [RESPONSE] 200 429ms https://www.reddit.com/comments/1t2kqn5.json?raw_json=1&limit=50
+2026-05-05T23:10:29Z INFO    [INFO] r/alevels  1t2kqn5  +35 comment(s)
+2026-05-05T23:10:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t36t03.json?raw_json=1&limit=50
+2026-05-05T23:10:31Z INFO    [RESPONSE] 200 269ms https://www.reddit.com/comments/1t36t03.json?raw_json=1&limit=50
+2026-05-05T23:10:31Z INFO    [INFO] r/alevels  1t36t03  +5 comment(s)
+2026-05-05T23:10:33Z INFO    [REQUEST] GET https://www.reddit.com/comments/1syt8po.json?raw_json=1&limit=50
+2026-05-05T23:10:33Z INFO    [RESPONSE] 200 368ms https://www.reddit.com/comments/1syt8po.json?raw_json=1&limit=50
+2026-05-05T23:10:33Z INFO    [INFO] r/Olevels  1syt8po  +4 comment(s)
+2026-05-05T23:10:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1k4a9hr.json?raw_json=1&limit=50
+2026-05-05T23:10:35Z INFO    [RESPONSE] 200 319ms https://www.reddit.com/comments/1k4a9hr.json?raw_json=1&limit=50
+2026-05-05T23:10:35Z INFO    [INFO] r/Olevels  1k4a9hr  +4 comment(s)
+2026-05-05T23:10:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1fvrg8z.json?raw_json=1&limit=50
+2026-05-05T23:10:37Z INFO    [RESPONSE] 200 330ms https://www.reddit.com/comments/1fvrg8z.json?raw_json=1&limit=50
+2026-05-05T23:10:37Z INFO    [INFO] r/Olevels  1fvrg8z  +2 comment(s)
+2026-05-05T23:10:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqpcfp.json?raw_json=1&limit=50
+2026-05-05T23:10:39Z INFO    [RESPONSE] 200 282ms https://www.reddit.com/comments/1sqpcfp.json?raw_json=1&limit=50
+2026-05-05T23:10:39Z INFO    [INFO] r/Olevels  1sqpcfp  +3 comment(s)
+2026-05-05T23:10:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sywoke.json?raw_json=1&limit=50
+2026-05-05T23:10:40Z INFO    [RESPONSE] 200 246ms https://www.reddit.com/comments/1sywoke.json?raw_json=1&limit=50
+2026-05-05T23:10:40Z INFO    [INFO] r/Olevels  1sywoke  +3 comment(s)
+2026-05-05T23:10:42Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s8oizy.json?raw_json=1&limit=50
+2026-05-05T23:10:42Z INFO    [RESPONSE] 200 393ms https://www.reddit.com/comments/1s8oizy.json?raw_json=1&limit=50
+2026-05-05T23:10:42Z INFO    [INFO] r/Olevels  1s8oizy  +2 comment(s)
+2026-05-05T23:10:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nceerb.json?raw_json=1&limit=50
+2026-05-05T23:10:44Z INFO    [RESPONSE] 200 286ms https://www.reddit.com/comments/1nceerb.json?raw_json=1&limit=50
+2026-05-05T23:10:44Z INFO    [INFO] r/Olevels  1nceerb  +4 comment(s)
+2026-05-05T23:10:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lybd5d.json?raw_json=1&limit=50
+2026-05-05T23:10:46Z INFO    [RESPONSE] 200 313ms https://www.reddit.com/comments/1lybd5d.json?raw_json=1&limit=50
+2026-05-05T23:10:46Z INFO    [INFO] r/Olevels  1lybd5d  +4 comment(s)
+2026-05-05T23:10:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nckk44.json?raw_json=1&limit=50
+2026-05-05T23:10:48Z INFO    [RESPONSE] 200 364ms https://www.reddit.com/comments/1nckk44.json?raw_json=1&limit=50
+2026-05-05T23:10:48Z INFO    [INFO] r/Olevels  1nckk44  +2 comment(s)
+2026-05-05T23:10:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1naverb.json?raw_json=1&limit=50
+2026-05-05T23:10:49Z INFO    [RESPONSE] 200 264ms https://www.reddit.com/comments/1naverb.json?raw_json=1&limit=50
+2026-05-05T23:10:49Z INFO    [INFO] r/Olevels  1naverb  +1 comment(s)
+2026-05-05T23:10:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1km7vij.json?raw_json=1&limit=50
+2026-05-05T23:10:51Z INFO    [RESPONSE] 200 347ms https://www.reddit.com/comments/1km7vij.json?raw_json=1&limit=50
+2026-05-05T23:10:51Z INFO    [INFO] r/Olevels  1km7vij  +3 comment(s)
+2026-05-05T23:10:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ilf5y3.json?raw_json=1&limit=50
+2026-05-05T23:10:53Z INFO    [RESPONSE] 200 284ms https://www.reddit.com/comments/1ilf5y3.json?raw_json=1&limit=50
+2026-05-05T23:10:53Z INFO    [INFO] r/Olevels  1ilf5y3  +2 comment(s)
+2026-05-05T23:10:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/1fv1k21.json?raw_json=1&limit=50
+2026-05-05T23:10:55Z INFO    [RESPONSE] 200 279ms https://www.reddit.com/comments/1fv1k21.json?raw_json=1&limit=50
+2026-05-05T23:10:55Z INFO    [INFO] r/Olevels  1fv1k21  +3 comment(s)
+2026-05-05T23:10:56Z INFO    [REQUEST] GET https://www.reddit.com/comments/1g0pjq3.json?raw_json=1&limit=50
+2026-05-05T23:10:57Z INFO    [RESPONSE] 200 321ms https://www.reddit.com/comments/1g0pjq3.json?raw_json=1&limit=50
+2026-05-05T23:10:57Z INFO    [INFO] r/Olevels  1g0pjq3  +5 comment(s)
+2026-05-05T23:10:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1exqsj9.json?raw_json=1&limit=50
+2026-05-05T23:10:58Z INFO    [RESPONSE] 200 318ms https://www.reddit.com/comments/1exqsj9.json?raw_json=1&limit=50
+2026-05-05T23:10:58Z INFO    [INFO] r/Olevels  1exqsj9  +4 comment(s)
+2026-05-05T23:11:00Z INFO    [REQUEST] GET https://www.reddit.com/comments/1syta9s.json?raw_json=1&limit=50
+2026-05-05T23:11:00Z INFO    [RESPONSE] 200 254ms https://www.reddit.com/comments/1syta9s.json?raw_json=1&limit=50
+2026-05-05T23:11:00Z INFO    [INFO] r/igcse  1syta9s  +2 comment(s)
+2026-05-05T23:11:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o0zjul.json?raw_json=1&limit=50
+2026-05-05T23:11:02Z INFO    [RESPONSE] 200 278ms https://www.reddit.com/comments/1o0zjul.json?raw_json=1&limit=50
+2026-05-05T23:11:02Z INFO    [INFO] r/igcse  1o0zjul  +1 comment(s)
+2026-05-05T23:11:04Z INFO    [REQUEST] GET https://www.reddit.com/comments/1k5bowx.json?raw_json=1&limit=50
+2026-05-05T23:11:04Z INFO    [RESPONSE] 200 292ms https://www.reddit.com/comments/1k5bowx.json?raw_json=1&limit=50
+2026-05-05T23:11:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t1o6k1.json?raw_json=1&limit=50
+2026-05-05T23:11:06Z INFO    [RESPONSE] 200 929ms https://www.reddit.com/comments/1t1o6k1.json?raw_json=1&limit=50
+2026-05-05T23:11:06Z INFO    [INFO] r/igcse  1t1o6k1  +14 comment(s)
+2026-05-05T23:11:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/1szwnns.json?raw_json=1&limit=50
+2026-05-05T23:11:08Z INFO    [RESPONSE] 200 337ms https://www.reddit.com/comments/1szwnns.json?raw_json=1&limit=50
+2026-05-05T23:11:08Z INFO    [INFO] r/igcse  1szwnns  +5 comment(s)
+2026-05-05T23:11:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1svwh08.json?raw_json=1&limit=50
+2026-05-05T23:11:10Z INFO    [RESPONSE] 200 310ms https://www.reddit.com/comments/1svwh08.json?raw_json=1&limit=50
+2026-05-05T23:11:10Z INFO    [INFO] r/igcse  1svwh08  +1 comment(s)
+2026-05-05T23:11:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o44qa2.json?raw_json=1&limit=50
+2026-05-05T23:11:12Z INFO    [RESPONSE] 200 804ms https://www.reddit.com/comments/1o44qa2.json?raw_json=1&limit=50
+2026-05-05T23:11:12Z INFO    [INFO] r/igcse  1o44qa2  +6 comment(s)
+2026-05-05T23:11:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1k3n9wi.json?raw_json=1&limit=50
+2026-05-05T23:11:14Z INFO    [RESPONSE] 200 491ms https://www.reddit.com/comments/1k3n9wi.json?raw_json=1&limit=50
+2026-05-05T23:11:14Z INFO    [INFO] r/igcse  1k3n9wi  +1 comment(s)
+2026-05-05T23:11:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1fdii4v.json?raw_json=1&limit=50
+2026-05-05T23:11:16Z INFO    [RESPONSE] 200 425ms https://www.reddit.com/comments/1fdii4v.json?raw_json=1&limit=50
+2026-05-05T23:11:18Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bsztpj.json?raw_json=1&limit=50
+2026-05-05T23:11:18Z INFO    [RESPONSE] 200 421ms https://www.reddit.com/comments/1bsztpj.json?raw_json=1&limit=50
+2026-05-05T23:11:18Z INFO    [INFO] r/igcse  1bsztpj  +1 comment(s)
+2026-05-05T23:11:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/13i9zdp.json?raw_json=1&limit=50
+2026-05-05T23:11:20Z INFO    [RESPONSE] 200 334ms https://www.reddit.com/comments/13i9zdp.json?raw_json=1&limit=50
+2026-05-05T23:11:20Z INFO    [INFO] r/igcse  13i9zdp  +2 comment(s)
+2026-05-05T23:11:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/wz00wj.json?raw_json=1&limit=50
+2026-05-05T23:11:22Z INFO    [RESPONSE] 200 387ms https://www.reddit.com/comments/wz00wj.json?raw_json=1&limit=50
+2026-05-05T23:11:22Z INFO    [INFO] r/igcse  wz00wj  +1 comment(s)
+2026-05-05T23:11:23Z INFO    [REQUEST] GET https://www.reddit.com/comments/wzvdfu.json?raw_json=1&limit=50
+2026-05-05T23:11:24Z INFO    [RESPONSE] 200 381ms https://www.reddit.com/comments/wzvdfu.json?raw_json=1&limit=50
+2026-05-05T23:11:24Z INFO    [INFO] r/igcse  wzvdfu  +1 comment(s)
+2026-05-05T23:11:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ci9qnj.json?raw_json=1&limit=50
+2026-05-05T23:11:25Z INFO    [RESPONSE] 200 313ms https://www.reddit.com/comments/1ci9qnj.json?raw_json=1&limit=50
+2026-05-05T23:11:25Z INFO    [INFO] r/alevel  1ci9qnj  +1 comment(s)
+2026-05-05T23:11:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nzgmzm.json?raw_json=1&limit=50
+2026-05-05T23:11:28Z INFO    [RESPONSE] 200 659ms https://www.reddit.com/comments/1nzgmzm.json?raw_json=1&limit=50
+2026-05-05T23:11:28Z INFO    [INFO] r/alevel  1nzgmzm  +8 comment(s)
+2026-05-05T23:11:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sw70ln.json?raw_json=1&limit=50
+2026-05-05T23:11:29Z INFO    [RESPONSE] 200 337ms https://www.reddit.com/comments/1sw70ln.json?raw_json=1&limit=50
+2026-05-05T23:11:29Z INFO    [INFO] r/alevel  1sw70ln  +3 comment(s)
+2026-05-05T23:11:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1szqfjo.json?raw_json=1&limit=50
+2026-05-05T23:11:31Z INFO    [RESPONSE] 200 325ms https://www.reddit.com/comments/1szqfjo.json?raw_json=1&limit=50
+2026-05-05T23:11:31Z INFO    [INFO] r/alevel  1szqfjo  +1 comment(s)
+2026-05-05T23:11:33Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o5h99v.json?raw_json=1&limit=50
+2026-05-05T23:11:33Z INFO    [RESPONSE] 200 373ms https://www.reddit.com/comments/1o5h99v.json?raw_json=1&limit=50
+2026-05-05T23:11:33Z INFO    [INFO] r/alevel  1o5h99v  +3 comment(s)
+2026-05-05T23:11:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o4bh24.json?raw_json=1&limit=50
+2026-05-05T23:11:35Z INFO    [RESPONSE] 200 326ms https://www.reddit.com/comments/1o4bh24.json?raw_json=1&limit=50
+2026-05-05T23:11:35Z INFO    [INFO] r/alevel  1o4bh24  +3 comment(s)
+2026-05-05T23:11:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kh6ill.json?raw_json=1&limit=50
+2026-05-05T23:11:37Z INFO    [RESPONSE] 200 342ms https://www.reddit.com/comments/1kh6ill.json?raw_json=1&limit=50
+2026-05-05T23:11:37Z INFO    [INFO] r/alevel  1kh6ill  +2 comment(s)
+2026-05-05T23:11:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kgcv3o.json?raw_json=1&limit=50
+2026-05-05T23:11:39Z INFO    [RESPONSE] 200 335ms https://www.reddit.com/comments/1kgcv3o.json?raw_json=1&limit=50
+2026-05-05T23:11:39Z INFO    [INFO] r/alevel  1kgcv3o  +3 comment(s)
+2026-05-05T23:11:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1khqyad.json?raw_json=1&limit=50
+2026-05-05T23:11:41Z INFO    [RESPONSE] 200 377ms https://www.reddit.com/comments/1khqyad.json?raw_json=1&limit=50
+2026-05-05T23:11:41Z INFO    [INFO] r/alevel  1khqyad  +3 comment(s)
+2026-05-05T23:11:42Z INFO    [REQUEST] GET https://www.reddit.com/comments/1hcuat9.json?raw_json=1&limit=50
+2026-05-05T23:11:42Z INFO    [RESPONSE] 200 342ms https://www.reddit.com/comments/1hcuat9.json?raw_json=1&limit=50
+2026-05-05T23:11:42Z INFO    [INFO] r/alevel  1hcuat9  +3 comment(s)
+2026-05-05T23:11:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1gnfjgn.json?raw_json=1&limit=50
+2026-05-05T23:11:44Z INFO    [RESPONSE] 200 322ms https://www.reddit.com/comments/1gnfjgn.json?raw_json=1&limit=50
+2026-05-05T23:11:44Z INFO    [INFO] r/alevel  1gnfjgn  +1 comment(s)
+2026-05-05T23:11:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1g2lzjx.json?raw_json=1&limit=50
+2026-05-05T23:11:46Z INFO    [RESPONSE] 200 320ms https://www.reddit.com/comments/1g2lzjx.json?raw_json=1&limit=50
+2026-05-05T23:11:46Z INFO    [INFO] r/alevel  1g2lzjx  +2 comment(s)
+2026-05-05T23:11:48Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ch8l2q.json?raw_json=1&limit=50
+2026-05-05T23:11:48Z INFO    [RESPONSE] 200 305ms https://www.reddit.com/comments/1ch8l2q.json?raw_json=1&limit=50
+2026-05-05T23:11:48Z INFO    [INFO] r/alevel  1ch8l2q  +2 comment(s)
+2026-05-05T23:11:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p3ttsp.json?raw_json=1&limit=50
+2026-05-05T23:11:50Z INFO    [RESPONSE] 200 262ms https://www.reddit.com/comments/1p3ttsp.json?raw_json=1&limit=50
+2026-05-05T23:11:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2lofm.json?raw_json=1&limit=50
+2026-05-05T23:11:52Z INFO    [RESPONSE] 200 438ms https://www.reddit.com/comments/1t2lofm.json?raw_json=1&limit=50
+2026-05-05T23:11:52Z INFO    [INFO] r/alevels  1t2lofm  +15 comment(s)
+2026-05-05T23:11:53Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t2j1kj.json?raw_json=1&limit=50
+2026-05-05T23:11:53Z INFO    [RESPONSE] 200 436ms https://www.reddit.com/comments/1t2j1kj.json?raw_json=1&limit=50
+2026-05-05T23:11:53Z INFO    [INFO] r/alevels  1t2j1kj  +11 comment(s)
+2026-05-05T23:11:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3mij8.json?raw_json=1&limit=50
+2026-05-05T23:11:55Z INFO    [RESPONSE] 200 390ms https://www.reddit.com/comments/1t3mij8.json?raw_json=1&limit=50
+2026-05-05T23:11:55Z INFO    [INFO] r/alevels  1t3mij8  +7 comment(s)
+2026-05-05T23:11:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3axy5.json?raw_json=1&limit=50
+2026-05-05T23:11:57Z INFO    [RESPONSE] 200 314ms https://www.reddit.com/comments/1t3axy5.json?raw_json=1&limit=50
+2026-05-05T23:11:57Z INFO    [INFO] r/alevels  1t3axy5  +5 comment(s)
+2026-05-05T23:11:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3g7xs.json?raw_json=1&limit=50
+2026-05-05T23:11:59Z INFO    [RESPONSE] 200 377ms https://www.reddit.com/comments/1t3g7xs.json?raw_json=1&limit=50
+2026-05-05T23:12:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kfau5b.json?raw_json=1&limit=50
+2026-05-05T23:12:01Z INFO    [RESPONSE] 200 776ms https://www.reddit.com/comments/1kfau5b.json?raw_json=1&limit=50
+2026-05-05T23:12:01Z INFO    [INFO] r/alevels  1kfau5b  +5 comment(s)
+2026-05-05T23:12:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/utqyv3.json?raw_json=1&limit=50
+2026-05-05T23:12:03Z INFO    [RESPONSE] 200 334ms https://www.reddit.com/comments/utqyv3.json?raw_json=1&limit=50
+2026-05-05T23:12:03Z INFO    [INFO] r/GCSE  utqyv3  +6 comment(s)
+2026-05-05T23:12:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/pyrk67.json?raw_json=1&limit=50
+2026-05-05T23:12:05Z INFO    [RESPONSE] 200 652ms https://www.reddit.com/comments/pyrk67.json?raw_json=1&limit=50
+2026-05-05T23:12:05Z INFO    [INFO] r/GCSE  pyrk67  +1 comment(s)
+2026-05-05T23:12:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sprcoi.json?raw_json=1&limit=50
+2026-05-05T23:12:07Z INFO    [RESPONSE] 200 438ms https://www.reddit.com/comments/1sprcoi.json?raw_json=1&limit=50
+2026-05-05T23:12:07Z INFO    [INFO] r/GCSE  1sprcoi  +5 comment(s)
+2026-05-05T23:12:09Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ro91ow.json?raw_json=1&limit=50
+2026-05-05T23:12:09Z INFO    [RESPONSE] 200 473ms https://www.reddit.com/comments/1ro91ow.json?raw_json=1&limit=50
+2026-05-05T23:12:09Z INFO    [INFO] r/GCSE  1ro91ow  +6 comment(s)
+2026-05-05T23:12:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1l4qc8p.json?raw_json=1&limit=50
+2026-05-05T23:12:11Z INFO    [RESPONSE] 200 589ms https://www.reddit.com/comments/1l4qc8p.json?raw_json=1&limit=50
+2026-05-05T23:12:11Z INFO    [INFO] r/GCSE  1l4qc8p  +43 comment(s)
+2026-05-05T23:12:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sd294v.json?raw_json=1&limit=50
+2026-05-05T23:12:13Z INFO    [RESPONSE] 200 398ms https://www.reddit.com/comments/1sd294v.json?raw_json=1&limit=50
+2026-05-05T23:12:13Z INFO    [INFO] r/GCSE  1sd294v  +5 comment(s)
+2026-05-05T23:12:15Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqtrtm.json?raw_json=1&limit=50
+2026-05-05T23:12:15Z INFO    [RESPONSE] 200 329ms https://www.reddit.com/comments/1sqtrtm.json?raw_json=1&limit=50
+2026-05-05T23:12:15Z INFO    [INFO] r/GCSE  1sqtrtm  +3 comment(s)
+2026-05-05T23:12:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mw08ka.json?raw_json=1&limit=50
+2026-05-05T23:12:17Z INFO    [RESPONSE] 200 361ms https://www.reddit.com/comments/1mw08ka.json?raw_json=1&limit=50
+2026-05-05T23:12:17Z INFO    [INFO] r/GCSE  1mw08ka  +6 comment(s)
+2026-05-05T23:12:18Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s0q0g9.json?raw_json=1&limit=50
+2026-05-05T23:12:19Z INFO    [RESPONSE] 200 300ms https://www.reddit.com/comments/1s0q0g9.json?raw_json=1&limit=50
+2026-05-05T23:12:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1cwefor.json?raw_json=1&limit=50
+2026-05-05T23:12:21Z INFO    [RESPONSE] 200 426ms https://www.reddit.com/comments/1cwefor.json?raw_json=1&limit=50
+2026-05-05T23:12:21Z INFO    [INFO] r/GCSE  1cwefor  +10 comment(s)
+2026-05-05T23:12:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ktm7zp.json?raw_json=1&limit=50
+2026-05-05T23:12:23Z INFO    [RESPONSE] 200 340ms https://www.reddit.com/comments/1ktm7zp.json?raw_json=1&limit=50
+2026-05-05T23:12:23Z INFO    [INFO] r/GCSE  1ktm7zp  +3 comment(s)
+2026-05-05T23:12:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kqnztk.json?raw_json=1&limit=50
+2026-05-05T23:12:24Z INFO    [RESPONSE] 200 350ms https://www.reddit.com/comments/1kqnztk.json?raw_json=1&limit=50
+2026-05-05T23:12:24Z INFO    [INFO] r/GCSE  1kqnztk  +2 comment(s)
+2026-05-05T23:12:26Z INFO    [REQUEST] GET https://www.reddit.com/comments/1jbv5r6.json?raw_json=1&limit=50
+2026-05-05T23:12:26Z INFO    [RESPONSE] 200 342ms https://www.reddit.com/comments/1jbv5r6.json?raw_json=1&limit=50
+2026-05-05T23:12:26Z INFO    [INFO] r/GCSE  1jbv5r6  +2 comment(s)
+2026-05-05T23:12:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1k4j5d2.json?raw_json=1&limit=50
+2026-05-05T23:12:28Z INFO    [RESPONSE] 200 325ms https://www.reddit.com/comments/1k4j5d2.json?raw_json=1&limit=50
+2026-05-05T23:12:28Z INFO    [INFO] r/GCSE  1k4j5d2  +2 comment(s)
+2026-05-05T23:12:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kqk4cc.json?raw_json=1&limit=50
+2026-05-05T23:12:30Z INFO    [RESPONSE] 200 275ms https://www.reddit.com/comments/1kqk4cc.json?raw_json=1&limit=50
+2026-05-05T23:12:30Z INFO    [INFO] r/GCSE  1kqk4cc  +1 comment(s)
+2026-05-05T23:12:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ksk1hp.json?raw_json=1&limit=50
+2026-05-05T23:12:32Z INFO    [RESPONSE] 200 262ms https://www.reddit.com/comments/1ksk1hp.json?raw_json=1&limit=50
+2026-05-05T23:12:33Z INFO    [REQUEST] GET https://www.reddit.com/comments/1hw7cgb.json?raw_json=1&limit=50
+2026-05-05T23:12:33Z INFO    [RESPONSE] 200 311ms https://www.reddit.com/comments/1hw7cgb.json?raw_json=1&limit=50
+2026-05-05T23:12:33Z INFO    [INFO] r/GCSE  1hw7cgb  +1 comment(s)
+2026-05-05T23:12:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bq6m63.json?raw_json=1&limit=50
+2026-05-05T23:12:35Z INFO    [RESPONSE] 200 337ms https://www.reddit.com/comments/1bq6m63.json?raw_json=1&limit=50
+2026-05-05T23:12:35Z INFO    [INFO] r/GCSE  1bq6m63  +1 comment(s)
+2026-05-05T23:12:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/sl52c7.json?raw_json=1&limit=50
+2026-05-05T23:12:37Z INFO    [RESPONSE] 200 383ms https://www.reddit.com/comments/sl52c7.json?raw_json=1&limit=50
+2026-05-05T23:12:37Z INFO    [INFO] r/GCSE  sl52c7  +2 comment(s)
+2026-05-05T23:12:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/ua5riy.json?raw_json=1&limit=50
+2026-05-05T23:12:39Z INFO    [RESPONSE] 200 332ms https://www.reddit.com/comments/ua5riy.json?raw_json=1&limit=50
+2026-05-05T23:12:39Z INFO    [INFO] r/GCSE  ua5riy  +2 comment(s)
+2026-05-05T23:12:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/uoaaio.json?raw_json=1&limit=50
+2026-05-05T23:12:41Z INFO    [RESPONSE] 200 307ms https://www.reddit.com/comments/uoaaio.json?raw_json=1&limit=50
+2026-05-05T23:12:41Z INFO    [INFO] r/GCSE  uoaaio  +1 comment(s)
+2026-05-05T23:12:42Z INFO    [REQUEST] GET https://www.reddit.com/comments/ftsj47.json?raw_json=1&limit=50
+2026-05-05T23:12:43Z INFO    [RESPONSE] 200 294ms https://www.reddit.com/comments/ftsj47.json?raw_json=1&limit=50
+2026-05-05T23:12:43Z INFO    [INFO] r/GCSE  ftsj47  +2 comment(s)
+2026-05-05T23:12:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/377buu.json?raw_json=1&limit=50
+2026-05-05T23:12:44Z INFO    [RESPONSE] 200 358ms https://www.reddit.com/comments/377buu.json?raw_json=1&limit=50
+2026-05-05T23:12:44Z INFO    [INFO] r/GCSE  377buu  +3 comment(s)
+2026-05-05T23:12:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4eizf.json?raw_json=1&limit=50
+2026-05-05T23:12:46Z INFO    [RESPONSE] 200 340ms https://www.reddit.com/comments/1t4eizf.json?raw_json=1&limit=50
+2026-05-05T23:12:46Z INFO    [INFO] r/6thForm  1t4eizf  +10 comment(s)
+2026-05-05T23:12:48Z INFO    [REQUEST] GET https://www.reddit.com/comments/1hqdz5w.json?raw_json=1&limit=50
+2026-05-05T23:12:48Z INFO    [RESPONSE] 200 674ms https://www.reddit.com/comments/1hqdz5w.json?raw_json=1&limit=50
+2026-05-05T23:12:48Z INFO    [INFO] r/6thForm  1hqdz5w  +34 comment(s)
+2026-05-05T23:12:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1on2ws7.json?raw_json=1&limit=50
+2026-05-05T23:12:50Z INFO    [RESPONSE] 200 277ms https://www.reddit.com/comments/1on2ws7.json?raw_json=1&limit=50
+2026-05-05T23:12:50Z INFO    [INFO] r/6thForm  1on2ws7  +3 comment(s)
+2026-05-05T23:12:52Z INFO    [REQUEST] GET https://www.reddit.com/comments/1es7fj8.json?raw_json=1&limit=50
+2026-05-05T23:12:52Z INFO    [RESPONSE] 200 492ms https://www.reddit.com/comments/1es7fj8.json?raw_json=1&limit=50
+2026-05-05T23:12:52Z INFO    [INFO] r/6thForm  1es7fj8  +9 comment(s)
+2026-05-05T23:12:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mx0ug2.json?raw_json=1&limit=50
+2026-05-05T23:12:54Z INFO    [RESPONSE] 200 320ms https://www.reddit.com/comments/1mx0ug2.json?raw_json=1&limit=50
+2026-05-05T23:12:56Z INFO    [REQUEST] GET https://www.reddit.com/comments/1hcsmbq.json?raw_json=1&limit=50
+2026-05-05T23:12:56Z INFO    [RESPONSE] 200 313ms https://www.reddit.com/comments/1hcsmbq.json?raw_json=1&limit=50
+2026-05-05T23:12:56Z INFO    [INFO] r/6thForm  1hcsmbq  +2 comment(s)
+2026-05-05T23:12:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1c5t6tj.json?raw_json=1&limit=50
+2026-05-05T23:12:58Z INFO    [RESPONSE] 200 350ms https://www.reddit.com/comments/1c5t6tj.json?raw_json=1&limit=50
+2026-05-05T23:12:58Z INFO    [INFO] r/6thForm  1c5t6tj  +4 comment(s)
+2026-05-05T23:12:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1celddv.json?raw_json=1&limit=50
+2026-05-05T23:12:59Z INFO    [RESPONSE] 200 278ms https://www.reddit.com/comments/1celddv.json?raw_json=1&limit=50
+2026-05-05T23:12:59Z INFO    [INFO] r/6thForm  1celddv  +1 comment(s)
+2026-05-05T23:13:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/197s1lj.json?raw_json=1&limit=50
+2026-05-05T23:13:01Z INFO    [RESPONSE] 200 312ms https://www.reddit.com/comments/197s1lj.json?raw_json=1&limit=50
+2026-05-05T23:13:01Z INFO    [INFO] r/6thForm  197s1lj  +1 comment(s)
+2026-05-05T23:13:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1aq5s14.json?raw_json=1&limit=50
+2026-05-05T23:13:03Z INFO    [RESPONSE] 200 354ms https://www.reddit.com/comments/1aq5s14.json?raw_json=1&limit=50
+2026-05-05T23:13:03Z INFO    [INFO] r/6thForm  1aq5s14  +1 comment(s)
+2026-05-05T23:13:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/9at6yx.json?raw_json=1&limit=50
+2026-05-05T23:13:05Z INFO    [RESPONSE] 200 488ms https://www.reddit.com/comments/9at6yx.json?raw_json=1&limit=50
+2026-05-05T23:13:05Z INFO    [INFO] r/6thForm  9at6yx  +7 comment(s)
+2026-05-05T23:13:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/12ili46.json?raw_json=1&limit=50
+2026-05-05T23:13:07Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:08Z INFO    [REQUEST] GET https://www.reddit.com/comments/12ili46.json?raw_json=1&limit=50
+2026-05-05T23:13:08Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/12ili46.json?raw_json=1&limit=50
+2026-05-05T23:13:11Z INFO    [ERROR] GET https://www.reddit.com/comments/12ili46.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/13gob4v.json?raw_json=1&limit=50
+2026-05-05T23:13:12Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/13gob4v.json?raw_json=1&limit=50
+2026-05-05T23:13:14Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/13gob4v.json?raw_json=1&limit=50
+2026-05-05T23:13:16Z INFO    [ERROR] GET https://www.reddit.com/comments/13gob4v.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:18Z INFO    [REQUEST] GET https://www.reddit.com/comments/vxn3ek.json?raw_json=1&limit=50
+2026-05-05T23:13:18Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:19Z INFO    [REQUEST] GET https://www.reddit.com/comments/vxn3ek.json?raw_json=1&limit=50
+2026-05-05T23:13:19Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/vxn3ek.json?raw_json=1&limit=50
+2026-05-05T23:13:22Z INFO    [ERROR] GET https://www.reddit.com/comments/vxn3ek.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:23Z INFO    [REQUEST] GET https://www.reddit.com/comments/8p46o3.json?raw_json=1&limit=50
+2026-05-05T23:13:23Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/8p46o3.json?raw_json=1&limit=50
+2026-05-05T23:13:25Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/8p46o3.json?raw_json=1&limit=50
+2026-05-05T23:13:27Z INFO    [ERROR] GET https://www.reddit.com/comments/8p46o3.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/5x73oh.json?raw_json=1&limit=50
+2026-05-05T23:13:29Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/5x73oh.json?raw_json=1&limit=50
+2026-05-05T23:13:30Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/5x73oh.json?raw_json=1&limit=50
+2026-05-05T23:13:33Z INFO    [ERROR] GET https://www.reddit.com/comments/5x73oh.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bemt4z.json?raw_json=1&limit=50
+2026-05-05T23:13:34Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bemt4z.json?raw_json=1&limit=50
+2026-05-05T23:13:36Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bemt4z.json?raw_json=1&limit=50
+2026-05-05T23:13:38Z INFO    [ERROR] GET https://www.reddit.com/comments/1bemt4z.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/8iw375.json?raw_json=1&limit=50
+2026-05-05T23:13:40Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/8iw375.json?raw_json=1&limit=50
+2026-05-05T23:13:41Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/8iw375.json?raw_json=1&limit=50
+2026-05-05T23:13:44Z INFO    [ERROR] GET https://www.reddit.com/comments/8iw375.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/kpa7z8.json?raw_json=1&limit=50
+2026-05-05T23:13:45Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/kpa7z8.json?raw_json=1&limit=50
+2026-05-05T23:13:47Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:49Z INFO    [REQUEST] GET https://www.reddit.com/comments/kpa7z8.json?raw_json=1&limit=50
+2026-05-05T23:13:49Z INFO    [ERROR] GET https://www.reddit.com/comments/kpa7z8.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qcrp0n.json?raw_json=1&limit=50
+2026-05-05T23:13:51Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:13:52Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qcrp0n.json?raw_json=1&limit=50
+2026-05-05T23:13:52Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:13:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qcrp0n.json?raw_json=1&limit=50
+2026-05-05T23:13:55Z INFO    [ERROR] GET https://www.reddit.com/comments/1qcrp0n.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:13:55Z INFO    [SECTION] PHASE 3 — PERSIST
+2026-05-05T23:13:55Z INFO    [PHASE] PERSIST wrote 96 record(s) → output\zayns-20260505T200852Z.jsonl
+2026-05-05T23:13:55Z INFO    [PHASE] PERSIST wrote markdown report → output\zayns-20260505T200852Z.md
+2026-05-05T23:13:55Z INFO    [SECTION] PHASE 4 — SUMMARY
+2026-05-05T23:13:55Z INFO    [SUMMARY] requests=162
+2026-05-05T23:13:55Z INFO    [SUMMARY] responses ok=131
+2026-05-05T23:13:55Z INFO    [SUMMARY] retries=18
+2026-05-05T23:13:55Z INFO    [SUMMARY] hits (raw)=96
+2026-05-05T23:13:55Z INFO    [SUMMARY] warnings=0
+2026-05-05T23:13:55Z INFO    [SUMMARY] errors=13
+2026-05-05T23:13:55Z INFO    [SUMMARY] unique posts=96
+2026-05-05T23:13:55Z INFO    [SUMMARY] comments captured=391
+2026-05-05T23:13:55Z INFO    [SUMMARY] jsonl=output\zayns-20260505T200852Z.jsonl
+2026-05-05T23:13:55Z INFO    [SUMMARY] markdown=output\zayns-20260505T200852Z.md
+2026-05-05T23:13:55Z INFO    [SUMMARY] log file=logs\scraper-20260505T200852Z.log

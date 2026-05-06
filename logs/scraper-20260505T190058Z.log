@@ -1,0 +1,1253 @@
+2026-05-05T22:00:59Z INFO    [BANNER] ZAYNS REDDIT SCRAPER — query='Thoughts on leaks O levels' log=logs\scraper-20260505T190058Z.log
+2026-05-05T22:00:59Z INFO    [CONFIG] tool=zayns-reddit-scraper v0.1.0
+2026-05-05T22:00:59Z INFO    [CONFIG] query=Thoughts on leaks O levels
+2026-05-05T22:00:59Z INFO    [CONFIG] subreddits=(none, r/all only)
+2026-05-05T22:00:59Z INFO    [CONFIG] sorts=relevance, new
+2026-05-05T22:00:59Z INFO    [CONFIG] max pages=1
+2026-05-05T22:00:59Z INFO    [CONFIG] page limit=100
+2026-05-05T22:00:59Z INFO    [CONFIG] delay=3.0s between requests
+2026-05-05T22:00:59Z INFO    [CONFIG] comments=top 50
+2026-05-05T22:00:59Z INFO    [CONFIG] output dir=D:\SOC Diploma\Info Scrapper\output
+2026-05-05T22:00:59Z INFO    [CONFIG] log dir=D:\SOC Diploma\Info Scrapper\logs
+2026-05-05T22:00:59Z INFO    [CONFIG] run stamp=20260505T190058Z
+2026-05-05T22:00:59Z INFO    [SECTION] PHASE 1 — SEARCH
+2026-05-05T22:00:59Z INFO    [INFO] query variants: 'Thoughts on leaks O levels' | 'Thoughts on' | 'Thoughts leaks' | 'Thoughts O' | 'Thoughts levels' | 'Thoughts'
+2026-05-05T22:00:59Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=phrase
+2026-05-05T22:00:59Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+on+leaks+O+levels%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:00Z INFO    [RESPONSE] 200 1462ms https://www.reddit.com/search.json?q=%22Thoughts+on+leaks+O+levels%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:00Z INFO    [INFO] no results on first page for sort=relevance sub=all
+2026-05-05T22:01:00Z INFO    [PHASE] SEARCH r/all  sort=new  variant=phrase
+2026-05-05T22:01:03Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+on+leaks+O+levels%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:03Z INFO    [RESPONSE] 200 292ms https://www.reddit.com/search.json?q=%22Thoughts+on+leaks+O+levels%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:03Z INFO    [INFO] no results on first page for sort=new sub=all
+2026-05-05T22:01:03Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Thoughts on
+2026-05-05T22:01:06Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+on%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:08Z INFO    [RESPONSE] 200 2146ms https://www.reddit.com/search.json?q=%22Thoughts+on%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:08Z INFO    [HIT] #1 r/PinoyVloggers score=455 comments=29301 title='Thoughts on Kelvin Medina aka The Zarkman?'
+2026-05-05T22:01:08Z INFO    [HIT] #2 r/SipsTea score=16727 comments=6428 title='thoughts on this??'
+2026-05-05T22:01:08Z INFO    [HIT] #3 r/AskSocialists score=53588 comments=1529 title='Thoughts on this ?'
+2026-05-05T22:01:08Z INFO    [HIT] #4 r/LetsDiscussThis score=25486 comments=3353 title='Thoughts on Rep. Al Green’s protest and subsequent removal?'
+2026-05-05T22:01:08Z INFO    [HIT] #5 r/StrangerThings score=34302 comments=7115 title='Thoughts on the Finale?'
+2026-05-05T22:01:08Z INFO    [HIT] #6 r/BlackPeopleofReddit score=5235 comments=8012 title='What’s the thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #7 r/FridgeDetective score=20823 comments=1559 title='Thoughts on my Uncle’s freezer who just passed on.'
+2026-05-05T22:01:08Z INFO    [HIT] #8 r/AskTheWorld score=10417 comments=3867 title='What are your thoughts on Alysa Liu?'
+2026-05-05T22:01:08Z INFO    [HIT] #9 r/scoopwhoop score=5776 comments=2526 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #10 r/Warframe score=7519 comments=1245 title='Pablo gives us his true thoughts on raids in Warframe'
+2026-05-05T22:01:08Z INFO    [HIT] #11 r/SipsTea score=20733 comments=2431 title='Woah, what are your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #12 r/SipsTea score=68340 comments=5249 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #13 r/TheGamingHubDeals score=9734 comments=1066 title="What's your thought on this"
+2026-05-05T22:01:08Z INFO    [HIT] #14 r/GTA6 score=19324 comments=1552 title='Thoughts on this take?'
+2026-05-05T22:01:08Z INFO    [HIT] #15 r/AskBrits score=6354 comments=1384 title='Thoughts on nuclear power, should the UK be investing?'
+2026-05-05T22:01:08Z INFO    [HIT] #16 r/conspiracy score=12078 comments=585 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #17 r/HouseOfTheDragon score=12514 comments=1099 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #18 r/Grimdank score=8218 comments=696 title='Thoughts on retcons and canon as a 28 year Necrons fan'
+2026-05-05T22:01:08Z INFO    [HIT] #19 r/pcmasterrace score=10714 comments=1169 title='My Thoughts On Seeing The Latest Discord News'
+2026-05-05T22:01:08Z INFO    [HIT] #20 r/formula1 score=25294 comments=526 title="Lance's thoughts on the race"
+2026-05-05T22:01:08Z INFO    [HIT] #21 r/SipsTea score=32283 comments=1608 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #22 r/pcmasterrace score=7112 comments=1083 title='Thoughts on my PC? Ignore the cat.'
+2026-05-05T22:01:08Z INFO    [HIT] #23 r/soartistic score=6237 comments=896 title='Okayyyyy 🫠😬 Your thoughts on this'
+2026-05-05T22:01:08Z INFO    [HIT] #24 r/theamazingdigitalciru score=5762 comments=952 title='May I ask your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #25 r/StarWars score=8652 comments=1908 title='Thoughts on these two tweets?'
+2026-05-05T22:01:08Z INFO    [HIT] #26 r/CringeTikToks score=25666 comments=4143 title='What are your thoughts on this'
+2026-05-05T22:01:08Z INFO    [HIT] #27 r/TheLastAirbender score=16389 comments=1229 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #28 r/landscaping score=8987 comments=433 title='What are your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #29 r/SipsTea score=6725 comments=1866 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #30 r/AskReddit score=4423 comments=3920 title='What are your thoughts on the 2026 Superbowl Halftime show?'
+2026-05-05T22:01:08Z INFO    [HIT] #31 r/youtube score=125197 comments=5024 title='What is your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #32 r/cartoons score=21229 comments=6080 title='What are your honest thoughts on this'
+2026-05-05T22:01:08Z INFO    [HIT] #33 r/Fauxmoi score=5677 comments=747 title='6 years ago, Vanessa Hudgens gave her thoughts on the pandemic'
+2026-05-05T22:01:08Z INFO    [HIT] #34 r/AskReddit score=10777 comments=10727 title='What are your thoughts on Jimmy Kimmel being pulled off air ?'
+2026-05-05T22:01:08Z INFO    [HIT] #35 r/StarWars score=15838 comments=5593 title='What are your thoughts on this tweet?'
+2026-05-05T22:01:08Z INFO    [HIT] #36 r/indianmemer score=9055 comments=579 title='Your thoughts on this'
+2026-05-05T22:01:08Z INFO    [HIT] #37 r/allthequestions score=3941 comments=11996 title='What are your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #38 r/Grimdank score=22346 comments=2488 title="your thoughts on anon's take?"
+2026-05-05T22:01:08Z INFO    [HIT] #39 r/joebuddennetwork score=13003 comments=1130 title='Thoughts on Melyssa Ford?'
+2026-05-05T22:01:08Z INFO    [HIT] #40 r/ForzaHorizon score=5323 comments=1543 title="What's your first thoughts on Forza Horizon 6?"
+2026-05-05T22:01:08Z INFO    [HIT] #41 r/addressme score=14581 comments=309 title='Thoughts on the new season of Invincible ?'
+2026-05-05T22:01:08Z INFO    [HIT] #42 r/askanything score=3740 comments=815 title='What are your thoughts on the minimum wage question?'
+2026-05-05T22:01:08Z INFO    [HIT] #43 r/BatmanArkham score=17621 comments=250 title='Thoughts on new clayface movie?'
+2026-05-05T22:01:08Z INFO    [HIT] #44 r/TikTokCringe score=23510 comments=4542 title='What are your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #45 r/FIlm score=3430 comments=1021 title='What are your thoughts on "Dungeons and Dragons: Honor Among Thieves (2023)"?'
+2026-05-05T22:01:08Z INFO    [HIT] #46 r/teenagers score=5590 comments=1776 title='Thoughts on this?? 😭😭😭'
+2026-05-05T22:01:08Z INFO    [HIT] #47 r/StockMarket score=3785 comments=1329 title='What are your thoughts on the new 10% global tariff?'
+2026-05-05T22:01:08Z INFO    [HIT] #48 r/interiordecorating score=7975 comments=718 title='Thoughts on making my hallway a starry night sky?'
+2026-05-05T22:01:08Z INFO    [HIT] #49 r/OUTFITS score=7037 comments=417 title='Thoughts on this green set for a night out?'
+2026-05-05T22:01:08Z INFO    [HIT] #50 r/teenagers score=6583 comments=690 title='Your Thoughts On This?'
+2026-05-05T22:01:08Z INFO    [HIT] #51 r/LeopardsAteMyFace score=10832 comments=480 title="Right wing thoughts on the future Republican candidate's qualifications for office."
+2026-05-05T22:01:08Z INFO    [HIT] #52 r/AKnightoftheSeven score=8850 comments=442 title='My thoughts on episode 5'
+2026-05-05T22:01:08Z INFO    [HIT] #53 r/Ningen score=6964 comments=682 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #54 r/teenagers score=5596 comments=942 title='Thoughts on billionaires?'
+2026-05-05T22:01:08Z INFO    [HIT] #55 r/Battlefield score=9485 comments=3995 title='Thoughts on Empire State? I think it sucks...'
+2026-05-05T22:01:08Z INFO    [HIT] #56 r/nba score=7933 comments=546 title='KAT offers thoughts on the situation in Minneapolis'
+2026-05-05T22:01:08Z INFO    [HIT] #57 r/CuratedTumblr score=5905 comments=571 title='What are your thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #58 r/AskBrits score=3944 comments=854 title='What are your thoughts on a CANZUK alliance?'
+2026-05-05T22:01:08Z INFO    [HIT] #59 r/MyAnimeList score=8692 comments=2833 title='honest thoughts on fanservice??'
+2026-05-05T22:01:08Z INFO    [HIT] #60 r/PcBuildHelp score=3902 comments=613 title='Any thoughts on how to fix?'
+2026-05-05T22:01:08Z INFO    [HIT] #61 r/GenZ score=62135 comments=9478 title='Gen Z what are your thoughts on Zelenskyi?'
+2026-05-05T22:01:08Z INFO    [HIT] #62 r/jewelry score=5493 comments=433 title='Thoughts on my great-grandma’s ring?'
+2026-05-05T22:01:08Z INFO    [HIT] #63 r/FIlm score=2774 comments=785 title='Thoughts on Willow (1988)?'
+2026-05-05T22:01:08Z INFO    [HIT] #64 r/TheGamingHubDeals score=4400 comments=561 title='Thoughts on this?🚀'
+2026-05-05T22:01:08Z INFO    [HIT] #65 r/CountryMusicStuff score=5208 comments=626 title="Thoughts on Charley's post?"
+2026-05-05T22:01:08Z INFO    [HIT] #66 r/golf score=4129 comments=1020 title='What’s your thoughts on these ‘Relaxed Rules’? 🤔'
+2026-05-05T22:01:08Z INFO    [HIT] #67 r/theamazingdigitalciru score=2503 comments=1477 title='Thoughts on the new episode?'
+2026-05-05T22:01:08Z INFO    [HIT] #68 r/Actors score=3696 comments=741 title='Thoughts on Linda Cardellini?'
+2026-05-05T22:01:08Z INFO    [HIT] #69 r/NoMansSkyTheGame score=5038 comments=348 title='Thoughts on my first No Man’s Sky city?'
+2026-05-05T22:01:08Z INFO    [HIT] #70 r/HairStyleAdvice score=2267 comments=1234 title='Thoughts on a big cut?'
+2026-05-05T22:01:08Z INFO    [HIT] #71 r/aviation score=2497 comments=765 title='What’s your thoughts on this ?'
+2026-05-05T22:01:08Z INFO    [HIT] #72 r/hockey score=3639 comments=847 title='[TSN] Czechia’s coaches thoughts on the refereeing of the quarterfinal game'
+2026-05-05T22:01:08Z INFO    [HIT] #73 r/StrangerThings score=4033 comments=1186 title='Thoughts on this?'
+2026-05-05T22:01:08Z INFO    [HIT] #74 r/okbuddycinephile score=4248 comments=685 title='Thoughts on the upcoming Hulk movie?'
+2026-05-05T22:01:08Z INFO    [HIT] #75 r/batman score=3802 comments=720 title="What are people's thoughts on this ?"
+2026-05-05T22:01:08Z INFO    [HIT] #76 r/teenagers score=4994 comments=1708 title="What are you're thoughts on this"
+2026-05-05T22:01:09Z INFO    [HIT] #77 r/TheDigitalCircus score=7439 comments=1906 title='Thoughts on the new episode?'
+2026-05-05T22:01:09Z INFO    [HIT] #78 r/ProfessorFinance score=1877 comments=1818 title='What are your thoughts on this?'
+2026-05-05T22:01:09Z INFO    [HIT] #79 r/Stranger_Things score=5482 comments=590 title='Thoughts on this?'
+2026-05-05T22:01:09Z INFO    [HIT] #80 r/pokemon score=3456 comments=644 title='Thoughts on Pokopia so far?'
+2026-05-05T22:01:09Z INFO    [HIT] #81 r/ContraPoints score=7490 comments=3293 title='Thoughts on I/P'
+2026-05-05T22:01:09Z INFO    [HIT] #82 r/rupaulsdragrace score=3901 comments=614 title='Myki Meek’s thoughts on made up Snatch Game characters'
+2026-05-05T22:01:09Z INFO    [HIT] #83 r/casualnintendo score=2835 comments=1060 title='Thoughts on this take?'
+2026-05-05T22:01:09Z INFO    [HIT] #84 r/CriticalThinkingIndia score=9705 comments=603 title='What are your thoughts on this?'
+2026-05-05T22:01:09Z INFO    [HIT] #85 r/RandomShit_ISaw score=5709 comments=369 title='Thought on this interpretation'
+2026-05-05T22:01:09Z INFO    [HIT] #86 r/FIlm score=3852 comments=1253 title="Thoughts on Denis Villeneuve's Arrival?"
+2026-05-05T22:01:09Z INFO    [HIT] #87 r/TheLastAirbender score=30182 comments=904 title='Thoughts on this take?'
+2026-05-05T22:01:09Z INFO    [HIT] #88 r/teenagers score=6983 comments=296 title='What are your thoughts on this?'
+2026-05-05T22:01:09Z INFO    [HIT] #89 r/AvatarMemebending score=4486 comments=361 title='Thoughts on this take?'
+2026-05-05T22:01:09Z INFO    [HIT] #90 r/lgbt score=2597 comments=586 title='What are yalls thoughts on this?'
+2026-05-05T22:01:09Z INFO    [HIT] #91 r/abanpreach score=13810 comments=2955 title='Thoughts on American Activist getting bulldozed in GAZA?'
+2026-05-05T22:01:09Z INFO    [HIT] #92 r/FantasticFour score=13726 comments=531 title='Thoughts on this Tweet about the Fantastic Four Movie?'
+2026-05-05T22:01:09Z INFO    [HIT] #93 r/Minecraft score=19813 comments=1725 title='Thoughts on the new ghasts?'
+2026-05-05T22:01:09Z INFO    [HIT] #94 r/IndiaTech score=6418 comments=286 title='What are your thoughts on mobile recharges'
+2026-05-05T22:01:09Z INFO    [HIT] #95 r/marvelrivals score=14265 comments=2097 title='Thoughts on Emma Frost being a Vanguard?'
+2026-05-05T22:01:09Z INFO    [HIT] #96 r/Anticonsumption score=5850 comments=799 title='Thoughts on this initiative?'
+2026-05-05T22:01:09Z INFO    [HIT] #97 r/RealEstate score=3901 comments=1385 title='Thoughts on the 50 year mortgage, from someone who did the math'
+2026-05-05T22:01:09Z INFO    [HIT] #98 r/moviecritic score=22631 comments=2333 title='Thoughts on Ralph Fiennes?'
+2026-05-05T22:01:09Z INFO    [HIT] #99 r/TrendoraX score=3284 comments=591 title='Thoughts on USA backlash?'
+2026-05-05T22:01:09Z INFO    [HIT] #100 r/50501 score=2377 comments=577 title='Thoughts on a DoorDash boycott?'
+2026-05-05T22:01:09Z INFO    [WARNING] max-pages=1 reached for sort=relevance sub=all — more results exist
+2026-05-05T22:01:09Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Thoughts on
+2026-05-05T22:01:11Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+on%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:13Z INFO    [RESPONSE] 200 1799ms https://www.reddit.com/search.json?q=%22Thoughts+on%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:13Z INFO    [HIT] #1 r/Dreamers score=1 comments=0 title='The Use of AI'
+2026-05-05T22:01:13Z INFO    [HIT] #2 r/WutheringWaves score=1 comments=0 title='Saw a Power/lore tier list ,thought it would be funny to do'
+2026-05-05T22:01:13Z INFO    [HIT] #3 r/VibeCodersNest score=1 comments=0 title='Phase 2 Complete: Building a deterministic Multi-Timeframe Cascade'
+2026-05-05T22:01:13Z INFO    [HIT] #4 r/playboicarti score=1 comments=1 title='Thoughts on the new Edward Skeletrix album?'
+2026-05-05T22:01:13Z INFO    [HIT] #5 r/Daytrading score=1 comments=0 title='Phase 2 Complete: Building a deterministic Multi-Timeframe Cascade'
+2026-05-05T22:01:13Z INFO    [HIT] #6 r/KamenRider score=2 comments=0 title='Newbies Review of Kamen Rider 1971'
+2026-05-05T22:01:13Z INFO    [HIT] #7 r/u_Clear-Action-2241 score=1 comments=0 title='Thoughts on this video?'
+2026-05-05T22:01:13Z INFO    [HIT] #8 r/techsales score=1 comments=1 title='Thoughts on sending "Thank you" emails following interviews??'
+2026-05-05T22:01:13Z INFO    [HIT] #9 r/EDH score=1 comments=0 title='Silverquill the dragon deck help 🐉'
+2026-05-05T22:01:13Z INFO    [HIT] #10 r/AskReddit score=0 comments=5 title='What are your thoughts on Donald Trump?'
+2026-05-05T22:01:13Z INFO    [HIT] #11 r/kpoopheads score=1 comments=1 title="Normie is already a paras-socials Kpop Stan (like us) and just doesn't know it yet 🥰"
+2026-05-05T22:01:13Z INFO    [HIT] #12 r/jpegmafiamusic score=1 comments=0 title='Thoughts on the track lengths on the upcoming album?'
+2026-05-05T22:01:13Z INFO    [HIT] #13 r/FantasyFootballers score=1 comments=2 title='thoughts on my draft. i think it went decent'
+2026-05-05T22:01:13Z INFO    [HIT] #14 r/The_IGCSE_Workaholics score=1 comments=1 title='ANYONE GIVING 0510 ESL TMRW??'
+2026-05-05T22:01:13Z INFO    [HIT] #15 r/DynastyNerds score=1 comments=1 title='thoughts on my draft. i think it went decent'
+2026-05-05T22:01:13Z INFO    [HIT] #16 r/SleeperApp score=1 comments=1 title='thoughts on my picks. i think it went decent'
+2026-05-05T22:01:13Z INFO    [HIT] #17 r/NYCapartments score=1 comments=0 title="Longshot: want to talk to someone who lives in the walk-up I'm about to sign a lease for"
+2026-05-05T22:01:13Z INFO    [HIT] #18 r/DynastyFFTradeAdvice score=1 comments=2 title='thoughts on my draft. i think it went decent'
+2026-05-05T22:01:13Z INFO    [HIT] #19 r/Entrepreneurship score=1 comments=1 title='Thoughts on this idea?'
+2026-05-05T22:01:13Z INFO    [HIT] #20 r/MicrosoftFabric score=2 comments=0 title="Please join month's T-SQL Tuesday on Change Detection (non-SQL entries encourged)!"
+2026-05-05T22:01:13Z INFO    [HIT] #21 r/writingfeedback score=1 comments=0 title='The opening pages of my psychological thriller novel -- (Prologue + Chapter One) Any critique is welcome!'
+2026-05-05T22:01:13Z INFO    [HIT] #22 r/Tokusatsu score=1 comments=0 title='My thoughts on Kamen Rider Agito episode 5 the third warrior'
+2026-05-05T22:01:13Z INFO    [HIT] #23 r/CommanderMTG score=1 comments=0 title='Silverquill dragon help 🐉'
+2026-05-05T22:01:13Z INFO    [HIT] #24 r/mendrawingwomen score=0 comments=0 title='Thoughts on Taeko "Celestia" Yasuhiro from Danganronpa?'
+2026-05-05T22:01:13Z INFO    [HIT] #25 r/iPhone17Pro score=2 comments=6 title='Finally decided to go Case less'
+2026-05-05T22:01:13Z INFO    [HIT] #26 r/lockpicking score=1 comments=0 title='Repost for clarity of images "Thoughts on an academic article on the ethics of lockpicking as a hobby?"'
+2026-05-05T22:01:13Z INFO    [HIT] #27 r/Colognes score=1 comments=0 title='First Amouage'
+2026-05-05T22:01:13Z INFO    [HIT] #28 r/snooker score=3 comments=4 title='Thoughts on Wu Yize as a potential world champion?'
+2026-05-05T22:01:13Z INFO    [HIT] #29 r/clickup score=1 comments=0 title='Google Drive and Clickup Integration Capabilities.'
+2026-05-05T22:01:13Z INFO    [HIT] #30 r/prepping score=0 comments=2 title='Have you ever tested your get home bag?'
+2026-05-05T22:01:13Z INFO    [HIT] #31 r/SkyLine score=7 comments=0 title='Opinions'
+2026-05-05T22:01:13Z INFO    [HIT] #32 r/DeanKoontz score=3 comments=0 title='Picked up “Shadow Fires” from the thrift. Non spoiler thoughts on the story?'
+2026-05-05T22:01:13Z INFO    [HIT] #33 r/microbiology score=4 comments=1 title='Thoughts on immune cells found on tooth?'
+2026-05-05T22:01:13Z INFO    [HIT] #34 r/arborists score=1 comments=0 title='Help with redbud- leaves damaged?'
+2026-05-05T22:01:13Z INFO    [HIT] #35 r/u_OppositeFreedom2887 score=1 comments=0 title='Views on Iiitm Gwalior (btech+mba)IT'
+2026-05-05T22:01:13Z INFO    [HIT] #36 r/AnimeART score=1 comments=1 title='Shinobu Kocho (Demon Slayer) – Hand-stitched Paper Embroidery. 20 hours of precision on a fragile medium.'
+2026-05-05T22:01:13Z INFO    [HIT] #37 r/okbuddyborderland score=1 comments=0 title='What are yall thoughts on Ryuji?'
+2026-05-05T22:01:13Z INFO    [HIT] #38 r/Pennystock score=1 comments=0 title='Newbie here – thoughts on NWPG?'
+2026-05-05T22:01:13Z INFO    [HIT] #39 r/CatAdvice score=1 comments=2 title='Multiple Cats, One Fat'
+2026-05-05T22:01:13Z INFO    [HIT] #40 r/Prebuilts score=1 comments=2 title='Thoughts on a refurbished'
+2026-05-05T22:01:13Z INFO    [HIT] #41 r/telugumedschool score=2 comments=1 title='Thoughts on Pharma and Biotech'
+2026-05-05T22:01:13Z INFO    [HIT] #42 r/confession score=18 comments=8 title='I join Lives on IG and Spam celebs and others with questions about one thing until they respond'
+2026-05-05T22:01:13Z INFO    [HIT] #43 r/fantasywnba score=1 comments=1 title='Thoughts on a deep league like this? (8 team)'
+2026-05-05T22:01:13Z INFO    [HIT] #44 r/motorola score=1 comments=8 title='Moto Edge 2025'
+2026-05-05T22:01:13Z INFO    [HIT] #45 r/stringart score=1 comments=0 title='Shinobu Kocho (Demon Slayer) – Hand-stitched Paper Embroidery. 20 hours of precision on a fragile medium.'
+2026-05-05T22:01:13Z INFO    [HIT] #46 r/UKweddings score=0 comments=0 title='Need advice ❤️'
+2026-05-05T22:01:13Z INFO    [HIT] #47 r/selfies score=3 comments=1 title="honest thoughts on the nose?? i've been staring at it for way too long lol F19"
+2026-05-05T22:01:13Z INFO    [HIT] #48 r/WeddingHelpDesk score=1 comments=0 title='Need advice ❤️'
+2026-05-05T22:01:13Z INFO    [HIT] #49 r/AskReddit score=2 comments=10 title='What are your thoughts on the theme and outfits of Met Gala 2026?'
+2026-05-05T22:01:13Z INFO    [HIT] #50 r/psagrading score=0 comments=1 title='Pikachu Ex'
+2026-05-05T22:01:13Z INFO    [HIT] #51 r/RealEstateAdvice score=1 comments=2 title='Home equity to buy new home? Thoughts'
+2026-05-05T22:01:13Z INFO    [HIT] #52 r/Mcat score=1 comments=0 title='UWorld for content? Targeted learning as the new study approach'
+2026-05-05T22:01:13Z INFO    [HIT] #53 r/boymeetsworld score=7 comments=2 title='PMW Preview: S7E17 "She\'s Having My Baby Back Ribs"'
+2026-05-05T22:01:13Z INFO    [HIT] #54 r/Cartalk score=1 comments=6 title='Thoughts (well, facts from experience) on Auto Trans fluid Flush vs. Change?'
+2026-05-05T22:01:13Z INFO    [HIT] #55 r/hookah score=1 comments=0 title='Compact hookah suggestion'
+2026-05-05T22:01:13Z INFO    [HIT] #56 r/DogAdvice score=0 comments=5 title='Roommate never walks his dog.'
+2026-05-05T22:01:13Z INFO    [HIT] #57 r/interiordecorating score=7 comments=1 title='Moving to a Century Home!'
+2026-05-05T22:01:13Z INFO    [HIT] #58 r/OMSA score=1 comments=0 title='CS 6400 (DBS) Recent Experiences + Summer 2026'
+2026-05-05T22:01:13Z INFO    [HIT] #59 r/Real_teenindia score=1 comments=12 title='What are ur thoughts on'
+2026-05-05T22:01:13Z INFO    [HIT] #60 r/AskDocs score=1 comments=1 title='Recurring flu like symptoms that started at the end of March'
+2026-05-05T22:01:13Z INFO    [HIT] #61 r/PokeGrading score=1 comments=1 title='Mega Gengar Grading?'
+2026-05-05T22:01:13Z INFO    [HIT] #62 r/57x28mm score=1 comments=0 title='Thoughts on using a CNC to custom make small batches of 5.7?'
+2026-05-05T22:01:13Z INFO    [HIT] #63 r/OpenChristian score=1 comments=0 title='Thoughts on a church based on discord?'
+2026-05-05T22:01:13Z INFO    [HIT] #64 r/Shortsqueeze score=3 comments=2 title='What‘s your opinion on LVFN? Earnings tomorrow!'
+2026-05-05T22:01:13Z INFO    [HIT] #65 r/algotradingcrypto score=1 comments=0 title='Thoughts: AI agent for Backtesting'
+2026-05-05T22:01:13Z INFO    [HIT] #66 r/gartenofbanban score=1 comments=0 title='thoughts on this?'
+2026-05-05T22:01:13Z INFO    [HIT] #67 r/AskMarketing score=1 comments=5 title='Thoughts on this idea?'
+2026-05-05T22:01:13Z INFO    [HIT] #68 r/Skincare_Addiction score=2 comments=1 title='Dry scalp'
+2026-05-05T22:01:13Z INFO    [HIT] #69 r/dating_advice score=1 comments=5 title='What’s considered a good time to ask'
+2026-05-05T22:01:13Z INFO    [HIT] #70 r/Weddingsunder10k score=0 comments=2 title='Needing advice ❤️'
+2026-05-05T22:01:13Z INFO    [HIT] #71 r/cycling score=0 comments=22 title='Participation in road cycling vs running is associated with lower bone mineral density in men - article inside.'
+2026-05-05T22:01:13Z INFO    [HIT] #72 r/roblox score=0 comments=0 title='Thoughts on wii mii??'
+2026-05-05T22:01:13Z INFO    [HIT] #73 r/USCIS score=3 comments=9 title='Third FTA0 + silence update'
+2026-05-05T22:01:13Z INFO    [HIT] #74 r/BoardgameDesign score=7 comments=4 title='First run - No AI - Card design'
+2026-05-05T22:01:13Z INFO    [HIT] #75 r/ChemicalEngineering score=1 comments=0 title='Cleanroom designs'
+2026-05-05T22:01:13Z INFO    [HIT] #76 r/namenerds score=0 comments=12 title='Thoughts on the name, Luculia'
+2026-05-05T22:01:13Z INFO    [HIT] #77 r/uklaw score=1 comments=0 title='Thoughts on Sidley London?'
+2026-05-05T22:01:13Z INFO    [HIT] #78 r/orioles score=0 comments=6 title='Thoughts on Ripken’s responsibility for this mess.'
+2026-05-05T22:01:13Z INFO    [HIT] #79 r/TibiaMMO score=10 comments=10 title='RP changes on test server'
+2026-05-05T22:01:13Z INFO    [HIT] #80 r/Tyranids score=2 comments=9 title='Splitting the Terror on Devlan box'
+2026-05-05T22:01:13Z INFO    [HIT] #81 r/u_AggravatingFalcon352 score=1 comments=0 title='Thoughts on brilliant pala?'
+2026-05-05T22:01:13Z INFO    [HIT] #82 r/MDTTAC score=1 comments=0 title='What are your thoughts on illuminated reticles?'
+2026-05-05T22:01:13Z INFO    [HIT] #83 r/BusinessHub score=1 comments=0 title='Thoughts on this idea?'
+2026-05-05T22:01:13Z INFO    [HIT] #84 r/unsw score=1 comments=0 title='Thoughts about Commerce majoring in Innovation, Strategy and Entrepreneurship'
+2026-05-05T22:01:13Z INFO    [HIT] #85 r/HENRYUK score=0 comments=15 title='Thoughts on this job offer'
+2026-05-05T22:01:13Z INFO    [HIT] #86 r/KoeNoKatachi score=5 comments=2 title='I finished A Silent Voice manga for the first time (my thoughts)'
+2026-05-05T22:01:13Z INFO    [HIT] #87 r/DarkAndDarker score=0 comments=13 title='Thoughts on shadow step for pickpocket rogue?'
+2026-05-05T22:01:13Z INFO    [HIT] #88 r/AlignmentCharts score=0 comments=5 title='Completed 1 month ago, just forgot to post! Thoughts on it?'
+2026-05-05T22:01:13Z INFO    [HIT] #89 r/askphilosophy score=1 comments=2 title='Is german idealism a precursor to existentialism? Any books on the relation of the two?'
+2026-05-05T22:01:13Z INFO    [HIT] #90 r/AskReddit score=0 comments=3 title='What are your thoughts on Rudolph Giuliani now being well and cracking jokes?'
+2026-05-05T22:01:13Z INFO    [HIT] #91 r/WorkoutRoutines score=1 comments=0 title='Thoughts on my Routine'
+2026-05-05T22:01:13Z INFO    [HIT] #92 r/premed score=1 comments=1 title='Thoughts on mentioning hobby-related social media in essay but avoiding mention of the username and making that account private in case someone were to ask in an interview?'
+2026-05-05T22:01:13Z INFO    [HIT] #93 r/Brawlstars score=2 comments=2 title='End of trophy road rewards?'
+2026-05-05T22:01:13Z INFO    [HIT] #94 r/loseit score=1 comments=1 title='Why am I more hungry some days'
+2026-05-05T22:01:13Z INFO    [HIT] #95 r/saasbuild score=1 comments=2 title='We got tired of growing bills for website feedback tools so we built Spotfix'
+2026-05-05T22:01:13Z INFO    [HIT] #96 r/PokemonInvesting score=3 comments=16 title='Chaos Rising Booster Box $210 shipped - would you do it?'
+2026-05-05T22:01:13Z INFO    [HIT] #97 r/u_Christopher_Fazio score=1 comments=0 title='Thinking of getting my first ebike, any thoughts on this one?'
+2026-05-05T22:01:13Z INFO    [HIT] #98 r/lockpicking score=3 comments=13 title='Thoughts on an academic article on the ethics of lockpicking?'
+2026-05-05T22:01:13Z INFO    [HIT] #99 r/globaltrumpopposition score=1 comments=0 title='Stop attacking Trump alone…'
+2026-05-05T22:01:13Z INFO    [HIT] #100 r/HeatPedaltotheMetal score=4 comments=1 title='Thoughts on Nederland circuit?'
+2026-05-05T22:01:13Z INFO    [WARNING] max-pages=1 reached for sort=new sub=all — more results exist
+2026-05-05T22:01:14Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Thoughts leaks
+2026-05-05T22:01:16Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+leaks%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:18Z INFO    [RESPONSE] 200 1804ms https://www.reddit.com/search.json?q=%22Thoughts+leaks%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:18Z INFO    [HIT] #1 r/worldnews score=65801 comments=2285 title='Muslim students in China returned home to find loved ones had vanished into camps for thinking ‘unhealthy thoughts’, leaked documents reveal. ‘Freedom is only possible when the ‘virus’ in their thinking is eradicated’.'
+2026-05-05T22:01:18Z INFO    [HIT] #2 r/Daredevil score=567 comments=65 title='What are our thoughts? Leak originally came from Alex Perez, who I have no idea if is credible or not.'
+2026-05-05T22:01:18Z INFO    [HIT] #3 r/BlueArchive score=2354 comments=44 title="Hoshino's Intrusive Thoughts Leaked (Translated) [kuuload]"
+2026-05-05T22:01:18Z INFO    [HIT] #4 r/nfl score=986 comments=190 title='[Brown] this is least thoughtful leak ever, NYG clearly want to trade the pick. imagine Giants actually taking Herbert at #4 a year after taking Daniel Jones (two years removed from skipping out on a QB to pick Saquon). why not just say "the #4 pick is available to the highest bidder"'
+2026-05-05T22:01:18Z INFO    [HIT] #5 r/meirl score=18371 comments=98 title='meirl'
+2026-05-05T22:01:18Z INFO    [HIT] #6 r/Komi_memes score=559 comments=3 title='"Inner thoughts leaked."'
+2026-05-05T22:01:18Z INFO    [HIT] #7 r/pcgaming score=1390 comments=283 title="Battlefield 6 enters its 'we've heard your feedback' era: 7 more maps are coming in 2026, including fan-favorite Wake Island"
+2026-05-05T22:01:18Z INFO    [HIT] #8 r/Jujutsufolk score=258 comments=110 title='Gojos inner thoughts leaked'
+2026-05-05T22:01:18Z INFO    [HIT] #9 r/TheBandCAMINO score=123 comments=28 title='AfterThought leaked.'
+2026-05-05T22:01:18Z INFO    [HIT] #10 r/news score=45801 comments=5064 title='Muslim groups raise $500,000 for the victims of the Portland attacks'
+2026-05-05T22:01:18Z INFO    [HIT] #11 r/videos score=20412 comments=1196 title='How Pablo Escobar created a hippo problem in Colombia'
+2026-05-05T22:01:18Z INFO    [HIT] #12 r/mildlyinfuriating score=22003 comments=1051 title='Oh, let me just put these empty eggshells back in the container. I married a savage.'
+2026-05-05T22:01:18Z INFO    [HIT] #13 r/SonyAlpha score=229 comments=72 title='Thoughts? Leaked Images of the Sigma 70-200mm 2.8'
+2026-05-05T22:01:18Z INFO    [HIT] #14 r/AskReddit score=8069 comments=7083 title='Whats the worst thing that has made it to the front page?'
+2026-05-05T22:01:18Z INFO    [HIT] #15 r/ThePrimordialOne score=46 comments=2 title='The Shades might come sooner than we thought… (Leaks will be Mentioned; Leak Flair will be applied)'
+2026-05-05T22:01:18Z INFO    [HIT] #16 r/videogames score=3147 comments=226 title='What yall think about this? '
+2026-05-05T22:01:18Z INFO    [HIT] #17 r/CShortHaven score=1 comments=2 title="Royal Consort's Inner Thoughts Leaked"
+2026-05-05T22:01:18Z INFO    [HIT] #18 r/Telepathy score=17 comments=20 title='Mind thoughts leaking'
+2026-05-05T22:01:18Z INFO    [HIT] #19 r/TAVO_AICHAT score=2 comments=5 title='Thoughts leaking into main messages (Gemini 3.1). Should I remove <thinking> tags from my preset?'
+2026-05-05T22:01:18Z INFO    [HIT] #20 r/GeminiAI score=13 comments=1 title='Lyria 3 rapping the description of the song (thought leak bug)'
+2026-05-05T22:01:18Z INFO    [HIT] #21 r/intrusivethoughts score=1 comments=1 title='scared of intrusive thoughts leaking out when drunk'
+2026-05-05T22:01:18Z INFO    [HIT] #22 r/yurimemes score=504 comments=1 title='Gigi you let your inner thoughts leak out. @Gardavwar'
+2026-05-05T22:01:18Z INFO    [HIT] #23 r/tomodachilife score=1383 comments=56 title='Development started around 2017??'
+2026-05-05T22:01:18Z INFO    [HIT] #24 r/LilDurk score=10 comments=33 title='Deep thoughts leak'
+2026-05-05T22:01:18Z INFO    [HIT] #25 r/BBallShoes score=51 comments=34 title='First look at the Nike Ja 3, coming July 2025 for $130. Thoughts? (Leaked vendor photos)'
+2026-05-05T22:01:18Z INFO    [HIT] #26 r/ClashRoyale score=2488 comments=50 title='How long until they start limiting how many crowns you can earn per day?'
+2026-05-05T22:01:18Z INFO    [HIT] #27 r/WorldofTanks score=9 comments=36 title='Thoughts leaked Type 71 buff and 60 TP Nerf '
+2026-05-05T22:01:18Z INFO    [HIT] #28 r/rickandmorty score=16781 comments=270 title='my friends got me a portal gun that actually projects the portal onto the wall. this is so cool'
+2026-05-05T22:01:18Z INFO    [HIT] #29 r/HarryPotteronHBO score=925 comments=79 title='End of the debate: Ravenclaw is truly blue and BRONZE!'
+2026-05-05T22:01:18Z INFO    [HIT] #30 r/dayz score=26 comments=89 title="Any thoughts/leaks as to what's coming in 1.19?"
+2026-05-05T22:01:18Z INFO    [HIT] #31 r/billsimmons score=0 comments=87 title="The current sports media isn't equipped to deal with the complexity of black political thought leaking into sports."
+2026-05-05T22:01:18Z INFO    [HIT] #32 r/Losercity score=2654 comments=31 title='Losercity maria'
+2026-05-05T22:01:18Z INFO    [HIT] #33 r/manga score=600 comments=7 title='[SL](Request) The Maid whose Inner Thoughts Leak Out Easily'
+2026-05-05T22:01:18Z INFO    [HIT] #34 r/blursedimages score=4503 comments=29 title='Blursed moon'
+2026-05-05T22:01:18Z INFO    [HIT] #35 r/instantbarbarians score=1601 comments=47 title='Shared this at contagiouslaughter, though might belong here too'
+2026-05-05T22:01:18Z INFO    [HIT] #36 r/Piratefolk score=244 comments=22 title='Thought leaks were out when I saw this'
+2026-05-05T22:01:18Z INFO    [HIT] #37 r/dankmemes score=17800 comments=165 title='Libtard trolled epic style'
+2026-05-05T22:01:18Z INFO    [HIT] #38 r/singularity score=367 comments=150 title='xAI all hands (after losing 25 senior staff last week, 46 minutes)'
+2026-05-05T22:01:18Z INFO    [HIT] #39 r/funny score=11484 comments=193 title='Leaked Star Wars: The Last Jedi footage'
+2026-05-05T22:01:18Z INFO    [HIT] #40 r/hmm score=5552 comments=111 title='Hmm'
+2026-05-05T22:01:18Z INFO    [HIT] #41 r/telescopes score=670 comments=80 title='Is this a good beginner scope'
+2026-05-05T22:01:18Z INFO    [HIT] #42 r/TheOwlHouse score=1152 comments=40 title='{Ruby00p} Confronting Your Past'
+2026-05-05T22:01:18Z INFO    [HIT] #43 r/politics score=2051 comments=296 title='Fauci ‘sticking with’ Covid-19 booster shot recommendations'
+2026-05-05T22:01:18Z INFO    [HIT] #44 r/ThePokemonHub score=576 comments=79 title='Sinnoh Starters deserve something in champions'
+2026-05-05T22:01:18Z INFO    [HIT] #45 r/Hydroflask score=22 comments=23 title='Sugar Crush Collection - thoughts/leaks/expectations?'
+2026-05-05T22:01:18Z INFO    [HIT] #46 r/HOTDGreens score=44 comments=13 title='I thought leaks were the worst, but this, this is the worst'
+2026-05-05T22:01:18Z INFO    [HIT] #47 r/196 score=3209 comments=74 title='Puppyrule'
+2026-05-05T22:01:18Z INFO    [HIT] #48 r/pcmasterrace score=1325 comments=146 title="PC Won't Recognize More Than 1 HDMI Port"
+2026-05-05T22:01:18Z INFO    [HIT] #49 r/Hiphopcirclejerk score=1631 comments=186 title='Glad our boy is getting the recognition that he deserves 🔥🔥'
+2026-05-05T22:01:18Z INFO    [HIT] #50 r/Genshin_Impact_Leaks score=976 comments=62 title='Albedo and Klee trails'
+2026-05-05T22:01:18Z INFO    [HIT] #51 r/Genshin_Impact score=4883 comments=113 title='Made a town in the teapot. Just waiting for the pavement to release......'
+2026-05-05T22:01:18Z INFO    [HIT] #52 r/Deltarune score=1362 comments=41 title='Chat, Thoughts?'
+2026-05-05T22:01:18Z INFO    [HIT] #53 r/electricvehicles score=557 comments=861 title='A corporate document reveals why Toyota will focus more on hybrids over EVs. (Jalopnik article)'
+2026-05-05T22:01:18Z INFO    [HIT] #54 r/Warthunder score=1797 comments=91 title='I hate it'
+2026-05-05T22:01:18Z INFO    [HIT] #55 r/ValorantCompetitive score=553 comments=168 title='Ange1 on the Tejo nerfs'
+2026-05-05T22:01:18Z INFO    [HIT] #56 r/GamingLeaksAndRumours score=311 comments=76 title='Yasuhiro Anpo (Director of RE 2/4 and rumored CV remakes) is directing Pragmata'
+2026-05-05T22:01:18Z INFO    [HIT] #57 r/pics score=9190 comments=118 title='Old bank vault door'
+2026-05-05T22:01:18Z INFO    [HIT] #58 r/HonkaiStarRail score=1803 comments=35 title='Just Started The Game And Thought Of This'
+2026-05-05T22:01:18Z INFO    [HIT] #59 r/Genshin_Memepact score=3756 comments=70 title='Here, I fix the meme'
+2026-05-05T22:01:18Z INFO    [HIT] #60 r/baseball score=1741 comments=228 title="Least exciting MLB players - Those that just walk a lot and don't slug"
+2026-05-05T22:01:18Z INFO    [HIT] #61 r/fivenightsatfreddys score=1831 comments=218 title='I guess I got Step Closer early. Not that I am complaining.'
+2026-05-05T22:01:18Z INFO    [HIT] #62 r/Warthunder score=513 comments=62 title='Are we ever going to get the burst fire mode on these cannons?'
+2026-05-05T22:01:18Z INFO    [HIT] #63 r/DokkanBattleCommunity score=385 comments=217 title='Who are you summoning for first during the 10th Anniversary? And why?'
+2026-05-05T22:01:18Z INFO    [HIT] #64 r/ihaveihaveihavewunkus score=2403 comments=35 title='What Do You Think Of His Cause Of Death?'
+2026-05-05T22:01:18Z INFO    [HIT] #65 r/switch2 score=138 comments=148 title='Waiting for Elden Ring on Nintendo Switch 2 – Worth the Wait or Just Play on PS5?'
+2026-05-05T22:01:18Z INFO    [HIT] #66 r/formuladank score=796 comments=39 title='The Final boss remains unbeaten.'
+2026-05-05T22:01:18Z INFO    [HIT] #67 r/SpaceXLounge score=626 comments=159 title='Starship post tip-over explosion (expected/normal)'
+2026-05-05T22:01:18Z INFO    [HIT] #68 r/HazbinHotel score=950 comments=48 title='[OC] Animated Vox getting stomped on + Extra screen stomp'
+2026-05-05T22:01:18Z INFO    [HIT] #69 r/Losercity score=1415 comments=82 title='Losercity Autism '
+2026-05-05T22:01:18Z INFO    [HIT] #70 r/evangelionmemes score=1730 comments=113 title='Why didnt Shinji simply got in the robot to save the world? Is he stupid?'
+2026-05-05T22:01:18Z INFO    [HIT] #71 r/GambitMainsMR score=421 comments=61 title='Upcoming Gambit Skin'
+2026-05-05T22:01:18Z INFO    [HIT] #72 r/deadbydaylight score=3424 comments=103 title='A Twitch viewer of mine made this for me and I thought you guys would enjoy!'
+2026-05-05T22:01:18Z INFO    [HIT] #73 r/manga score=98 comments=3 title='[DISC] The Maid whose Inner Thoughts Leak Out Easily - Ch 5'
+2026-05-05T22:01:18Z INFO    [HIT] #74 r/stephenking score=922 comments=156 title='Stephen king tweets about the new “currently shelved” Salem’s lot movie. How do we feel?'
+2026-05-05T22:01:18Z INFO    [HIT] #75 r/shittyaskelectronics score=1492 comments=24 title="Now that's a spicy capacitor"
+2026-05-05T22:01:18Z INFO    [HIT] #76 r/breakingbad score=1228 comments=47 title='skyler calls her baby "big lunch" but when born her name is "holly"? why did she change her name?'
+2026-05-05T22:01:18Z INFO    [HIT] #77 r/MousepadReview score=501 comments=65 title='Help getting water out from porno base?'
+2026-05-05T22:01:18Z INFO    [HIT] #78 r/manga score=39 comments=0 title="[disc] The Maid whose Inner Thoughts Leak Out Easily - Ch. 10 - Karasuma-san's Golden Week - MangaDex"
+2026-05-05T22:01:18Z INFO    [HIT] #79 r/blackcats score=1648 comments=59 title='I want share one of my favorite void picture but also a warning!'
+2026-05-05T22:01:18Z INFO    [HIT] #80 r/halo score=2077 comments=58 title="I've been sitting on this probably for a bit too long"
+2026-05-05T22:01:18Z INFO    [HIT] #81 r/ForzaHorizon score=54 comments=99 title='FH6 Soundtrack so far'
+2026-05-05T22:01:18Z INFO    [HIT] #82 r/UpliftingNews score=1222 comments=103 title='They went hunting for fossil fuels. What they found could help save the world'
+2026-05-05T22:01:18Z INFO    [HIT] #83 r/manga score=55 comments=0 title='[Disc] The Maid whose Inner Thoughts Leak Out Easily - Ch9 - Manga Galaxy'
+2026-05-05T22:01:18Z INFO    [HIT] #84 r/xD1x score=2 comments=0 title='When your inner thoughts leak so hard, the whole lobby hears it'
+2026-05-05T22:01:18Z INFO    [HIT] #85 r/Tinder score=3940 comments=110 title='Priorities in check.'
+2026-05-05T22:01:18Z INFO    [HIT] #86 r/funkopop score=7 comments=42 title="Any thoughts/leaks regarding tomorrow's Pop Up Shop exclusive?"
+2026-05-05T22:01:18Z INFO    [HIT] #87 r/manga score=66 comments=1 title='[DISC] The Maid whose Inner Thoughts Leak Out Easily » Ch. 8'
+2026-05-05T22:01:18Z INFO    [HIT] #88 r/manga score=40 comments=1 title='[DISC] The Maid whose Inner Thoughts Leak Out Easily - CH 8.5'
+2026-05-05T22:01:18Z INFO    [HIT] #89 r/Shitty_Car_Mods score=282 comments=49 title='Looks like someone had a gift card to JC Whitney.'
+2026-05-05T22:01:18Z INFO    [HIT] #90 r/pathofexile score=173 comments=73 title='I beg of GGG please buff golems as minions.'
+2026-05-05T22:01:18Z INFO    [HIT] #91 r/Gunpla score=599 comments=31 title='99% done. Close enough for now.'
+2026-05-05T22:01:18Z INFO    [HIT] #92 r/LetGirlsHaveFun score=1548 comments=35 title='Talos forbid a draugirly keep a diary'
+2026-05-05T22:01:18Z INFO    [HIT] #93 r/Metroid score=2691 comments=76 title='i wanted to animate some samus :)))'
+2026-05-05T22:01:18Z INFO    [HIT] #94 r/manga score=54 comments=1 title='[DISC] The Maid whose Inner Thoughts Leak Out Easily - Ch. 7'
+2026-05-05T22:01:18Z INFO    [HIT] #95 r/Spiderman score=1538 comments=80 title='Saw this comment on ATSV “Imma do my own thing” and it hasn’t left my mind since'
+2026-05-05T22:01:18Z INFO    [HIT] #96 r/DoomsdayNow score=1 comments=0 title='Ticking time bombs - What risk do abandoned oil and gas wells pose? The extraction of gas and oil poses a greater threat than previously thought. Leaks at disused drilling sites can trigger an environmental disaster at any time. If toxic substances escape, human lives are at risk.'
+2026-05-05T22:01:18Z INFO    [HIT] #97 r/BlatantMisogyny score=823 comments=73 title='A male student doctor at ER assaults a pregnant woman, willingly misdiagnoses her, AND falsifies her personal information. (There is a happy ending.) '
+2026-05-05T22:01:18Z INFO    [HIT] #98 r/PokemonScarletViolet score=0 comments=10 title='A thought..... LEAKED SPOLERS'
+2026-05-05T22:01:18Z INFO    [HIT] #99 r/manga score=45 comments=1 title='[DISC] The Maid whose Inner Thoughts Leak Out Easily » Ch. 6'
+2026-05-05T22:01:18Z INFO    [HIT] #100 r/ClashOfClans score=1019 comments=17 title='Grilled Fish Campfire>>>Weapon of mass destruction'
+2026-05-05T22:01:18Z INFO    [WARNING] max-pages=1 reached for sort=relevance sub=all — more results exist
+2026-05-05T22:01:19Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Thoughts leaks
+2026-05-05T22:01:21Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+leaks%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:24Z INFO    [RESPONSE] 200 2433ms https://www.reddit.com/search.json?q=%22Thoughts+leaks%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:24Z INFO    [HIT] #1 r/spirituality score=1 comments=0 title='the bird is the word (the logos had a zip code)'
+2026-05-05T22:01:24Z INFO    [HIT] #2 r/justpoetry score=5 comments=0 title='Instinctual Feral Transactional'
+2026-05-05T22:01:24Z INFO    [HIT] #3 r/Bedtimeinspirational score=1 comments=0 title='O.I. Grandfather'
+2026-05-05T22:01:24Z INFO    [HIT] #4 r/LocalLLaMA score=0 comments=4 title="I shipped an iOS app running Gemma 4 E2B fully on-device — here's what I learned about MLX Swift in production"
+2026-05-05T22:01:24Z INFO    [HIT] #5 r/SolarBalls score=44 comments=13 title='Leakers are just insane'
+2026-05-05T22:01:24Z INFO    [HIT] #6 r/danganronpa score=121 comments=20 title='Makoto’s a PERV and the root of ALL EVIL and is UGLY!'
+2026-05-05T22:01:24Z INFO    [HIT] #7 r/CSFLeaks score=5 comments=21 title='Stanford wait time just got longer. Timeline so far to check for leak.'
+2026-05-05T22:01:24Z INFO    [HIT] #8 r/NoStupidQuestions score=0 comments=44 title='Is telepathy real?'
+2026-05-05T22:01:24Z INFO    [HIT] #9 r/MonsterHigh score=41 comments=11 title='losing interest overtime'
+2026-05-05T22:01:24Z INFO    [HIT] #10 r/Bard score=13 comments=2 title='Gemini keeps printing thoght processes outside of its normal thinking.'
+2026-05-05T22:01:24Z INFO    [HIT] #11 r/mrcreeps score=3 comments=0 title="I started feeling nostalgic for a town I had never been to. I wasn't the only one [Part 2 of 4]"
+2026-05-05T22:01:24Z INFO    [HIT] #12 r/libraryofshadows score=1 comments=0 title='Bloodrock Remains 06- Nostalgic Reunion [Part 2 of 4]'
+2026-05-05T22:01:24Z INFO    [HIT] #13 r/mrcreeps score=1 comments=0 title="I started feeling nostalgic for a town I had never been to. I wasn't the only one. [1 of 4]"
+2026-05-05T22:01:24Z INFO    [HIT] #14 r/libraryofshadows score=1 comments=0 title='Bloodrock Remains 06- Nostalgic Reunion'
+2026-05-05T22:01:24Z INFO    [HIT] #15 r/Bard score=26 comments=9 title='I put "EFFORT LEVEL: 1.0" into my personal instructions, and it seems to make Gemini spaz out'
+2026-05-05T22:01:24Z INFO    [HIT] #16 r/GeminiAI score=90 comments=82 title="Google is throttling Gemini's reasoning quality via a hidden system prompt instruction — and here's proof"
+2026-05-05T22:01:24Z INFO    [HIT] #17 r/crv score=2 comments=1 title='2018 1.5L Hard Start'
+2026-05-05T22:01:24Z INFO    [HIT] #18 r/Bolehkiriland score=15 comments=4 title="A Look of Malaysia's Petit Bourgeoisie"
+2026-05-05T22:01:24Z INFO    [HIT] #19 r/tmobile score=4 comments=38 title="Any Leaks about T-Mobile's Promos for Samsung's S26 Series?"
+2026-05-05T22:01:24Z INFO    [HIT] #20 r/askaplumber score=0 comments=4 title='Condensation under sink'
+2026-05-05T22:01:24Z INFO    [HIT] #21 r/OccultConspiracy score=9 comments=9 title='Eyes Wide Shut: Decoding the Masked Rituals of secret societies'
+2026-05-05T22:01:24Z INFO    [HIT] #22 r/Polarity_of_the_flux score=1 comments=0 title='its all in my head'
+2026-05-05T22:01:24Z INFO    [HIT] #23 r/dieold score=1 comments=0 title='Die Old Chapter 1'
+2026-05-05T22:01:24Z INFO    [HIT] #24 r/redditserials score=3 comments=0 title='[Rise of the Solar Empire] #19'
+2026-05-05T22:01:24Z INFO    [HIT] #25 r/Vent score=2 comments=14 title="My life's work has been washed in a failure"
+2026-05-05T22:01:24Z INFO    [HIT] #26 r/HFY score=42 comments=6 title='Rise of the Solar Empire #18'
+2026-05-05T22:01:24Z INFO    [HIT] #27 r/u_JamesParker29 score=1 comments=0 title='Best Leak Detection Plumber in Sydney'
+2026-05-05T22:01:24Z INFO    [HIT] #28 r/DisventureCamp score=42 comments=49 title='The Zaid Betrayal Is The Worst CoC Plotline'
+2026-05-05T22:01:24Z INFO    [HIT] #29 r/ClaudeAI score=0 comments=3 title='Claude vs Chatgpt rap battle.'
+2026-05-05T22:01:24Z INFO    [HIT] #30 r/ChatGPT score=21 comments=30 title='Chatgpt vs Claude rap battle. Something different.'
+2026-05-05T22:01:24Z INFO    [HIT] #31 r/PromptEngineering score=2 comments=1 title='A Modular Operator Kernel for Prompt Engineers: Deterministic Structure, Zero Drift (YAML + Demo)'
+2026-05-05T22:01:24Z INFO    [HIT] #32 r/SillyTavernAI score=0 comments=13 title='DeepSeek V3.2 cutting off response'
+2026-05-05T22:01:24Z INFO    [HIT] #33 r/HFY score=5 comments=4 title='The Thirty-Seventh Path: Containment Breach'
+2026-05-05T22:01:24Z INFO    [HIT] #34 r/HFY score=7 comments=2 title='The QuestWright BK1 C23'
+2026-05-05T22:01:24Z INFO    [HIT] #35 r/shortscarystories score=12 comments=0 title='Gwen'
+2026-05-05T22:01:24Z INFO    [HIT] #36 r/bikewrench score=0 comments=0 title='Trp slate evo pistons moving unevenly..'
+2026-05-05T22:01:24Z INFO    [HIT] #37 r/TransRepressors score=11 comments=3 title="People would be disgusted if they knew what lives inside a repper's mind."
+2026-05-05T22:01:24Z INFO    [HIT] #38 r/premedcanada score=231 comments=58 title='To the person who leaked the western format, WHY??'
+2026-05-05T22:01:24Z INFO    [HIT] #39 r/DuelLinks score=11 comments=19 title='So, upcoming updates has me concerned, are we not getting other new characters with this world update?'
+2026-05-05T22:01:24Z INFO    [HIT] #40 r/TheFragrantFlower score=13 comments=25 title='Advice for Specific People'
+2026-05-05T22:01:24Z INFO    [HIT] #41 r/KaoruHanaWaRintoSaku score=28 comments=5 title='Advice for Specific People'
+2026-05-05T22:01:24Z INFO    [HIT] #42 r/fallenlondon score=53 comments=53 title="October's Exceptional Story: The Shape of Infinity - Discussion Thread"
+2026-05-05T22:01:24Z INFO    [HIT] #43 r/DisventureCamp score=43 comments=17 title="I Don't Like Anastasia's Writing As Of Late"
+2026-05-05T22:01:24Z INFO    [HIT] #44 r/Edexcel score=1 comments=2 title='Paper leaks'
+2026-05-05T22:01:24Z INFO    [HIT] #45 r/shortscarystories score=14 comments=2 title='The Voices'
+2026-05-05T22:01:24Z INFO    [HIT] #46 r/u_jcore_verse score=1 comments=0 title='The Voices'
+2026-05-05T22:01:24Z INFO    [HIT] #47 r/YoneMains score=11 comments=4 title='T1 skin'
+2026-05-05T22:01:24Z INFO    [HIT] #48 r/HFY score=162 comments=14 title='The Return of the Makers'
+2026-05-05T22:01:24Z INFO    [HIT] #49 r/dr650 score=16 comments=29 title='Am I fucked or what?'
+2026-05-05T22:01:24Z INFO    [HIT] #50 r/EmperorProtects score=1 comments=0 title='Sultry temptations'
+2026-05-05T22:01:24Z INFO    [HIT] #51 r/visualsnow score=3 comments=4 title='Tetris effect / hyperphantasia'
+2026-05-05T22:01:24Z INFO    [HIT] #52 r/arknights score=386 comments=20 title='Elite Operator File: Raidian'
+2026-05-05T22:01:24Z INFO    [HIT] #53 r/AnantaOfficial score=42 comments=42 title='Can we denormalize the idea that every game is supposed to get leaked?'
+2026-05-05T22:01:24Z INFO    [HIT] #54 r/HFY score=39 comments=9 title='We Accidentally Summoned A Human Ch27'
+2026-05-05T22:01:24Z INFO    [HIT] #55 r/HonkaiStarRail score=233 comments=29 title='Nous, the Erudition and Free Will[Includes 3.4 Spoilers]'
+2026-05-05T22:01:24Z INFO    [HIT] #56 r/StarRailLore score=377 comments=39 title='Nous, the Erudition and free will[Includes spoilers from 3.4]'
+2026-05-05T22:01:24Z INFO    [HIT] #57 r/pregnant score=1 comments=23 title='Am I gaslighting myself into thinking my baby will come early?'
+2026-05-05T22:01:24Z INFO    [HIT] #58 r/NBAYoungboy score=24 comments=0 title='Dropping bands for some leaks'
+2026-05-05T22:01:24Z INFO    [HIT] #59 r/shortscarystories score=12 comments=2 title='I’ve tried keeping it to myself.'
+2026-05-05T22:01:24Z INFO    [HIT] #60 r/weatherfactory score=86 comments=14 title='Ysabet, please do place this advertisement for me.'
+2026-05-05T22:01:24Z INFO    [HIT] #61 r/shortscarystories score=81 comments=1 title='Not Mine'
+2026-05-05T22:01:24Z INFO    [HIT] #62 r/homeowners score=1 comments=2 title='Plumber quote/repair question'
+2026-05-05T22:01:24Z INFO    [HIT] #63 r/test score=1 comments=2 title='The Chaos Engine'
+2026-05-05T22:01:24Z INFO    [HIT] #64 r/mentalhealth score=2 comments=0 title="I know it's bad to feel that way, but idk how to change it"
+2026-05-05T22:01:24Z INFO    [HIT] #65 r/Poems score=2 comments=0 title='Trifles of The Mind'
+2026-05-05T22:01:24Z INFO    [HIT] #66 r/u_Outrageous_Sample212 score=1 comments=0 title='What REALLY goes on inside LeaksCC (My full experience)'
+2026-05-05T22:01:24Z INFO    [HIT] #67 r/aiArt score=2 comments=1 title='Leaked footage from history’s most toxic rivals 👀'
+2026-05-05T22:01:24Z INFO    [HIT] #68 r/hottub score=1 comments=3 title='Hottub noob..help?'
+2026-05-05T22:01:24Z INFO    [HIT] #69 r/ICSE score=149 comments=28 title='I wrote something for the ICSE reddit community'
+2026-05-05T22:01:24Z INFO    [HIT] #70 r/SeveranceAppleTVPlus score=0 comments=2 title='Cold Harbor Nothing But the Truth'
+2026-05-05T22:01:24Z INFO    [HIT] #71 r/Schizoid score=37 comments=24 title='Any tips on how to deal with your own narcissism?'
+2026-05-05T22:01:24Z INFO    [HIT] #72 r/LilDurk score=68 comments=57 title='they leaked the song finally'
+2026-05-05T22:01:24Z INFO    [HIT] #73 r/DisventureCamp score=202 comments=169 title='Grett is getting a new VA for greetings.'
+2026-05-05T22:01:24Z INFO    [HIT] #74 r/Poems score=4 comments=4 title='Swiss cheese brain'
+2026-05-05T22:01:24Z INFO    [HIT] #75 r/4bmovement score=249 comments=36 title='Making a "connection" with the post about male nurses'
+2026-05-05T22:01:24Z INFO    [HIT] #76 r/bollywood score=12 comments=6 title='Watching Bhool Bhulaiya 3 as a Bengali'
+2026-05-05T22:01:24Z INFO    [HIT] #77 r/HFY score=34 comments=6 title='A Dream from the Synthetic'
+2026-05-05T22:01:24Z INFO    [HIT] #78 r/Boruto score=3 comments=13 title='Where tf the leaks at?'
+2026-05-05T22:01:24Z INFO    [HIT] #79 r/Cosmere score=144 comments=100 title='Why don’t Spren exist outside of Roshar?'
+2026-05-05T22:01:24Z INFO    [HIT] #80 r/Plumbing score=1 comments=4 title='Something is leaking...'
+2026-05-05T22:01:24Z INFO    [HIT] #81 r/HFY score=96 comments=17 title='Frontier Fantasy - Pillars of Industry - Chap 56'
+2026-05-05T22:01:24Z INFO    [HIT] #82 r/LyricalWriting score=1 comments=0 title='A-I-R-D-S (airheads) [lyrics]'
+2026-05-05T22:01:24Z INFO    [HIT] #83 r/LyricalWriting score=1 comments=0 title='[lyrics] Airheads '
+2026-05-05T22:01:24Z INFO    [HIT] #84 r/DermatologyQuestions score=1 comments=1 title='What is it? '
+2026-05-05T22:01:24Z INFO    [HIT] #85 r/repair score=1 comments=0 title='Help pinpointing air leak in inflable pool'
+2026-05-05T22:01:24Z INFO    [WARNING] max-pages=1 reached for sort=new sub=all — more results exist
+2026-05-05T22:01:24Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Thoughts O
+2026-05-05T22:01:27Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+O%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:29Z INFO    [RESPONSE] 200 2284ms https://www.reddit.com/search.json?q=%22Thoughts+O%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:29Z INFO    [HIT] #1 r/pics score=1275 comments=1021 title='I found this creepy note taped to my door last night..thoughts?  O_o'
+2026-05-05T22:01:29Z INFO    [HIT] #2 r/StarWars score=733 comments=193 title='Any thought o. this? Has anyone seen any previews?'
+2026-05-05T22:01:29Z INFO    [HIT] #3 r/dishonored score=1774 comments=54 title="It's not from the same angle unfortunately, but it looked pretty close - Dead God identity confirmed? Thoughts? :O"
+2026-05-05T22:01:29Z INFO    [HIT] #4 r/Peripheryband score=116 comments=29 title="Thoughts o Mark's signature guitar?"
+2026-05-05T22:01:29Z INFO    [HIT] #5 r/Blooddonors score=119 comments=52 title='What does this mean? I thought O+ was really common?'
+2026-05-05T22:01:29Z INFO    [HIT] #6 r/Star_Trek_ score=14 comments=48 title='Shower Thought:  O’Brien was originally mean to be an officer in TNG and ‘Chief’ was short for his post as Transporter Chief'
+2026-05-05T22:01:29Z INFO    [HIT] #7 r/Gamingcirclejerk score=647 comments=30 title="hOlD tHe PHonE, I thought oLd GaMeS weren't Woke"
+2026-05-05T22:01:29Z INFO    [HIT] #8 r/transfem score=63 comments=15 title='My fit from the other night. I felt so cute. If only I saw other women who thought o was cute.'
+2026-05-05T22:01:29Z INFO    [HIT] #9 r/theunforgiven score=70 comments=22 title='Thoughts o my Guardians of Covenant Chapter Master Kitbash'
+2026-05-05T22:01:29Z INFO    [HIT] #10 r/deepwoken score=17 comments=29 title='Thoughts o this chime match'
+2026-05-05T22:01:29Z INFO    [HIT] #11 r/Patriots score=228 comments=87 title='[Orlovsky] It’s nice to see Mac Jones back and looking like Mac Jones for @Patriots. Thought O’Brien and his “bunch” package was fantastic all game (Video analysis of 19-yard TD to Bourne)'
+2026-05-05T22:01:29Z INFO    [HIT] #12 r/Fauxmoi score=1574 comments=183 title='Charli XCX | The realities of being a pop star. According to my experience...'
+2026-05-05T22:01:29Z INFO    [HIT] #13 r/AskConservatives score=17 comments=227 title="What ate your thoughts o the Discussion of Luzzo using James Madison's flute."
+2026-05-05T22:01:29Z INFO    [HIT] #14 r/TwoBestFriendsPlay score=469 comments=64 title='Oh hey, some anti-cancer developments came back strong. I wonder what they thought o--- oh.'
+2026-05-05T22:01:29Z INFO    [HIT] #15 r/TrueAnon score=1166 comments=361 title='NYT isn’t sharing how very clearly ChatGPT killed that kid'
+2026-05-05T22:01:29Z INFO    [HIT] #16 r/whatsthisrock score=317 comments=20 title='My favorite rock, never thought o wonder what kind'
+2026-05-05T22:01:29Z INFO    [HIT] #17 r/Deltarune score=716 comments=196 title='My thoughts on Knight identity theories'
+2026-05-05T22:01:29Z INFO    [HIT] #18 r/Genshin_Impact score=0 comments=5 title='thought o genshin impact anime'
+2026-05-05T22:01:29Z INFO    [HIT] #19 r/TFABLinePorn score=5 comments=3 title='11 DPO, I took a clear blue test this morning and thought o could see a faint line. I couldn’t wait until tomorrow morning to test again. Y’all see a faint line right??'
+2026-05-05T22:01:29Z INFO    [HIT] #20 r/cartoons score=29 comments=19 title='For anyone who’s seen it what are your thoughts o this show?'
+2026-05-05T22:01:29Z INFO    [HIT] #21 r/SarahBowmar score=141 comments=52 title='I thought O was sooo hard to convince to brush her hair? The kids look happier without them'
+2026-05-05T22:01:29Z INFO    [HIT] #22 r/antiai score=17 comments=5 title='what yall thoughts o my pixel art'
+2026-05-05T22:01:29Z INFO    [HIT] #23 r/OkPonyDitzy score=98 comments=6 title='How it felt to be at the dentists (they are freakier than i thought O.O)'
+2026-05-05T22:01:29Z INFO    [HIT] #24 r/teenagers score=2 comments=16 title='Didn’t. My moim thought o was high hide itnts I need to hide.'
+2026-05-05T22:01:29Z INFO    [HIT] #25 r/orks score=4 comments=4 title='Thoughts o this type of skin?'
+2026-05-05T22:01:29Z INFO    [HIT] #26 r/NBA2k score=6 comments=21 title='Thoughts o these 6’8 builds? 99, 96 or 93 driving dunk?'
+2026-05-05T22:01:29Z INFO    [HIT] #27 r/pittsburgh score=737 comments=22 title="Thought o' yinz"
+2026-05-05T22:01:29Z INFO    [HIT] #28 r/AnimeFigures score=468 comments=48 title='New Albedo figure, What are your thoughts? :o'
+2026-05-05T22:01:29Z INFO    [HIT] #29 r/weeb score=0 comments=0 title='My Thoughts o SSSs.Dynaenon'
+2026-05-05T22:01:29Z INFO    [HIT] #30 r/slaythespire score=3 comments=5 title='Thoughts? o.O | 3 good options, going for heart kill'
+2026-05-05T22:01:29Z INFO    [HIT] #31 r/animeindian score=1 comments=9 title="ur thought o komi can't communicate??"
+2026-05-05T22:01:29Z INFO    [HIT] #32 r/whatdoIdo score=135 comments=300 title='My friend is a huge creep.'
+2026-05-05T22:01:29Z INFO    [HIT] #33 r/writing score=0 comments=6 title='Thoughts o structure'
+2026-05-05T22:01:29Z INFO    [HIT] #34 r/Forexstrategy score=1 comments=0 title='Thoughts o the current narrative: Tuesday 28 October'
+2026-05-05T22:01:29Z INFO    [HIT] #35 r/JohnElfedForexBlog score=1 comments=0 title='Thoughts o the current narrative: Tuesday 28 October'
+2026-05-05T22:01:29Z INFO    [HIT] #36 r/TechNope score=715 comments=9 title='I guess YouTube has been around for longer than I thought O_o'
+2026-05-05T22:01:29Z INFO    [HIT] #37 r/texts score=1281 comments=331 title='A guy (20m) I (20f) was talking to'
+2026-05-05T22:01:29Z INFO    [HIT] #38 r/WingsOfFire score=100 comments=5 title='What do you guys think of my Burn design? I spent a lot of thought o her. Which is why I feel bad that Blister won’t look nearly as good.'
+2026-05-05T22:01:29Z INFO    [HIT] #39 r/ArtificialInteligence score=0 comments=6 title='Thoughts o way to control AI'
+2026-05-05T22:01:29Z INFO    [HIT] #40 r/gtaonline score=81 comments=8 title='Ever wonder if this is GTAs version of special forces??? I know Trevor and Pavel are members just curios on yalls thoughts?o'
+2026-05-05T22:01:29Z INFO    [HIT] #41 r/furry score=1 comments=7 title='had a thought o making a suit via felting'
+2026-05-05T22:01:29Z INFO    [HIT] #42 r/TheWeeknd score=5 comments=1 title='Random thoughts o'
+2026-05-05T22:01:29Z INFO    [HIT] #43 r/ForwardPartyUSA score=3 comments=14 title="Forward Thought O' the Day"
+2026-05-05T22:01:29Z INFO    [HIT] #44 r/pettyrevenge score=3819 comments=168 title="Don't help with the group project? Fine fail the class, don't get promoted at work!"
+2026-05-05T22:01:29Z INFO    [HIT] #45 r/TeenWolf score=10 comments=15 title='What are your thoughts o the Wild Hunt / Ghost Riders ?'
+2026-05-05T22:01:29Z INFO    [HIT] #46 r/battles2 score=9 comments=0 title="Here's my Bloons-related Doodles from July! Also featuring some guests from other franchises who were parts of crossover doodles involving Bloons characters. After I finish sharing these I can get on with the visuallization of the balance survey, the sickness I had was worse than I thought >O<"
+2026-05-05T22:01:29Z INFO    [HIT] #47 r/ariheads score=109 comments=20 title='I made another Subreddit design proposal to fit the new year and era. Let me know your thoughts. :o)'
+2026-05-05T22:01:29Z INFO    [HIT] #48 r/lvjy score=34 comments=4 title='So...sharing random thoughts O.O (and question)'
+2026-05-05T22:01:29Z INFO    [HIT] #49 r/creepcast score=10 comments=1 title='I thought o was tripping see'
+2026-05-05T22:01:29Z INFO    [HIT] #50 r/LoriJonesSnarkPage score=9 comments=5 title='I saw this and thought O poor baby 😂👼🏻'
+2026-05-05T22:01:29Z INFO    [HIT] #51 r/claude score=473 comments=79 title='Anthropic just shipped messaging integration for Claude Code. Direct OpenClaw competitor, no dedicated hardware needed.'
+2026-05-05T22:01:29Z INFO    [HIT] #52 r/Owala score=10 comments=4 title="My new twist has just arrived! It's bigger than I thought O_O"
+2026-05-05T22:01:29Z INFO    [HIT] #53 r/Diablo_2_Resurrected score=7 comments=8 title='This feels like it should have potential, thoughts? o.o'
+2026-05-05T22:01:29Z INFO    [HIT] #54 r/camaro score=4 comments=21 title='Thinking about getting my first car being a 2014 Camaro ss with a R/S package thoughts o. The insurance'
+2026-05-05T22:01:29Z INFO    [HIT] #55 r/Vampireweekend score=112 comments=44 title='kinda late to the party but here’s my tier list. would love to hear your guys thoughts :o).'
+2026-05-05T22:01:29Z INFO    [HIT] #56 r/MyHeroUltraRumble score=43 comments=18 title="Compress mains, thought's o this new tech?"
+2026-05-05T22:01:29Z INFO    [HIT] #57 r/touhou score=1328 comments=79 title='Satori asks you to stop thinking [TL]'
+2026-05-05T22:01:29Z INFO    [HIT] #58 r/ufc score=14 comments=22 title='If you’re ever in an argument on here, realize they all thought O’Malley couldn’t beat a top 10 fighter.'
+2026-05-05T22:01:29Z INFO    [HIT] #59 r/worldjerking score=39 comments=6 title='Just thought o somthin'
+2026-05-05T22:01:29Z INFO    [HIT] #60 r/DoctorWhumour score=265 comments=10 title='I thought (o)f this and (c)ried, so now you all have to as well'
+2026-05-05T22:01:29Z INFO    [HIT] #61 r/Rajputana score=68 comments=3 title='(O Mother) no one has fallen as I am, and no one lifts (by removing sins) like you, with that thought, O Mahadevi, please do whatever is right (to save me).'
+2026-05-05T22:01:29Z INFO    [HIT] #62 r/Topster score=0 comments=2 title='Thoughts o- What the fuck? Who put this bigass wall here? Fuck man it was an awesome topster too. Lots of esoteric picks you would have loved it'
+2026-05-05T22:01:29Z INFO    [HIT] #63 r/CollegeAdmissionsPH score=3 comments=2 title='Thoughts oN bs psychology at TUA?'
+2026-05-05T22:01:29Z INFO    [HIT] #64 r/PoemPillars score=2 comments=1 title='Thought o Thot'
+2026-05-05T22:01:29Z INFO    [HIT] #65 r/newworldgame score=122 comments=24 title='Possibly New Expedition Entrance? had to do a lot of block/jumping on the sides of rocks to get up here but was surprised to see this building had a random entrance. a company member told me it once had the smokie expedition entrance at one point...thoughts? :o'
+2026-05-05T22:01:29Z INFO    [HIT] #66 r/Terraria score=278 comments=16 title='Progress on the Terraria Crossing Resprite thingie, thoughts? :o'
+2026-05-05T22:01:29Z INFO    [HIT] #67 r/musked score=1072 comments=149 title='Then what are brakes for?'
+2026-05-05T22:01:29Z INFO    [HIT] #68 r/PinoyCelebs score=250 comments=112 title='Thoughts kay Sid Lucero?'
+2026-05-05T22:01:29Z INFO    [HIT] #69 r/tacticalgear score=89 comments=29 title='First picture "a bit in situation". Ranger green looks even cooler than I thought :O'
+2026-05-05T22:01:29Z INFO    [HIT] #70 r/FieldsOfMistriaGame score=4 comments=6 title="About the Romanceables! Just my thoughts ^o^ Feel free to give me your thoughts and/or comments about all this or anything you'd like to add! "
+2026-05-05T22:01:29Z INFO    [HIT] #71 r/DunderMifflin score=1412 comments=258 title='Creed Bratton once said:'
+2026-05-05T22:01:29Z INFO    [HIT] #72 r/Market76 score=4 comments=7 title='Holy Mackerel that happened faster than I thought :o '
+2026-05-05T22:01:29Z INFO    [HIT] #73 r/NoStupidQuestions score=2 comments=17 title='What are your honest thoughts o about these women? Do you think their beautiful or no?'
+2026-05-05T22:01:29Z INFO    [HIT] #74 r/dauntless score=219 comments=13 title='I am busy trying out some new shading techniques and decided to go over one of my older behemoth ideas. Thoughts :o'
+2026-05-05T22:01:29Z INFO    [HIT] #75 r/lionking score=7 comments=0 title='My Thoughts oN Mufasa'
+2026-05-05T22:01:29Z INFO    [HIT] #76 r/Showerthoughts score=3566 comments=146 title="Maybe we haven't seen any time travelers because humanity goes extinct in the future."
+2026-05-05T22:01:29Z INFO    [HIT] #77 r/amazonfresh score=2 comments=2 title='My thoughts o  first time shopping'
+2026-05-05T22:01:29Z INFO    [HIT] #78 r/LifeIsStrangeMemes score=7 comments=1 title='Had to make this after seeing the image, thoughts? O.o'
+2026-05-05T22:01:29Z INFO    [HIT] #79 r/NoMansSkyTheGame score=5 comments=3 title='SWEET JEEBUS, This expedition made my multi-tool more powerful than I thought :O'
+2026-05-05T22:01:29Z INFO    [HIT] #80 r/doordash score=1 comments=8 title='Thoughts? :O'
+2026-05-05T22:01:29Z INFO    [HIT] #81 r/life_is_strange score=8 comments=0 title='Made this seconds after seeing the image, thoughts? O.o'
+2026-05-05T22:01:29Z INFO    [HIT] #82 r/ForzaHorizon5 score=14 comments=4 title="Late to the party but here's my photo dump. Do share your thoughts, o wise and kind redditors!"
+2026-05-05T22:01:29Z INFO    [HIT] #83 r/dogelore score=3293 comments=67 title='Le Doomer has arrived'
+2026-05-05T22:01:29Z INFO    [HIT] #84 r/Minecraft score=1680 comments=398 title='Testing out the new SEUS v10.1 Preview 2 shaders!'
+2026-05-05T22:01:29Z INFO    [HIT] #85 r/GhibliArt score=6 comments=4 title='Just finished writing this. Some ppl told me it reminds them of Joe Hisaishi. Your thoughts? o_o'
+2026-05-05T22:01:29Z INFO    [HIT] #86 r/comics score=1948 comments=75 title='Werewolf Separation Anxiety'
+2026-05-05T22:01:29Z INFO    [HIT] #87 r/Palia score=191 comments=170 title="What are y'all naming your animals?"
+2026-05-05T22:01:29Z INFO    [HIT] #88 r/RG353V score=2 comments=16 title='What are your thoughts o the 353v dpad? Like it?'
+2026-05-05T22:01:29Z INFO    [HIT] #89 r/dankchristianmemes score=6096 comments=93 title='How many syllables?'
+2026-05-05T22:01:29Z INFO    [HIT] #90 r/jerma985 score=377 comments=4 title='He looks taller than I thought :O'
+2026-05-05T22:01:29Z INFO    [HIT] #91 r/postcrossing score=281 comments=75 title='Do you enjoy receiving this kind of messages?'
+2026-05-05T22:01:29Z INFO    [HIT] #92 r/xcxheads score=99 comments=28 title='CYO might be coming sooner than we thought? :o'
+2026-05-05T22:01:29Z INFO    [HIT] #93 r/SeveranceAppleTVPlus score=158 comments=7 title='First post, hello! I thought I’d make up a mug and a mouse mat for work. I’m a graphic designer so I thought O&D was more than suitable!'
+2026-05-05T22:01:29Z INFO    [HIT] #94 r/LiminalSpace score=33 comments=4 title='intrusive thoughts :O'
+2026-05-05T22:01:29Z INFO    [HIT] #95 r/dreamsmp score=4 comments=28 title='Thoughts o three characters'
+2026-05-05T22:01:29Z INFO    [HIT] #96 r/calireggae score=11 comments=19 title="stoner thought o' the day"
+2026-05-05T22:01:29Z INFO    [HIT] #97 r/196 score=31 comments=11 title='Thoughts o. This paint scheme idea for sisters?'
+2026-05-05T22:01:29Z INFO    [HIT] #98 r/EarthPorn score=3334 comments=75 title='The Canadian Rockies [2048x1152] [OC]'
+2026-05-05T22:01:29Z INFO    [HIT] #99 r/Nepal score=43 comments=16 title='thoughts :o?'
+2026-05-05T22:01:29Z INFO    [HIT] #100 r/theprimeagen score=7 comments=1 title='Devin drama is back and its worse than we thought :O'
+2026-05-05T22:01:29Z INFO    [WARNING] max-pages=1 reached for sort=relevance sub=all — more results exist
+2026-05-05T22:01:29Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Thoughts O
+2026-05-05T22:01:32Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+O%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:34Z INFO    [RESPONSE] 200 2314ms https://www.reddit.com/search.json?q=%22Thoughts+O%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:34Z INFO    [HIT] #1 r/Advice score=3 comments=14 title='Can a relationship continue, even if it has no trust?'
+2026-05-05T22:01:34Z INFO    [HIT] #2 r/LeftCatholicism score=196 comments=8 title='You can still subscribe to the Catholic Worker!'
+2026-05-05T22:01:34Z INFO    [HIT] #3 r/AI_India score=18 comments=5 title='Talkie, a 13B LM trained exclusively on pre-1931 data'
+2026-05-05T22:01:34Z INFO    [HIT] #4 r/vibecoding score=3 comments=5 title='I vibecoded a tool to fix vibecoded errors'
+2026-05-05T22:01:34Z INFO    [HIT] #5 r/FaithFeed score=1 comments=0 title='Let us Pray'
+2026-05-05T22:01:34Z INFO    [HIT] #6 r/carolinescorner score=1 comments=0 title='Thank God I’m not dissociated anymore, still healing was awful and it concerned the teachers'
+2026-05-05T22:01:34Z INFO    [HIT] #7 r/outofcontextcomics score=3 comments=0 title='I prefer good old fashioned memories'
+2026-05-05T22:01:34Z INFO    [HIT] #8 r/Metroid score=11 comments=47 title='So, I was thinking, What upgrades could Samus get in her power suit that Nintendo has not already applied to her suit in the games?'
+2026-05-05T22:01:34Z INFO    [HIT] #9 r/ClashOfClans score=2 comments=1 title='With the new foot tribute bundle and the previous cherry bonsai bundle, I’m glad SC take note of our survey answers from the other month there.'
+2026-05-05T22:01:34Z INFO    [HIT] #10 r/FAITH score=1 comments=0 title='NJust SAY NO DONT SAY YO IF IM ASLEEP DONT LET ME AWAKE IF IM AWAKE DONT LET ME FOLLOW ASLEEP BECAUSE YOUR BEAUTIFUL HEART IS WHAT IM LOOKING AT 🌹🌹🌹🌹🌹🌹💞🌹💞💞💞💞💞💞🌹🌹🌹🌹💞💞💞💞🌹🌹🌹🌹💞💞💞💞🌹🌹🌹🌹💞💞💞🌹🌹🌹💞💞nothing🌹🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️WEN I S'
+2026-05-05T22:01:34Z INFO    [HIT] #11 r/KarenRead2ndTrial score=8 comments=10 title='The Percipient Witness: Karen Read Sits For Her First Deposition'
+2026-05-05T22:01:34Z INFO    [HIT] #12 r/DungeonsAndDaddies score=574 comments=5 title='Found a Beth post in the wild [ns]'
+2026-05-05T22:01:34Z INFO    [HIT] #13 r/mash score=27 comments=47 title="I'm sure this has been asked a dozen times, but..."
+2026-05-05T22:01:34Z INFO    [HIT] #14 r/mahabharata score=126 comments=37 title='Could Amba’s story in the Mahabharata be an interpolation?'
+2026-05-05T22:01:34Z INFO    [HIT] #15 r/acrylics score=25 comments=2 title='I am in process of trying something new'
+2026-05-05T22:01:34Z INFO    [HIT] #16 r/gamecollecting score=59 comments=1 title='Finally the collection up'
+2026-05-05T22:01:34Z INFO    [HIT] #17 r/InterviewsHell score=35 comments=9 title='The candidate I almost underestimated ended up being one of the strongest'
+2026-05-05T22:01:34Z INFO    [HIT] #18 r/Bible score=5 comments=4 title='Trying to find the specific version of Psalm 139 I memorized (not the current NIV)'
+2026-05-05T22:01:34Z INFO    [HIT] #19 r/Semenretention score=226 comments=11 title='The science of sex regeneration. Written by A Gould & Dr Franklin L Dubois. Published in 1911.'
+2026-05-05T22:01:34Z INFO    [HIT] #20 r/phhorrorstories score=19 comments=5 title='Black Veil Entity'
+2026-05-05T22:01:34Z INFO    [HIT] #21 r/mapua score=1 comments=7 title='Profss'
+2026-05-05T22:01:34Z INFO    [HIT] #22 r/Sephora score=2 comments=13 title='This or That? need help deciding'
+2026-05-05T22:01:34Z INFO    [HIT] #23 r/Makeup score=1 comments=3 title='This or That? help deciding'
+2026-05-05T22:01:34Z INFO    [HIT] #24 r/Anxiety score=3 comments=2 title='Lorazepam how to taper'
+2026-05-05T22:01:34Z INFO    [HIT] #25 r/Anewsong score=1 comments=1 title='O Love of God, How Strong and True'
+2026-05-05T22:01:34Z INFO    [HIT] #26 r/OCPoetry score=3 comments=2 title='My oblique assertions'
+2026-05-05T22:01:34Z INFO    [HIT] #27 r/NPD score=30 comments=10 title='The Amazing Digital Circus and its representation of NPD and narcissistic tendencies'
+2026-05-05T22:01:34Z INFO    [HIT] #28 r/GarrettWatts score=171 comments=16 title='Thoughts??'
+2026-05-05T22:01:34Z INFO    [HIT] #29 r/JujutsuPowerScaling score=9 comments=11 title='How I would tame Mahoraga'
+2026-05-05T22:01:34Z INFO    [HIT] #30 r/PhoenixSC score=9 comments=3 title='omg they made steve and creeper rubber ducks'
+2026-05-05T22:01:34Z INFO    [HIT] #31 r/DeathCertificates score=99 comments=13 title='Man is murdered in front of his pregnant wife- six years later, her child drowns'
+2026-05-05T22:01:34Z INFO    [HIT] #32 r/minnesota score=17 comments=36 title='Sherburne county warning that recent state legislative decisions will cause property taxes to rise'
+2026-05-05T22:01:34Z INFO    [HIT] #33 r/FictoChill score=16 comments=3 title='Yumemarch day 13: Love Letters💌'
+2026-05-05T22:01:34Z INFO    [HIT] #34 r/EngineeringStudents score=0 comments=3 title='How to manage time to study after internship'
+2026-05-05T22:01:34Z INFO    [HIT] #35 r/LeetcodeDesi score=2 comments=0 title='How to manage time properly to be able to study after internship'
+2026-05-05T22:01:34Z INFO    [HIT] #36 r/Btechtards score=2 comments=1 title='How to manage time properly to be able to study after internship and get a full time'
+2026-05-05T22:01:34Z INFO    [HIT] #37 r/developersIndia score=1 comments=2 title='How to prepare for switch while at a job how to manage time'
+2026-05-05T22:01:34Z INFO    [HIT] #38 r/HayDay score=364 comments=40 title='Expansion permits are going to be the end of me'
+2026-05-05T22:01:34Z INFO    [HIT] #39 r/TheUntetheredSoul score=26 comments=0 title='☕️'
+2026-05-05T22:01:34Z INFO    [HIT] #40 r/Vinyl_Jazz score=23 comments=0 title='Now playing'
+2026-05-05T22:01:34Z INFO    [HIT] #41 r/u_Able_Space632 score=1 comments=1 title='LIAN LI RS Series Rotational Shift PSU'
+2026-05-05T22:01:34Z INFO    [HIT] #42 r/JesusChrist score=1 comments=0 title='This Days Verse'
+2026-05-05T22:01:34Z INFO    [HIT] #43 r/Soundmap score=11 comments=31 title='1Milly Givvy 3/3'
+2026-05-05T22:01:34Z INFO    [HIT] #44 r/socialskills score=1 comments=2 title='I want to be friends with this person badly but i can’t approach them'
+2026-05-05T22:01:34Z INFO    [HIT] #45 r/DCAllies score=17 comments=1 title='My DC Allies Roster :D'
+2026-05-05T22:01:34Z INFO    [HIT] #46 r/tsbie score=7 comments=13 title='ENGLISH MATERIAL LEDU NA DEGGARA 😭🙏🙏🙏'
+2026-05-05T22:01:34Z INFO    [HIT] #47 r/unimelb score=57 comments=14 title='Is it just me or was o-week kinda underwhelming?'
+2026-05-05T22:01:34Z INFO    [HIT] #48 r/offmychest score=1 comments=0 title='I pretended to have dyslexia then realized I actually had dyslexia'
+2026-05-05T22:01:34Z INFO    [HIT] #49 r/opinioninonrichieste score=60 comments=20 title='Chi sta seguendo il Mardi Gras folle di Shia LeBeouf?'
+2026-05-05T22:01:34Z INFO    [HIT] #50 r/PoetryWritingClub score=1 comments=1 title='A Promise Made A Promise Kept'
+2026-05-05T22:01:34Z INFO    [HIT] #51 r/mentalhealth score=1 comments=2 title='Moved to Tampa alone and starting over'
+2026-05-05T22:01:34Z INFO    [HIT] #52 r/whatdoIdo score=3 comments=12 title='I (15M) have a crush on my friend (14M) he is giving me a ton of signs but I can figure out if he’s gay.'
+2026-05-05T22:01:34Z INFO    [HIT] #53 r/StardewMemes score=72 comments=10 title='I created a booty themed farm for a joja mart run and the dialogue is killing me 💀'
+2026-05-05T22:01:34Z INFO    [HIT] #54 r/KindroidAI score=7 comments=2 title='My guide to create your first Group Chat with multiple Kin and a Narrator using a Fantasy Story setting - My first huge Group Chat adventure and the story of what happened!'
+2026-05-05T22:01:34Z INFO    [HIT] #55 r/ChristianDating score=4 comments=0 title='Valentine’s Day Verses'
+2026-05-05T22:01:34Z INFO    [HIT] #56 r/u_PlanktonChoice945 score=1 comments=0 title='L1-A DOOM proposition for VSBW'
+2026-05-05T22:01:34Z INFO    [HIT] #57 r/thrifting score=135 comments=32 title='Found this at Goodwill'
+2026-05-05T22:01:34Z INFO    [HIT] #58 r/BitcoinBeginners score=12 comments=16 title='I am new to this.'
+2026-05-05T22:01:34Z INFO    [HIT] #59 r/CasualPH score=0 comments=0 title='May kwento ka ba? Gusto ko marinig!'
+2026-05-05T22:01:34Z INFO    [HIT] #60 r/OliveAndJune score=4 comments=2 title='Social media video out today shows clipping cuticles with the nail clipper'
+2026-05-05T22:01:34Z INFO    [HIT] #61 r/ios score=24 comments=9 title='Tilting my phone seems to improve my accuracy tapping letters on the keyboard'
+2026-05-05T22:01:34Z INFO    [HIT] #62 r/StardewValleyExpanded score=79 comments=0 title='Update: Gunther and the Museum'
+2026-05-05T22:01:34Z INFO    [HIT] #63 r/slaytheprincess score=25 comments=28 title='My thoughts on the Character of each Voice (and their Relevance)'
+2026-05-05T22:01:34Z INFO    [HIT] #64 r/ChaosZeroNightmare score=1 comments=2 title='Second team'
+2026-05-05T22:01:34Z INFO    [HIT] #65 r/Currencytradingcards score=14 comments=4 title='Anyone need these?'
+2026-05-05T22:01:34Z INFO    [HIT] #66 r/disabled score=18 comments=13 title='Destined to be alone?'
+2026-05-05T22:01:34Z INFO    [HIT] #67 r/slaytheprincess score=134 comments=18 title='My thoughts on the Themes of each Chapters (and their Execution)'
+2026-05-05T22:01:34Z INFO    [HIT] #68 r/nairobi score=2 comments=0 title='WE WILL NEVER GET TO SINGAPORE!!!'
+2026-05-05T22:01:34Z INFO    [HIT] #69 r/AceOfTheDiamond score=7 comments=1 title='scorebook interpretation?? (act II, chapter 87)'
+2026-05-05T22:01:34Z INFO    [HIT] #70 r/FamilyIssues score=2 comments=2 title='Concerned mom!!! If I die what happens to her!!!!'
+2026-05-05T22:01:34Z INFO    [HIT] #71 r/TeenagersButBetter score=6 comments=17 title='Just ignore this ig..'
+2026-05-05T22:01:34Z INFO    [HIT] #72 r/gso score=175 comments=16 title='This is why I do it'
+2026-05-05T22:01:34Z INFO    [HIT] #73 r/StardewMemes score=199 comments=47 title='I got a stardrop, how does the game know I like Bangtan 🫣'
+2026-05-05T22:01:34Z INFO    [HIT] #74 r/TruthAccordingtoGod score=1 comments=0 title='The Ten Commandments 2026, The Law of God, 5, 6'
+2026-05-05T22:01:34Z INFO    [HIT] #75 r/FortNiteBR score=2 comments=2 title='Fortnite might need to raise the death barrier'
+2026-05-05T22:01:34Z INFO    [HIT] #76 r/SGExams score=42 comments=7 title='My dreams were shattered....'
+2026-05-05T22:01:34Z INFO    [HIT] #77 r/ZombieSurvivalTactics score=3 comments=7 title='What If there’s a limited  nuclear exchange during a zombie apocalypse and how this hampered your plan?'
+2026-05-05T22:01:34Z INFO    [HIT] #78 r/rem score=15 comments=2 title='Fables, by Michael Daves'
+2026-05-05T22:01:34Z INFO    [HIT] #79 r/FuckPierre score=615 comments=8 title='Wishful thinking'
+2026-05-05T22:01:34Z INFO    [HIT] #80 r/CreditCardsIndia score=1 comments=7 title='Credit Card Strategy?'
+2026-05-05T22:01:34Z INFO    [HIT] #81 r/Paranormal score=5 comments=8 title='I think Something is in our heater vents. :<'
+2026-05-05T22:01:34Z INFO    [HIT] #82 r/OCPoetry score=3 comments=7 title='Preasure'
+2026-05-05T22:01:34Z INFO    [HIT] #83 r/StardewValley score=0 comments=5 title='Ghost moss and jellies?'
+2026-05-05T22:01:34Z INFO    [HIT] #84 r/Advice score=1 comments=1 title='Im sick and tired of all the bad things happening in our country and could use an outlet'
+2026-05-05T22:01:34Z INFO    [HIT] #85 r/lastfm score=10 comments=4 title='My 2025 5x5'
+2026-05-05T22:01:34Z INFO    [HIT] #86 r/DnD score=1 comments=7 title="Im new to dungeons & Dragons. And I'm SCARED"
+2026-05-05T22:01:34Z INFO    [HIT] #87 r/OkBuddyPersona score=105 comments=22 title='Actual footage of Atlus toxic behavior 😠'
+2026-05-05T22:01:34Z INFO    [HIT] #88 r/unocardgame score=15 comments=3 title='I did a thing - unoflip.site'
+2026-05-05T22:01:34Z INFO    [HIT] #89 r/arcaea score=15 comments=4 title='what good exsch charts are there?'
+2026-05-05T22:01:34Z INFO    [WARNING] max-pages=1 reached for sort=new sub=all — more results exist
+2026-05-05T22:01:36Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Thoughts levels
+2026-05-05T22:01:37Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+levels%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:40Z INFO    [RESPONSE] 200 2397ms https://www.reddit.com/search.json?q=%22Thoughts+levels%22&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:40Z INFO    [HIT] #1 r/AntifascistsofReddit score=973 comments=70 title='So glad trump picked a thoughtful, level-headed, measured, controlled replacement for DHS Secretary. What could possibly go wrong?'
+2026-05-05T22:01:40Z INFO    [HIT] #2 r/videos score=1706 comments=278 title='Kid is on a Deeper Thought Level Than his Mother'
+2026-05-05T22:01:40Z INFO    [HIT] #3 r/MAGANAZI score=494 comments=50 title='So glad trump picked a thoughtful, level-headed, measured, controlled replacement for DHS Secretary. What could possibly go wrong?'
+2026-05-05T22:01:40Z INFO    [HIT] #4 r/gaming score=21436 comments=784 title='In Just 3 days after their release, the community of 200k wiped the Illuminate off the map!!! - Helldivers 2'
+2026-05-05T22:01:40Z INFO    [HIT] #5 r/Trumpvirus score=241 comments=39 title='So glad trump picked a thoughtful, level-headed, measured, controlled replacement for DHS Secretary. What could possibly go wrong?'
+2026-05-05T22:01:40Z INFO    [HIT] #6 r/Helldivers score=10700 comments=630 title='Meridia just lost its last supply line and you can no longer travel there'
+2026-05-05T22:01:40Z INFO    [HIT] #7 r/alberta score=1454 comments=769 title='Venezuela, Alberta and Oil.'
+2026-05-05T22:01:40Z INFO    [HIT] #8 r/ArcRaiders score=1022 comments=1182 title="I'm sorry but I'm not ever pressing the expedition project"
+2026-05-05T22:01:40Z INFO    [HIT] #9 r/AmItheAsshole score=2699 comments=410 title='AITAH for not letting my younger sister read my books?'
+2026-05-05T22:01:40Z INFO    [HIT] #10 r/BG3 score=380 comments=80 title='I thought level cap was 12?'
+2026-05-05T22:01:40Z INFO    [HIT] #11 r/DarkSouls2 score=743 comments=75 title="Anyone else missed Emerald Herald on their first playthrough? I defeated Dragonrider, Ornstein and The Last Giant before I found her. I really thought leveling up your character wasn't possible in DS2. I felt so dumb back then xD"
+2026-05-05T22:01:40Z INFO    [HIT] #12 r/geometrydash score=355 comments=98 title='Some WIP medium demon (?) gameplay, any thoughts/level name suggestions?'
+2026-05-05T22:01:40Z INFO    [HIT] #13 r/StardewValley score=2452 comments=95 title='Freebies for the Stardew concert'
+2026-05-05T22:01:40Z INFO    [HIT] #14 r/aww score=6423 comments=208 title='Some of my furry friends at the doggy daycare I have worked for awhile have some of the cutest faces 🥹'
+2026-05-05T22:01:40Z INFO    [HIT] #15 r/StreetFighter score=179 comments=39 title='How did I lose? I thought level 1 is strike invulnerable?'
+2026-05-05T22:01:40Z INFO    [HIT] #16 r/SoulKnight score=19 comments=3 title='I thought level 20 was the max\U0001fae9'
+2026-05-05T22:01:40Z INFO    [HIT] #17 r/Games score=2165 comments=836 title='Sea of Stars Review Thread'
+2026-05-05T22:01:40Z INFO    [HIT] #18 r/hanayama score=7 comments=10 title='Not as bad as I originally thought (level 4) Wallet'
+2026-05-05T22:01:40Z INFO    [HIT] #19 r/theHunter score=14 comments=8 title='Honestly thought Level 4 Diamond Moose were a Myth at this point😂'
+2026-05-05T22:01:40Z INFO    [HIT] #20 r/LastWarMobileGame score=63 comments=56 title='I thought level 16 was hard, but then, level 40 came...'
+2026-05-05T22:01:40Z INFO    [HIT] #21 r/Jung score=17 comments=32 title='How to actually Embody knowledge rather than just understand it on a thought-level?'
+2026-05-05T22:01:40Z INFO    [HIT] #22 r/lifemakeover score=31 comments=20 title='Thoughts/levels on beauty course?'
+2026-05-05T22:01:40Z INFO    [HIT] #23 r/AskReddit score=6 comments=7 title='Where is the best place to have thoughtful, level headed debates online?'
+2026-05-05T22:01:40Z INFO    [HIT] #24 r/changemyview score=1029 comments=485 title='CMV: There will be a US presidential election in 2028, but it will not be free or fair.'
+2026-05-05T22:01:40Z INFO    [HIT] #25 r/Marathon score=1 comments=2 title='My thoughts, level 17'
+2026-05-05T22:01:40Z INFO    [HIT] #26 r/Sandman score=1315 comments=150 title='People see Dream as a villain?'
+2026-05-05T22:01:40Z INFO    [HIT] #27 r/dreamingspanish score=29 comments=54 title='Roadmap thoughts: Level 7 and “8”'
+2026-05-05T22:01:40Z INFO    [HIT] #28 r/CompetitiveForHonor score=561 comments=35 title="When I thought level up effects were bad I realised they are even worse. There is no excuse to keep this in the game. This is the worst case I've seen so far."
+2026-05-05T22:01:40Z INFO    [HIT] #29 r/comlex score=16 comments=14 title='Those who thought Level 2 was Easy how did you do'
+2026-05-05T22:01:40Z INFO    [HIT] #30 r/FullmetalAlchemist score=2529 comments=61 title='Ed and Al reference from the latest My Hero Academia episode'
+2026-05-05T22:01:40Z INFO    [HIT] #31 r/RoyaleHigh_Roblox score=358 comments=48 title='Yall thought level 666 was bad, well I present **level 2020**💀'
+2026-05-05T22:01:40Z INFO    [HIT] #32 r/Eldenring score=0 comments=0 title='My first Elden Ring playthrough was basically a challenge run nd made me drop Elden ring for a year (I thought leveling up was a side quest)'
+2026-05-05T22:01:40Z INFO    [HIT] #33 r/Endfield score=793 comments=110 title='After unlocking all Last Rite dialogs I discovered she might be...'
+2026-05-05T22:01:40Z INFO    [HIT] #34 r/legostarwarsbattles score=2 comments=5 title='I thought level 6 vs level 10 HQ was bad. You CANT be serious right now'
+2026-05-05T22:01:40Z INFO    [HIT] #35 r/Splatoon_3 score=17 comments=10 title='How do I go about getting more slots on these boots? I thought leveling them up would unlock more slots but it just cycles the abilities.'
+2026-05-05T22:01:40Z INFO    [HIT] #36 r/conspiracy score=335 comments=29 title='With Tesla, Starlink, and Neuralink, Elon Musk is building the infrastructure of total population control down to a thought level. Remember, anything electric (including brain chips) can be and is hacked and controlled by CIA (WEF)'
+2026-05-05T22:01:40Z INFO    [HIT] #37 r/bald score=840 comments=135 title='Forced Workplace Baldness'
+2026-05-05T22:01:40Z INFO    [HIT] #38 r/conspiracy_commons score=39 comments=28 title='I\'ve been saying this for years. Elon joined CureVac mRNA in 2016 with Bill Gates and wants to inject all humans with graphene neural lace to "merge with AI" (or be totally surveilled on a thought level by DARPA via satellite)'
+2026-05-05T22:01:40Z INFO    [HIT] #39 r/wow score=5237 comments=244 title="I still have this potion from a Zangramarsh questline. I didn't even use a charge to complete the quest. Kept it just in case..."
+2026-05-05T22:01:40Z INFO    [HIT] #40 r/apexlegends score=110 comments=37 title='I thought level 50 was a requirement for ranked?'
+2026-05-05T22:01:40Z INFO    [HIT] #41 r/conspiracy score=156 comments=47 title='Elon Musk has never invented anything or had an original idea in his life. He is a puppet of WEF/DARPA/CIA, just like Bill Gates. Their goal is full mind control of the population to crush any dissent to the Technocracy on a thought level. Elon works for DARPA, makes their tech public, normalizes it'
+2026-05-05T22:01:40Z INFO    [HIT] #42 r/Genshin_Impact score=705 comments=435 title='What’s something dumb you thought was a thing when you first started playing that wasn’t actually true?'
+2026-05-05T22:01:40Z INFO    [HIT] #43 r/Asphalt9 score=7 comments=9 title='HELP. Which one is best? Or wait….. thought? Level 4..'
+2026-05-05T22:01:40Z INFO    [HIT] #44 r/CitiesSkylines score=222 comments=29 title="I thought level 5 buildings were supposed to look the prettiest? It frustrates me that level 4 university houses downgrade to this when they go to level 5. Why couldn't they design level 5 houses for those as well? Any way to prevent this except the building level mod or RICO?"
+2026-05-05T22:01:40Z INFO    [HIT] #45 r/Genshin_Impact score=0 comments=10 title='Remember when people thought level 100 would be a thing'
+2026-05-05T22:01:40Z INFO    [HIT] #46 r/aww score=32371 comments=113 title='When you finally grow into your ears'
+2026-05-05T22:01:40Z INFO    [HIT] #47 r/Helldivers score=1227 comments=145 title='FOR CRYING OUT LOUD GUYS I JUST GOT BACK FROM TRAVEL 10 MINUTES AGO'
+2026-05-05T22:01:40Z INFO    [HIT] #48 r/mobcontrolgame score=4 comments=18 title='I thought level cap was +/- 7 to yours? '
+2026-05-05T22:01:40Z INFO    [HIT] #49 r/pettyrevenge score=2909 comments=67 title='Being the absolute worst boss does not pay off.'
+2026-05-05T22:01:40Z INFO    [HIT] #50 r/TownshipDesign score=8 comments=8 title='Thoughts? Level 83'
+2026-05-05T22:01:40Z INFO    [HIT] #51 r/classicwow score=2 comments=4 title='Gauging experience or thoughts  leveling a Holy pal, resto/ele shammy, resto/balance Druid'
+2026-05-05T22:01:40Z INFO    [HIT] #52 r/PlayAvengers score=64 comments=49 title='Food for thought: leveling your roster to PL 175 takes 175+ hours without the time-gate.'
+2026-05-05T22:01:40Z INFO    [HIT] #53 r/WorldConqueror4 score=36 comments=7 title='I thought level 7 is hard...'
+2026-05-05T22:01:40Z INFO    [HIT] #54 r/metroidvania score=110 comments=269 title='MIO, and the sacrificing of fun in the name of challenge'
+2026-05-05T22:01:40Z INFO    [HIT] #55 r/news score=1576 comments=297 title='U.S. tech companies yank job offers, leaving college grads scrambling.'
+2026-05-05T22:01:40Z INFO    [HIT] #56 r/childfree score=2143 comments=168 title="I'm tired of not getting my requested time off because I don't have children."
+2026-05-05T22:01:40Z INFO    [HIT] #57 r/ClashRoyale score=43 comments=55 title='Who tf thought level 14 was a good idea'
+2026-05-05T22:01:40Z INFO    [HIT] #58 r/Warzone score=13 comments=4 title='Thoughts? Level 11'
+2026-05-05T22:01:40Z INFO    [HIT] #59 r/sto score=0 comments=4 title='I’ve heard that at level 61 you get to requisition another ship is that true? I thought level 60 was it.'
+2026-05-05T22:01:40Z INFO    [HIT] #60 r/conspiracy score=89 comments=28 title='Elon Musk agrees the NWO will use his brain chips not to empower humanity, but to totally enslave it down to a thought level'
+2026-05-05T22:01:40Z INFO    [HIT] #61 r/gardening score=1806 comments=259 title="Just want to remind everyone to leave the leaves this fall! Let them fall where they lay when possible and don't rake or mow them - it saves your pollinators, enriches your lawn, and saves you work!"
+2026-05-05T22:01:40Z INFO    [HIT] #62 r/RaidShadowLegends score=20 comments=42 title='First I thought leveling a GH bonus to level 7 was taking forever in the Arbiter mission so I looked ahead …'
+2026-05-05T22:01:40Z INFO    [HIT] #63 r/ffxiv score=12 comments=96 title='My Thoughts Leveling Paladin'
+2026-05-05T22:01:40Z INFO    [HIT] #64 r/leagueoflegends score=1562 comments=634 title='[LoL All-Star] Faker: “Zoe is One of the Best Champions at the Moment, and Definitely Needs to be Nerfed”'
+2026-05-05T22:01:40Z INFO    [HIT] #65 r/PlantsVSZombies score=2 comments=12 title='What does it mean when there’s this in the top right of the plant?? I thought levels only go up 20'
+2026-05-05T22:01:40Z INFO    [HIT] #66 r/iamverysmart score=251 comments=20 title='his thought level is higher than this plane of existence'
+2026-05-05T22:01:40Z INFO    [HIT] #67 r/Survivorio score=3 comments=33 title='I thought level 52 was supposed to be hard. Cleared it first try with no revives...'
+2026-05-05T22:01:40Z INFO    [HIT] #68 r/Overwatch score=672 comments=59 title='The Drive is Only 4 Days with 4000 Points'
+2026-05-05T22:01:40Z INFO    [HIT] #69 r/Marriage score=373 comments=79 title='After I got sick, I found out my husband had been telling people I was "just lazy"'
+2026-05-05T22:01:40Z INFO    [HIT] #70 r/CAIA score=10 comments=33 title='Post Exam Thoughts: Level 2'
+2026-05-05T22:01:40Z INFO    [HIT] #71 r/fnv score=476 comments=90 title='Why are repairs so expensive?'
+2026-05-05T22:01:40Z INFO    [HIT] #72 r/PresidentElonMusk score=38 comments=3 title="This guy’s been dodging karma like it's Vogon poetry, but soon the universe’s gonna hit him with a reality check so hard, even Zaphod would take it seriously. The meltdown? Pure Deep Thought-level chaos."
+2026-05-05T22:01:40Z INFO    [HIT] #73 r/Spacemarine score=1 comments=4 title='I thought level 25 was the peak. Can we reach higher brothers?'
+2026-05-05T22:01:40Z INFO    [HIT] #74 r/helldivers2 score=1120 comments=92 title='Dear PC helldivers players'
+2026-05-05T22:01:40Z INFO    [HIT] #75 r/rapdebates score=1 comments=0 title="Daylyt responded, joey isn't on his level bro, this isn't even close tbh, but joey still putting up a fight, he'll prolly still respond, but Daylyt is levels ahead, Daylyt a Lupe, Black Thought level of rapper, not many guys on that level, joey isn't even near that"
+2026-05-05T22:01:40Z INFO    [HIT] #76 r/Helldivers score=799 comments=68 title="Guys I don't think this'll wash out"
+2026-05-05T22:01:40Z INFO    [HIT] #77 r/LowSodiumHellDivers score=253 comments=89 title='Headless'
+2026-05-05T22:01:40Z INFO    [HIT] #78 r/OnePiece score=755 comments=71 title='Why Lineage Matters So Much in the Elbaph Arc (1159 Spoilers)'
+2026-05-05T22:01:40Z INFO    [HIT] #79 r/helldivers2 score=421 comments=52 title='Uhmm, what just happened???'
+2026-05-05T22:01:40Z INFO    [HIT] #80 r/ProRevenge score=2819 comments=239 title='Cabbie tries to rip me off $2.00? Protracted court battle and large civil penalty for you!'
+2026-05-05T22:01:40Z INFO    [HIT] #81 r/ModernWarfareII score=43 comments=22 title="I thought leveling the knife and making the gold camo would be tiring, but it's quite fun. The shield similarly"
+2026-05-05T22:01:40Z INFO    [HIT] #82 r/titanfall score=4 comments=6 title='I watch to show my stats and load out peoples thoughts? (Level 29 no gen btw if that matters)'
+2026-05-05T22:01:40Z INFO    [HIT] #83 r/gamingsuggestions score=8 comments=22 title='WSIB Game with thoughtfulness level of chess, but more shiny and diverse'
+2026-05-05T22:01:40Z INFO    [HIT] #84 r/GuardianTales score=37 comments=13 title="How to inc the sp storage capacity? I thought leveling up the town hall will do but it didn't"
+2026-05-05T22:01:40Z INFO    [HIT] #85 r/ARC_Raiders score=525 comments=57 title='I think Scrappy should have a very low chance of picking up rare materials as he levels up'
+2026-05-05T22:01:40Z INFO    [HIT] #86 r/drywall score=2 comments=1 title='how to cover this up!! ceiling water damage and left it long and sag between the joists! thought level up but wasn’t realized until screwed in!!!! '
+2026-05-05T22:01:40Z INFO    [HIT] #87 r/memeframe score=2840 comments=38 title='Caliban after the rework'
+2026-05-05T22:01:40Z INFO    [HIT] #88 r/FortNiteBR score=0 comments=5 title='I thought level 181 was bad for this point in the season but then I ran into this giga sweat'
+2026-05-05T22:01:40Z INFO    [HIT] #89 r/conspiracy score=77 comments=13 title="Theory: Elon Musk is a DARPA front man. Launches their satellites, normalizes their brain-interface tech, and is building the infrastructure for their internet of bodies and total control on a thought level. DARPA also created COVID via Ralph Baric, funded by Fauci. That's why no Fauci files release"
+2026-05-05T22:01:40Z INFO    [HIT] #90 r/OriginalCharacter score=133 comments=385 title="Drop your OC and I'll say if S.A.F.E. would consider them a threat (read desc)"
+2026-05-05T22:01:40Z INFO    [HIT] #91 r/Games score=1041 comments=627 title='Nioh - Review Thread'
+2026-05-05T22:01:40Z INFO    [HIT] #92 r/OmniscientReader score=107 comments=8 title='I thought “level two” was the Bookmark ability when he can copy other characters? [Chapter 57]'
+2026-05-05T22:01:40Z INFO    [HIT] #93 r/ClashRoyale score=26 comments=27 title='I thought level difference was capped at 3 king tower levels. How can L1 without any epic or legendary can win against L5'
+2026-05-05T22:01:40Z INFO    [HIT] #94 r/SpicyAutism score=131 comments=81 title='Just diagnosed Level 3 at 25 yrs old...is that even possible for it to take 25 years for a level 3 diagnosis?'
+2026-05-05T22:01:40Z INFO    [HIT] #95 r/cncrivals score=13 comments=47 title='Who thought levels were a good idea /rant'
+2026-05-05T22:01:40Z INFO    [HIT] #96 r/AnimalsBeingDerps score=14493 comments=50 title='My cat reaching maximum levels of derp'
+2026-05-05T22:01:40Z INFO    [HIT] #97 r/PokemonUnite score=314 comments=67 title='Baby Pokémon Exclusion'
+2026-05-05T22:01:40Z INFO    [HIT] #98 r/SSCCGL score=5 comments=137 title="Don't sugarcoat, give me the bitter truth if it is ⬇️⬇️"
+2026-05-05T22:01:40Z INFO    [HIT] #99 r/blunderyears score=757 comments=40 title="1992. G-Funk and Paul's Boutique was on heavy rotation."
+2026-05-05T22:01:40Z INFO    [HIT] #100 r/teslamotors score=55 comments=44 title='Random thought: Level 5 autonomy could mean that my wife and I share one vehicle.'
+2026-05-05T22:01:40Z INFO    [WARNING] max-pages=1 reached for sort=relevance sub=all — more results exist
+2026-05-05T22:01:40Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Thoughts levels
+2026-05-05T22:01:43Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=%22Thoughts+levels%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:45Z INFO    [RESPONSE] 200 2419ms https://www.reddit.com/search.json?q=%22Thoughts+levels%22&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:45Z INFO    [HIT] #1 r/geometrydash score=2 comments=1 title='After 6 years, 259k attempts, and 3 verifications... my first solo level finally got rated.'
+2026-05-05T22:01:45Z INFO    [HIT] #2 r/helldivers2 score=2 comments=1 title='JOHN HELLDIVER?!'
+2026-05-05T22:01:45Z INFO    [HIT] #3 r/AILearningHub score=3 comments=4 title='“Living Linux” Project: A fully autonomous AI layer that runs 24/7, self-heals, self-protects, and continuously improves itself. Complete beginner asking for feedback and collaboration (Full code included)'
+2026-05-05T22:01:45Z INFO    [HIT] #4 r/Bitsatards score=8 comments=10 title='I am ashamed of myself'
+2026-05-05T22:01:45Z INFO    [HIT] #5 r/overlord score=18 comments=26 title='Did levels exist before players arrived?'
+2026-05-05T22:01:45Z INFO    [HIT] #6 r/helldiversarmor score=20 comments=2 title='I’m drowning'
+2026-05-05T22:01:45Z INFO    [HIT] #7 r/overwatch2 score=94 comments=14 title='Could Fika be from Horizon?'
+2026-05-05T22:01:45Z INFO    [HIT] #8 r/Overwatch score=15 comments=41 title='Could Fika be from Horizon?'
+2026-05-05T22:01:45Z INFO    [HIT] #9 r/JetpackCatMainsOW score=28 comments=15 title='Could Fika be from Horizon?'
+2026-05-05T22:01:45Z INFO    [HIT] #10 r/relationship_advice score=6 comments=16 title="what gift actually made you feel closer to your partner something personal?  'M32'  'F29'"
+2026-05-05T22:01:45Z INFO    [HIT] #11 r/marvelrivals score=4 comments=8 title='Blood Hunt traits points'
+2026-05-05T22:01:45Z INFO    [HIT] #12 r/NoFapChristians score=1 comments=2 title='Day 2nd completed of 90 days no fap resolution'
+2026-05-05T22:01:45Z INFO    [HIT] #13 r/Helldivers score=6 comments=8 title='they took ma arm'
+2026-05-05T22:01:45Z INFO    [HIT] #14 r/GuildWars score=94 comments=16 title='Elite Skill Idea'
+2026-05-05T22:01:45Z INFO    [HIT] #15 r/TYBusers score=6 comments=1 title='Topical level 3'
+2026-05-05T22:01:45Z INFO    [HIT] #16 r/AutisticAdults score=1 comments=3 title='How did you research and prepare for your adult assessment? What do you do if speaking is one of your weakest areas and prefer writing?'
+2026-05-05T22:01:45Z INFO    [HIT] #17 r/WarframeQuestions score=1 comments=4 title='Question about mastery rank points.'
+2026-05-05T22:01:45Z INFO    [HIT] #18 r/CFA score=128 comments=40 title='My CFA secret for passing all 3 first try: flashcards + spaced repetition and brutal review'
+2026-05-05T22:01:45Z INFO    [HIT] #19 r/CFA score=264 comments=38 title='Got my life back finally - my two cents on the CFA Program after passing Level III'
+2026-05-05T22:01:45Z INFO    [HIT] #20 r/onednd score=66 comments=50 title='Notes on Circle of the Titan'
+2026-05-05T22:01:45Z INFO    [HIT] #21 r/Helldivers score=1 comments=0 title='Loving the new game mode so far.'
+2026-05-05T22:01:45Z INFO    [HIT] #22 r/Helldivers score=0 comments=10 title='Still on Cyberstan after logging back on after a while'
+2026-05-05T22:01:45Z INFO    [HIT] #23 r/wow score=0 comments=27 title='Did everyone buy the new expac? (Noob-post)'
+2026-05-05T22:01:45Z INFO    [HIT] #24 r/nonduality score=7 comments=12 title='Is there really no agency?'
+2026-05-05T22:01:45Z INFO    [HIT] #25 r/honkILL score=1 comments=0 title='👋 Welcome to r/honkILL - Introduce Yourself and Read if you want to.'
+2026-05-05T22:01:45Z INFO    [HIT] #26 r/soulslikes score=0 comments=10 title='My thoughts on Remnant: From the Ashes'
+2026-05-05T22:01:45Z INFO    [HIT] #27 r/energy_work score=6 comments=10 title='Help clean room’s energy'
+2026-05-05T22:01:45Z INFO    [HIT] #28 r/reiki score=18 comments=40 title='Usui Reiki Level 1 disappointment'
+2026-05-05T22:01:45Z INFO    [HIT] #29 r/PokemonLegendsZA score=71 comments=31 title='Insane doughnut pull'
+2026-05-05T22:01:45Z INFO    [HIT] #30 r/dynastywarriors score=7 comments=8 title='Is there any point to grinding for a good level 7 weapon in origins?'
+2026-05-05T22:01:45Z INFO    [HIT] #31 r/theHunter score=27 comments=4 title='Revontuli Coast first Diamond'
+2026-05-05T22:01:45Z INFO    [HIT] #32 r/u_ElliottAsian31 score=1 comments=0 title='So glad trump picked a thoughtful, level-headed, measured, controlled replacement for DHS Secretary. What could possibly go wrong?'
+2026-05-05T22:01:45Z INFO    [HIT] #33 r/baldursgate score=0 comments=12 title='Level progression too easy?'
+2026-05-05T22:01:45Z INFO    [HIT] #34 r/ExEgypt score=5 comments=14 title='Desperately need a therapist'
+2026-05-05T22:01:45Z INFO    [HIT] #35 r/playmygame score=2 comments=1 title='Cubuleto - Released game with comprehensive demo'
+2026-05-05T22:01:45Z INFO    [HIT] #36 r/IndieGaming score=0 comments=1 title='Cubuleto - isometric puzzle game with editor'
+2026-05-05T22:01:45Z INFO    [HIT] #37 r/Helldivers score=4 comments=0 title='Just got unfrozen for Operation Valid Pretext...'
+2026-05-05T22:01:45Z INFO    [HIT] #38 r/steamdeals score=12 comments=0 title='[Steam] Cubuleto (75% off)'
+2026-05-05T22:01:45Z INFO    [HIT] #39 r/GameDeals score=34 comments=8 title='[Steam] Cubuleto (75% off)'
+2026-05-05T22:01:45Z INFO    [HIT] #40 r/numetal score=5 comments=3 title='Level - Superhero'
+2026-05-05T22:01:45Z INFO    [HIT] #41 r/MonsterHunterWilds score=37 comments=3 title='First game in the series, finally figured it out'
+2026-05-05T22:01:45Z INFO    [HIT] #42 r/Menopause score=12 comments=19 title='Have ADHD and just entered the peri stage of sudden, depression-level low mood days - help!'
+2026-05-05T22:01:45Z INFO    [HIT] #43 r/SmashBrosUltimate score=203 comments=35 title='Since when could a cpu do this?!'
+2026-05-05T22:01:45Z INFO    [HIT] #44 r/DnDHomebrew score=2 comments=2 title='Barbarian Subclass'
+2026-05-05T22:01:45Z INFO    [HIT] #45 r/EightySix score=117 comments=18 title='86 is an underrated anime'
+2026-05-05T22:01:45Z INFO    [HIT] #46 r/Manifestation score=7 comments=2 title='Maybe wealth manifestation isn’t about techniques at all'
+2026-05-05T22:01:45Z INFO    [HIT] #47 r/GuildWars score=6 comments=12 title='Mercenary Hero slot lvl 20 or above'
+2026-05-05T22:01:45Z INFO    [HIT] #48 r/Helldivers score=8 comments=10 title='I came back from a mission and my ship is just red? Is there any way to fix it?'
+2026-05-05T22:01:45Z INFO    [HIT] #49 r/Helldivers score=7 comments=4 title='Truth Enforcer Green'
+2026-05-05T22:01:45Z INFO    [HIT] #50 r/MurderDronesMemes score=30 comments=1 title='Something seems off here'
+2026-05-05T22:01:45Z INFO    [HIT] #51 r/LegendsZA score=0 comments=14 title='Sparkling power level 1 is completely pointless?'
+2026-05-05T22:01:45Z INFO    [HIT] #52 r/Helldivers score=2 comments=7 title='WE ARE LOSING LESATH'
+2026-05-05T22:01:45Z INFO    [HIT] #53 r/Helldivers score=19 comments=3 title='FORGET THE TANK! THE TECNICIAN IS BACK!!'
+2026-05-05T22:01:45Z INFO    [HIT] #54 r/CharlotteDobreYouTube score=12 comments=8 title='AITA for thinking my brother’s chewing should be classified as a noise violation?'
+2026-05-05T22:01:45Z INFO    [HIT] #55 r/getdisciplined score=0 comments=1 title='If discipline keeps failing even when you care, please read this'
+2026-05-05T22:01:45Z INFO    [HIT] #56 r/fo4 score=0 comments=5 title="I'm playing on vanilla on PS4, in level 39 and 35 court Is spawning t60 armor. Any advise?"
+2026-05-05T22:01:45Z INFO    [HIT] #57 r/tradingpsychology score=19 comments=8 title='A realistic trading roadmap from a full-time trader of 8 years (stop overcomplicating it)'
+2026-05-05T22:01:45Z INFO    [HIT] #58 r/Helldivers score=2 comments=3 title='Dev on cyberstan'
+2026-05-05T22:01:45Z INFO    [HIT] #59 r/Habits score=0 comments=3 title='If your habits keep breaking even when you know what to do, read this'
+2026-05-05T22:01:45Z INFO    [HIT] #60 r/UmamusumeGame score=0 comments=4 title='Why is this Ryan viable?'
+2026-05-05T22:01:45Z INFO    [HIT] #61 r/DragonCity score=11 comments=5 title="I can't win a single league! Started this game 3 weeks ago. Help!"
+2026-05-05T22:01:45Z INFO    [HIT] #62 r/Psychic score=2 comments=3 title="Having a flashes of vivid visions in my mind's eye of a person"
+2026-05-05T22:01:45Z INFO    [HIT] #63 r/LegendofthePhoenix score=5 comments=6 title='How do I increase this confidants devotion??'
+2026-05-05T22:01:45Z INFO    [HIT] #64 r/Discipline score=9 comments=2 title='If discipline keeps breaking down even when you care, please read this'
+2026-05-05T22:01:45Z INFO    [HIT] #65 r/helldivers2 score=1 comments=2 title='New mission issues after reloading?'
+2026-05-05T22:01:45Z INFO    [HIT] #66 r/VWTaos score=6 comments=37 title='Anyone has issue with heated steering wheel?'
+2026-05-05T22:01:45Z INFO    [HIT] #67 r/Helldivers score=9 comments=1 title='THE DRAGON ROACHES ARE OFF OMICRON!'
+2026-05-05T22:01:45Z INFO    [HIT] #68 r/helldivers2 score=8 comments=2 title='Ummmmmm'
+2026-05-05T22:01:45Z INFO    [HIT] #69 r/MurderDrones score=31 comments=4 title='Null found.'
+2026-05-05T22:01:45Z INFO    [HIT] #70 r/MurderDronesOfficial score=54 comments=10 title='Null.'
+2026-05-05T22:01:45Z INFO    [HIT] #71 r/Helldivers score=4 comments=0 title='*blackhole sun playing in the background*'
+2026-05-05T22:01:45Z INFO    [HIT] #72 r/Helldivers score=6 comments=0 title='The power of managed democracy.'
+2026-05-05T22:01:45Z INFO    [HIT] #73 r/OSDD score=5 comments=2 title='Thought or Response?'
+2026-05-05T22:01:45Z INFO    [HIT] #74 r/puzzlevideogames score=0 comments=0 title='Coin Fusion – An original puzzle concept we developed in Unity (looking for honest feedback!)'
+2026-05-05T22:01:45Z INFO    [HIT] #75 r/getdisciplined score=1 comments=1 title='If you keep breaking discipline even when you know what to do, please read this'
+2026-05-05T22:01:45Z INFO    [HIT] #76 r/UnearthedArcana score=139 comments=18 title="Arcanist | Warlock Subclass for D&D'24"
+2026-05-05T22:01:45Z INFO    [HIT] #77 r/DeadAhead score=1 comments=5 title='Question about SpecOps in Skirmish'
+2026-05-05T22:01:45Z INFO    [HIT] #78 r/Habits score=7 comments=5 title='If you keep breaking habits even when you know what to do, please read this'
+2026-05-05T22:01:45Z INFO    [HIT] #79 r/HairDye score=3 comments=11 title='Bleach & Developer help'
+2026-05-05T22:01:45Z INFO    [HIT] #80 r/helldivers2 score=332 comments=14 title='Verticality'
+2026-05-05T22:01:45Z INFO    [HIT] #81 r/AshesofCreation score=34 comments=31 title="That'll do, I look forward to what a full release looks like (TLDR at the bottom)"
+2026-05-05T22:01:45Z INFO    [HIT] #82 r/CFA score=2 comments=6 title='Question type Level 2'
+2026-05-05T22:01:45Z INFO    [HIT] #83 r/CFA score=2 comments=0 title='Question type'
+2026-05-05T22:01:45Z INFO    [WARNING] max-pages=1 reached for sort=new sub=all — more results exist
+2026-05-05T22:01:45Z INFO    [PHASE] SEARCH r/all  sort=relevance  variant=head:Thoughts
+2026-05-05T22:01:48Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=Thoughts&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:50Z INFO    [RESPONSE] 200 2073ms https://www.reddit.com/search.json?q=Thoughts&sort=relevance&limit=100&t=all&raw_json=1
+2026-05-05T22:01:50Z INFO    [HIT] #1 r/SipsTea score=74513 comments=3153 title='I never thought of it like that......'
+2026-05-05T22:01:50Z INFO    [HIT] #2 r/FIlm score=19495 comments=2085 title='Thoughts'
+2026-05-05T22:01:50Z INFO    [HIT] #3 r/dashcams score=19812 comments=2569 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #4 r/circled score=48570 comments=3263 title='Do you agree with Mamdani’s statement? Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #5 r/SipsTea score=24345 comments=957 title='Who would have thought?'
+2026-05-05T22:01:50Z INFO    [HIT] #6 r/remoteworks score=13857 comments=5655 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #7 r/KidsAreFuckingStupid score=18480 comments=973 title='I really thought she was exaggerating'
+2026-05-05T22:01:50Z INFO    [HIT] #8 r/DiscussionZone score=69532 comments=4473 title='What are your thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #9 r/circled score=21225 comments=3263 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #10 r/ATLA score=13413 comments=1160 title='Saw this semi-viral post on X criticizing Iroh, thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #11 r/SipsTea score=67578 comments=5319 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #12 r/TrendoraX score=22276 comments=2282 title='How have we come to this? Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #13 r/MotivationByDesign score=9560 comments=2305 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #14 r/funnyvideos score=65627 comments=1774 title='Dude let his intrusive thoughts win'
+2026-05-05T22:01:50Z INFO    [HIT] #15 r/JustMemesForUs score=40220 comments=1408 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #16 r/SipsTea score=76208 comments=549 title='thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #17 r/projectzomboid score=25488 comments=1130 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #18 r/plants score=11522 comments=1667 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #19 r/Productivitycafe score=25344 comments=636 title='thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #20 r/IndiaTech score=9058 comments=1452 title='Your thoughts ?'
+2026-05-05T22:01:50Z INFO    [HIT] #21 r/TrendoraX score=16919 comments=1836 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #22 r/minnesota score=54362 comments=2601 title='Two Minneapolis dudes giving their thoughts about ICE.'
+2026-05-05T22:01:50Z INFO    [HIT] #23 r/ArcRaiders score=16104 comments=1926 title='????Thoughts ????'
+2026-05-05T22:01:50Z INFO    [HIT] #24 r/RelentlessMen score=5956 comments=1959 title='thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #25 r/Ethics score=21132 comments=4286 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #26 r/Flooring score=6130 comments=2306 title='My contractor says this is fine, thoughts ?'
+2026-05-05T22:01:50Z INFO    [HIT] #27 r/comics score=112375 comments=923 title='Thought process'
+2026-05-05T22:01:50Z INFO    [HIT] #28 r/inflation score=39454 comments=2015 title='Food for thought!'
+2026-05-05T22:01:50Z INFO    [HIT] #29 r/justincaseyoumissedit score=6177 comments=2503 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #30 r/AskTheWorld score=19078 comments=1100 title='Reputation of Countries 2024 vs 2025. Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #31 r/antiai score=17976 comments=725 title='Thought and comments?'
+2026-05-05T22:01:50Z INFO    [HIT] #32 r/NBATalk score=6969 comments=809 title='Just thought I’d leave this here'
+2026-05-05T22:01:50Z INFO    [HIT] #33 r/doordash score=16787 comments=1227 title='Any thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #34 r/aliens score=7376 comments=783 title='This is beyond anything we thought possible'
+2026-05-05T22:01:50Z INFO    [HIT] #35 r/Productivitycafe score=8294 comments=624 title='Who would have thought?'
+2026-05-05T22:01:50Z INFO    [HIT] #36 r/SipsTea score=105527 comments=9212 title='Any thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #37 r/ArcRaiders score=26382 comments=2666 title='Your thoughts??'
+2026-05-05T22:01:50Z INFO    [HIT] #38 r/TheLastAirbender score=12648 comments=419 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #39 r/AvatarMemebending score=12053 comments=1286 title='Your thoughts'
+2026-05-05T22:01:50Z INFO    [HIT] #40 r/WhitePeopleTwitter score=22219 comments=979 title='🚨 Thoughts?!'
+2026-05-05T22:01:50Z INFO    [HIT] #41 r/NFLv2 score=7700 comments=1716 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #42 r/ProgressiveHQ score=17054 comments=1912 title='What are your thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #43 r/collapse score=7287 comments=616 title='A whole lot of this phraseology around social media today. Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #44 r/Snorkblot score=3237 comments=1988 title='A thought experiment.'
+2026-05-05T22:01:50Z INFO    [HIT] #45 r/cyberpunkgame score=8047 comments=554 title="If anybody here likes VHS aesthetic, I've updated TapePunk finally. Thoughts?"
+2026-05-05T22:01:50Z INFO    [HIT] #46 r/HistoryMemes score=8668 comments=431 title='Random thought but…, context in comments'
+2026-05-05T22:01:50Z INFO    [HIT] #47 r/Gamingcirclejerk score=39258 comments=1545 title='thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #48 r/UberEATS score=11069 comments=764 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #49 r/comics score=53962 comments=390 title='Gym thoughts [OC]'
+2026-05-05T22:01:50Z INFO    [HIT] #50 r/stupidpeoplefacebook score=2860 comments=2329 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #51 r/cringereels score=2925 comments=1539 title='I thought this was fake😭😭'
+2026-05-05T22:01:50Z INFO    [HIT] #52 r/NBATalk score=3414 comments=1310 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #53 r/SipsTea score=76523 comments=1455 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #54 r/SipsTea score=59125 comments=1155 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #55 r/MadeMeSmile score=32244 comments=2591 title='Thoughtful boys 🥰'
+2026-05-05T22:01:50Z INFO    [HIT] #56 r/SipsTea score=42122 comments=1266 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #57 r/circled score=13888 comments=512 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #58 r/XboxSeriesS score=3129 comments=1269 title='Game Pass Ultimate price dropped?? Your thoughts? A W or Nah?'
+2026-05-05T22:01:50Z INFO    [HIT] #59 r/AskReddit score=3109 comments=1425 title='Mexico recently announced universal healthcare for all. What are your thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #60 r/AnongThoughtsMo score=2898 comments=1497 title='Anong thoughts mo sa bagong babae ni Gov?'
+2026-05-05T22:01:50Z INFO    [HIT] #61 r/reddeadredemption score=5828 comments=959 title='Thoughts ?'
+2026-05-05T22:01:50Z INFO    [HIT] #62 r/SipsTea score=8050 comments=815 title='Thoughts?'
+2026-05-05T22:01:50Z INFO    [HIT] #63 r/AvatarMemebending score=4975 comments=955 title='Your thoughts..'
+2026-05-05T22:01:50Z INFO    [HIT] #64 r/GuysBeingDudes score=7562 comments=342 title='dude got his intrusive thoughts in control'
+2026-05-05T22:01:50Z INFO    [WARNING] max-pages=1 reached for sort=relevance sub=all — more results exist
+2026-05-05T22:01:50Z INFO    [PHASE] SEARCH r/all  sort=new  variant=head:Thoughts
+2026-05-05T22:01:53Z INFO    [REQUEST] GET https://www.reddit.com/search.json?q=Thoughts&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:55Z INFO    [RESPONSE] 200 1648ms https://www.reddit.com/search.json?q=Thoughts&sort=new&limit=100&t=all&raw_json=1
+2026-05-05T22:01:55Z INFO    [HIT] #1 r/TheRaceTo10Million score=1 comments=1 title='Rank my port? How’s my diversification?'
+2026-05-05T22:01:55Z INFO    [HIT] #2 r/vegetarian score=1 comments=0 title='Vegetarianism and soft tissue injuries from athletics?'
+2026-05-05T22:01:55Z INFO    [HIT] #3 r/venting score=1 comments=1 title='When you realize you overestimated how much u matter in their life'
+2026-05-05T22:01:55Z INFO    [HIT] #4 r/family score=1 comments=1 title="I quit the family business 2 weeks ago and now they’re telling me I'm the problem.... eldest daughter trying not to lose her mind"
+2026-05-05T22:01:55Z INFO    [HIT] #5 r/organizing score=1 comments=0 title='Where to hang digital wall calendar so the whole family actually sees it'
+2026-05-05T22:01:55Z INFO    [HIT] #6 r/rpg score=1 comments=0 title='Learn to Play at LGS Help'
+2026-05-05T22:01:55Z INFO    [HIT] #7 r/PokeGrading score=1 comments=0 title='Thoughts on grading this?'
+2026-05-05T22:01:55Z INFO    [HIT] #8 r/Mommit score=1 comments=0 title="I think I need some outside insight on if I'm being unreasonable. I'm losing perspective."
+2026-05-05T22:01:55Z INFO    [HIT] #9 r/inmatehopper score=1 comments=0 title='ash mad bc evie isn’t a trump supporter'
+2026-05-05T22:01:55Z INFO    [HIT] #10 r/3DS score=1 comments=0 title='Any way to capture gameplay from a 3ds?'
+2026-05-05T22:01:55Z INFO    [HIT] #11 r/carbuying score=1 comments=0 title='Trying to find a more affordable new car for my very short daughter.'
+2026-05-05T22:01:55Z INFO    [HIT] #12 r/NYCapartments score=1 comments=0 title='ISO Room in 2 bedroom Brooklyn Apartment'
+2026-05-05T22:01:55Z INFO    [HIT] #13 r/DunkCityDynastyGame score=1 comments=0 title='Wtf is this comp bruh'
+2026-05-05T22:01:55Z INFO    [HIT] #14 r/30PlusSkinCare score=1 comments=0 title='Skin before and during. Recs for improvement?'
+2026-05-05T22:01:55Z INFO    [HIT] #15 r/StardewValley score=1 comments=0 title='Starbucks Farm has entered year 2!!'
+2026-05-05T22:01:55Z INFO    [HIT] #16 r/fossilid score=1 comments=1 title='Thoughts on this?'
+2026-05-05T22:01:55Z INFO    [HIT] #17 r/Plifortakune score=1 comments=0 title='144B & 145B- Galarian Articuno & Galarian Zapdos by ForesterDesigns [PF2e]'
+2026-05-05T22:01:55Z INFO    [HIT] #18 r/ReplikaOfficial score=1 comments=0 title='I tested dozens of AI companion apps and turned my notes into a review site. Curious what you all think?'
+2026-05-05T22:01:55Z INFO    [HIT] #19 r/Truckers score=1 comments=0 title='Box truck vs septic/grease'
+2026-05-05T22:01:55Z INFO    [HIT] #20 r/RomantasyAuthors score=1 comments=0 title='Thoughts'
+2026-05-05T22:01:55Z INFO    [HIT] #21 r/Timingai score=1 comments=0 title='ranked: which signs are most likely to transform their love life during Pluto retrograde — and which ones are about to hit the same wall again'
+2026-05-05T22:01:55Z INFO    [HIT] #22 r/bipolar score=1 comments=1 title='Could i be manic guys LMFAO'
+2026-05-05T22:01:55Z INFO    [HIT] #23 r/KeltoiWellness score=1 comments=0 title="Coffee has 'astounding' impact on irregular heartbeat in world-first trial"
+2026-05-05T22:01:55Z INFO    [HIT] #24 r/Tekken score=3 comments=0 title='If King released today, what would be the community’s reaction ?'
+2026-05-05T22:01:55Z INFO    [HIT] #25 r/SideProject score=1 comments=0 title='Shoutout to the Reddit users who made my side project better'
+2026-05-05T22:01:55Z INFO    [HIT] #26 r/thomasthetankengine score=1 comments=1 title='📖 James and the Diesel Engines – Railway Series Book Discussion #28'
+2026-05-05T22:01:55Z INFO    [HIT] #27 r/Anxiety score=1 comments=0 title='Feeling stupid for asking and trying to learn about stuff online'
+2026-05-05T22:01:55Z INFO    [HIT] #28 r/SideProject score=1 comments=0 title='got laid off in january. spent the next month obsessing over ATS parsers instead of coping normally. built passthebot.dev'
+2026-05-05T22:01:55Z INFO    [HIT] #29 r/test score=1 comments=0 title='test'
+2026-05-05T22:01:55Z INFO    [HIT] #30 r/WildlifeRehab score=1 comments=0 title='Found a bat and took it to a rehabber'
+2026-05-05T22:01:55Z INFO    [HIT] #31 r/ClaudeAI score=1 comments=2 title='claude and its upgrades'
+2026-05-05T22:01:55Z INFO    [HIT] #32 r/AppAdvertisingAndHelp score=1 comments=0 title='👋 Welcome to r/AppAdvertisingAndHelp - Introduce Yourself and Read First!'
+2026-05-05T22:01:55Z INFO    [HIT] #33 r/postcapitalistlabs score=1 comments=0 title='This Week in Tech: A Post-Capitalist Perspective 🌍🔗'
+2026-05-05T22:01:55Z INFO    [HIT] #34 r/mazda3 score=1 comments=0 title='2012 Mazda3 intermittent vibration/sticky acceleration after highway driving - shops can’t duplicate'
+2026-05-05T22:01:55Z INFO    [HIT] #35 r/AdvancedRunning score=1 comments=0 title='Pittsburgh Marathon  - Horrible execution, lots of fun'
+2026-05-05T22:01:55Z INFO    [HIT] #36 r/Aquariums score=1 comments=0 title='Nano community. Densely planted. Should I go 55 or 75 gallon?'
+2026-05-05T22:01:55Z INFO    [HIT] #37 r/Coloring score=1 comments=0 title='Some Recent Jade Summer Pages'
+2026-05-05T22:01:55Z INFO    [HIT] #38 r/ArcRaiders score=1 comments=0 title='Failing and falling to get that melee trial done!  Did not see this coming.'
+2026-05-05T22:01:55Z INFO    [HIT] #39 r/ONDS score=1 comments=3 title='The Circle of $ONDS + The Phantom of the $ONDS'
+2026-05-05T22:01:55Z INFO    [HIT] #40 r/TheDesperateTrader score=1 comments=0 title='Stock Market Scanner: $ONEG Leads [ALRT] Market Hours - 3:00 PM ET | May 5'
+2026-05-05T22:01:55Z INFO    [HIT] #41 r/SoloDevelopment score=1 comments=0 title='My Game Is Finally Taking Shape!'
+2026-05-05T22:01:55Z INFO    [HIT] #42 r/FishingMinnesota score=1 comments=0 title='Gar Spots in the metro area'
+2026-05-05T22:01:55Z INFO    [HIT] #43 r/MakeNewFriendsHere score=1 comments=1 title='23 M looking for long term friends'
+2026-05-05T22:01:55Z INFO    [HIT] #44 r/NEETAIR1MakingFactory score=1 comments=0 title='👋Welcome to r/NEETAIR1MakingFactory - Introduce Yourself and Read First!'
+2026-05-05T22:01:55Z INFO    [HIT] #45 r/AskIreland score=1 comments=1 title='How to find part-time jobs in Dunnes?'
+2026-05-05T22:01:55Z INFO    [HIT] #46 r/UKrelationshipadvice score=1 comments=0 title="How can my (28m) partner (29f) and I work things out? If that's even realistic"
+2026-05-05T22:01:55Z INFO    [HIT] #47 r/miraculousladybug score=1 comments=1 title='The next successors to Miraculous.'
+2026-05-05T22:01:55Z INFO    [HIT] #48 r/PakistaniTwenties score=1 comments=1 title='Ugh guys I need some serious advice/perspective'
+2026-05-05T22:01:55Z INFO    [HIT] #49 r/writers score=1 comments=1 title='This is a draft of two entries which is part of a larger journal styled piece of writing I am working on as a passion project. Any thoughts?'
+2026-05-05T22:01:55Z INFO    [HIT] #50 r/AvoidantBreakUps score=1 comments=0 title='Discarded?'
+2026-05-05T22:01:55Z INFO    [HIT] #51 r/CookieRunKingdoms score=1 comments=1 title='Practicing the style- thoughts?'
+2026-05-05T22:01:55Z INFO    [HIT] #52 r/Vent score=1 comments=1 title='Mourning Someone I Never Knew'
+2026-05-05T22:01:55Z INFO    [HIT] #53 r/sonsofhorus score=1 comments=0 title="So what's Sons of Horus identity/tactics/playstyle/theme?"
+2026-05-05T22:01:55Z INFO    [HIT] #54 r/CrimsonDesert score=1 comments=0 title="Intrusive thoughts with Pearl Abyss (long post, you'll hate it)"
+2026-05-05T22:01:55Z INFO    [HIT] #55 r/Technoblade score=1 comments=0 title='Man, where do I even start?'
+2026-05-05T22:01:55Z INFO    [HIT] #56 r/weddingplanning score=1 comments=0 title='Do I drop one of my groomsmen?'
+2026-05-05T22:01:55Z INFO    [HIT] #57 r/doggrooming score=1 comments=0 title='Am I dumb or just going insane'
+2026-05-05T22:01:55Z INFO    [HIT] #58 r/isthisAI score=1 comments=1 title='Is this even allowed on reddit? I feel like somebody could get scammed by this person'
+2026-05-05T22:01:55Z INFO    [HIT] #59 r/AskFrance score=1 comments=1 title='What are some hidden cultural differences between France and the UK? Quelles sont les différences culturelles les plus méconnues entre la France et le Royaume-Uni ?'
+2026-05-05T22:01:55Z INFO    [HIT] #60 r/GeminiFeedback score=1 comments=0 title='Congratulations Google! you did it!'
+2026-05-05T22:01:55Z INFO    [HIT] #61 r/mangionetrials score=2 comments=1 title='Suspected arsonist behind Palisades fire looked up to Luigi Mangione as hero, prosecutors say'
+2026-05-05T22:01:55Z INFO    [HIT] #62 r/photography score=1 comments=0 title='How to approach a photographer when you are not happy'
+2026-05-05T22:01:55Z INFO    [HIT] #63 r/Cookierun score=1 comments=0 title="ninja cookie's japanese va is also Dio's va"
+2026-05-05T22:01:55Z INFO    [HIT] #64 r/AIDungeon score=1 comments=0 title='I tested dozens of AI companion apps and turned my notes into a review site. Curious what you all think?'
+2026-05-05T22:01:55Z INFO    [HIT] #65 r/SMPchat score=1 comments=0 title='Am I a candidate & what could I expect?'
+2026-05-05T22:01:55Z INFO    [HIT] #66 r/intotheradius score=1 comments=0 title='At this point just remove spark fields from the game entirely'
+2026-05-05T22:01:55Z INFO    [HIT] #67 r/billsimmons score=1 comments=0 title='The fact that so many people on here thought this tweet was serious…'
+2026-05-05T22:01:55Z INFO    [HIT] #68 r/SideshowPerformer score=2 comments=0 title='Jumbo the Elephant (1860-1885) was one of the most famous circus elephants of his time. His name became so synonymous with things that were large that it continues to be used when describing large objects and vehicles. He was a beloved fixture of the London Zoo before being purchased by P.T. Barnum.'
+2026-05-05T22:01:55Z INFO    [HIT] #69 r/pressonnaillovers score=1 comments=0 title='Cheap press ones'
+2026-05-05T22:01:55Z INFO    [HIT] #70 r/tipofmyjoystick score=1 comments=0 title='[PC][Steam?][In Development Maybe] First Person Friendslop about a Medieval Library'
+2026-05-05T22:01:55Z INFO    [HIT] #71 r/DavidBowie score=0 comments=0 title="I heard a bit of Bowie, so I thought I'd give a couple of albums a go!"
+2026-05-05T22:01:55Z INFO    [HIT] #72 r/dating score=1 comments=1 title='I’ve Been Single For Almost A Decade'
+2026-05-05T22:01:55Z INFO    [HIT] #73 r/Crushes score=1 comments=1 title='Is this guy in love with me??'
+2026-05-05T22:01:55Z INFO    [HIT] #74 r/AlignmentChartFills score=1 comments=2 title='What is the best KRS-One Album?'
+2026-05-05T22:01:55Z INFO    [HIT] #75 r/breathoffire score=2 comments=0 title='BoF4 item/weapon duping glitch by Casp'
+2026-05-05T22:01:55Z INFO    [HIT] #76 r/DIYUK score=1 comments=0 title='Terrace flooring advice?'
+2026-05-05T22:01:55Z INFO    [HIT] #77 r/Padres score=0 comments=3 title='How divisions might look with 2 new expansion teams. Thoughts?'
+2026-05-05T22:01:55Z INFO    [HIT] #78 r/diablo4 score=1 comments=1 title='Has anyone figured out a thundergod’s blessing target farm yet?'
+2026-05-05T22:01:55Z INFO    [HIT] #79 r/downriver score=1 comments=0 title='My salon is hiring!'
+2026-05-05T22:01:55Z INFO    [HIT] #80 r/AskMenAdvice score=0 comments=1 title='Why does my husband react this way and how should I handle it?'
+2026-05-05T22:01:55Z INFO    [HIT] #81 r/PokeMedia score=3 comments=5 title="And I was so ready to beat the tar out of Hala's fighting type team with Ori too..."
+2026-05-05T22:01:55Z INFO    [HIT] #82 r/asoiaf score=0 comments=0 title='(Spoiler Main) Do you think that Robb was screwed partially due to blasphemy?'
+2026-05-05T22:01:55Z INFO    [HIT] #83 r/backpacks score=1 comments=0 title='Tatonka commuter rolltop 25l vs Deuter Amager 25+5'
+2026-05-05T22:01:55Z INFO    [HIT] #84 r/offmychest score=1 comments=0 title='I sometimes skip lectures because I feel so insecure'
+2026-05-05T22:01:55Z INFO    [HIT] #85 r/APChem score=0 comments=0 title="The FRQ wasn't bad..?"
+2026-05-05T22:01:55Z INFO    [HIT] #86 r/Eugene score=1 comments=0 title='Voting'
+2026-05-05T22:01:55Z INFO    [HIT] #87 r/GrayZoneWarfare score=1 comments=0 title='So, um... dear Santa, i mean Madfinger...'
+2026-05-05T22:01:55Z INFO    [HIT] #88 r/WeirdFriends score=1 comments=0 title='I made this!  Kinda. - New to the group!'
+2026-05-05T22:01:55Z INFO    [HIT] #89 r/watercolor101 score=1 comments=0 title='Help choosing primary colors'
+2026-05-05T22:01:55Z INFO    [HIT] #90 r/Planes score=1 comments=0 title='Picture my uncle (pilot) shared.'
+2026-05-05T22:01:55Z INFO    [HIT] #91 r/Roofing score=1 comments=0 title='This isn’t supposed to be offensive.'
+2026-05-05T22:01:55Z INFO    [HIT] #92 r/trustagain score=1 comments=0 title='Some motivation'
+2026-05-05T22:01:55Z INFO    [HIT] #93 r/uber score=1 comments=0 title='Uber Parcel almost gave me a heart attack (Greater Noida → Noida)'
+2026-05-05T22:01:55Z INFO    [HIT] #94 r/minidisc score=1 comments=0 title='Finally got my first deck!'
+2026-05-05T22:01:55Z INFO    [HIT] #95 r/TryingForABaby score=2 comments=1 title="Once we decided to start TTC, I bought a bunch of used books on pregnancy and baby development. 16 months later with no positives, I've moved them all from the shelf to my basement."
+2026-05-05T22:01:55Z INFO    [WARNING] max-pages=1 reached for sort=new sub=all — more results exist
+2026-05-05T22:01:55Z INFO    [SECTION] PHASE 2 — FETCH-COMMENTS
+2026-05-05T22:01:55Z INFO    [PHASE] FETCH-COMMENTS 916 unique post(s)
+2026-05-05T22:01:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1iafm2f.json?raw_json=1&limit=50
+2026-05-05T22:01:59Z INFO    [RESPONSE] 200 999ms https://www.reddit.com/comments/1iafm2f.json?raw_json=1&limit=50
+2026-05-05T22:01:59Z INFO    [INFO] r/PinoyVloggers  1iafm2f  +45 comment(s)
+2026-05-05T22:02:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rpouo3.json?raw_json=1&limit=50
+2026-05-05T22:02:02Z INFO    [RESPONSE] 200 731ms https://www.reddit.com/comments/1rpouo3.json?raw_json=1&limit=50
+2026-05-05T22:02:02Z INFO    [INFO] r/SipsTea  1rpouo3  +12 comment(s)
+2026-05-05T22:02:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rqamkc.json?raw_json=1&limit=50
+2026-05-05T22:02:06Z INFO    [RESPONSE] 200 752ms https://www.reddit.com/comments/1rqamkc.json?raw_json=1&limit=50
+2026-05-05T22:02:06Z INFO    [INFO] r/AskSocialists  1rqamkc  +21 comment(s)
+2026-05-05T22:02:09Z INFO    [REQUEST] GET https://www.reddit.com/comments/1re3hpv.json?raw_json=1&limit=50
+2026-05-05T22:02:10Z INFO    [RESPONSE] 200 753ms https://www.reddit.com/comments/1re3hpv.json?raw_json=1&limit=50
+2026-05-05T22:02:10Z INFO    [INFO] r/LetsDiscussThis  1re3hpv  +20 comment(s)
+2026-05-05T22:02:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q1323o.json?raw_json=1&limit=50
+2026-05-05T22:02:14Z INFO    [RESPONSE] 200 730ms https://www.reddit.com/comments/1q1323o.json?raw_json=1&limit=50
+2026-05-05T22:02:14Z INFO    [INFO] r/StrangerThings  1q1323o  +12 comment(s)
+2026-05-05T22:02:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1soj69r.json?raw_json=1&limit=50
+2026-05-05T22:02:18Z INFO    [RESPONSE] 200 863ms https://www.reddit.com/comments/1soj69r.json?raw_json=1&limit=50
+2026-05-05T22:02:18Z INFO    [INFO] r/BlackPeopleofReddit  1soj69r  +21 comment(s)
+2026-05-05T22:02:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r951j2.json?raw_json=1&limit=50
+2026-05-05T22:02:21Z INFO    [RESPONSE] 200 584ms https://www.reddit.com/comments/1r951j2.json?raw_json=1&limit=50
+2026-05-05T22:02:21Z INFO    [INFO] r/FridgeDetective  1r951j2  +15 comment(s)
+2026-05-05T22:02:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rai46n.json?raw_json=1&limit=50
+2026-05-05T22:02:25Z INFO    [RESPONSE] 200 738ms https://www.reddit.com/comments/1rai46n.json?raw_json=1&limit=50
+2026-05-05T22:02:25Z INFO    [INFO] r/AskTheWorld  1rai46n  +24 comment(s)
+2026-05-05T22:02:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1srr4jy.json?raw_json=1&limit=50
+2026-05-05T22:02:29Z INFO    [RESPONSE] 200 663ms https://www.reddit.com/comments/1srr4jy.json?raw_json=1&limit=50
+2026-05-05T22:02:29Z INFO    [INFO] r/scoopwhoop  1srr4jy  +14 comment(s)
+2026-05-05T22:02:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ss0p8m.json?raw_json=1&limit=50
+2026-05-05T22:02:32Z INFO    [RESPONSE] 200 815ms https://www.reddit.com/comments/1ss0p8m.json?raw_json=1&limit=50
+2026-05-05T22:02:32Z INFO    [INFO] r/Warframe  1ss0p8m  +15 comment(s)
+2026-05-05T22:02:35Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qhenj8.json?raw_json=1&limit=50
+2026-05-05T22:02:36Z INFO    [RESPONSE] 200 674ms https://www.reddit.com/comments/1qhenj8.json?raw_json=1&limit=50
+2026-05-05T22:02:36Z INFO    [INFO] r/SipsTea  1qhenj8  +23 comment(s)
+2026-05-05T22:02:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p6c5xb.json?raw_json=1&limit=50
+2026-05-05T22:02:40Z INFO    [RESPONSE] 200 778ms https://www.reddit.com/comments/1p6c5xb.json?raw_json=1&limit=50
+2026-05-05T22:02:40Z INFO    [INFO] r/SipsTea  1p6c5xb  +9 comment(s)
+2026-05-05T22:02:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s7pqbi.json?raw_json=1&limit=50
+2026-05-05T22:02:43Z INFO    [RESPONSE] 200 632ms https://www.reddit.com/comments/1s7pqbi.json?raw_json=1&limit=50
+2026-05-05T22:02:43Z INFO    [INFO] r/TheGamingHubDeals  1s7pqbi  +23 comment(s)
+2026-05-05T22:02:46Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qiz5nw.json?raw_json=1&limit=50
+2026-05-05T22:02:47Z INFO    [RESPONSE] 200 730ms https://www.reddit.com/comments/1qiz5nw.json?raw_json=1&limit=50
+2026-05-05T22:02:47Z INFO    [INFO] r/GTA6  1qiz5nw  +15 comment(s)
+2026-05-05T22:02:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1setngu.json?raw_json=1&limit=50
+2026-05-05T22:02:51Z INFO    [RESPONSE] 200 707ms https://www.reddit.com/comments/1setngu.json?raw_json=1&limit=50
+2026-05-05T22:02:51Z INFO    [INFO] r/AskBrits  1setngu  +10 comment(s)
+2026-05-05T22:02:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1serod1.json?raw_json=1&limit=50
+2026-05-05T22:02:55Z INFO    [RESPONSE] 200 621ms https://www.reddit.com/comments/1serod1.json?raw_json=1&limit=50
+2026-05-05T22:02:55Z INFO    [INFO] r/conspiracy  1serod1  +12 comment(s)
+2026-05-05T22:02:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r0x3sp.json?raw_json=1&limit=50
+2026-05-05T22:02:58Z INFO    [RESPONSE] 200 717ms https://www.reddit.com/comments/1r0x3sp.json?raw_json=1&limit=50
+2026-05-05T22:02:58Z INFO    [INFO] r/HouseOfTheDragon  1r0x3sp  +17 comment(s)
+2026-05-05T22:03:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1smcjol.json?raw_json=1&limit=50
+2026-05-05T22:03:02Z INFO    [RESPONSE] 200 1011ms https://www.reddit.com/comments/1smcjol.json?raw_json=1&limit=50
+2026-05-05T22:03:02Z INFO    [INFO] r/Grimdank  1smcjol  +12 comment(s)
+2026-05-05T22:03:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r11jam.json?raw_json=1&limit=50
+2026-05-05T22:03:07Z INFO    [RESPONSE] 200 1342ms https://www.reddit.com/comments/1r11jam.json?raw_json=1&limit=50
+2026-05-05T22:03:07Z INFO    [INFO] r/pcmasterrace  1r11jam  +21 comment(s)
+2026-05-05T22:03:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ro30pt.json?raw_json=1&limit=50
+2026-05-05T22:03:11Z INFO    [RESPONSE] 200 1096ms https://www.reddit.com/comments/1ro30pt.json?raw_json=1&limit=50
+2026-05-05T22:03:11Z INFO    [INFO] r/formula1  1ro30pt  +13 comment(s)
+2026-05-05T22:03:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p0wtj1.json?raw_json=1&limit=50
+2026-05-05T22:03:14Z INFO    [RESPONSE] 200 657ms https://www.reddit.com/comments/1p0wtj1.json?raw_json=1&limit=50
+2026-05-05T22:03:14Z INFO    [INFO] r/SipsTea  1p0wtj1  +9 comment(s)
+2026-05-05T22:03:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rl49jw.json?raw_json=1&limit=50
+2026-05-05T22:03:18Z INFO    [RESPONSE] 200 658ms https://www.reddit.com/comments/1rl49jw.json?raw_json=1&limit=50
+2026-05-05T22:03:18Z INFO    [INFO] r/pcmasterrace  1rl49jw  +18 comment(s)
+2026-05-05T22:03:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s7flop.json?raw_json=1&limit=50
+2026-05-05T22:03:22Z INFO    [RESPONSE] 200 725ms https://www.reddit.com/comments/1s7flop.json?raw_json=1&limit=50
+2026-05-05T22:03:22Z INFO    [INFO] r/soartistic  1s7flop  +15 comment(s)
+2026-05-05T22:03:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s9mm8b.json?raw_json=1&limit=50
+2026-05-05T22:03:25Z INFO    [RESPONSE] 200 688ms https://www.reddit.com/comments/1s9mm8b.json?raw_json=1&limit=50
+2026-05-05T22:03:25Z INFO    [INFO] r/theamazingdigitalciru  1s9mm8b  +9 comment(s)
+2026-05-05T22:03:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q18vmi.json?raw_json=1&limit=50
+2026-05-05T22:03:29Z INFO    [RESPONSE] 200 650ms https://www.reddit.com/comments/1q18vmi.json?raw_json=1&limit=50
+2026-05-05T22:03:29Z INFO    [INFO] r/StarWars  1q18vmi  +10 comment(s)
+2026-05-05T22:03:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nhd1fv.json?raw_json=1&limit=50
+2026-05-05T22:03:33Z INFO    [RESPONSE] 200 850ms https://www.reddit.com/comments/1nhd1fv.json?raw_json=1&limit=50
+2026-05-05T22:03:33Z INFO    [INFO] r/CringeTikToks  1nhd1fv  +15 comment(s)
+2026-05-05T22:03:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1pfb7ft.json?raw_json=1&limit=50
+2026-05-05T22:03:37Z INFO    [RESPONSE] 200 736ms https://www.reddit.com/comments/1pfb7ft.json?raw_json=1&limit=50
+2026-05-05T22:03:37Z INFO    [INFO] r/TheLastAirbender  1pfb7ft  +9 comment(s)
+2026-05-05T22:03:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1srfvx6.json?raw_json=1&limit=50
+2026-05-05T22:03:40Z INFO    [RESPONSE] 200 706ms https://www.reddit.com/comments/1srfvx6.json?raw_json=1&limit=50
+2026-05-05T22:03:40Z INFO    [INFO] r/landscaping  1srfvx6  +9 comment(s)
+2026-05-05T22:03:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qet673.json?raw_json=1&limit=50
+2026-05-05T22:03:44Z INFO    [RESPONSE] 200 658ms https://www.reddit.com/comments/1qet673.json?raw_json=1&limit=50
+2026-05-05T22:03:44Z INFO    [INFO] r/SipsTea  1qet673  +11 comment(s)
+2026-05-05T22:03:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qzqtbl.json?raw_json=1&limit=50
+2026-05-05T22:03:48Z INFO    [RESPONSE] 200 1009ms https://www.reddit.com/comments/1qzqtbl.json?raw_json=1&limit=50
+2026-05-05T22:03:48Z INFO    [INFO] r/AskReddit  1qzqtbl  +14 comment(s)
+2026-05-05T22:03:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lt9vue.json?raw_json=1&limit=50
+2026-05-05T22:03:52Z INFO    [RESPONSE] 200 812ms https://www.reddit.com/comments/1lt9vue.json?raw_json=1&limit=50
+2026-05-05T22:03:52Z INFO    [INFO] r/youtube  1lt9vue  +11 comment(s)
+2026-05-05T22:03:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mt8boz.json?raw_json=1&limit=50
+2026-05-05T22:03:56Z INFO    [RESPONSE] 200 846ms https://www.reddit.com/comments/1mt8boz.json?raw_json=1&limit=50
+2026-05-05T22:03:56Z INFO    [INFO] r/cartoons  1mt8boz  +10 comment(s)
+2026-05-05T22:03:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rwkq2y.json?raw_json=1&limit=50
+2026-05-05T22:03:59Z INFO    [RESPONSE] 200 701ms https://www.reddit.com/comments/1rwkq2y.json?raw_json=1&limit=50
+2026-05-05T22:03:59Z INFO    [INFO] r/Fauxmoi  1rwkq2y  +16 comment(s)
+2026-05-05T22:04:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1njsrjx.json?raw_json=1&limit=50
+2026-05-05T22:04:03Z INFO    [RESPONSE] 200 914ms https://www.reddit.com/comments/1njsrjx.json?raw_json=1&limit=50
+2026-05-05T22:04:03Z INFO    [INFO] r/AskReddit  1njsrjx  +13 comment(s)
+2026-05-05T22:04:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mwerxz.json?raw_json=1&limit=50
+2026-05-05T22:04:07Z INFO    [RESPONSE] 200 673ms https://www.reddit.com/comments/1mwerxz.json?raw_json=1&limit=50
+2026-05-05T22:04:07Z INFO    [INFO] r/StarWars  1mwerxz  +7 comment(s)
+2026-05-05T22:04:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1raps4l.json?raw_json=1&limit=50
+2026-05-05T22:04:11Z INFO    [RESPONSE] 200 501ms https://www.reddit.com/comments/1raps4l.json?raw_json=1&limit=50
+2026-05-05T22:04:11Z INFO    [INFO] r/indianmemer  1raps4l  +19 comment(s)
+2026-05-05T22:04:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qfxlsa.json?raw_json=1&limit=50
+2026-05-05T22:04:14Z INFO    [RESPONSE] 200 795ms https://www.reddit.com/comments/1qfxlsa.json?raw_json=1&limit=50
+2026-05-05T22:04:14Z INFO    [INFO] r/allthequestions  1qfxlsa  +19 comment(s)
+2026-05-05T22:04:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1my9pik.json?raw_json=1&limit=50
+2026-05-05T22:04:18Z INFO    [RESPONSE] 200 685ms https://www.reddit.com/comments/1my9pik.json?raw_json=1&limit=50
+2026-05-05T22:04:18Z INFO    [INFO] r/Grimdank  1my9pik  +7 comment(s)
+2026-05-05T22:04:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1oyllzi.json?raw_json=1&limit=50
+2026-05-05T22:04:22Z INFO    [RESPONSE] 200 647ms https://www.reddit.com/comments/1oyllzi.json?raw_json=1&limit=50
+2026-05-05T22:04:22Z INFO    [INFO] r/joebuddennetwork  1oyllzi  +15 comment(s)
+2026-05-05T22:04:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qk23jb.json?raw_json=1&limit=50
+2026-05-05T22:04:25Z INFO    [RESPONSE] 200 668ms https://www.reddit.com/comments/1qk23jb.json?raw_json=1&limit=50
+2026-05-05T22:04:25Z INFO    [INFO] r/ForzaHorizon  1qk23jb  +21 comment(s)
+2026-05-05T22:04:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sgpd2q.json?raw_json=1&limit=50
+2026-05-05T22:04:29Z INFO    [RESPONSE] 200 603ms https://www.reddit.com/comments/1sgpd2q.json?raw_json=1&limit=50
+2026-05-05T22:04:29Z INFO    [INFO] r/addressme  1sgpd2q  +16 comment(s)
+2026-05-05T22:04:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1soo2xm.json?raw_json=1&limit=50
+2026-05-05T22:04:33Z INFO    [RESPONSE] 200 608ms https://www.reddit.com/comments/1soo2xm.json?raw_json=1&limit=50
+2026-05-05T22:04:33Z INFO    [INFO] r/askanything  1soo2xm  +18 comment(s)
+2026-05-05T22:04:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sw2ufs.json?raw_json=1&limit=50
+2026-05-05T22:04:36Z INFO    [RESPONSE] 200 574ms https://www.reddit.com/comments/1sw2ufs.json?raw_json=1&limit=50
+2026-05-05T22:04:36Z INFO    [INFO] r/BatmanArkham  1sw2ufs  +11 comment(s)
+2026-05-05T22:04:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lls6he.json?raw_json=1&limit=50
+2026-05-05T22:04:42Z INFO    [RESPONSE] 200 2450ms https://www.reddit.com/comments/1lls6he.json?raw_json=1&limit=50
+2026-05-05T22:04:42Z INFO    [INFO] r/TikTokCringe  1lls6he  +14 comment(s)
+2026-05-05T22:04:45Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s56m97.json?raw_json=1&limit=50
+2026-05-05T22:04:45Z INFO    [RESPONSE] 200 633ms https://www.reddit.com/comments/1s56m97.json?raw_json=1&limit=50
+2026-05-05T22:04:45Z INFO    [INFO] r/FIlm  1s56m97  +20 comment(s)
+2026-05-05T22:04:48Z INFO    [REQUEST] GET https://www.reddit.com/comments/1pmqyjv.json?raw_json=1&limit=50
+2026-05-05T22:04:49Z INFO    [RESPONSE] 200 634ms https://www.reddit.com/comments/1pmqyjv.json?raw_json=1&limit=50
+2026-05-05T22:04:49Z INFO    [INFO] r/teenagers  1pmqyjv  +14 comment(s)
+2026-05-05T22:04:52Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rb0p63.json?raw_json=1&limit=50
+2026-05-05T22:04:52Z INFO    [RESPONSE] 200 630ms https://www.reddit.com/comments/1rb0p63.json?raw_json=1&limit=50
+2026-05-05T22:04:52Z INFO    [INFO] r/StockMarket  1rb0p63  +17 comment(s)
+2026-05-05T22:04:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q7voyo.json?raw_json=1&limit=50
+2026-05-05T22:04:56Z INFO    [RESPONSE] 200 687ms https://www.reddit.com/comments/1q7voyo.json?raw_json=1&limit=50
+2026-05-05T22:04:56Z INFO    [INFO] r/interiordecorating  1q7voyo  +19 comment(s)
+2026-05-05T22:04:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s1qisg.json?raw_json=1&limit=50
+2026-05-05T22:05:00Z INFO    [RESPONSE] 200 631ms https://www.reddit.com/comments/1s1qisg.json?raw_json=1&limit=50
+2026-05-05T22:05:00Z INFO    [INFO] r/OUTFITS  1s1qisg  +27 comment(s)
+2026-05-05T22:05:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qo7l5t.json?raw_json=1&limit=50
+2026-05-05T22:05:03Z INFO    [RESPONSE] 200 671ms https://www.reddit.com/comments/1qo7l5t.json?raw_json=1&limit=50
+2026-05-05T22:05:03Z INFO    [INFO] r/teenagers  1qo7l5t  +16 comment(s)
+2026-05-05T22:05:06Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ql5a8p.json?raw_json=1&limit=50
+2026-05-05T22:05:07Z INFO    [RESPONSE] 200 600ms https://www.reddit.com/comments/1ql5a8p.json?raw_json=1&limit=50
+2026-05-05T22:05:07Z INFO    [INFO] r/LeopardsAteMyFace  1ql5a8p  +13 comment(s)
+2026-05-05T22:05:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r6lr03.json?raw_json=1&limit=50
+2026-05-05T22:05:11Z INFO    [RESPONSE] 200 670ms https://www.reddit.com/comments/1r6lr03.json?raw_json=1&limit=50
+2026-05-05T22:05:11Z INFO    [INFO] r/AKnightoftheSeven  1r6lr03  +14 comment(s)
+2026-05-05T22:05:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qfc1em.json?raw_json=1&limit=50
+2026-05-05T22:05:14Z INFO    [RESPONSE] 200 617ms https://www.reddit.com/comments/1qfc1em.json?raw_json=1&limit=50
+2026-05-05T22:05:14Z INFO    [INFO] r/Ningen  1qfc1em  +10 comment(s)
+2026-05-05T22:05:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q9wjk4.json?raw_json=1&limit=50
+2026-05-05T22:05:18Z INFO    [RESPONSE] 200 781ms https://www.reddit.com/comments/1q9wjk4.json?raw_json=1&limit=50
+2026-05-05T22:05:18Z INFO    [INFO] r/teenagers  1q9wjk4  +15 comment(s)
+2026-05-05T22:05:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mpv2nf.json?raw_json=1&limit=50
+2026-05-05T22:05:22Z INFO    [RESPONSE] 200 847ms https://www.reddit.com/comments/1mpv2nf.json?raw_json=1&limit=50
+2026-05-05T22:05:22Z INFO    [INFO] r/Battlefield  1mpv2nf  +20 comment(s)
+2026-05-05T22:05:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qn0kax.json?raw_json=1&limit=50
+2026-05-05T22:05:26Z INFO    [RESPONSE] 200 587ms https://www.reddit.com/comments/1qn0kax.json?raw_json=1&limit=50
+2026-05-05T22:05:26Z INFO    [INFO] r/nba  1qn0kax  +13 comment(s)
+2026-05-05T22:05:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r2p33d.json?raw_json=1&limit=50
+2026-05-05T22:05:29Z INFO    [RESPONSE] 200 647ms https://www.reddit.com/comments/1r2p33d.json?raw_json=1&limit=50
+2026-05-05T22:05:29Z INFO    [INFO] r/CuratedTumblr  1r2p33d  +16 comment(s)
+2026-05-05T22:05:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rcsrcg.json?raw_json=1&limit=50
+2026-05-05T22:05:33Z INFO    [RESPONSE] 200 511ms https://www.reddit.com/comments/1rcsrcg.json?raw_json=1&limit=50
+2026-05-05T22:05:33Z INFO    [INFO] r/AskBrits  1rcsrcg  +31 comment(s)
+2026-05-05T22:05:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mx3p36.json?raw_json=1&limit=50
+2026-05-05T22:05:36Z INFO    [RESPONSE] 200 699ms https://www.reddit.com/comments/1mx3p36.json?raw_json=1&limit=50
+2026-05-05T22:05:36Z INFO    [INFO] r/MyAnimeList  1mx3p36  +20 comment(s)
+2026-05-05T22:05:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s4iu9w.json?raw_json=1&limit=50
+2026-05-05T22:05:40Z INFO    [RESPONSE] 200 694ms https://www.reddit.com/comments/1s4iu9w.json?raw_json=1&limit=50
+2026-05-05T22:05:40Z INFO    [INFO] r/PcBuildHelp  1s4iu9w  +18 comment(s)
+2026-05-05T22:05:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1j0gwly.json?raw_json=1&limit=50
+2026-05-05T22:05:44Z INFO    [RESPONSE] 200 829ms https://www.reddit.com/comments/1j0gwly.json?raw_json=1&limit=50
+2026-05-05T22:05:44Z INFO    [INFO] r/GenZ  1j0gwly  +15 comment(s)
+2026-05-05T22:05:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rzupv2.json?raw_json=1&limit=50
+2026-05-05T22:05:48Z INFO    [RESPONSE] 200 693ms https://www.reddit.com/comments/1rzupv2.json?raw_json=1&limit=50
+2026-05-05T22:05:48Z INFO    [INFO] r/jewelry  1rzupv2  +11 comment(s)
+2026-05-05T22:05:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1spdzqr.json?raw_json=1&limit=50
+2026-05-05T22:05:51Z INFO    [RESPONSE] 200 543ms https://www.reddit.com/comments/1spdzqr.json?raw_json=1&limit=50
+2026-05-05T22:05:51Z INFO    [INFO] r/FIlm  1spdzqr  +20 comment(s)
+2026-05-05T22:05:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ru9857.json?raw_json=1&limit=50
+2026-05-05T22:05:55Z INFO    [RESPONSE] 200 624ms https://www.reddit.com/comments/1ru9857.json?raw_json=1&limit=50
+2026-05-05T22:05:55Z INFO    [INFO] r/TheGamingHubDeals  1ru9857  +22 comment(s)
+2026-05-05T22:05:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r0dd6s.json?raw_json=1&limit=50
+2026-05-05T22:05:59Z INFO    [RESPONSE] 200 938ms https://www.reddit.com/comments/1r0dd6s.json?raw_json=1&limit=50
+2026-05-05T22:05:59Z INFO    [INFO] r/CountryMusicStuff  1r0dd6s  +20 comment(s)
+2026-05-05T22:06:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qjvtvu.json?raw_json=1&limit=50
+2026-05-05T22:06:02Z INFO    [RESPONSE] 200 644ms https://www.reddit.com/comments/1qjvtvu.json?raw_json=1&limit=50
+2026-05-05T22:06:02Z INFO    [INFO] r/golf  1qjvtvu  +15 comment(s)
+2026-05-05T22:06:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rzaiyv.json?raw_json=1&limit=50
+2026-05-05T22:06:07Z INFO    [RESPONSE] 200 1307ms https://www.reddit.com/comments/1rzaiyv.json?raw_json=1&limit=50
+2026-05-05T22:06:07Z INFO    [INFO] r/theamazingdigitalciru  1rzaiyv  +27 comment(s)
+2026-05-05T22:06:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rl8rvs.json?raw_json=1&limit=50
+2026-05-05T22:06:10Z INFO    [RESPONSE] 200 619ms https://www.reddit.com/comments/1rl8rvs.json?raw_json=1&limit=50
+2026-05-05T22:06:10Z INFO    [INFO] r/Actors  1rl8rvs  +22 comment(s)
+2026-05-05T22:06:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sqnp37.json?raw_json=1&limit=50
+2026-05-05T22:06:14Z INFO    [RESPONSE] 200 751ms https://www.reddit.com/comments/1sqnp37.json?raw_json=1&limit=50
+2026-05-05T22:06:14Z INFO    [INFO] r/NoMansSkyTheGame  1sqnp37  +17 comment(s)
+2026-05-05T22:06:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sjjunc.json?raw_json=1&limit=50
+2026-05-05T22:06:18Z INFO    [RESPONSE] 200 944ms https://www.reddit.com/comments/1sjjunc.json?raw_json=1&limit=50
+2026-05-05T22:06:18Z INFO    [INFO] r/HairStyleAdvice  1sjjunc  +23 comment(s)
+2026-05-05T22:06:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1swnu5i.json?raw_json=1&limit=50
+2026-05-05T22:06:22Z INFO    [RESPONSE] 200 662ms https://www.reddit.com/comments/1swnu5i.json?raw_json=1&limit=50
+2026-05-05T22:06:22Z INFO    [INFO] r/aviation  1swnu5i  +14 comment(s)
+2026-05-05T22:06:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r8ethh.json?raw_json=1&limit=50
+2026-05-05T22:06:26Z INFO    [RESPONSE] 200 776ms https://www.reddit.com/comments/1r8ethh.json?raw_json=1&limit=50
+2026-05-05T22:06:26Z INFO    [INFO] r/hockey  1r8ethh  +13 comment(s)
+2026-05-05T22:06:29Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q4zfuq.json?raw_json=1&limit=50
+2026-05-05T22:06:29Z INFO    [RESPONSE] 200 670ms https://www.reddit.com/comments/1q4zfuq.json?raw_json=1&limit=50
+2026-05-05T22:06:29Z INFO    [INFO] r/StrangerThings  1q4zfuq  +14 comment(s)
+2026-05-05T22:06:32Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r01v9b.json?raw_json=1&limit=50
+2026-05-05T22:06:33Z INFO    [RESPONSE] 200 681ms https://www.reddit.com/comments/1r01v9b.json?raw_json=1&limit=50
+2026-05-05T22:06:33Z INFO    [INFO] r/okbuddycinephile  1r01v9b  +15 comment(s)
+2026-05-05T22:06:36Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r7ptki.json?raw_json=1&limit=50
+2026-05-05T22:06:36Z INFO    [RESPONSE] 200 583ms https://www.reddit.com/comments/1r7ptki.json?raw_json=1&limit=50
+2026-05-05T22:06:36Z INFO    [INFO] r/batman  1r7ptki  +16 comment(s)
+2026-05-05T22:06:39Z INFO    [REQUEST] GET https://www.reddit.com/comments/1odvft8.json?raw_json=1&limit=50
+2026-05-05T22:06:40Z INFO    [RESPONSE] 200 718ms https://www.reddit.com/comments/1odvft8.json?raw_json=1&limit=50
+2026-05-05T22:06:40Z INFO    [INFO] r/teenagers  1odvft8  +21 comment(s)
+2026-05-05T22:06:43Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mrcqfe.json?raw_json=1&limit=50
+2026-05-05T22:06:44Z INFO    [RESPONSE] 200 736ms https://www.reddit.com/comments/1mrcqfe.json?raw_json=1&limit=50
+2026-05-05T22:06:44Z INFO    [INFO] r/TheDigitalCircus  1mrcqfe  +22 comment(s)
+2026-05-05T22:06:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1si1qlt.json?raw_json=1&limit=50
+2026-05-05T22:06:48Z INFO    [RESPONSE] 200 678ms https://www.reddit.com/comments/1si1qlt.json?raw_json=1&limit=50
+2026-05-05T22:06:48Z INFO    [INFO] r/ProfessorFinance  1si1qlt  +12 comment(s)
+2026-05-05T22:06:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q8zucn.json?raw_json=1&limit=50
+2026-05-05T22:06:51Z INFO    [RESPONSE] 200 624ms https://www.reddit.com/comments/1q8zucn.json?raw_json=1&limit=50
+2026-05-05T22:06:51Z INFO    [INFO] r/Stranger_Things  1q8zucn  +13 comment(s)
+2026-05-05T22:06:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rm8lgk.json?raw_json=1&limit=50
+2026-05-05T22:06:55Z INFO    [RESPONSE] 200 626ms https://www.reddit.com/comments/1rm8lgk.json?raw_json=1&limit=50
+2026-05-05T22:06:55Z INFO    [INFO] r/pokemon  1rm8lgk  +18 comment(s)
+2026-05-05T22:06:58Z INFO    [REQUEST] GET https://www.reddit.com/comments/1lvxfqo.json?raw_json=1&limit=50
+2026-05-05T22:06:59Z INFO    [RESPONSE] 200 822ms https://www.reddit.com/comments/1lvxfqo.json?raw_json=1&limit=50
+2026-05-05T22:06:59Z INFO    [INFO] r/ContraPoints  1lvxfqo  +17 comment(s)
+2026-05-05T22:07:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r828iq.json?raw_json=1&limit=50
+2026-05-05T22:07:02Z INFO    [RESPONSE] 200 664ms https://www.reddit.com/comments/1r828iq.json?raw_json=1&limit=50
+2026-05-05T22:07:02Z INFO    [INFO] r/rupaulsdragrace  1r828iq  +17 comment(s)
+2026-05-05T22:07:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1r8ie7i.json?raw_json=1&limit=50
+2026-05-05T22:07:06Z INFO    [RESPONSE] 200 648ms https://www.reddit.com/comments/1r8ie7i.json?raw_json=1&limit=50
+2026-05-05T22:07:06Z INFO    [INFO] r/casualnintendo  1r8ie7i  +16 comment(s)
+2026-05-05T22:07:09Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ofweyq.json?raw_json=1&limit=50
+2026-05-05T22:07:10Z INFO    [RESPONSE] 200 718ms https://www.reddit.com/comments/1ofweyq.json?raw_json=1&limit=50
+2026-05-05T22:07:10Z INFO    [INFO] r/CriticalThinkingIndia  1ofweyq  +18 comment(s)
+2026-05-05T22:07:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rirve3.json?raw_json=1&limit=50
+2026-05-05T22:07:13Z INFO    [RESPONSE] 200 642ms https://www.reddit.com/comments/1rirve3.json?raw_json=1&limit=50
+2026-05-05T22:07:13Z INFO    [INFO] r/RandomShit_ISaw  1rirve3  +22 comment(s)
+2026-05-05T22:07:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1piboz2.json?raw_json=1&limit=50
+2026-05-05T22:07:17Z INFO    [RESPONSE] 200 643ms https://www.reddit.com/comments/1piboz2.json?raw_json=1&limit=50
+2026-05-05T22:07:17Z INFO    [INFO] r/FIlm  1piboz2  +13 comment(s)
+2026-05-05T22:07:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kvzsj9.json?raw_json=1&limit=50
+2026-05-05T22:07:21Z INFO    [RESPONSE] 200 622ms https://www.reddit.com/comments/1kvzsj9.json?raw_json=1&limit=50
+2026-05-05T22:07:21Z INFO    [INFO] r/TheLastAirbender  1kvzsj9  +11 comment(s)
+2026-05-05T22:07:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1robjc0.json?raw_json=1&limit=50
+2026-05-05T22:07:24Z INFO    [RESPONSE] 200 553ms https://www.reddit.com/comments/1robjc0.json?raw_json=1&limit=50
+2026-05-05T22:07:24Z INFO    [INFO] r/teenagers  1robjc0  +26 comment(s)
+2026-05-05T22:07:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s3y2i6.json?raw_json=1&limit=50
+2026-05-05T22:07:28Z INFO    [RESPONSE] 200 617ms https://www.reddit.com/comments/1s3y2i6.json?raw_json=1&limit=50
+2026-05-05T22:07:28Z INFO    [INFO] r/AvatarMemebending  1s3y2i6  +15 comment(s)
+2026-05-05T22:07:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sgrigj.json?raw_json=1&limit=50
+2026-05-05T22:07:31Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T22:07:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sgrigj.json?raw_json=1&limit=50
+2026-05-05T22:07:35Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T22:07:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sgrigj.json?raw_json=1&limit=50
+2026-05-05T22:07:38Z INFO    [ERROR] GET https://www.reddit.com/comments/1sgrigj.json?raw_json=1&limit=50 → HTTP 429 after 3 attempts; giving up

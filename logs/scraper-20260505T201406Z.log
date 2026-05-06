@@ -1,0 +1,527 @@
+2026-05-05T23:14:06Z INFO    [BANNER] ZAYNS REDDIT SCRAPER — query='prodigy IGCSE bio leak' log=logs\scraper-20260505T201406Z.log
+2026-05-05T23:14:06Z INFO    [CONFIG] tool=zayns-reddit-scraper v0.1.0
+2026-05-05T23:14:06Z INFO    [CONFIG] query=prodigy IGCSE bio leak
+2026-05-05T23:14:06Z INFO    [CONFIG] subreddits=Olevels, igcse, IGCSE_helps, Alevel, Alevels, CIE, edexcel, GCSE, 6thForm, Cheatingclassmates, GetStudying, studytips
+2026-05-05T23:14:06Z INFO    [CONFIG] sorts=relevance, new
+2026-05-05T23:14:06Z INFO    [CONFIG] max pages=5
+2026-05-05T23:14:06Z INFO    [CONFIG] page limit=100
+2026-05-05T23:14:06Z INFO    [CONFIG] delay=3.0s between requests
+2026-05-05T23:14:06Z INFO    [CONFIG] comments=top 20
+2026-05-05T23:14:06Z INFO    [CONFIG] r/all=skipped
+2026-05-05T23:14:06Z INFO    [CONFIG] output dir=D:\SOC Diploma\Info Scrapper\output
+2026-05-05T23:14:06Z INFO    [CONFIG] log dir=D:\SOC Diploma\Info Scrapper\logs
+2026-05-05T23:14:06Z INFO    [CONFIG] run stamp=20260505T201406Z
+2026-05-05T23:14:06Z INFO    [SECTION] PHASE 1 — SEARCH
+2026-05-05T23:14:06Z INFO    [INFO] query variants: 'prodigy IGCSE bio leak' | 'prodigy IGCSE' | 'prodigy bio' | 'prodigy leak' | 'prodigy'
+2026-05-05T23:14:06Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=phrase
+2026-05-05T23:14:06Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:08Z INFO    [RESPONSE] 200 1983ms https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:08Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:14:08Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=phrase
+2026-05-05T23:14:11Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:11Z INFO    [RESPONSE] 200 258ms https://www.reddit.com/r/igcse/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:11Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:14:11Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=phrase
+2026-05-05T23:14:14Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:15Z INFO    [RESPONSE] 200 497ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:15Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=phrase
+2026-05-05T23:14:18Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:18Z INFO    [RESPONSE] 200 337ms https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:18Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:14:18Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=phrase
+2026-05-05T23:14:21Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:21Z INFO    [RESPONSE] 200 336ms https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:21Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:14:21Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=phrase
+2026-05-05T23:14:24Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:25Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:14:25Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=phrase
+2026-05-05T23:14:28Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:28Z INFO    [RESPONSE] 200 314ms https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:28Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:14:28Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=phrase
+2026-05-05T23:14:31Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:32Z INFO    [RESPONSE] 200 325ms https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:32Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:14:32Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=phrase
+2026-05-05T23:14:35Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:35Z INFO    [RESPONSE] 200 319ms https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:35Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:14:35Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=phrase
+2026-05-05T23:14:38Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:38Z INFO    [RESPONSE] 200 497ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:38Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:14:38Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=phrase
+2026-05-05T23:14:41Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:42Z INFO    [RESPONSE] 200 317ms https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:42Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:14:42Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=phrase
+2026-05-05T23:14:45Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:45Z INFO    [RESPONSE] 200 320ms https://www.reddit.com/r/studytips/search.json?q=%22prodigy+IGCSE+bio+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:45Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:14:45Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:14:48Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:48Z INFO    [RESPONSE] 200 340ms https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:48Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:14:48Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:14:51Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:52Z INFO    [RESPONSE] 200 313ms https://www.reddit.com/r/igcse/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:52Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:14:52Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:14:55Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:55Z INFO    [RESPONSE] 200 580ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:55Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:14:58Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:58Z INFO    [RESPONSE] 200 262ms https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:14:58Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:14:58Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:01Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:02Z INFO    [RESPONSE] 200 326ms https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:02Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:15:02Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:05Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:05Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:15:05Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:08Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:08Z INFO    [RESPONSE] 200 248ms https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:08Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:15:08Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:11Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:12Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:12Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:15:12Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:15Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:15Z INFO    [RESPONSE] 200 258ms https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:15Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:15:15Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:18Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:18Z INFO    [RESPONSE] 200 508ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:18Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:15:18Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:21Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:22Z INFO    [RESPONSE] 200 326ms https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:22Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:15:22Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:prodigy IGCSE
+2026-05-05T23:15:25Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:25Z INFO    [RESPONSE] 200 519ms https://www.reddit.com/r/studytips/search.json?q=%22prodigy+IGCSE%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:25Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:15:25Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:28Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:29Z INFO    [RESPONSE] 200 337ms https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:29Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:15:29Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:32Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:32Z INFO    [RESPONSE] 200 318ms https://www.reddit.com/r/igcse/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:32Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:15:32Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:35Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:35Z INFO    [RESPONSE] 200 447ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:35Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:38Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:39Z INFO    [RESPONSE] 200 276ms https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:39Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:15:39Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:42Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:42Z INFO    [RESPONSE] 200 256ms https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:42Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:15:42Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:45Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:45Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:15:45Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:48Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:48Z INFO    [RESPONSE] 200 262ms https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:48Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:15:48Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:51Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:52Z INFO    [RESPONSE] 200 319ms https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:52Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:15:52Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:55Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:55Z INFO    [RESPONSE] 200 332ms https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:55Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:15:55Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:15:58Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:59Z INFO    [RESPONSE] 200 452ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:15:59Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:15:59Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:16:02Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:02Z INFO    [RESPONSE] 200 252ms https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:02Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:16:02Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:prodigy bio
+2026-05-05T23:16:05Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:05Z INFO    [RESPONSE] 200 316ms https://www.reddit.com/r/studytips/search.json?q=%22prodigy+bio%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:05Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:16:05Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:08Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:09Z INFO    [RESPONSE] 200 894ms https://www.reddit.com/r/Olevels/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:09Z INFO    [INFO] no results on first page for sort=relevance sub=Olevels
+2026-05-05T23:16:09Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:12Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:12Z INFO    [RESPONSE] 200 321ms https://www.reddit.com/r/igcse/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:12Z INFO    [INFO] no results on first page for sort=relevance sub=igcse
+2026-05-05T23:16:12Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:15Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:16Z INFO    [RESPONSE] 200 441ms https://www.reddit.com/r/IGCSE_helps/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:16Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:19Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:19Z INFO    [RESPONSE] 200 260ms https://www.reddit.com/r/Alevel/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:19Z INFO    [INFO] no results on first page for sort=relevance sub=Alevel
+2026-05-05T23:16:19Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:22Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:22Z INFO    [RESPONSE] 200 264ms https://www.reddit.com/r/Alevels/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:22Z INFO    [INFO] no results on first page for sort=relevance sub=Alevels
+2026-05-05T23:16:22Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:25Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:25Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:16:25Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:28Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:29Z INFO    [RESPONSE] 200 255ms https://www.reddit.com/r/edexcel/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:29Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:16:29Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:32Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:32Z INFO    [RESPONSE] 200 266ms https://www.reddit.com/r/GCSE/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:32Z INFO    [INFO] no results on first page for sort=relevance sub=GCSE
+2026-05-05T23:16:32Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:35Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:35Z INFO    [RESPONSE] 200 335ms https://www.reddit.com/r/6thForm/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:35Z INFO    [INFO] no results on first page for sort=relevance sub=6thForm
+2026-05-05T23:16:35Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:38Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:39Z INFO    [RESPONSE] 200 506ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:39Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:16:39Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:42Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:42Z INFO    [RESPONSE] 200 245ms https://www.reddit.com/r/GetStudying/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:42Z INFO    [INFO] no results on first page for sort=relevance sub=GetStudying
+2026-05-05T23:16:42Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:prodigy leak
+2026-05-05T23:16:45Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:45Z INFO    [RESPONSE] 200 261ms https://www.reddit.com/r/studytips/search.json?q=%22prodigy+leak%22&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:45Z INFO    [INFO] no results on first page for sort=relevance sub=studytips
+2026-05-05T23:16:45Z INFO    [PHASE] SEARCH r/Olevels  sort=relevance  variant=head:prodigy
+2026-05-05T23:16:48Z INFO    [REQUEST] GET https://www.reddit.com/r/Olevels/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:49Z INFO    [RESPONSE] 200 365ms https://www.reddit.com/r/Olevels/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:49Z INFO    [HIT] #1 r/Olevels score=5 comments=6 title='Scam Alert For Leaks'
+2026-05-05T23:16:49Z INFO    [PHASE] SEARCH r/igcse  sort=relevance  variant=head:prodigy
+2026-05-05T23:16:52Z INFO    [REQUEST] GET https://www.reddit.com/r/igcse/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:52Z INFO    [RESPONSE] 200 377ms https://www.reddit.com/r/igcse/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:52Z INFO    [HIT] #1 r/igcse score=81 comments=28 title='prodigy 4th grader'
+2026-05-05T23:16:52Z INFO    [HIT] #2 r/igcse score=777 comments=128 title='My 12 year old brother just scored straight A*!'
+2026-05-05T23:16:52Z INFO    [HIT] #3 r/igcse score=100 comments=23 title='yes!!!!!!!!!'
+2026-05-05T23:16:52Z INFO    [HIT] #4 r/igcse score=3 comments=6 title='ICT MY NEMESIS'
+2026-05-05T23:16:52Z INFO    [HIT] #5 r/igcse score=4 comments=3 title='Project: time to overdramatically start studying'
+2026-05-05T23:16:52Z INFO    [HIT] #6 r/igcse score=2 comments=2 title='About maths'
+2026-05-05T23:16:52Z INFO    [HIT] #7 r/igcse score=48 comments=11 title='when you see on r/igcse youve done a question wrong'
+2026-05-05T23:16:52Z INFO    [HIT] #8 r/igcse score=7 comments=4 title='failed physics'
+2026-05-05T23:16:52Z INFO    [HIT] #9 r/igcse score=11 comments=5 title="ALL THE BEST TO EVERYONE APPEARING FOR THE F/M 2021 SERIES.. U'VE GOT THIS!!"
+2026-05-05T23:16:52Z INFO    [PHASE] SEARCH r/IGCSE_helps  sort=relevance  variant=head:prodigy
+2026-05-05T23:16:55Z INFO    [REQUEST] GET https://www.reddit.com/r/IGCSE_helps/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:56Z INFO    [RESPONSE] 200 449ms https://www.reddit.com/r/IGCSE_helps/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:56Z INFO    [PHASE] SEARCH r/Alevel  sort=relevance  variant=head:prodigy
+2026-05-05T23:16:59Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevel/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:59Z INFO    [RESPONSE] 200 770ms https://www.reddit.com/r/Alevel/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:16:59Z INFO    [HIT] #1 r/alevel score=8 comments=33 title='can someone humble me plz- idk why but I’m a year 11 and feel like a levels are gonna be so chill for some reason'
+2026-05-05T23:16:59Z INFO    [HIT] #2 r/alevel score=3 comments=1 title="I'm always skipping class because I'm severely ill - and I don't know if I'll even be able to take my exams."
+2026-05-05T23:16:59Z INFO    [HIT] #3 r/alevel score=4 comments=11 title='Which a levels subjects is it possible to be a world topper'
+2026-05-05T23:16:59Z INFO    [HIT] #4 r/alevel score=4 comments=13 title='should i take fm (fm students'
+2026-05-05T23:16:59Z INFO    [HIT] #5 r/alevel score=5 comments=5 title='Imposter syndrome'
+2026-05-05T23:16:59Z INFO    [HIT] #6 r/alevel score=1 comments=7 title="i'm studying AS physics (ial edexcel) on my own and am so lost."
+2026-05-05T23:16:59Z INFO    [PHASE] SEARCH r/Alevels  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:02Z INFO    [REQUEST] GET https://www.reddit.com/r/Alevels/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:03Z INFO    [RESPONSE] 200 303ms https://www.reddit.com/r/Alevels/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:03Z INFO    [HIT] #1 r/alevels score=0 comments=36 title='Why are yall so stressed'
+2026-05-05T23:17:03Z INFO    [HIT] #2 r/alevels score=67 comments=167 title='How fucked up is it to take 6 A-level subjects?'
+2026-05-05T23:17:03Z INFO    [HIT] #3 r/alevels score=3 comments=3 title='Is this server authentic or scam'
+2026-05-05T23:17:03Z INFO    [PHASE] SEARCH r/CIE  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:06Z INFO    [REQUEST] GET https://www.reddit.com/r/CIE/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:06Z INFO    [ERROR] GET https://www.reddit.com/r/CIE/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1 → HTTP 404 (non-retryable)
+2026-05-05T23:17:06Z INFO    [PHASE] SEARCH r/edexcel  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:09Z INFO    [REQUEST] GET https://www.reddit.com/r/edexcel/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:09Z INFO    [RESPONSE] 200 331ms https://www.reddit.com/r/edexcel/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:09Z INFO    [INFO] no results on first page for sort=relevance sub=edexcel
+2026-05-05T23:17:09Z INFO    [PHASE] SEARCH r/GCSE  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:12Z INFO    [REQUEST] GET https://www.reddit.com/r/GCSE/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:13Z INFO    [RESPONSE] 200 812ms https://www.reddit.com/r/GCSE/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:13Z INFO    [HIT] #1 r/GCSE score=4 comments=20 title='any maths prodigies have any idea how to do this?'
+2026-05-05T23:17:13Z INFO    [HIT] #2 r/GCSE score=554 comments=129 title='Chat did I cook???'
+2026-05-05T23:17:13Z INFO    [HIT] #3 r/GCSE score=23 comments=5 title="my older siblings are practically prodigies and I'm average at best."
+2026-05-05T23:17:13Z INFO    [HIT] #4 r/GCSE score=21 comments=42 title='What do you guys do when you procrastinate (besides Reddit)?'
+2026-05-05T23:17:13Z INFO    [HIT] #5 r/GCSE score=172 comments=57 title='Challenge for English lovers (and haters): Analyse and compare these 2 unseen POEMS 💜'
+2026-05-05T23:17:13Z INFO    [HIT] #6 r/GCSE score=3 comments=11 title='mark my language paper 1 aqa question 5 / feedback. i got grade 5 last time.: describe something beautiful.'
+2026-05-05T23:17:13Z INFO    [HIT] #7 r/GCSE score=591 comments=74 title='Guide To All 9s GCSE UK'
+2026-05-05T23:17:13Z INFO    [HIT] #8 r/GCSE score=0 comments=23 title='7a*s @ a-level (bio, chem, phys, psych, cs, maths, fm) + epq 100% & cambridge uni student; ama'
+2026-05-05T23:17:13Z INFO    [HIT] #9 r/GCSE score=1 comments=0 title='Help for English Lit GCSE'
+2026-05-05T23:17:13Z INFO    [HIT] #10 r/GCSE score=9 comments=19 title="Fellow music students, how're your brief compositions doing?"
+2026-05-05T23:17:13Z INFO    [HIT] #11 r/GCSE score=0 comments=22 title='should i get a remark?'
+2026-05-05T23:17:13Z INFO    [HIT] #12 r/GCSE score=35 comments=30 title='How to go from barely scraping a 9 in English Lit every time to a strong 9?'
+2026-05-05T23:17:13Z INFO    [HIT] #13 r/GCSE score=3 comments=7 title='is fm actually worth taking?'
+2026-05-05T23:17:13Z INFO    [HIT] #14 r/GCSE score=1 comments=2 title='Can someone mark this? I do English Literature OCR GCSE.'
+2026-05-05T23:17:13Z INFO    [HIT] #15 r/GCSE score=14 comments=20 title='Are 27 grade 9s good? I need revision tips to raise them'
+2026-05-05T23:17:13Z INFO    [HIT] #16 r/GCSE score=1 comments=3 title='Any further maths study/content sites recommendations?'
+2026-05-05T23:17:13Z INFO    [HIT] #17 r/GCSE score=4 comments=8 title='Some unconventional Revision tips for those who hate revising (they probs dont work but they are here anyway)'
+2026-05-05T23:17:13Z INFO    [HIT] #18 r/GCSE score=3 comments=5 title='I’m terrified'
+2026-05-05T23:17:13Z INFO    [HIT] #19 r/GCSE score=17 comments=11 title='I hate this stupid subject'
+2026-05-05T23:17:13Z INFO    [HIT] #20 r/GCSE score=3 comments=5 title='Rate the results day playlists (tap on the images to see all the songs)'
+2026-05-05T23:17:13Z INFO    [HIT] #21 r/GCSE score=6 comments=4 title='Should I pick physics maths,and fm for a level'
+2026-05-05T23:17:13Z INFO    [HIT] #22 r/GCSE score=23 comments=9 title="Reading 'Frankenstein' has vastly granted me the best literature score I've ever gotten"
+2026-05-05T23:17:13Z INFO    [HIT] #23 r/GCSE score=13 comments=8 title="how was that circle question (question 21 Edexcel maths) a non-calc question? if you look at the working out it is impossible, even uni maths students couldn't answer it so how are 16yr old GCSE students meant to know how to do it."
+2026-05-05T23:17:13Z INFO    [HIT] #24 r/GCSE score=10 comments=5 title='Guys can u mark this please english language paper 2 question 3? any help would be appreciated.'
+2026-05-05T23:17:13Z INFO    [HIT] #25 r/GCSE score=2 comments=5 title='Please mark my Q5 article essay paper 2 question 2, any feedback would be greatly appreciated.'
+2026-05-05T23:17:13Z INFO    [PHASE] SEARCH r/6thForm  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:16Z INFO    [REQUEST] GET https://www.reddit.com/r/6thForm/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:17Z INFO    [RESPONSE] 200 595ms https://www.reddit.com/r/6thForm/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:17Z INFO    [HIT] #1 r/6thForm score=538 comments=74 title='full econ bakery 🍞, lancaster here i come 🔥🔥🔥🔥🔥'
+2026-05-05T23:17:17Z INFO    [HIT] #2 r/6thForm score=3 comments=20 title='UCL Economics — Any home non-contextual offers to sub-4 TMUA?'
+2026-05-05T23:17:17Z INFO    [HIT] #3 r/6thForm score=0 comments=19 title='What reality would you choose? (as a STEM student)'
+2026-05-05T23:17:17Z INFO    [HIT] #4 r/6thForm score=2 comments=8 title='LSE Financial Undertaking Help'
+2026-05-05T23:17:17Z INFO    [HIT] #5 r/6thForm score=6 comments=3 title="I'm always skipping class, because I'm severely ill - I don't know if I'll get to take my A-Levels."
+2026-05-05T23:17:17Z INFO    [HIT] #6 r/6thForm score=21 comments=49 title='Predicted A*ABB, Am I cooked?\n'
+2026-05-05T23:17:17Z INFO    [HIT] #7 r/6thForm score=450 comments=27 title='Hi Update: I got a 9'
+2026-05-05T23:17:17Z INFO    [HIT] #8 r/6thForm score=169 comments=32 title='For Those Who Have Received Rejections From The Esteemed Admission Halls of Cambridge'
+2026-05-05T23:17:17Z INFO    [HIT] #9 r/6thForm score=1 comments=2 title="TOO MUCH PRESSURE! What course to pick at uni thats fits my stats and my parents expectations? interests don't have any [asian Parents]"
+2026-05-05T23:17:17Z INFO    [HIT] #10 r/6thForm score=2 comments=3 title='Economics/Law/Math degree'
+2026-05-05T23:17:17Z INFO    [HIT] #11 r/6thForm score=8 comments=20 title='Struggling to decide between Maths and CS and CS degree'
+2026-05-05T23:17:17Z INFO    [HIT] #12 r/6thForm score=2 comments=2 title="A third-world country's student who wants to be educated from UK universities. Is there any way I can make my application form considerable?"
+2026-05-05T23:17:17Z INFO    [PHASE] SEARCH r/Cheatingclassmates  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:20Z INFO    [REQUEST] GET https://www.reddit.com/r/Cheatingclassmates/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:20Z INFO    [RESPONSE] 200 412ms https://www.reddit.com/r/Cheatingclassmates/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:20Z INFO    [INFO] no results on first page for sort=relevance sub=Cheatingclassmates
+2026-05-05T23:17:20Z INFO    [PHASE] SEARCH r/GetStudying  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:23Z INFO    [REQUEST] GET https://www.reddit.com/r/GetStudying/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:23Z INFO    [RESPONSE] 200 389ms https://www.reddit.com/r/GetStudying/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:23Z INFO    [HIT] #1 r/GetStudying score=112 comments=52 title='How can i get myself to study effortlessly at any time?'
+2026-05-05T23:17:23Z INFO    [HIT] #2 r/GetStudying score=57 comments=2 title='get better grades - tips that work'
+2026-05-05T23:17:23Z INFO    [HIT] #3 r/GetStudying score=3 comments=2 title='Need help in studying'
+2026-05-05T23:17:23Z INFO    [HIT] #4 r/GetStudying score=12 comments=6 title='Is it possible to master 11th and 12th grade math within a month and a half?'
+2026-05-05T23:17:23Z INFO    [PHASE] SEARCH r/studytips  sort=relevance  variant=head:prodigy
+2026-05-05T23:17:26Z INFO    [REQUEST] GET https://www.reddit.com/r/studytips/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:27Z INFO    [RESPONSE] 200 416ms https://www.reddit.com/r/studytips/search.json?q=prodigy&sort=relevance&limit=100&t=all&raw_json=1&restrict_sr=1
+2026-05-05T23:17:27Z INFO    [HIT] #1 r/studytips score=1 comments=0 title='Complete guide on Study Abroad Education Loan in Hindi — SBI, HDFC Credila, Prodigy Finance comparison, documents, moratorium period explained [2026]'
+2026-05-05T23:17:27Z INFO    [HIT] #2 r/studytips score=2 comments=3 title='Honest question: How can I achieve methodical studying?'
+2026-05-05T23:17:27Z INFO    [HIT] #3 r/studytips score=6 comments=0 title='get better grades - tips that work'
+2026-05-05T23:17:27Z INFO    [HIT] #4 r/studytips score=1 comments=1 title='Approach towards studying math in college'
+2026-05-05T23:17:27Z INFO    [HIT] #5 r/studytips score=5 comments=2 title='Balancing 18 credits as a freshman '
+2026-05-05T23:17:27Z INFO    [SECTION] PHASE 2 — FETCH-COMMENTS
+2026-05-05T23:17:27Z INFO    [PHASE] FETCH-COMMENTS 65 unique post(s)
+2026-05-05T23:17:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sza75q.json?raw_json=1&limit=20
+2026-05-05T23:17:31Z INFO    [RESPONSE] 200 743ms https://www.reddit.com/comments/1sza75q.json?raw_json=1&limit=20
+2026-05-05T23:17:31Z INFO    [INFO] r/Olevels  1sza75q  +5 comment(s)
+2026-05-05T23:17:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qwjqjz.json?raw_json=1&limit=20
+2026-05-05T23:17:34Z INFO    [RESPONSE] 200 294ms https://www.reddit.com/comments/1qwjqjz.json?raw_json=1&limit=20
+2026-05-05T23:17:34Z INFO    [INFO] r/igcse  1qwjqjz  +15 comment(s)
+2026-05-05T23:17:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1qdd0vw.json?raw_json=1&limit=20
+2026-05-05T23:17:37Z INFO    [RESPONSE] 200 396ms https://www.reddit.com/comments/1qdd0vw.json?raw_json=1&limit=20
+2026-05-05T23:17:37Z INFO    [INFO] r/igcse  1qdd0vw  +15 comment(s)
+2026-05-05T23:17:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mu99wa.json?raw_json=1&limit=20
+2026-05-05T23:17:41Z INFO    [RESPONSE] 200 365ms https://www.reddit.com/comments/1mu99wa.json?raw_json=1&limit=20
+2026-05-05T23:17:41Z INFO    [INFO] r/igcse  1mu99wa  +20 comment(s)
+2026-05-05T23:17:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rgw82i.json?raw_json=1&limit=20
+2026-05-05T23:17:44Z INFO    [RESPONSE] 200 337ms https://www.reddit.com/comments/1rgw82i.json?raw_json=1&limit=20
+2026-05-05T23:17:44Z INFO    [INFO] r/igcse  1rgw82i  +3 comment(s)
+2026-05-05T23:17:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q0bbyz.json?raw_json=1&limit=20
+2026-05-05T23:17:47Z INFO    [RESPONSE] 200 319ms https://www.reddit.com/comments/1q0bbyz.json?raw_json=1&limit=20
+2026-05-05T23:17:47Z INFO    [INFO] r/igcse  1q0bbyz  +2 comment(s)
+2026-05-05T23:17:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1pr3nle.json?raw_json=1&limit=20
+2026-05-05T23:17:51Z INFO    [RESPONSE] 200 295ms https://www.reddit.com/comments/1pr3nle.json?raw_json=1&limit=20
+2026-05-05T23:17:51Z INFO    [INFO] r/igcse  1pr3nle  +2 comment(s)
+2026-05-05T23:17:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kq8ap9.json?raw_json=1&limit=20
+2026-05-05T23:17:54Z INFO    [RESPONSE] 200 345ms https://www.reddit.com/comments/1kq8ap9.json?raw_json=1&limit=20
+2026-05-05T23:17:54Z INFO    [INFO] r/igcse  1kq8ap9  +4 comment(s)
+2026-05-05T23:17:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kjpsod.json?raw_json=1&limit=20
+2026-05-05T23:17:58Z INFO    [RESPONSE] 200 576ms https://www.reddit.com/comments/1kjpsod.json?raw_json=1&limit=20
+2026-05-05T23:17:58Z INFO    [INFO] r/igcse  1kjpsod  +3 comment(s)
+2026-05-05T23:18:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/laxx2j.json?raw_json=1&limit=20
+2026-05-05T23:18:01Z INFO    [RESPONSE] 200 348ms https://www.reddit.com/comments/laxx2j.json?raw_json=1&limit=20
+2026-05-05T23:18:01Z INFO    [INFO] r/igcse  laxx2j  +5 comment(s)
+2026-05-05T23:18:04Z INFO    [REQUEST] GET https://www.reddit.com/comments/1loludi.json?raw_json=1&limit=20
+2026-05-05T23:18:04Z INFO    [RESPONSE] 200 366ms https://www.reddit.com/comments/1loludi.json?raw_json=1&limit=20
+2026-05-05T23:18:04Z INFO    [INFO] r/alevel  1loludi  +12 comment(s)
+2026-05-05T23:18:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rqx17j.json?raw_json=1&limit=20
+2026-05-05T23:18:08Z INFO    [RESPONSE] 200 297ms https://www.reddit.com/comments/1rqx17j.json?raw_json=1&limit=20
+2026-05-05T23:18:08Z INFO    [INFO] r/alevel  1rqx17j  +1 comment(s)
+2026-05-05T23:18:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1o9q9fe.json?raw_json=1&limit=20
+2026-05-05T23:18:11Z INFO    [RESPONSE] 200 329ms https://www.reddit.com/comments/1o9q9fe.json?raw_json=1&limit=20
+2026-05-05T23:18:11Z INFO    [INFO] r/alevel  1o9q9fe  +10 comment(s)
+2026-05-05T23:18:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mam1vq.json?raw_json=1&limit=20
+2026-05-05T23:18:14Z INFO    [RESPONSE] 200 378ms https://www.reddit.com/comments/1mam1vq.json?raw_json=1&limit=20
+2026-05-05T23:18:14Z INFO    [INFO] r/alevel  1mam1vq  +8 comment(s)
+2026-05-05T23:18:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1nvbhat.json?raw_json=1&limit=20
+2026-05-05T23:18:18Z INFO    [RESPONSE] 200 407ms https://www.reddit.com/comments/1nvbhat.json?raw_json=1&limit=20
+2026-05-05T23:18:18Z INFO    [INFO] r/alevel  1nvbhat  +5 comment(s)
+2026-05-05T23:18:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/1dl8uk6.json?raw_json=1&limit=20
+2026-05-05T23:18:21Z INFO    [RESPONSE] 200 335ms https://www.reddit.com/comments/1dl8uk6.json?raw_json=1&limit=20
+2026-05-05T23:18:21Z INFO    [INFO] r/alevel  1dl8uk6  +2 comment(s)
+2026-05-05T23:18:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s4sa9a.json?raw_json=1&limit=20
+2026-05-05T23:18:24Z INFO    [RESPONSE] 200 446ms https://www.reddit.com/comments/1s4sa9a.json?raw_json=1&limit=20
+2026-05-05T23:18:24Z INFO    [INFO] r/alevels  1s4sa9a  +10 comment(s)
+2026-05-05T23:18:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/17o7yc8.json?raw_json=1&limit=20
+2026-05-05T23:18:28Z INFO    [RESPONSE] 200 474ms https://www.reddit.com/comments/17o7yc8.json?raw_json=1&limit=20
+2026-05-05T23:18:28Z INFO    [INFO] r/alevels  17o7yc8  +12 comment(s)
+2026-05-05T23:18:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t4gqnk.json?raw_json=1&limit=20
+2026-05-05T23:18:31Z INFO    [RESPONSE] 200 309ms https://www.reddit.com/comments/1t4gqnk.json?raw_json=1&limit=20
+2026-05-05T23:18:31Z INFO    [INFO] r/alevels  1t4gqnk  +2 comment(s)
+2026-05-05T23:18:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1d47ohn.json?raw_json=1&limit=20
+2026-05-05T23:18:35Z INFO    [RESPONSE] 200 435ms https://www.reddit.com/comments/1d47ohn.json?raw_json=1&limit=20
+2026-05-05T23:18:35Z INFO    [INFO] r/GCSE  1d47ohn  +4 comment(s)
+2026-05-05T23:18:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1f3n9sc.json?raw_json=1&limit=20
+2026-05-05T23:18:38Z INFO    [RESPONSE] 200 448ms https://www.reddit.com/comments/1f3n9sc.json?raw_json=1&limit=20
+2026-05-05T23:18:38Z INFO    [INFO] r/GCSE  1f3n9sc  +12 comment(s)
+2026-05-05T23:18:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/xx8w17.json?raw_json=1&limit=20
+2026-05-05T23:18:41Z INFO    [RESPONSE] 200 375ms https://www.reddit.com/comments/xx8w17.json?raw_json=1&limit=20
+2026-05-05T23:18:41Z INFO    [INFO] r/GCSE  xx8w17  +5 comment(s)
+2026-05-05T23:18:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sbcgcl.json?raw_json=1&limit=20
+2026-05-05T23:18:45Z INFO    [RESPONSE] 200 495ms https://www.reddit.com/comments/1sbcgcl.json?raw_json=1&limit=20
+2026-05-05T23:18:45Z INFO    [INFO] r/GCSE  1sbcgcl  +6 comment(s)
+2026-05-05T23:18:48Z INFO    [REQUEST] GET https://www.reddit.com/comments/1fisjji.json?raw_json=1&limit=20
+2026-05-05T23:18:48Z INFO    [RESPONSE] 200 487ms https://www.reddit.com/comments/1fisjji.json?raw_json=1&limit=20
+2026-05-05T23:18:48Z INFO    [INFO] r/GCSE  1fisjji  +10 comment(s)
+2026-05-05T23:18:51Z INFO    [REQUEST] GET https://www.reddit.com/comments/1s6f7tx.json?raw_json=1&limit=20
+2026-05-05T23:18:52Z INFO    [RESPONSE] 200 362ms https://www.reddit.com/comments/1s6f7tx.json?raw_json=1&limit=20
+2026-05-05T23:18:52Z INFO    [INFO] r/GCSE  1s6f7tx  +6 comment(s)
+2026-05-05T23:18:55Z INFO    [REQUEST] GET https://www.reddit.com/comments/cx7es6.json?raw_json=1&limit=20
+2026-05-05T23:18:56Z INFO    [RESPONSE] 200 759ms https://www.reddit.com/comments/cx7es6.json?raw_json=1&limit=20
+2026-05-05T23:18:56Z INFO    [INFO] r/GCSE  cx7es6  +12 comment(s)
+2026-05-05T23:18:59Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p1ypmj.json?raw_json=1&limit=20
+2026-05-05T23:18:59Z INFO    [RESPONSE] 200 395ms https://www.reddit.com/comments/1p1ypmj.json?raw_json=1&limit=20
+2026-05-05T23:18:59Z INFO    [INFO] r/GCSE  1p1ypmj  +13 comment(s)
+2026-05-05T23:19:02Z INFO    [REQUEST] GET https://www.reddit.com/comments/1t3knq3.json?raw_json=1&limit=20
+2026-05-05T23:19:02Z INFO    [RESPONSE] 200 293ms https://www.reddit.com/comments/1t3knq3.json?raw_json=1&limit=20
+2026-05-05T23:19:05Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ny6i73.json?raw_json=1&limit=20
+2026-05-05T23:19:06Z INFO    [RESPONSE] 200 349ms https://www.reddit.com/comments/1ny6i73.json?raw_json=1&limit=20
+2026-05-05T23:19:06Z INFO    [INFO] r/GCSE  1ny6i73  +12 comment(s)
+2026-05-05T23:19:09Z INFO    [REQUEST] GET https://www.reddit.com/comments/1n99e5j.json?raw_json=1&limit=20
+2026-05-05T23:19:09Z INFO    [RESPONSE] 200 411ms https://www.reddit.com/comments/1n99e5j.json?raw_json=1&limit=20
+2026-05-05T23:19:09Z INFO    [INFO] r/GCSE  1n99e5j  +6 comment(s)
+2026-05-05T23:19:12Z INFO    [REQUEST] GET https://www.reddit.com/comments/1jxp719.json?raw_json=1&limit=20
+2026-05-05T23:19:13Z INFO    [RESPONSE] 200 451ms https://www.reddit.com/comments/1jxp719.json?raw_json=1&limit=20
+2026-05-05T23:19:13Z INFO    [INFO] r/GCSE  1jxp719  +7 comment(s)
+2026-05-05T23:19:16Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p6pi4c.json?raw_json=1&limit=20
+2026-05-05T23:19:16Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:19:19Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p6pi4c.json?raw_json=1&limit=20
+2026-05-05T23:19:19Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:19:22Z INFO    [REQUEST] GET https://www.reddit.com/comments/1p6pi4c.json?raw_json=1&limit=20
+2026-05-05T23:19:22Z INFO    [ERROR] GET https://www.reddit.com/comments/1p6pi4c.json?raw_json=1&limit=20 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:19:25Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q4003o.json?raw_json=1&limit=20
+2026-05-05T23:19:25Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:19:28Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q4003o.json?raw_json=1&limit=20
+2026-05-05T23:19:28Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:19:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1q4003o.json?raw_json=1&limit=20
+2026-05-05T23:19:31Z INFO    [ERROR] GET https://www.reddit.com/comments/1q4003o.json?raw_json=1&limit=20 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:19:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kff7rs.json?raw_json=1&limit=20
+2026-05-05T23:19:35Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:19:38Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kff7rs.json?raw_json=1&limit=20
+2026-05-05T23:19:38Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:19:41Z INFO    [REQUEST] GET https://www.reddit.com/comments/1kff7rs.json?raw_json=1&limit=20
+2026-05-05T23:19:41Z INFO    [ERROR] GET https://www.reddit.com/comments/1kff7rs.json?raw_json=1&limit=20 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:19:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ozpehs.json?raw_json=1&limit=20
+2026-05-05T23:19:44Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:19:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ozpehs.json?raw_json=1&limit=20
+2026-05-05T23:19:47Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:19:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/1ozpehs.json?raw_json=1&limit=20
+2026-05-05T23:19:51Z INFO    [ERROR] GET https://www.reddit.com/comments/1ozpehs.json?raw_json=1&limit=20 → HTTP 429 after 3 attempts; giving up
+2026-05-05T23:19:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/1n5pkdz.json?raw_json=1&limit=20
+2026-05-05T23:19:54Z INFO    [RETRY] 1/3 wait=1.0s HTTP 429
+2026-05-05T23:19:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1n5pkdz.json?raw_json=1&limit=20
+2026-05-05T23:19:57Z INFO    [RETRY] 2/3 wait=2.0s HTTP 429
+2026-05-05T23:20:00Z INFO    [REQUEST] GET https://www.reddit.com/comments/1n5pkdz.json?raw_json=1&limit=20
+2026-05-05T23:20:00Z INFO    [RESPONSE] 200 377ms https://www.reddit.com/comments/1n5pkdz.json?raw_json=1&limit=20
+2026-05-05T23:20:00Z INFO    [INFO] r/GCSE  1n5pkdz  +4 comment(s)
+2026-05-05T23:20:03Z INFO    [REQUEST] GET https://www.reddit.com/comments/1muywmc.json?raw_json=1&limit=20
+2026-05-05T23:20:04Z INFO    [RESPONSE] 200 354ms https://www.reddit.com/comments/1muywmc.json?raw_json=1&limit=20
+2026-05-05T23:20:04Z INFO    [INFO] r/GCSE  1muywmc  +2 comment(s)
+2026-05-05T23:20:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/1k6oix8.json?raw_json=1&limit=20
+2026-05-05T23:20:07Z INFO    [RESPONSE] 200 379ms https://www.reddit.com/comments/1k6oix8.json?raw_json=1&limit=20
+2026-05-05T23:20:07Z INFO    [INFO] r/GCSE  1k6oix8  +5 comment(s)
+2026-05-05T23:20:10Z INFO    [REQUEST] GET https://www.reddit.com/comments/1m2fc2d.json?raw_json=1&limit=20
+2026-05-05T23:20:10Z INFO    [RESPONSE] 200 365ms https://www.reddit.com/comments/1m2fc2d.json?raw_json=1&limit=20
+2026-05-05T23:20:10Z INFO    [INFO] r/GCSE  1m2fc2d  +3 comment(s)
+2026-05-05T23:20:13Z INFO    [REQUEST] GET https://www.reddit.com/comments/1jgbw7z.json?raw_json=1&limit=20
+2026-05-05T23:20:14Z INFO    [RESPONSE] 200 321ms https://www.reddit.com/comments/1jgbw7z.json?raw_json=1&limit=20
+2026-05-05T23:20:14Z INFO    [INFO] r/GCSE  1jgbw7z  +3 comment(s)
+2026-05-05T23:20:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1dpd3ej.json?raw_json=1&limit=20
+2026-05-05T23:20:17Z INFO    [RESPONSE] 200 336ms https://www.reddit.com/comments/1dpd3ej.json?raw_json=1&limit=20
+2026-05-05T23:20:17Z INFO    [INFO] r/GCSE  1dpd3ej  +3 comment(s)
+2026-05-05T23:20:20Z INFO    [REQUEST] GET https://www.reddit.com/comments/uuamah.json?raw_json=1&limit=20
+2026-05-05T23:20:20Z INFO    [RESPONSE] 200 391ms https://www.reddit.com/comments/uuamah.json?raw_json=1&limit=20
+2026-05-05T23:20:20Z INFO    [INFO] r/GCSE  uuamah  +7 comment(s)
+2026-05-05T23:20:23Z INFO    [REQUEST] GET https://www.reddit.com/comments/v2rq73.json?raw_json=1&limit=20
+2026-05-05T23:20:24Z INFO    [RESPONSE] 200 348ms https://www.reddit.com/comments/v2rq73.json?raw_json=1&limit=20
+2026-05-05T23:20:24Z INFO    [INFO] r/GCSE  v2rq73  +2 comment(s)
+2026-05-05T23:20:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/v5lpnq.json?raw_json=1&limit=20
+2026-05-05T23:20:27Z INFO    [RESPONSE] 200 355ms https://www.reddit.com/comments/v5lpnq.json?raw_json=1&limit=20
+2026-05-05T23:20:27Z INFO    [INFO] r/GCSE  v5lpnq  +4 comment(s)
+2026-05-05T23:20:30Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bdwj2w.json?raw_json=1&limit=20
+2026-05-05T23:20:31Z INFO    [RESPONSE] 200 435ms https://www.reddit.com/comments/1bdwj2w.json?raw_json=1&limit=20
+2026-05-05T23:20:31Z INFO    [INFO] r/6thForm  1bdwj2w  +10 comment(s)
+2026-05-05T23:20:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sbrvx6.json?raw_json=1&limit=20
+2026-05-05T23:20:34Z INFO    [RESPONSE] 200 408ms https://www.reddit.com/comments/1sbrvx6.json?raw_json=1&limit=20
+2026-05-05T23:20:34Z INFO    [INFO] r/6thForm  1sbrvx6  +4 comment(s)
+2026-05-05T23:20:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rzesic.json?raw_json=1&limit=20
+2026-05-05T23:20:37Z INFO    [RESPONSE] 200 417ms https://www.reddit.com/comments/1rzesic.json?raw_json=1&limit=20
+2026-05-05T23:20:37Z INFO    [INFO] r/6thForm  1rzesic  +8 comment(s)
+2026-05-05T23:20:40Z INFO    [REQUEST] GET https://www.reddit.com/comments/1srp6lp.json?raw_json=1&limit=20
+2026-05-05T23:20:41Z INFO    [RESPONSE] 200 320ms https://www.reddit.com/comments/1srp6lp.json?raw_json=1&limit=20
+2026-05-05T23:20:41Z INFO    [INFO] r/6thForm  1srp6lp  +2 comment(s)
+2026-05-05T23:20:44Z INFO    [REQUEST] GET https://www.reddit.com/comments/1rqwz8l.json?raw_json=1&limit=20
+2026-05-05T23:20:44Z INFO    [RESPONSE] 200 318ms https://www.reddit.com/comments/1rqwz8l.json?raw_json=1&limit=20
+2026-05-05T23:20:44Z INFO    [INFO] r/6thForm  1rqwz8l  +2 comment(s)
+2026-05-05T23:20:47Z INFO    [REQUEST] GET https://www.reddit.com/comments/1e3cwv8.json?raw_json=1&limit=20
+2026-05-05T23:20:47Z INFO    [RESPONSE] 200 499ms https://www.reddit.com/comments/1e3cwv8.json?raw_json=1&limit=20
+2026-05-05T23:20:47Z INFO    [INFO] r/6thForm  1e3cwv8  +11 comment(s)
+2026-05-05T23:20:50Z INFO    [REQUEST] GET https://www.reddit.com/comments/wxb400.json?raw_json=1&limit=20
+2026-05-05T23:20:51Z INFO    [RESPONSE] 200 419ms https://www.reddit.com/comments/wxb400.json?raw_json=1&limit=20
+2026-05-05T23:20:51Z INFO    [INFO] r/6thForm  wxb400  +14 comment(s)
+2026-05-05T23:20:54Z INFO    [REQUEST] GET https://www.reddit.com/comments/11f50q0.json?raw_json=1&limit=20
+2026-05-05T23:20:54Z INFO    [RESPONSE] 200 387ms https://www.reddit.com/comments/11f50q0.json?raw_json=1&limit=20
+2026-05-05T23:20:54Z INFO    [INFO] r/6thForm  11f50q0  +14 comment(s)
+2026-05-05T23:20:57Z INFO    [REQUEST] GET https://www.reddit.com/comments/1mq6r5u.json?raw_json=1&limit=20
+2026-05-05T23:20:58Z INFO    [RESPONSE] 200 276ms https://www.reddit.com/comments/1mq6r5u.json?raw_json=1&limit=20
+2026-05-05T23:20:58Z INFO    [INFO] r/6thForm  1mq6r5u  +2 comment(s)
+2026-05-05T23:21:01Z INFO    [REQUEST] GET https://www.reddit.com/comments/1b5dw53.json?raw_json=1&limit=20
+2026-05-05T23:21:01Z INFO    [RESPONSE] 200 330ms https://www.reddit.com/comments/1b5dw53.json?raw_json=1&limit=20
+2026-05-05T23:21:01Z INFO    [INFO] r/6thForm  1b5dw53  +2 comment(s)
+2026-05-05T23:21:04Z INFO    [REQUEST] GET https://www.reddit.com/comments/thx50i.json?raw_json=1&limit=20
+2026-05-05T23:21:04Z INFO    [RESPONSE] 200 508ms https://www.reddit.com/comments/thx50i.json?raw_json=1&limit=20
+2026-05-05T23:21:04Z INFO    [INFO] r/6thForm  thx50i  +4 comment(s)
+2026-05-05T23:21:07Z INFO    [REQUEST] GET https://www.reddit.com/comments/122fr3n.json?raw_json=1&limit=20
+2026-05-05T23:21:08Z INFO    [RESPONSE] 200 330ms https://www.reddit.com/comments/122fr3n.json?raw_json=1&limit=20
+2026-05-05T23:21:08Z INFO    [INFO] r/6thForm  122fr3n  +1 comment(s)
+2026-05-05T23:21:11Z INFO    [REQUEST] GET https://www.reddit.com/comments/1bkbmbn.json?raw_json=1&limit=20
+2026-05-05T23:21:11Z INFO    [RESPONSE] 200 392ms https://www.reddit.com/comments/1bkbmbn.json?raw_json=1&limit=20
+2026-05-05T23:21:11Z INFO    [INFO] r/GetStudying  1bkbmbn  +12 comment(s)
+2026-05-05T23:21:14Z INFO    [REQUEST] GET https://www.reddit.com/comments/1oh2ggo.json?raw_json=1&limit=20
+2026-05-05T23:21:14Z INFO    [RESPONSE] 200 338ms https://www.reddit.com/comments/1oh2ggo.json?raw_json=1&limit=20
+2026-05-05T23:21:14Z INFO    [INFO] r/GetStudying  1oh2ggo  +1 comment(s)
+2026-05-05T23:21:17Z INFO    [REQUEST] GET https://www.reddit.com/comments/1b70csl.json?raw_json=1&limit=20
+2026-05-05T23:21:18Z INFO    [RESPONSE] 200 279ms https://www.reddit.com/comments/1b70csl.json?raw_json=1&limit=20
+2026-05-05T23:21:18Z INFO    [INFO] r/GetStudying  1b70csl  +1 comment(s)
+2026-05-05T23:21:21Z INFO    [REQUEST] GET https://www.reddit.com/comments/16p99w1.json?raw_json=1&limit=20
+2026-05-05T23:21:21Z INFO    [RESPONSE] 200 327ms https://www.reddit.com/comments/16p99w1.json?raw_json=1&limit=20
+2026-05-05T23:21:21Z INFO    [INFO] r/GetStudying  16p99w1  +3 comment(s)
+2026-05-05T23:21:24Z INFO    [REQUEST] GET https://www.reddit.com/comments/1sft1nn.json?raw_json=1&limit=20
+2026-05-05T23:21:24Z INFO    [RESPONSE] 200 264ms https://www.reddit.com/comments/1sft1nn.json?raw_json=1&limit=20
+2026-05-05T23:21:27Z INFO    [REQUEST] GET https://www.reddit.com/comments/1soa10h.json?raw_json=1&limit=20
+2026-05-05T23:21:28Z INFO    [RESPONSE] 200 281ms https://www.reddit.com/comments/1soa10h.json?raw_json=1&limit=20
+2026-05-05T23:21:28Z INFO    [INFO] r/studytips  1soa10h  +1 comment(s)
+2026-05-05T23:21:31Z INFO    [REQUEST] GET https://www.reddit.com/comments/1oh2fun.json?raw_json=1&limit=20
+2026-05-05T23:21:31Z INFO    [RESPONSE] 200 299ms https://www.reddit.com/comments/1oh2fun.json?raw_json=1&limit=20
+2026-05-05T23:21:34Z INFO    [REQUEST] GET https://www.reddit.com/comments/1g2vuza.json?raw_json=1&limit=20
+2026-05-05T23:21:34Z INFO    [RESPONSE] 200 274ms https://www.reddit.com/comments/1g2vuza.json?raw_json=1&limit=20
+2026-05-05T23:21:34Z INFO    [INFO] r/studytips  1g2vuza  +1 comment(s)
+2026-05-05T23:21:37Z INFO    [REQUEST] GET https://www.reddit.com/comments/1cs3ehp.json?raw_json=1&limit=20
+2026-05-05T23:21:38Z INFO    [RESPONSE] 200 336ms https://www.reddit.com/comments/1cs3ehp.json?raw_json=1&limit=20
+2026-05-05T23:21:38Z INFO    [INFO] r/studytips  1cs3ehp  +1 comment(s)
+2026-05-05T23:21:38Z INFO    [SECTION] PHASE 3 — PERSIST
+2026-05-05T23:21:38Z INFO    [PHASE] PERSIST wrote 65 record(s) → output\zayns-20260505T201406Z.jsonl
+2026-05-05T23:21:38Z INFO    [PHASE] PERSIST wrote markdown report → output\zayns-20260505T201406Z.md
+2026-05-05T23:21:38Z INFO    [SECTION] PHASE 4 — SUMMARY
+2026-05-05T23:21:38Z INFO    [SUMMARY] requests=135
+2026-05-05T23:21:38Z INFO    [SUMMARY] responses ok=116
+2026-05-05T23:21:38Z INFO    [SUMMARY] retries=10
+2026-05-05T23:21:38Z INFO    [SUMMARY] hits (raw)=65
+2026-05-05T23:21:38Z INFO    [SUMMARY] warnings=0
+2026-05-05T23:21:38Z INFO    [SUMMARY] errors=9
+2026-05-05T23:21:38Z INFO    [SUMMARY] unique posts=65
+2026-05-05T23:21:38Z INFO    [SUMMARY] comments captured=356
+2026-05-05T23:21:38Z INFO    [SUMMARY] jsonl=output\zayns-20260505T201406Z.jsonl
+2026-05-05T23:21:38Z INFO    [SUMMARY] markdown=output\zayns-20260505T201406Z.md
+2026-05-05T23:21:38Z INFO    [SUMMARY] log file=logs\scraper-20260505T201406Z.log
